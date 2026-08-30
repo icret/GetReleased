@@ -1,0 +1,26 @@
+# Lefthook 配置 — 跨平台 Git hooks，按 staged 文件分流触发检查
+# 安装：go install github.com/evilmartians/lefthook@latest && lefthook install
+# 文档：https://github.com/evilmartians/lefthook
+
+pre-commit:
+  parallel: true
+  commands:
+    go-lint:
+      glob: "backend/**/*.go"
+      run: cd backend && golangci-lint run
+    frontend-lint:
+      glob: "frontend/**/*.{ts,tsx,js,jsx,css,json,md}"
+      run: cd frontend && pnpm lint
+    frontend-format-check:
+      glob: "frontend/**/*.{ts,tsx,js,jsx,css,json,md}"
+      run: cd frontend && pnpm exec prettier --check .
+
+pre-push:
+  parallel: true
+  commands:
+    go-test:
+      glob: "backend/**/*.go"
+      run: cd backend && go test ./...
+    frontend-test:
+      glob: "frontend/**/*.{ts,tsx}"
+      run: cd frontend && pnpm test

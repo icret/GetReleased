@@ -1,0 +1,694 @@
+[
+  {
+    "id": 5,
+    "owner": "ClashX-Pro",
+    "name": "ClashX",
+    "full_name": "ClashX-Pro/ClashX",
+    "description": "Clash X",
+    "logo_path": "assets/images/repos/ClashX-Pro.png",
+    "stars": 740,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "1.140.0",
+    "latest_release_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.140.0",
+    "latest_release_date": "2026-07-24T04:39:29Z",
+    "last_checked_at": "2026-08-30T22:38:01.2023438+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1196,
+        "name": "科学上网",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "owner": "Sitoi",
+    "name": "clashbar",
+    "full_name": "Sitoi/clashbar",
+    "description": "原生 macOS 菜单栏代理客户端，基于 SwiftUI + AppKit，由 mihomo 驱动。 轻量、稳定，在菜单栏完成配置、节点、规则、连接与系统代理管理。",
+    "logo_path": "assets/images/repos/Sitoi.png",
+    "stars": 1282,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v0.3.2",
+    "latest_release_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.3.2",
+    "latest_release_date": "2026-07-19T14:17:28Z",
+    "last_checked_at": "2026-08-30T22:38:03.6146042+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1196,
+        "name": "科学上网",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "owner": "TableProApp",
+    "name": "TablePro",
+    "full_name": "TableProApp/TablePro",
+    "description": "Free and open source database client built natively for developers",
+    "logo_path": "assets/images/repos/TableProApp.png",
+    "stars": 5581,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "plugin-oracle-v1.2.24",
+    "latest_release_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-oracle-v1.2.24",
+    "latest_release_date": "2026-08-27T16:27:21Z",
+    "last_checked_at": "2026-08-30T22:38:05.2190458+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1190,
+        "name": "开发",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "owner": "aonez",
+    "name": "Keka",
+    "full_name": "aonez/Keka",
+    "description": "The macOS \u0026 iOS file archiver",
+    "logo_path": "assets/images/repos/aonez.png",
+    "stars": 7279,
+    "language": "PHP",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v1.6.7",
+    "latest_release_url": "https://github.com/aonez/Keka/releases/tag/v1.6.7",
+    "latest_release_date": "2026-06-30T12:42:14Z",
+    "last_checked_at": "2026-08-30T22:38:07.0620251+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1212,
+        "name": "压缩",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      },
+      {
+        "id": 1219,
+        "name": "iOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "owner": "cardisoft",
+    "name": "cardinal",
+    "full_name": "cardisoft/cardinal",
+    "description": "Fastest file searching tool for macOS",
+    "logo_path": "assets/images/repos/cardisoft.png",
+    "stars": 1681,
+    "language": "Rust",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v0.1.23",
+    "latest_release_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.23",
+    "latest_release_date": "2026-03-24T17:43:05Z",
+    "last_checked_at": "2026-08-30T22:38:08.7235938+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1198,
+        "name": "系统工具",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "owner": "clash-verge-rev",
+    "name": "clash-verge-rev",
+    "full_name": "clash-verge-rev/clash-verge-rev",
+    "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+    "logo_path": "assets/images/repos/clash-verge-rev.png",
+    "stars": 141121,
+    "language": "TypeScript",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v2.5.2",
+    "latest_release_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.2",
+    "latest_release_date": "2026-07-19T17:00:26Z",
+    "last_checked_at": "2026-08-30T22:38:11.1540988+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1196,
+        "name": "科学上网",
+        "type": "category"
+      },
+      {
+        "id": 1222,
+        "name": "Cross-platform",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "owner": "exelban",
+    "name": "stats",
+    "full_name": "exelban/stats",
+    "description": "macOS system monitor in your menu bar",
+    "logo_path": "assets/images/repos/exelban.png",
+    "stars": 41515,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v3.0.14",
+    "latest_release_url": "https://github.com/exelban/stats/releases/tag/v3.0.14",
+    "latest_release_date": "2026-08-30T08:54:15Z",
+    "last_checked_at": "2026-08-30T22:38:12.6939914+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1199,
+        "name": "系统监控",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "owner": "f",
+    "name": "textream",
+    "full_name": "f/textream",
+    "description": "Textream is a free macOS teleprompter app for streamers, interviewers, and presenters. It highlights your script in real-time as you speak, displayed in a beautiful Dynamic Island overlay. With extensible features.",
+    "logo_path": "assets/images/repos/f.png",
+    "stars": 3699,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v1.7.0",
+    "latest_release_url": "https://github.com/f/textream/releases/tag/v1.7.0",
+    "latest_release_date": "2026-08-22T21:50:25Z",
+    "last_checked_at": "2026-08-30T22:38:14.1456618+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1209,
+        "name": "音视频",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "owner": "gee1k",
+    "name": "uPic",
+    "full_name": "gee1k/uPic",
+    "description": "📤uPic is a native, powerful, beautiful and simple picture and file upload tool for macOS.",
+    "logo_path": "assets/images/repos/gee1k.png",
+    "stars": 3717,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v0.21.1",
+    "latest_release_url": "https://github.com/gee1k/uPic/releases/tag/v0.21.1",
+    "latest_release_date": "2020-12-11T09:37:21Z",
+    "last_checked_at": "2026-08-30T22:38:15.5202528+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1201,
+        "name": "网络工具",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "owner": "jaywcjlove",
+    "name": "awesome-mac",
+    "full_name": "jaywcjlove/awesome-mac",
+    "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+    "logo_path": "assets/images/repos/jaywcjlove.png",
+    "stars": 112125,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v2.1.0",
+    "latest_release_url": "https://github.com/jaywcjlove/awesome-mac/releases/tag/v2.1.0",
+    "latest_release_date": "2026-03-30T16:52:39Z",
+    "last_checked_at": "2026-08-30T22:38:16.8279419+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1214,
+        "name": "其它",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "owner": "jaywcjlove",
+    "name": "awesome-swift-macos-apps",
+    "full_name": "jaywcjlove/awesome-swift-macos-apps",
+    "description": "A curated collection of open-source macOS applications built with Swift",
+    "logo_path": "assets/images/repos/jaywcjlove.png",
+    "stars": 1584,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v1.0.0",
+    "latest_release_url": "https://github.com/jaywcjlove/awesome-swift-macos-apps/releases/tag/v1.0.0",
+    "latest_release_date": "2026-06-10T18:08:51Z",
+    "last_checked_at": "2026-08-30T22:38:18.705089+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1214,
+        "name": "其它",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "owner": "jkuri",
+    "name": "Reframed",
+    "full_name": "jkuri/Reframed",
+    "description": "Screen recording on macOS, from capture to delivery, no detours. ",
+    "logo_path": "assets/images/repos/jkuri.png",
+    "stars": 142,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v0.14.7",
+    "latest_release_url": "https://github.com/jkuri/Reframed/releases/tag/v0.14.7",
+    "latest_release_date": "2026-04-16T17:24:29Z",
+    "last_checked_at": "2026-08-30T22:38:20.3728648+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1213,
+        "name": "录屏",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "owner": "jsattler",
+    "name": "BetterCapture",
+    "full_name": "jsattler/BetterCapture",
+    "description": "The macOS screen recorder for the rest of us - always free and open source with a native look and feel  📺",
+    "logo_path": "assets/images/repos/jsattler.png",
+    "stars": 1605,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v2026.3.1-beta.1",
+    "latest_release_url": "https://github.com/jsattler/BetterCapture/releases/tag/v2026.3.1-beta.1",
+    "latest_release_date": "2026-03-29T12:01:40Z",
+    "last_checked_at": "2026-08-30T22:38:21.7899286+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1213,
+        "name": "录屏",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "owner": "keycastr",
+    "name": "keycastr",
+    "full_name": "keycastr/keycastr",
+    "description": "KeyCastr, an open-source keystroke visualizer",
+    "logo_path": "assets/images/repos/keycastr.png",
+    "stars": 15074,
+    "language": "Objective-C",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v0.11.0",
+    "latest_release_url": "https://github.com/keycastr/keycastr/releases/tag/v0.11.0",
+    "latest_release_date": "2026-08-27T01:48:23Z",
+    "last_checked_at": "2026-08-30T22:38:23.262112+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1191,
+        "name": "效率",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "owner": "ripperhe",
+    "name": "Bob",
+    "full_name": "ripperhe/Bob",
+    "description": "Bob 是一款 macOS 平台的翻译和 OCR 软件。",
+    "logo_path": "assets/images/repos/ripperhe.png",
+    "stars": 9738,
+    "language": "",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v0.10.3",
+    "latest_release_url": "https://github.com/ripperhe/Bob/releases/tag/v0.10.3",
+    "latest_release_date": "2022-07-09T12:54:03Z",
+    "last_checked_at": "2026-08-30T22:38:24.5269036+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1202,
+        "name": "翻译",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "owner": "ronitsingh10",
+    "name": "FineTune",
+    "full_name": "ronitsingh10/FineTune",
+    "description": "FineTune, a macOS menu bar app for per-app volume control, multi-device output, audio routing, and 10-band EQ. Free and open-source alternative to SoundSource.",
+    "logo_path": "assets/images/repos/ronitsingh10.png",
+    "stars": 9018,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v1.9.0",
+    "latest_release_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.9.0",
+    "latest_release_date": "2026-07-09T07:54:57Z",
+    "last_checked_at": "2026-08-30T22:38:26.0864362+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1209,
+        "name": "音视频",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "owner": "siddharthvaddem",
+    "name": "openscreen",
+    "full_name": "siddharthvaddem/openscreen",
+    "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
+    "logo_path": "assets/images/repos/siddharthvaddem.png",
+    "stars": 39906,
+    "language": "TypeScript",
+    "is_archived": true,
+    "is_private": false,
+    "latest_version": "v1.5.0",
+    "latest_release_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/v1.5.0",
+    "latest_release_date": "2026-06-06T19:30:20Z",
+    "last_checked_at": "2026-08-30T22:38:27.446003+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1213,
+        "name": "录屏",
+        "type": "category"
+      },
+      {
+        "id": 1222,
+        "name": "Cross-platform",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "owner": "sw33tlie",
+    "name": "macshot",
+    "full_name": "sw33tlie/macshot",
+    "description": "Feature-packed native macOS screenshot \u0026 recording tool: annotate, auto-redact PII, record GIFs, OCR + translate, scroll capture, beautify, and more. No Electron, no subscription.",
+    "logo_path": "assets/images/repos/sw33tlie.png",
+    "stars": 3167,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v4.2.2-beta.3",
+    "latest_release_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.2-beta.3",
+    "latest_release_date": "2026-08-29T00:47:26Z",
+    "last_checked_at": "2026-08-30T22:38:28.9606152+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1213,
+        "name": "录屏",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "owner": "syi0808",
+    "name": "screenize",
+    "full_name": "syi0808/screenize",
+    "description": "(Development of Screenize is currently paused) Open-source macOS screen recording app with auto-zoom, cursor effects, and timeline editing — Screen Studio alternative.",
+    "logo_path": "assets/images/repos/syi0808.png",
+    "stars": 602,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v0.4.3",
+    "latest_release_url": "https://github.com/syi0808/screenize/releases/tag/v0.4.3",
+    "latest_release_date": "2026-03-28T05:12:54Z",
+    "last_checked_at": "2026-08-30T22:38:30.333691+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1213,
+        "name": "录屏",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "owner": "tldev",
+    "name": "dorso",
+    "full_name": "tldev/dorso",
+    "description": "A macOS app that blurs your screen when you slouch.",
+    "logo_path": "assets/images/repos/tldev.png",
+    "stars": 2539,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v1.15.1",
+    "latest_release_url": "https://github.com/tldev/dorso/releases/tag/v1.15.1",
+    "latest_release_date": "2026-07-19T16:46:28Z",
+    "last_checked_at": "2026-08-30T22:38:32.0037795+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1214,
+        "name": "其它",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "owner": "utmapp",
+    "name": "UTM",
+    "full_name": "utmapp/UTM",
+    "description": "Virtual machines for iOS and macOS",
+    "logo_path": "assets/images/repos/utmapp.png",
+    "stars": 35195,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "v5.0.4",
+    "latest_release_url": "https://github.com/utmapp/UTM/releases/tag/v5.0.4",
+    "latest_release_date": "2026-08-01T16:26:39Z",
+    "last_checked_at": "2026-08-30T22:38:33.7404156+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1203,
+        "name": "虚拟机",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      },
+      {
+        "id": 1219,
+        "name": "iOS",
+        "type": "platform"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "owner": "wzh4869",
+    "name": "AppPorts",
+    "full_name": "wzh4869/AppPorts",
+    "description": "📦 A macOS utility to seamlessly migrate applications to external storage and reclaim local disk space.【一款 macOS 工具，无缝迁移应用到外部存储并自动建立链接，释放宝贵的本地空间】",
+    "logo_path": "assets/images/repos/wzh4869.png",
+    "stars": 2004,
+    "language": "Swift",
+    "is_archived": false,
+    "is_private": false,
+    "latest_version": "1.8.0",
+    "latest_release_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.8.0",
+    "latest_release_date": "2026-07-07T14:40:57Z",
+    "last_checked_at": "2026-08-30T22:38:35.1332283+08:00",
+    "remark": "",
+    "created_at": "0001-01-01T00:00:00Z",
+    "updated_at": "0001-01-01T00:00:00Z",
+    "tags": [
+      {
+        "id": 1198,
+        "name": "系统工具",
+        "type": "category"
+      },
+      {
+        "id": 1216,
+        "name": "macOS",
+        "type": "platform"
+      }
+    ]
+  }
+]

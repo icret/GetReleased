@@ -1,0 +1,14 @@
+[Unit]
+Description=GetReleased Server
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/getreleased
+ExecStart=/opt/getreleased/backend/bin/server
+EnvironmentFile=/opt/getreleased/.env
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

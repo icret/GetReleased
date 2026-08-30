@@ -1,0 +1,67 @@
+# ============================================================
+# GetReleased — 项目级 .gitignore
+# 基于 Go + React + pnpm + SQLite 技术栈定制
+# ============================================================
+
+# ---- Go ----
+backend/bin/
+backend/data/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+!backend/**/*.go
+
+# ---- Node / pnpm ----
+frontend/node_modules/
+frontend/out/
+frontend/.next/
+.next/
+.vite/
+*.tsbuildinfo
+
+# ---- 运行时下载的仓库头像（tracker 生成，不入库）----
+frontend/public/assets/images/repos/
+
+pnpm-debug.log*
+
+# ---- 环境变量 ----
+.env
+.env.*
+!.env.example
+
+# ---- SQLite 运行时数据 ----
+*.db
+*.db-journal
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- AI 辅助工具缓存（不入库）----
+.codeartsdoer/
+.codegraph/
+
+# ---- 日志 ----
+*.log
+logs/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 临时 ----
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ---- 归档 ----
+docs/archive/

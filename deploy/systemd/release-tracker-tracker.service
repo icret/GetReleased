@@ -1,0 +1,14 @@
+[Unit]
+Description=GetReleased Tracker
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/getreleased
+ExecStart=/opt/getreleased/backend/bin/tracker
+EnvironmentFile=/opt/getreleased/.env
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
