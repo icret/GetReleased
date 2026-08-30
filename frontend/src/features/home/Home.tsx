@@ -4,7 +4,7 @@ import { useMemo, useState, type ComponentType, type ReactNode } from 'react'
 import { Boxes, Flame, GitFork, Package, Search, X } from 'lucide-react'
 
 import type { Release, Repository } from '@/types'
-import { latestReleasesByRepository, releaseCountByRepository, sortRepositories, type SortKey } from '@/lib/aggregations'
+import { sortRepositories, type SortKey } from '@/lib/aggregations'
 import { RepositoryCard } from '@/features/repositories/RepositoryCard'
 import { ReleaseFeed } from '@/features/home/ReleaseFeed'
 import { RelativeTime } from '@/components/RelativeTime'
@@ -34,22 +34,16 @@ const sortOptions = [
 
 interface HomeProps {
   repositories: Repository[]
-  releases: Release[]
+  recentReleases: Release[]
 }
 
-export default function Home({ repositories, releases }: HomeProps) {
+export default function Home({ repositories, recentReleases }: HomeProps) {
   const [query, setQuery] = useState('')
   const [sortKey, setSortKey] = useState<SortKey>('latest')
   const [activeTag, setActiveTag] = useState<string | undefined>(undefined)
 
-  const latestByRepo = useMemo(() => latestReleasesByRepository(releases), [releases])
-  const countByRepo = useMemo(() => releaseCountByRepository(releases), [releases])
-  const newest = useMemo(() => {
-    if (releases.length === 0) {
-      return null
-    }
-    return releases.reduce((current, next) => (current.published_at > next.published_at ? current : next))
-  }, [releases])
+  const totalReleases = useMemo(() => repositories.reduce((sum, r) => sum + (r.release_count ?? 0), 0), [repositories])
+  const newest = useMemo(() => (recentReleases.length > 0 ? recentReleases[0] : null), [recentReleases])
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
@@ -60,7 +54,7 @@ export default function Home({ repositories, releases }: HomeProps) {
     })
   }, [repositories, query, activeTag])
 
-  const sorted = useMemo(() => sortRepositories(filtered, { latestByRepo, countByRepo, sortKey }), [filtered, latestByRepo, countByRepo, sortKey])
+  const sorted = useMemo(() => sortRepositories(filtered, sortKey), [filtered, sortKey])
 
   return (
     <div className="space-y-10">
@@ -74,11 +68,11 @@ export default function Home({ repositories, releases }: HomeProps) {
 
         <div className="relative flex flex-wrap justify-center gap-2.5 pt-2">
           <StatChip icon={GitFork} label="追踪仓库" value={String(repositories.length)} />
-          <StatChip icon={Package} label="Release 总数" value={String(releases.length)} />
+          <StatChip icon={Package} label="Release 总数" value={String(totalReleases)} />
           <StatChip icon={Flame} label="最近发布" value={newest ? <RelativeTime iso={newest.published_at} /> : '—'} />
         </div>
 
-        <ReleaseFeed releases={releases} repositories={repositories} />
+        <ReleaseFeed releases={recentReleases} repositories={repositories} />
       </section>
 
       {repositories.length > 0 && (
@@ -122,7 +116,7 @@ export default function Home({ repositories, releases }: HomeProps) {
           ) : (
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {sorted.map((repository) => (
-                <RepositoryCard key={repository.id} repository={repository} latest={latestByRepo[repository.id]} releaseCount={countByRepo[repository.id] ?? 0} activeTag={activeTag} onTagClick={(name) => setActiveTag((prev) => (prev === name ? undefined : name))} />
+                <RepositoryCard key={repository.id} repository={repository} activeTag={activeTag} onTagClick={(name) => setActiveTag((prev) => (prev === name ? undefined : name))} />
               ))}
             </div>
           )}

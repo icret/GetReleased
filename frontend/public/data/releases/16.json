@@ -1,0 +1,674 @@
+[
+  {
+    "id": 314,
+    "repository_id": 16,
+    "tag_name": "v0.11.0",
+    "name": "New \"Minimal\" Visualizer",
+    "body": "Introduces a new visualizer, Minimal. Thanks to @colinta for the original idea, and to @SoCuul for some code contributions along the way. This visualizer can also be filtered to display standalone modifier keys, a popular request.",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.11.0",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.11.0",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.11.0",
+    "published_at": "2026-08-27T01:48:23Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4916,
+        "release_id": 314,
+        "name": "KeyCastr.app.zip",
+        "size": 2628593,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.11.0/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "repository_id": 16,
+    "tag_name": "v0.10.5",
+    "name": "Improved handling of different input sources",
+    "body": "Includes a fix for #314 , where a change in input source could be delayed.",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.10.5",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.10.5",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.10.5",
+    "published_at": "2025-11-24T03:50:37Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4917,
+        "release_id": 315,
+        "name": "KeyCastr.app.zip",
+        "size": 2529944,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.10.5/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "repository_id": 16,
+    "tag_name": "v0.10.4",
+    "name": "Minor quality of life improvements",
+    "body": "- Fix to display KeyCastr as inactive if it fails to install an event tap during startup\r\n- Fixed a long-standing issue with the ShortcutRecorder integration which would result in resetting the global shortcut if the user escaped the text entry box without entering a new shortcut (#328)\r\n- Fixed capitalization of option keystrokes (#329) and menu entry (#322)",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.10.4",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.10.4",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.10.4",
+    "published_at": "2025-08-24T00:28:10Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4918,
+        "release_id": 316,
+        "name": "KeyCastr.app.zip",
+        "size": 2507185,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.10.4/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "repository_id": 16,
+    "tag_name": "v0.10.3",
+    "name": "Fixes for backwards compatibility",
+    "body": "This release contains a couple fixes to help preserve compatibility as far back as macOS 10.13 - a project configuration fix to avoid crashing on startup and an adjustment to the NSArchiver/NSSecureArchiver migration to avoid running on 10.13.",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.10.3",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.10.3",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.10.3",
+    "published_at": "2025-03-27T01:19:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4919,
+        "release_id": 317,
+        "name": "KeyCastr.app.zip",
+        "size": 2481267,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.10.3/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "repository_id": 16,
+    "tag_name": "v0.10.2",
+    "name": "Minor bug fixes",
+    "body": "Fixes keystrokes sometimes replaying after closing KeyCastr, and a memory leak which could happen when switching visualizers.",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.10.2",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.10.2",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.10.2",
+    "published_at": "2024-11-27T23:30:54Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4920,
+        "release_id": 318,
+        "name": "KeyCastr.app.zip",
+        "size": 2478204,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.10.2/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "repository_id": 16,
+    "tag_name": "v0.10.1",
+    "name": "Fix modifier detection on Intel",
+    "body": "Includes a fix for #303 - modifier keys should now display correctly on Intel / x86_64 machines",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.10.1",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.10.1",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.10.1",
+    "published_at": "2024-08-29T22:42:54Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4921,
+        "release_id": 319,
+        "name": "KeyCastr.app.zip",
+        "size": 2476083,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.10.1/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "repository_id": 16,
+    "tag_name": "v0.10.0",
+    "name": "New option to apply modifiers when displaying keystrokes",
+    "body": "This release includes a new option in the Default Visualizer to apply modifiers to non-command keys (#187). The Svelte Visualizer will also reflect this setting for now.\r\n\r\nA few internal cleanups and optimizations are also included. ",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.10.0",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.10.0",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.10.0",
+    "published_at": "2024-08-25T17:46:46Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4922,
+        "release_id": 320,
+        "name": "KeyCastr.app.zip",
+        "size": 2475810,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.10.0/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "repository_id": 16,
+    "tag_name": "v0.9.18",
+    "name": "Bug fixes and performance improvement",
+    "body": "This build contains two internal fixes/improvements, but no new features.\r\n\r\nIntroducing another display option made the default visualizer a little less efficient in displaying keystrokes. This is improved by over 80% by making the user's display settings stateful within the visualizer in addition to their storage in NSUserDefaults.\r\n\r\nIn addition, the About panel should now display more reliably following migration to ARC.",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.18",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.18",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.18",
+    "published_at": "2024-06-22T23:41:40Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4923,
+        "release_id": 321,
+        "name": "KeyCastr.app.zip",
+        "size": 2466779,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.18/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "repository_id": 16,
+    "tag_name": "v0.9.17",
+    "name": "Introducing an option to display all modified keys",
+    "body": "This release introduces a new option for the default visualizer to display all modified keys (#291, https://github.com/keycastr/keycastr/issues/284#issuecomment-2045740355). Some internal cleanup and modernization is also performed.",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.17",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.17",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.17",
+    "published_at": "2024-06-09T03:19:09Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4924,
+        "release_id": 322,
+        "name": "KeyCastr.app.zip",
+        "size": 2467571,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.17/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "repository_id": 16,
+    "tag_name": "v0.9.16",
+    "name": "Fix display of help key on older keyboards",
+    "body": "This release introduces a fix for #283, where the help key was displayed incorrectly.",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.16",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.16",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.16",
+    "published_at": "2024-01-05T03:19:55Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4925,
+        "release_id": 323,
+        "name": "KeyCastr.app.zip",
+        "size": 2475163,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.16/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "repository_id": 16,
+    "tag_name": "v0.9.15",
+    "name": "Fix issue with function key display",
+    "body": "",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.15",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.15",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.15",
+    "published_at": "2023-11-02T03:09:20Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4926,
+        "release_id": 324,
+        "name": "KeyCastr.app.zip",
+        "size": 2482831,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.15/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "repository_id": 16,
+    "tag_name": "v0.9.14",
+    "name": "Mouse click support in current visualizer",
+    "body": "This release adds support for displaying mouse clicks in the current visualizer and also addresses a few other minor issues.",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.14",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.14",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.14",
+    "published_at": "2023-10-29T23:11:43Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4927,
+        "release_id": 325,
+        "name": "KeyCastr.app.zip",
+        "size": 2483181,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.14/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "repository_id": 16,
+    "tag_name": "v0.9.13",
+    "name": "Improvements for Japanese JIS input and icons for newer Mac keyboards",
+    "body": "Improvements for Japanese JIS input and icons for newer Mac keyboards",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.13",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.13",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.13",
+    "published_at": "2022-11-20T16:58:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4928,
+        "release_id": 326,
+        "name": "KeyCastr.app.zip",
+        "size": 2774360,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.13/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "repository_id": 16,
+    "tag_name": "v0.9.12",
+    "name": "v0.9.12 :: Mouse clicks and a new icon",
+    "body": "This release introduces a long-awaited mouse click visualizer (#168). A new modern app icon is introduced, courtesy of @QuintB , and the ShortcutRecorder framework is updated which fixes a long-standing issue with Dark Mode in the preferences pane.\r\n\r\nAs an MVP, the mouse click visualization can be combined with either existing visualizer or any new visualizer, displaying a disappearing ring animation when the mouse is clicked. This is very similar to the effect of adding mouse clicks to screen capture videos in macOS, with the benefit of displaying in real time. The color of the ring animation will match the current Default visualizer bezel color, though this will likely change to be configurable in an upcoming release.\r\n\r\nNote that due to an existing bug which has already been fixed, Sparkle updates from an older version may not work correctly. Please download directly from this release or use Homebrew.\r\n",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.12",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.12",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.12",
+    "published_at": "2022-02-22T01:54:25Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4929,
+        "release_id": 327,
+        "name": "KeyCastr.app.zip",
+        "size": 2556718,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.12/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "repository_id": 16,
+    "tag_name": "v0.9.11",
+    "name": "v0.9.11",
+    "body": "This release includes improvements to the default visualizer's repositioning behaviors, including respecting screen edges and being smarter about moving across screens. The ugly clipped drop shadow is removed and the preferences pane now works as intended on macOS 11+.",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.11",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.11",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.11",
+    "published_at": "2021-06-13T23:08:39Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4930,
+        "release_id": 328,
+        "name": "KeyCastr.app.zip",
+        "size": 2794551,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.11/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "repository_id": 16,
+    "tag_name": "v0.9.10",
+    "name": "v0.9.10",
+    "body": "- Changes default visualizer behavior to display keycaps instead of input keystrokes\r\n- Fixes an issue with setting and displaying the start/stop keyboard shortcut in the preferences pane\r\n- Adds support for displaying glyphs for screen brightness, Mission Control and Launchpad special keys",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.10",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.10",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.10",
+    "published_at": "2021-02-07T20:19:19Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4931,
+        "release_id": 329,
+        "name": "KeyCastr.app.zip",
+        "size": 2773259,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.10/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "repository_id": 16,
+    "tag_name": "v0.9.9",
+    "name": "v0.9.9",
+    "body": "This update fixes the first-time user experience across macOS 10.14 vs 10.15+ when accessibility API permissions are needed.\r\n\r\nThe key casting heuristic is also improved to prefer unmodified (or the least modified) key characters available. \r\n",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.9",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.9",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.9",
+    "published_at": "2021-01-02T21:36:01Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4932,
+        "release_id": 330,
+        "name": "KeyCastr.app.zip",
+        "size": 2722994,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.9/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "repository_id": 16,
+    "tag_name": "v0.9.8",
+    "name": "v0.9.8",
+    "body": " - App no longer interferes with GPU switching. \r\n - App is now signed and notarized by Apple Developer ID.",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.8",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.8",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.8",
+    "published_at": "2019-10-27T22:11:06Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4933,
+        "release_id": 331,
+        "name": "KeyCastr.app.zip",
+        "size": 2377571,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.8/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "repository_id": 16,
+    "tag_name": "v0.9.7",
+    "name": "v0.9.7",
+    "body": " - Updated Sparkle dependency and reconfigured to serve updates from GitHub.\r\n - Improved automation for opening preferences panel when accessibility settings change. \r\n - Improves settings panel compatibility with macOS dark mode.\r\n - Fixes Svelte visualizer background color for more recent versions of macOS.\r\n - Enable both visualizers to join all spaces.\r\n",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.7",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.7",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.7",
+    "published_at": "2019-10-20T02:40:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4934,
+        "release_id": 332,
+        "name": "KeyCastr.app.zip",
+        "size": 2349226,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.7/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "repository_id": 16,
+    "tag_name": "v0.9.6",
+    "name": "v0.9.6",
+    "body": "In this release KeyCastr now displays across all desktops, fixing #37 and #64 ",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.6",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.6",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.6",
+    "published_at": "2018-04-19T04:47:32Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4935,
+        "release_id": 333,
+        "name": "KeyCastr.app.zip",
+        "size": 1005840,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.6/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "repository_id": 16,
+    "tag_name": "v0.9.5",
+    "name": "v0.9.5",
+    "body": "KeyCastr is finally built as a 64-bit application.\r\n\r\nThis release includes fixes for non-US QWERTY keyboard layouts, an updated ShortcutRecorder framework, some updated error messages, and some under-the-hood improvements.",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.5",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.5",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.5",
+    "published_at": "2017-08-14T18:33:28Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4936,
+        "release_id": 334,
+        "name": "KeyCastr.app.zip",
+        "size": 1006031,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.5/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "repository_id": 16,
+    "tag_name": "v0.9.4",
+    "name": "v0.9.4",
+    "body": "Fixes uppercase string display issues for some non-qwerty layouts. ",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.4",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.4",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.4",
+    "published_at": "2017-07-02T03:42:16Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4937,
+        "release_id": 335,
+        "name": "KeyCastr.app.zip",
+        "size": 814367,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.4/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "repository_id": 16,
+    "tag_name": "v0.9.3",
+    "name": "Svelte Visualizer now has an option to display all keys",
+    "body": "- Svelte Visualizer now has an option to display all keys\n- App will open the preferences pane if a configuration change requires the user to re-add the app to the list of apps allowed to control the computer\n",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.3",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.3",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.3",
+    "published_at": "2016-09-29T22:05:00Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4938,
+        "release_id": 336,
+        "name": "KeyCastr.app.zip",
+        "size": 813472,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.3/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "repository_id": 16,
+    "tag_name": "v0.9.2",
+    "name": "Improved behavior when changing screens",
+    "body": "When changing screen resolution or plugging/unplugging an external display, the default visualizer's position is reset to the default.  A few memory management concerns are also addressed.\n",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.2",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.2",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.2",
+    "published_at": "2015-12-31T17:59:38Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4939,
+        "release_id": 337,
+        "name": "KeyCastr.app.zip",
+        "size": 812976,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.2/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "repository_id": 16,
+    "tag_name": "v0.9.1",
+    "name": "Improvements to default visualizer",
+    "body": "This release improves visualization of key events involving the shift key as well as line break behavior in the default visualizer.\n\nThanks to @gdzhu for the pull requests!\n",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.1",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.1",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.1",
+    "published_at": "2015-11-29T17:04:54Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4940,
+        "release_id": 338,
+        "name": "KeyCastr.app.zip",
+        "size": 812701,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.1/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "repository_id": 16,
+    "tag_name": "v0.9.0",
+    "name": "Internal modernization",
+    "body": "This release includes some internal modernization, removing all deprecated API usage as well as support for a legacy/unused input format.  Some error messages are also updated, and the menu bar icon now looks better on retina screens.\n",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.9.0",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.9.0",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.9.0",
+    "published_at": "2015-10-31T04:04:10Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4941,
+        "release_id": 339,
+        "name": "KeyCastr.app.zip",
+        "size": 811633,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.9.0/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "repository_id": 16,
+    "tag_name": "v0.8.5",
+    "name": "onscreen once again",
+    "body": "In this release KeyCastr will place the default visualizer in a more reasonable place for the user.\n\nIf the default visualizer is found to be offscreen when the app starts, its position is reset to the default.\n\nThis addresses issues such as #13 #19 #29 \n",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.8.5",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.8.5",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.8.5",
+    "published_at": "2015-07-12T16:52:04Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4942,
+        "release_id": 340,
+        "name": "KeyCastr.app.zip",
+        "size": 808487,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.8.5/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "repository_id": 16,
+    "tag_name": "v0.8.4",
+    "name": "v0.8.4",
+    "body": "This version fixes an issue where some users would only see ^A, as well as a memory leak.\n\nThe error message when failing to launch after a change in settings is updated, with mitigation instructions for more recent versions of OS X.\n\nAlso, there is a new menu bar icon.\n",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.8.4",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.8.4",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.8.4",
+    "published_at": "2015-06-06T19:31:26Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4943,
+        "release_id": 341,
+        "name": "KeyCastr.app.zip",
+        "size": 808387,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.8.4/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  }
+]

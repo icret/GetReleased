@@ -30,6 +30,8 @@ export interface Repository {
   latest_version?: string
   latest_release_url?: string
   latest_release_date?: string
+  latest_is_prerelease?: boolean
+  release_count?: number
   last_checked_at?: string
   remark?: string
   created_at: string
@@ -90,6 +92,7 @@ export interface TopRepository {
   full_name: string
   stars: number
   latest_version: string
+  latest_release_url: string
   language: string
 }
 

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { ExternalLink, Package, Star, Tag } from 'lucide-react'
 import { useState } from 'react'
 
-import type { Release, Repository } from '@/types'
+import type { Repository } from '@/types'
 import { gradientFor } from '@/lib/gradient'
 import { RelativeTime } from '@/components/RelativeTime'
 import { Badge } from '@/components/ui/badge'
@@ -12,13 +12,11 @@ import { cn } from '@/lib/utils'
 
 interface RepositoryCardProps {
   repository: Repository
-  latest?: Release
-  releaseCount: number
   activeTag?: string
   onTagClick?: (tagName: string) => void
 }
 
-export function RepositoryCard({ repository, latest, releaseCount, activeTag, onTagClick }: RepositoryCardProps) {
+export function RepositoryCard({ repository, activeTag, onTagClick }: RepositoryCardProps) {
   const githubUrl = `https://github.com/${repository.full_name}`
   const fallback = gradientFor(repository.name)
   const initial = repository.name.charAt(0).toUpperCase()
@@ -58,10 +56,10 @@ export function RepositoryCard({ repository, latest, releaseCount, activeTag, on
 
         <div className="mt-auto space-y-2.5">
           <div className="flex flex-wrap items-center gap-1.5 border-t border-border/40 pt-2.5">
-            {latest ? (
-              <Badge variant={latest.is_prerelease ? 'warning' : 'success'}>
+            {repository.latest_version ? (
+              <Badge variant={repository.latest_is_prerelease ? 'warning' : 'success'}>
                 <Tag />
-                {latest.tag_name}
+                {repository.latest_version}
               </Badge>
             ) : (
               <span className="text-xs text-muted-foreground">暂无 Release</span>
@@ -88,7 +86,7 @@ export function RepositoryCard({ repository, latest, releaseCount, activeTag, on
             <span className="inline-flex items-center gap-3">
               <span className="inline-flex items-center gap-1.5">
                 <Package className="size-3.5" />
-                {releaseCount} 个 Release
+                {repository.release_count ?? 0} 个 Release
               </span>
               {repository.stars > 0 && (
                 <span className="inline-flex items-center gap-1">
@@ -98,7 +96,7 @@ export function RepositoryCard({ repository, latest, releaseCount, activeTag, on
               )}
               {repository.language && <span className="truncate">{repository.language}</span>}
             </span>
-            {latest ? <RelativeTime iso={latest.published_at} /> : <span>—</span>}
+            {repository.latest_release_date ? <RelativeTime iso={repository.latest_release_date} /> : <span>—</span>}
           </div>
         </div>
       </Link>

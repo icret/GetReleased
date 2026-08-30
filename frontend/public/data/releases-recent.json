@@ -1,0 +1,1913 @@
+[
+  {
+    "id": 1650,
+    "repository_id": 8,
+    "tag_name": "v3.0.14",
+    "name": "v3.0.14",
+    "body": "## Bug fixes\r\n- fix: fixed Bluetooth reader starting CoreBluetooth scans while the module is disabled (#3572)\r\n- fix: fixed blurry inactive widget previews in the settings window in some cases\r\n\r\n## New features\r\n- feat: improved network interface detection when VPN is enabled  (#3582)\r\n- feat: improved RTL layout (#3546)\r\n- feat: added an option to specify the SMART update interval in the Disk module (#3554)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.14",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.14",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.14",
+    "published_at": "2026-08-30T08:54:15Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-30T10:47:52Z",
+    "assets": [
+      {
+        "id": 4766,
+        "release_id": 1650,
+        "name": "Stats.dmg",
+        "size": 7547726,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.14/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "repository_id": 13,
+    "tag_name": "v4.2.2-beta.3",
+    "name": "v4.2.2-beta.3",
+    "body": "\n### Added\n\n- **Auto-adjust selection** — refine all four sides of a rough selection to nearby visual edges from the size presets panel or a configurable shortcut. (#317)\n- **Configurable Undo/Redo shortcuts** — customize, disable, or reset editor command shortcuts in Settings, with semantic key matching across keyboard layouts.\n\n### Changed\n\n- **Beautify controls** — the effect toggle is clearer, disabled controls reflect the current state, and webcam sizing now uses a continuous 80–480 px slider that stays within the recording area.\n\n### Fixed\n\n- Window captures preserve their native shadows.\n- The color sampler reads from the composited canvas and keeps its cursor stable over annotations.\n- Recording setup failures now stop their active ScreenCaptureKit stream instead of leaking work in `replayd`. (#367)\n- **Close Window** (Command-W) now routes through the standard File menu to the active window. (#364)\n- **Video editor Copy** writes playable MP4 data for Mail, Notes, and other paste targets while retaining safe fallbacks for MOV and large files. (#329, #337)\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.2-beta.3",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.2-beta.3",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.2-beta.3",
+    "published_at": "2026-08-29T00:47:26Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5006,
+        "release_id": 369,
+        "name": "MacShot-Offline.dmg",
+        "size": 6714521,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.2-beta.3/MacShot-Offline.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      },
+      {
+        "id": 5007,
+        "release_id": 369,
+        "name": "MacShot.dmg",
+        "size": 6910783,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.2-beta.3/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "repository_id": 19,
+    "tag_name": "plugin-oracle-v1.2.24",
+    "name": "Oracle Driver v1.2.24",
+    "body": "## Oracle Driver v1.2.24\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `357560ea0d2410227b34565a8a42bad3b7263ea0067fa4914814995c4f6de479`\n- x86_64: `52213a77fcc144173ba1c23be89873156220520bf6438433adff7dfe1b2446c5`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-oracle-v1.2.24",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-oracle-v1.2.24",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-oracle-v1.2.24",
+    "published_at": "2026-08-27T16:27:21Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3800,
+        "release_id": 57,
+        "name": "OracleDriver-arm64.zip",
+        "size": 5053814,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.24/OracleDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3801,
+        "release_id": 57,
+        "name": "OracleDriver-x86_64.zip",
+        "size": 5644061,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.24/OracleDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "repository_id": 19,
+    "tag_name": "plugin-dameng-v1.0.4",
+    "name": "Dameng Driver v1.0.4",
+    "body": "## Dameng Driver v1.0.4\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `b9a681ee77b0c60285c25feeeec2e7b6dc286460a8da70085ba87f6b886eb61f`\n- x86_64: `05f4ff9eef22cbb313cc0c77f563ece88b206f63f90654cd96b3a9df6e603832`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-dameng-v1.0.4",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-dameng-v1.0.4",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-dameng-v1.0.4",
+    "published_at": "2026-08-27T16:19:29Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3812,
+        "release_id": 63,
+        "name": "DamengDriver-arm64.zip",
+        "size": 1238127,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.4/DamengDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3813,
+        "release_id": 63,
+        "name": "DamengDriver-x86_64.zip",
+        "size": 1292700,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.4/DamengDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "repository_id": 19,
+    "tag_name": "plugin-teradata-v1.0.5",
+    "name": "Teradata Driver v1.0.5",
+    "body": "## Teradata Driver v1.0.5\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `c7b47a66b6e421d4bf879d655e19f04219d8087ade72b238250498d3c874de7d`\n- x86_64: `21da8807717569ba5335643e7bd65739a9233b42ee031cbb602983857a72b750`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-teradata-v1.0.5",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-teradata-v1.0.5",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-teradata-v1.0.5",
+    "published_at": "2026-08-27T16:17:25Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3796,
+        "release_id": 55,
+        "name": "TeradataDriver-arm64.zip",
+        "size": 147462,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.5/TeradataDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3797,
+        "release_id": 55,
+        "name": "TeradataDriver-x86_64.zip",
+        "size": 158079,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.5/TeradataDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "repository_id": 19,
+    "tag_name": "plugin-snowflake-v1.0.6",
+    "name": "Snowflake Driver v1.0.6",
+    "body": "## Snowflake Driver v1.0.6\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `5df4b29afc67ec7b2af3e33d0c6e12d588b567a8cb23808c42ba47cdac8ed72e`\n- x86_64: `41d199d07d8722fa5c5a3c027b12cee805fff635bd2655e25b6111b62e712f82`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-snowflake-v1.0.6",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-snowflake-v1.0.6",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-snowflake-v1.0.6",
+    "published_at": "2026-08-27T16:16:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3798,
+        "release_id": 56,
+        "name": "SnowflakeDriverPlugin-arm64.zip",
+        "size": 235639,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.6/SnowflakeDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3799,
+        "release_id": 56,
+        "name": "SnowflakeDriverPlugin-x86_64.zip",
+        "size": 259116,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.6/SnowflakeDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "repository_id": 19,
+    "tag_name": "plugin-mssql-v1.0.40",
+    "name": "MSSQL Driver v1.0.40",
+    "body": "## MSSQL Driver v1.0.40\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `28f94ab3121e36c2de507c9d80efbbc2a9fb9eac606c96c16de1fc24875eec25`\n- x86_64: `6e794f89037f3f6d041aa16100dec843d172b28b8b949a59021943bfbc1eb340`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-mssql-v1.0.40",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-mssql-v1.0.40",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-mssql-v1.0.40",
+    "published_at": "2026-08-27T16:15:26Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3802,
+        "release_id": 58,
+        "name": "MSSQLDriver-arm64.zip",
+        "size": 386144,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.40/MSSQLDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3803,
+        "release_id": 58,
+        "name": "MSSQLDriver-x86_64.zip",
+        "size": 407186,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.40/MSSQLDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "repository_id": 19,
+    "tag_name": "plugin-kafka-v1.0.0",
+    "name": "Kafka Driver v1.0.0",
+    "body": "## Kafka Driver v1.0.0\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `701e19587aee5b929ed575ac5ab6bdd023f67d749a98bf412659f961af545e52`\n- x86_64: `e22ffa10ead322ec7900d4ae487f1d735c1eca9dd510fc54fea227c3b6275267`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-kafka-v1.0.0",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-kafka-v1.0.0",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-kafka-v1.0.0",
+    "published_at": "2026-08-27T16:14:47Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3808,
+        "release_id": 61,
+        "name": "KafkaDriverPlugin-arm64.zip",
+        "size": 2443484,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.0/KafkaDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3809,
+        "release_id": 61,
+        "name": "KafkaDriverPlugin-x86_64.zip",
+        "size": 2764447,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.0/KafkaDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "repository_id": 19,
+    "tag_name": "plugin-cloudflare-d1-v1.0.36",
+    "name": "Cloudflare D1 Driver v1.0.36",
+    "body": "## Cloudflare D1 Driver v1.0.36\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `02a32071ea24ed0ed1a1ccf67be71d0597ed18f7c44c681289271fe79e331f4b`\n- x86_64: `7fbdcd75793ae74d65608635c26d4ac8631f6b8e9640ba2e15027d5edca75b69`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-cloudflare-d1-v1.0.36",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-cloudflare-d1-v1.0.36",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-cloudflare-d1-v1.0.36",
+    "published_at": "2026-08-27T16:13:47Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3814,
+        "release_id": 64,
+        "name": "CloudflareD1DriverPlugin-arm64.zip",
+        "size": 110921,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.36/CloudflareD1DriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3815,
+        "release_id": 64,
+        "name": "CloudflareD1DriverPlugin-x86_64.zip",
+        "size": 118762,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.36/CloudflareD1DriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "repository_id": 19,
+    "tag_name": "plugin-duckdb-v1.0.36",
+    "name": "DuckDB Driver v1.0.36",
+    "body": "## DuckDB Driver v1.0.36\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `112207387b8ce7345475eaeddcf71d474303a76eba1efd13a6fb047ec6549e2a`\n- x86_64: `c6daa54baa62bf263856967b2a95f22a422da25e8d42771f89803178003b5c4d`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-duckdb-v1.0.36",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-duckdb-v1.0.36",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-duckdb-v1.0.36",
+    "published_at": "2026-08-27T16:13:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3810,
+        "release_id": 62,
+        "name": "DuckDBDriver-arm64.zip",
+        "size": 8979459,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.36/DuckDBDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3811,
+        "release_id": 62,
+        "name": "DuckDBDriver-x86_64.zip",
+        "size": 10687031,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.36/DuckDBDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "repository_id": 19,
+    "tag_name": "plugin-bigquery-v1.0.27",
+    "name": "BigQuery Driver v1.0.27",
+    "body": "## BigQuery Driver v1.0.27\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `28558045c1ccfd1e9780f7f281cf5e3e8387488ee4ec7f4ebcdc68c9b226b728`\n- x86_64: `98ac2ba1aeeb2c589cec22d49c782691652060771448db0f7f8e4ac1b29c82f5`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-bigquery-v1.0.27",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-bigquery-v1.0.27",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-bigquery-v1.0.27",
+    "published_at": "2026-08-27T16:09:59Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3816,
+        "release_id": 65,
+        "name": "BigQueryDriverPlugin-arm64.zip",
+        "size": 248071,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.27/BigQueryDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3817,
+        "release_id": 65,
+        "name": "BigQueryDriverPlugin-x86_64.zip",
+        "size": 271208,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.27/BigQueryDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "repository_id": 19,
+    "tag_name": "plugin-libsql-v1.0.24",
+    "name": "libSQL / Turso Driver v1.0.24",
+    "body": "## libSQL / Turso Driver v1.0.24\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `0491b78cdec19e0087397dc5973a84c38229557f52d66a3690db75beff9ded98`\n- x86_64: `c8ad5c9a724bca437daab3340cbd9366146232fdbb286b234c0252ffcca628cd`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-libsql-v1.0.24",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-libsql-v1.0.24",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-libsql-v1.0.24",
+    "published_at": "2026-08-27T16:09:57Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3806,
+        "release_id": 60,
+        "name": "LibSQLDriverPlugin-arm64.zip",
+        "size": 116155,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.24/LibSQLDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3807,
+        "release_id": 60,
+        "name": "LibSQLDriverPlugin-x86_64.zip",
+        "size": 123821,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.24/LibSQLDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "repository_id": 19,
+    "tag_name": "plugin-mongodb-v1.0.40",
+    "name": "MongoDB Driver v1.0.40",
+    "body": "## MongoDB Driver v1.0.40\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `84e1cf9643e36136c48d37f821026fe56f7593afb649f45eb2f3f240cc74fe2e`\n- x86_64: `6382ce17db9e77468a285b9f940fabcebfab41be44a9dff3cda1bd84dcc39a2d`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-mongodb-v1.0.40",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-mongodb-v1.0.40",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-mongodb-v1.0.40",
+    "published_at": "2026-08-27T16:09:29Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3804,
+        "release_id": 59,
+        "name": "MongoDBDriver-arm64.zip",
+        "size": 641465,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.40/MongoDBDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3805,
+        "release_id": 59,
+        "name": "MongoDBDriver-x86_64.zip",
+        "size": 714099,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.40/MongoDBDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "repository_id": 19,
+    "tag_name": "plugin-trino-v1.0.7",
+    "name": "Trino Driver v1.0.7",
+    "body": "## Trino Driver v1.0.7\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `d68f1dfac655e19ac1a11190f03aae9d03b916b9ab7f3faf99b6b9b6f6cfcac7`\n- x86_64: `7b3c6715072a5823bb87e5508562d8e368550d9bb55882a450bab78695c8c864`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-trino-v1.0.7",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-trino-v1.0.7",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-trino-v1.0.7",
+    "published_at": "2026-08-27T16:08:52Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3794,
+        "release_id": 54,
+        "name": "TrinoDriverPlugin-arm64.zip",
+        "size": 161102,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.7/TrinoDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3795,
+        "release_id": 54,
+        "name": "TrinoDriverPlugin-x86_64.zip",
+        "size": 173810,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.7/TrinoDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "repository_id": 19,
+    "tag_name": "v0.69.0",
+    "name": "v0.69.0",
+    "body": "\n### Added\n\n- Restore Previous Values in the Edit menu, taking back a save that already committed. Starter license. (#2107)\n- Data Rewind settings in Settings \u003e Data \u0026 Results, with an off switch and Clear Saved Changes.\n- Restore Previous Values in the toolbar's Table Actions group.\n- Rebindable Find shortcut in Settings \u003e Keyboard, for giving `Cmd+F` to the filter bar instead.\n- Constraints tab in the structure editor, listing check constraints with their expression. (#2478)\n- Generated and Expression fields on the column row, with a stored or virtual choice. (#2478)\n- `check_constraints` and `generation_expression` in the MCP `describe_table` response.\n- Remote File pane for SQLite, opening a read-only copy of a database that lives on an SSH server. (#2474)\n- Rename on a table's right-click menu, editing the row's label in place. (#2482)\n- Rename Database and Rename Schema on the sidebar's container rows, where the engine has them. (#2482)\n- Turso in the New Connection picker as an engine of its own, offered before the libSQL plugin installs.\n\n### Changed\n\n- Editor tabs drawn as a segmented tab picker rather than in Liquid Glass, on every macOS version. (#2439)\n- A connection opens full screen on iPhone and iPad, with its four sections in a sidebar on iPad. (#2544)\n\n### Fixed\n\n- Column charset and collation lost when reordering a MySQL column by dragging its row.\n- Free-text cells for foreign key actions and index types in Create Table, where Structure shows a menu.\n- A generated column comparing equal to a plain one in Compare \u0026 Sync.\n- Empty Indexes, Foreign Keys or DDL tab, with no error, when the structure read fails.\n- Connections strip absent from a window whose selected connection has nothing to show, when Show Connections is off.\n- Switch Connection disabled, in the Database menu and the toolbar, while the selected connection is disconnected.\n- One floating switcher panel per connection in a window, each centred on the same point.\n- Leaked socket on every SSH Test Connection against a server reached without jump hosts.\n- Leaked listening port, socket and session each time an SSH tunnel died from sleep or a dropped network.\n- Selection highlight missing from part of a long selection after scrolling back up to it.\n- Editor not scrolling to follow a selection extended past the edge of the viewport.\n- Find highlight and the run band covering only the first line of a match that spans several lines.\n- Nothing selected when double-clicking `=`, `\u003c`, `\u003e` or any other SQL operator.\n- Shift+Arrow extending the wrong end of a selection made by dragging.\n- Selection starting a few characters away from the press point on a quick drag.\n- A pause before the pointer responds when pressing inside selected text.\n- Shift+double-click and Shift+triple-click doing nothing.\n- Drag-select scrolling faster on a mouse than on a trackpad, and stalling mid-drag.\n- Statement selection with `Option+Shift+Down` leaving the highlight behind.\n- No arrow-key movement or Shift+Arrow selection in the JSON, DDL and SQL preview editors.\n- Explain with AI acting on the previous selection after a right-click somewhere else.\n- Selection painted in the accent colour in a window that is not the active one.\n- Selection bounds reported to VoiceOver covering only the first line, and no announcement when the selection moved.\n- An abandoned editor tab drag reordering the strip anyway, and keeping that order across relaunch.\n- An editor tab reorder stopping partway when the pointer strayed a couple of points off the track.\n- Text dropped on the editor tab strip reported as accepted and then discarded.\n- An editor tab left faded and the strip's separators hidden after a cancelled drag.\n- Size All Columns to Fit slowing down with the square of the column count.\n- Column-resize cursor over the leading edge of the data grid header, where there is no divider to drag.\n- A data grid shortcut bound to `Cmd+G` silently taking the key from Find Next, with no conflict warning.\n- Stale cells after fitting, hiding or reordering a data grid column on a result narrower than the window. (#2446)\n- A shortcut recorded with only Option or Shift beeping with no reason given, against docs that said it would work.\n- A rebound shortcut silently killing Quit, Minimize, Hide, Settings, Show Toolbar or Enter Full Screen.\n- `Ctrl+Cmd+J` accepted in Settings \u003e Keyboard while the SQL editor kept it for Jump to Definition.\n- Autocomplete keeping an earlier prefix's ordering after the typed word becomes an exact match. (#2444)\n- Whole MySQL and MariaDB result set fetched before a capped query returned its first rows. (#2427)\n- KILL sent to a different server when a MySQL or MariaDB connection's host is spelled `localhost`.\n- Stop on a MySQL or MariaDB connection freezing the app for up to five seconds when the server stopped answering.\n- A MySQL or MariaDB read re-run after a dropped connection, advancing a sequence or taking a lock twice.\n- Save reporting the number of statements it ran as the number of rows it changed.\n- An edit or a delete on a table with no primary key changing every identical row. (#2107)\n- The same statements committed twice when Cmd+S is pressed again during a slow save.\n- Switching tabs during a save clearing the edits of the tab switched to, and re-running its query.\n- Placeholder SQL with no values in the Safe Mode confirmation and the authorization prompt.\n- Deleting one row of a pasted batch dropping the other rows, or saving them with another row's values.\n- Undoing the deletion of a new row putting its values in the wrong columns.\n- Undoing a cell edit reverting the wrong row while a column filter is active.\n- A save that deletes a row and reuses its unique value failing on the constraint.\n- \"Ignore foreign key checks\" doing nothing on SQLite, libSQL and Cloudflare D1.\n- A save reported as failed on an engine without transactions after some statements had been written.\n- Keep Open for a preview tab, by double-clicking it in the tab strip or from its contextual menu. (#2436)\n- Kafka driver plugin: topics in the grid, consumer group lag, and KafkaQL for seeking and producing. (#2419)\n- Active editor tab indistinguishable from the inactive ones in light appearance. (#2439)\n- Active editor tab drawn darker than its track on macOS 27, and inverting when the window lost focus.\n- Editor tab selection changing with the desktop picture behind the window.\n- Editor tab strip tests reporting four appearances while running plain Aqua and Dark Aqua twice.\n- Icon cut off the entry at the top of a scrolled connections strip. (#2452)\n- Connections strip not scrolling to the entry you switch to.\n- Background connections stuck on the session preparation screen after connecting. (#2545)\n- Blank sidebar, grid and inspector on a connection opened into a window that was already on screen.\n- Connections strip hidden, and its switch commands disabled, whenever the connection on screen was disconnected.\n- Rows, tabs and an enabled toolbar over a connection the connections strip already showed as failed.\n- Reconnect doing nothing on a connection whose automatic reconnect had already given up.\n- Health monitor waking every 30 seconds for the life of the app after it stopped trying to reconnect.\n- Choosing a connection from the connection list re-fronting its window without switching to it.\n- Grid cells left at their old column positions until the next click, after any column geometry change. (#2449, #2446)\n- The row-number column draggable out of first place, which walked it to the far right on the next refresh.\n- A time entered into a date cell discarded when the stored value carried no time.\n- A timestamp with an offset showing one day in the grid and another in its date picker.\n- Opening a date picker and confirming without changing anything rewriting the cell.\n- Cell overlay appearance test failing at random when its window was released before the appearance changed.\n- A reordered column snapping back on the next refresh in the Structure tab and in query results.\n- Double-clicking a cell editing the wrong row, after deleting one of several rows added in the same session.\n- VoiceOver reading a cell's value under a different row's number after such a delete.\n- Snowflake `DATE`, `TIME` and `TIMESTAMP_*` cells showing the raw epoch number the server sends. (#2454)\n- Snowflake `BINARY` cells showing the hex of their hex, which the hex editor then wrote back.\n- A date cell the app cannot read opening a picker set to today, which overwrote the value on OK. (#2454)\n- Snowflake reporting no rows changed for an `UPDATE` or `MERGE`, and misreading a `number of rows` column.\n- A database switch moving both windows, when two saved Snowflake connections to one account shared a session.\n- Stop on a Snowflake query cancelling every other query on the same connection, including a sidebar refresh or a save.\n- `tablepro://` deep links ignored on iPhone and iPad, from the widget, a Live Activity or a shortcut.\n- iOS PostgreSQL and Redshift reading another schema's table of the same name for columns, indexes and foreign keys.\n- iOS SQL Server using the login's default schema rather than the one the toolbar showed, Truncate and Drop included.\n- Computed SQL Server columns offered as editable and written into the `INSERT`, on both Mac and iOS.\n- A CSV export writing a real NULL and the text `NULL` identically.\n- A JSON export emitting a leading-zero string such as `01234` as an unquoted number, which no JSON parser accepts.\n- A SQL `INSERT` export quoting identifiers for ANSI on every engine, which MySQL and MariaDB reject outright.\n- Insert Row on iPhone and iPad writing every column, blocking a `NOT NULL` column with a default. (#2543)\n- NULL offered on a `NOT NULL` column in Insert Row and the row editor on iPhone and iPad.\n- Insert Row on iPhone and iPad writing a generated column, which every engine refuses.\n- Both halves of a composite integer primary key left out of the insert on iPhone and iPad.\n- Typed values discarded when Insert Row opened before the column list had loaded on iPhone and iPad.\n- Insert Row offered on Redis connections on iPhone and iPad, where it can only fail.\n- Missing search field in a connection's Tables tab on iPhone and iPad. (#2544)\n- A search from one connection or table still filtering another's list on iPhone and iPad.\n- A staged drop or truncate running against the database in front at Save time rather than the one it was staged in.\n- Unqualified `DROP TABLE` for every object on Oracle, Dameng, Trino, Snowflake and BigQuery, whatever its kind.\n- Dropping a table closing the tab on a same-named table in another schema or database.\n\n### Security\n\n- SQL injection through a Snowflake schema or routine name containing a backslash.\n- Safe Mode on iPhone and iPad letting a write run when it followed a comment or a CTE.\n",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/v0.69.0",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/v0.69.0",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/v0.69.0",
+    "published_at": "2026-08-27T16:03:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3790,
+        "release_id": 53,
+        "name": "TablePro-0.69.0-arm64.dmg",
+        "size": 25691811,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.69.0/TablePro-0.69.0-arm64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3791,
+        "release_id": 53,
+        "name": "TablePro-0.69.0-arm64.zip",
+        "size": 25835052,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.69.0/TablePro-0.69.0-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3792,
+        "release_id": 53,
+        "name": "TablePro-0.69.0-x86_64.dmg",
+        "size": 27327884,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.69.0/TablePro-0.69.0-x86_64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3793,
+        "release_id": 53,
+        "name": "TablePro-0.69.0-x86_64.zip",
+        "size": 27528180,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.69.0/TablePro-0.69.0-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "repository_id": 16,
+    "tag_name": "v0.11.0",
+    "name": "New \"Minimal\" Visualizer",
+    "body": "Introduces a new visualizer, Minimal. Thanks to @colinta for the original idea, and to @SoCuul for some code contributions along the way. This visualizer can also be filtered to display standalone modifier keys, a popular request.",
+    "html_url": "https://github.com/keycastr/keycastr/releases/tag/v0.11.0",
+    "tarball_url": "https://api.github.com/repos/keycastr/keycastr/tarball/v0.11.0",
+    "zipball_url": "https://api.github.com/repos/keycastr/keycastr/zipball/v0.11.0",
+    "published_at": "2026-08-27T01:48:23Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:53Z",
+    "assets": [
+      {
+        "id": 4916,
+        "release_id": 314,
+        "name": "KeyCastr.app.zip",
+        "size": 2628593,
+        "download_url": "https://github.com/keycastr/keycastr/releases/download/v0.11.0/KeyCastr.app.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:21Z"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "repository_id": 19,
+    "tag_name": "plugin-oracle-v1.2.23",
+    "name": "Oracle Driver v1.2.23",
+    "body": "## Oracle Driver v1.2.23\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `44ba17573f1a6094a99d20d497e23f9b4d66a33d5543b0e63677addccfe7f757`\n- x86_64: `09e782514e6cf0dbdf68f1ebca10833a173457c7e21f80026171f02066a61eaf`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-oracle-v1.2.23",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-oracle-v1.2.23",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-oracle-v1.2.23",
+    "published_at": "2026-08-26T02:28:34Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3826,
+        "release_id": 69,
+        "name": "OracleDriver-arm64.zip",
+        "size": 5052172,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.23/OracleDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3827,
+        "release_id": 69,
+        "name": "OracleDriver-x86_64.zip",
+        "size": 5641987,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.23/OracleDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "repository_id": 19,
+    "tag_name": "plugin-snowflake-v1.0.5",
+    "name": "Snowflake Driver v1.0.5",
+    "body": "## Snowflake Driver v1.0.5\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `8c87b1c1f3ef9f9fd958c5125bf18abbfd1ce1274bfedabb16e2ae7387c14c83`\n- x86_64: `7be0a80bc6b9edaa5b67cbc98db787695cc73be03a065b12a5dcfca2dd653dae`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-snowflake-v1.0.5",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-snowflake-v1.0.5",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-snowflake-v1.0.5",
+    "published_at": "2026-08-26T02:25:30Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3824,
+        "release_id": 68,
+        "name": "SnowflakeDriverPlugin-arm64.zip",
+        "size": 224968,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.5/SnowflakeDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3825,
+        "release_id": 68,
+        "name": "SnowflakeDriverPlugin-x86_64.zip",
+        "size": 247699,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.5/SnowflakeDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "repository_id": 19,
+    "tag_name": "plugin-trino-v1.0.6",
+    "name": "Trino Driver v1.0.6",
+    "body": "## Trino Driver v1.0.6\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `b860b676a74c95b5c78454dfdd5a3e8c3298319f51b2ad068fcdea2545766aba`\n- x86_64: `7d096f3316712d6b3b9d732b77c4c2555e32c22c24029783c40b5ef7a10b131a`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-trino-v1.0.6",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-trino-v1.0.6",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-trino-v1.0.6",
+    "published_at": "2026-08-26T02:25:29Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3822,
+        "release_id": 67,
+        "name": "TrinoDriverPlugin-arm64.zip",
+        "size": 159220,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.6/TrinoDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3823,
+        "release_id": 67,
+        "name": "TrinoDriverPlugin-x86_64.zip",
+        "size": 171887,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.6/TrinoDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "repository_id": 19,
+    "tag_name": "plugin-cassandra-v1.0.34",
+    "name": "Cassandra Driver v1.0.34",
+    "body": "## Cassandra Driver v1.0.34\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `36e17dbce16f597633d9c47d0d088fefebe093069df9317b798fc490ce3eabf9`\n- x86_64: `0ef5001beb9485e5717701738623a17830feada5ac582ab201219325c353fe7c`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-cassandra-v1.0.34",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-cassandra-v1.0.34",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-cassandra-v1.0.34",
+    "published_at": "2026-08-26T02:22:13Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3832,
+        "release_id": 72,
+        "name": "CassandraDriver-arm64.zip",
+        "size": 831512,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.34/CassandraDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3833,
+        "release_id": 72,
+        "name": "CassandraDriver-x86_64.zip",
+        "size": 933423,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.34/CassandraDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "repository_id": 19,
+    "tag_name": "plugin-bigquery-v1.0.26",
+    "name": "BigQuery Driver v1.0.26",
+    "body": "## BigQuery Driver v1.0.26\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `4e640b944091b7576e766d938baf32735c638f55a485a3068986940acc022113`\n- x86_64: `590b27fbdb82465d5a63ff91405e65248fe5b16546876b407661e1fb04d60451`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-bigquery-v1.0.26",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-bigquery-v1.0.26",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-bigquery-v1.0.26",
+    "published_at": "2026-08-26T02:22:01Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3834,
+        "release_id": 73,
+        "name": "BigQueryDriverPlugin-arm64.zip",
+        "size": 246178,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.26/BigQueryDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3835,
+        "release_id": 73,
+        "name": "BigQueryDriverPlugin-x86_64.zip",
+        "size": 269221,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.26/BigQueryDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "repository_id": 19,
+    "tag_name": "plugin-mssql-v1.0.39",
+    "name": "MSSQL Driver v1.0.39",
+    "body": "## MSSQL Driver v1.0.39\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `8c2ca862dfb8414bdd5f13c199c2f7ddea4bcbaa76aec99508a96138ec6d083c`\n- x86_64: `40e72a6a68cd96b2d87a8197e70998d33d9a8d42a30c697f0feea090a42bf8c4`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-mssql-v1.0.39",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-mssql-v1.0.39",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-mssql-v1.0.39",
+    "published_at": "2026-08-26T02:21:38Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3828,
+        "release_id": 70,
+        "name": "MSSQLDriver-arm64.zip",
+        "size": 377620,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.39/MSSQLDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3829,
+        "release_id": 70,
+        "name": "MSSQLDriver-x86_64.zip",
+        "size": 398567,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.39/MSSQLDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "repository_id": 19,
+    "tag_name": "plugin-dynamodb-v1.0.26",
+    "name": "DynamoDB Driver v1.0.26",
+    "body": "## DynamoDB Driver v1.0.26\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `0104808c41e571f24974a22c6660da7ef533b30ed868ce1b8c1d31dbc67b620f`\n- x86_64: `d267571814a4de7219e57d014386c0a083ddca180e0b3099fe4abd0ff3f08fd8`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-dynamodb-v1.0.26",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-dynamodb-v1.0.26",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-dynamodb-v1.0.26",
+    "published_at": "2026-08-26T02:21:34Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3830,
+        "release_id": 71,
+        "name": "DynamoDBDriverPlugin-arm64.zip",
+        "size": 191994,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.26/DynamoDBDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3831,
+        "release_id": 71,
+        "name": "DynamoDBDriverPlugin-x86_64.zip",
+        "size": 210012,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.26/DynamoDBDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "repository_id": 19,
+    "tag_name": "v0.68.1",
+    "name": "v0.68.1",
+    "body": "\n### Changed\n\n- Query results stop fetching at the row limit on MySQL, PostgreSQL, SQLite, MSSQL, Oracle, Cassandra, Redis, DynamoDB, BigQuery, Snowflake, Trino and ClickHouse. (#2427)\n- ClickHouse reads a capped result in one request instead of a separate `LIMIT 0` round trip for the columns.\n- Structure editor undo granularity set by the operation instead of run loop timing.\n\n### Fixed\n\n- Row limit ignored for a parenthesised `SELECT`, a `TABLE` statement or a `VALUES` list. (#2427)\n- Cancelling an export or a schema compare left the database still sending rows on MySQL, PostgreSQL, MSSQL, Oracle, Cassandra and Trino.\n- An aborted PostgreSQL read charged its leftover rows to the next query on that connection.\n- Syntax error when sorting a query result whose SQL ends in `LIMIT`.\n- The user's own `LIMIT` dropped when sorting replaced an existing `ORDER BY`.\n- Fetch All sending the previous run's parameters after a query that had none.\n- A SQLite `UPDATE` or `DELETE` alone in a query tab reporting success instead of the rows affected.\n- Stall on switching between two loaded table tabs, growing with the rows they hold. (#2424)\n- Scroll position lost when switching away from a table tab and back. (#2424)\n- A table statistics command on every switch between two table tabs. (#2424)\n- Another table's size and row count in Table Info when its statistics arrive late. (#2424)\n- Active editor tab barely distinguishable from the inactive ones, worst in light appearance. (#2428)\n- No selected editor tab at all in a background window on macOS 14 and 15. (#2428)\n- Editor tab strip ignoring Increase Contrast and Reduce Transparency. (#2428)\n- Crash when a file changes in a linked SQL folder. (#2432)\n- Crash when a file changes in a linked connection folder, and on quit with one configured.\n- iOS: crash the first time the system reports memory pressure.\n",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/v0.68.1",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/v0.68.1",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/v0.68.1",
+    "published_at": "2026-08-26T02:15:14Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3818,
+        "release_id": 66,
+        "name": "TablePro-0.68.1-arm64.dmg",
+        "size": 25353198,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.1/TablePro-0.68.1-arm64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3819,
+        "release_id": 66,
+        "name": "TablePro-0.68.1-arm64.zip",
+        "size": 25501109,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.1/TablePro-0.68.1-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3820,
+        "release_id": 66,
+        "name": "TablePro-0.68.1-x86_64.dmg",
+        "size": 26967102,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.1/TablePro-0.68.1-x86_64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3821,
+        "release_id": 66,
+        "name": "TablePro-0.68.1-x86_64.zip",
+        "size": 27160361,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.1/TablePro-0.68.1-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "repository_id": 19,
+    "tag_name": "plugin-libsql-v1.0.23",
+    "name": "libSQL / Turso Driver v1.0.23",
+    "body": "## libSQL / Turso Driver v1.0.23\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `664f091f5ee0cf4e9d9f20eeff4f61926630abe81f1743f704a88971026a1613`\n- x86_64: `0355c1b6f4b2438e0770c0fbd38c9caaf00861f07772b2a2cf26a65a725c79b9`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-libsql-v1.0.23",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-libsql-v1.0.23",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-libsql-v1.0.23",
+    "published_at": "2026-08-25T11:32:33Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3850,
+        "release_id": 80,
+        "name": "LibSQLDriverPlugin-arm64.zip",
+        "size": 113818,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.23/LibSQLDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3851,
+        "release_id": 80,
+        "name": "LibSQLDriverPlugin-x86_64.zip",
+        "size": 121776,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.23/LibSQLDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "repository_id": 19,
+    "tag_name": "plugin-teradata-v1.0.4",
+    "name": "Teradata Driver v1.0.4",
+    "body": "## Teradata Driver v1.0.4\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `8c7f0915d408fff3d5fa2275fee7c02030c4bfc7f7092f676596a9f619d9bd06`\n- x86_64: `aeea85892075339e023734ed57edf52136df5e8025d5187539a410c402a2b54b`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-teradata-v1.0.4",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-teradata-v1.0.4",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-teradata-v1.0.4",
+    "published_at": "2026-08-25T11:32:32Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3842,
+        "release_id": 76,
+        "name": "TeradataDriver-arm64.zip",
+        "size": 145873,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.4/TeradataDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3843,
+        "release_id": 76,
+        "name": "TeradataDriver-x86_64.zip",
+        "size": 156186,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.4/TeradataDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "repository_id": 19,
+    "tag_name": "plugin-oracle-v1.2.22",
+    "name": "Oracle Driver v1.2.22",
+    "body": "## Oracle Driver v1.2.22\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `2558e29b02704eb08f6c27e6929f27b07c50289fb2cf3710d2fcf083f97067b7`\n- x86_64: `94cd1e0600ed72fac9beca4b95e71f5792c094b2522abc9ebb57ad6f95b51945`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-oracle-v1.2.22",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-oracle-v1.2.22",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-oracle-v1.2.22",
+    "published_at": "2026-08-25T11:32:31Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3846,
+        "release_id": 78,
+        "name": "OracleDriver-arm64.zip",
+        "size": 5051158,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.22/OracleDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3847,
+        "release_id": 78,
+        "name": "OracleDriver-x86_64.zip",
+        "size": 5641172,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.22/OracleDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "repository_id": 19,
+    "tag_name": "plugin-trino-v1.0.5",
+    "name": "Trino Driver v1.0.5",
+    "body": "## Trino Driver v1.0.5\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `5168ddfd5286eafc7ec66f7b5c2322a1f198b1be7ce6fad26703878bc7646fd7`\n- x86_64: `3ad26521ea0f34978498caeeede27369eb9b2d252ab9e5205e90f6399c46fb17`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-trino-v1.0.5",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-trino-v1.0.5",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-trino-v1.0.5",
+    "published_at": "2026-08-25T11:31:47Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3840,
+        "release_id": 75,
+        "name": "TrinoDriverPlugin-arm64.zip",
+        "size": 158430,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.5/TrinoDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3841,
+        "release_id": 75,
+        "name": "TrinoDriverPlugin-x86_64.zip",
+        "size": 171304,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.5/TrinoDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "repository_id": 19,
+    "tag_name": "plugin-duckdb-v1.0.35",
+    "name": "DuckDB Driver v1.0.35",
+    "body": "## DuckDB Driver v1.0.35\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `eb74e12dc2a6227ff5873196903aa7095d49ba3c4418115287c038d59fb9849b`\n- x86_64: `ddfb02f3e1f5943823af4af27fc57686bfff306451b5ffcc884cf8943b59b52f`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-duckdb-v1.0.35",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-duckdb-v1.0.35",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-duckdb-v1.0.35",
+    "published_at": "2026-08-25T11:28:07Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3852,
+        "release_id": 81,
+        "name": "DuckDBDriver-arm64.zip",
+        "size": 8976038,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.35/DuckDBDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3853,
+        "release_id": 81,
+        "name": "DuckDBDriver-x86_64.zip",
+        "size": 10686319,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.35/DuckDBDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "repository_id": 19,
+    "tag_name": "plugin-mssql-v1.0.38",
+    "name": "MSSQL Driver v1.0.38",
+    "body": "## MSSQL Driver v1.0.38\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `738ccb487c4ff4802cd2a374a47a92d337cda491fb48f91e19416940d8e314cc`\n- x86_64: `6c40e5a38441ff4e4045b71264c4d5ecd7ceee1296bc048cc89d3c7d3a1c7f2b`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-mssql-v1.0.38",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-mssql-v1.0.38",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-mssql-v1.0.38",
+    "published_at": "2026-08-25T11:28:02Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3848,
+        "release_id": 79,
+        "name": "MSSQLDriver-arm64.zip",
+        "size": 377058,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.38/MSSQLDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3849,
+        "release_id": 79,
+        "name": "MSSQLDriver-x86_64.zip",
+        "size": 397716,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.38/MSSQLDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "repository_id": 19,
+    "tag_name": "plugin-dameng-v1.0.3",
+    "name": "Dameng Driver v1.0.3",
+    "body": "## Dameng Driver v1.0.3\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `b0bca32d8d89601d96957594f6fdd2a1078550c003674425839b5cd436e68b88`\n- x86_64: `f1105a42c41b8c45a8ff2eb38a0449c102714a0f1424012b05a363c60fc8f15b`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-dameng-v1.0.3",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-dameng-v1.0.3",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-dameng-v1.0.3",
+    "published_at": "2026-08-25T11:27:51Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3854,
+        "release_id": 82,
+        "name": "DamengDriver-arm64.zip",
+        "size": 1236533,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.3/DamengDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3855,
+        "release_id": 82,
+        "name": "DamengDriver-x86_64.zip",
+        "size": 1290819,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.3/DamengDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "repository_id": 19,
+    "tag_name": "plugin-snowflake-v1.0.4",
+    "name": "Snowflake Driver v1.0.4",
+    "body": "## Snowflake Driver v1.0.4\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `d9155f40619eac7d759707c3f59556018abb95d3f5d5710f3d965605a0b0ce36`\n- x86_64: `03a9152525713e73dc2eecdd2f75f9d1c86e2f7799998c82644bc0e4302224ae`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-snowflake-v1.0.4",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-snowflake-v1.0.4",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-snowflake-v1.0.4",
+    "published_at": "2026-08-25T11:23:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3844,
+        "release_id": 77,
+        "name": "SnowflakeDriverPlugin-arm64.zip",
+        "size": 224742,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.4/SnowflakeDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3845,
+        "release_id": 77,
+        "name": "SnowflakeDriverPlugin-x86_64.zip",
+        "size": 247207,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.4/SnowflakeDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "repository_id": 19,
+    "tag_name": "v0.68.0",
+    "name": "v0.68.0",
+    "body": "\n### Added\n\n- Compare \u0026 Sync between two databases, over schema objects or row data. Starter license. (#721)\n- Seat release, team roster, per-Mac last use and macOS version, and your role in Settings \u003e License.\n- Copy Key in Settings \u003e License, kept out of clipboard history.\n- Support TablePro in the Help menu, the welcome window and the sidebar.\n- Triggers as a sidebar section, alongside Procedures and Functions. (#2383)\n- Procedures, functions and triggers on MSSQL, Oracle, SQLite, ClickHouse, DuckDB, Snowflake, BigQuery, Cassandra, LibSQL, Cloudflare D1, Teradata and Dameng. (#2383)\n- Read-only source viewer for procedures, functions and triggers, with Copy, Export and Open in Editor. (#2383)\n- Procedures, functions and triggers in the quick switcher, with argument signatures on ambiguous names.\n- Compare, a fourth EXPLAIN plan mode, and pinning a saved plan. (#2380)\n- Beancount tables for `directives`, pads, named queries and custom directives. (#2399, #2413, #2415)\n- Account booking, note tags and links, and balance assertion details on Beancount tables. (#2415)\n- Local table load history, kept 7 days and never uploaded. (#2395)\n- `list_triggers` for MCP clients, and `return_type` and `language` on `list_routines`.\n\n### Changed\n\n- Settings \u003e License in place of Settings \u003e Account, with iCloud Sync in its own pane and Linked Folders under General.\n- The license pane states an expired, suspended or unverified license inline, with one action and a purchase link.\n- Sync Paused, a separate state for a license the app could not check.\n- One Refresh in Settings \u003e License, replacing Refresh and Check Status.\n- The license key masked and not selectable.\n- The PRO badge names the gated feature and links to the pricing page.\n- The data grid draws its own cells and column separators, opening a result with hundreds of columns at once. (#2381)\n- The inline cell editor scrolls a long line instead of wrapping it. (#2381)\n- Row inspector fields, cell popovers and the Compare row diff follow the data grid font. (#2393)\n- The connection color as a badge behind the connection name, a dot on the rail icon, and deeper tag badge fills. (#2398)\n- A database stays in the connections strip until you close its entry; Close ends the connection on the last one.\n- Autocomplete and the database picker follow the query tab's own database and schema.\n- Beancount postings keep their own flag, price, and resolved lot date and label.\n- Beancount connections report the active `rledger` or Python Beancount version.\n- Beancount ledger plugins are skipped unless the connection turns on Run Ledger Plugins.\n- Turkish, Vietnamese, Simplified Chinese and Traditional Chinese cover every remaining English string.\n\n### Fixed\n\n- A table with 500 columns pinning a core for 20 seconds and taking a gigabyte to open. (#2381)\n- Flickering columns, blank columns and an unpainted gap while scrolling a wide result sideways. (#2381)\n- A second of delay opening the inline editor on a result with hundreds of columns. (#2381)\n- Find, arrow keys, the inline editor and Size All Columns to Fit unable to reach a column scrolled off the side.\n- Return opening no editor on a row selected with the arrow keys, and Tab or Shift+Tab out of a row's end doing nothing.\n- An empty grid the first time a table is opened in a window with no tabs. (#2342)\n- One table click running its query twice, and a closed tab leaving its query counted as running. (#2342)\n- Crash exporting two same-named tables from different schemas to SQL. (#1968)\n- SQL export writing rows into another schema's same-named table, and dropping columns and keys after the first. (#1968)\n- One of two PostgreSQL function overloads missing from the sidebar, with Show DDL opening an arbitrary one. (#2383)\n- MySQL Show DDL reading the session database instead of the one being browsed. (#2383)\n- Routine tooltips, VoiceOver labels and Copy with Signature showing a return type in place of the arguments. (#2383)\n- Duplicate routine rows in the flat sidebar taking the selection back to the first of them. (#2383)\n- MySQL triggers losing their definer, `WHEN` clause and ordering, and Oracle triggers showing a header with no body.\n- The welcome window offering Activate License to a Mac that already holds one and has just been offline.\n- iCloud Sync calling an unverified license missing, and reporting a live sync after the license was removed.\n- The app freezing after turning on iCloud Sync with many saved column layouts.\n- Every settings write failing once the sync record cache filled the preferences file past the 4 MB limit.\n- The sync status returning to Synced when sync was turned off mid-sync.\n- The license server never contacted again after removing and re-adding a license in one session.\n- The device list error surviving a later successful refresh, and a renewal warning counting zero days above Expired.\n- A previous team's shared connections and saved queries surviving deactivation.\n- The connections strip disappearing when you click the entry you came from.\n- Cancelling a close leaving the window on the connection the strip revealed.\n- A strip entry in another window raising that window without showing the connection.\n- A disconnected connection's entries dropping to the bottom of the strip, and all but one leaving it.\n- A connection opened from a file or a URL losing its strip entries when its session ends.\n- The connections strip's saved arrangement growing without bound.\n- Bulk tab close saving the tab on screen, and asking about another database's unsaved work.\n- A connection's color and name not reaching the toolbar and workspace rail until the next reconnect. (#2398)\n- An invisible connection dot in the history drawer and compare strip, and a warning icon in the engine color. (#2398)\n- The JSON viewer keeping its old font after a font, theme or text-size change, and hex dumps wrapping mid-line. (#2393)\n- AI inline suggestions written without the schema, and columns missing for a table named with a capital letter.\n- Case-insensitive filters and completion on Redshift falling back to PostgreSQL's ASCII-only ILIKE.\n- PGlite connection form offering SSH, SSL, Cloudflare Tunnel and SOCKS panes, and a password field.\n- Redshift and CockroachDB system databases listed in the sidebar as ordinary user databases.\n",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/v0.68.0",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/v0.68.0",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/v0.68.0",
+    "published_at": "2026-08-25T11:00:15Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3836,
+        "release_id": 74,
+        "name": "TablePro-0.68.0-arm64.dmg",
+        "size": 25309972,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.0/TablePro-0.68.0-arm64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3837,
+        "release_id": 74,
+        "name": "TablePro-0.68.0-arm64.zip",
+        "size": 25469554,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.0/TablePro-0.68.0-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3838,
+        "release_id": 74,
+        "name": "TablePro-0.68.0-x86_64.dmg",
+        "size": 26914054,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.0/TablePro-0.68.0-x86_64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3839,
+        "release_id": 74,
+        "name": "TablePro-0.68.0-x86_64.zip",
+        "size": 27118704,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.0/TablePro-0.68.0-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "repository_id": 8,
+    "tag_name": "v3.0.13",
+    "name": "v3.0.13",
+    "body": "**HOT FIX**\r\n\r\n## Bug fixes\r\n- fix: fixed white block in the menu bar when combined modules separator is enabled (#3564)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.13",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.13",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.13",
+    "published_at": "2026-08-23T21:33:57Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4767,
+        "release_id": 167,
+        "name": "Stats.dmg",
+        "size": 7498688,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.13/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "repository_id": 8,
+    "tag_name": "v3.0.12",
+    "name": "v3.0.12",
+    "body": "## Bug fixes\r\n- fix: added DCP0 group to the GPU FPS reader (#3551)\r\n- fix: fixed Total System Consumption spike after wake from sleep (#3543)\r\n- fix: fixed nvme_smart_log struct layout in the NVMe SMART reader (#3547)\r\n- fix: fixed separator color in the combined modules (#3534)\r\n- fix: fixed per-core CPU load calculation after tick counter overflow (#3529)\r\n- fix: fixed invisible text in the Help window on light appearance (#3523)\r\n\r\n## New features\r\n- feat: added PBwo display backlight power sensor for MacBook Neo (#3519)\r\n- feat: improved Disk free space calculation\r\n\r\n## Localization\r\n- lang: improved Turkish localization (#3559)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.12",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.12",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.12",
+    "published_at": "2026-08-23T12:39:40Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4768,
+        "release_id": 168,
+        "name": "Stats.dmg",
+        "size": 7498871,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.12/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "repository_id": 18,
+    "tag_name": "v1.7.0",
+    "name": "Textream v1.7.0",
+    "body": "## Installation\n\n- **Textream.dmg** — for macOS 26 Tahoe and later (recommended, includes Liquid Glass effects)\n- **Textream-macos15.dmg** — for macOS 15 Sequoia\n\n1. Download the DMG for your macOS version.\n2. Open the DMG and drag **Textream** to Applications.\n3. Open Textream normally. The app is signed and notarized by Apple.\n\nOr install via Homebrew:\n\n```sh\nbrew install textream\n```\n\n## Highlights\n\n- A new **Reading** settings pane brings together reading position, paragraph dividers, last-spoken words, and keep-awake controls.\n- Choose **Centered** or **Near Top** reading position with steadier tracking, correct live-preview geometry, and animated preview transitions.\n- Optional paragraph breaks now appear as subtle three-dot dividers with more breathing room.\n- Remote viewers can mirror the teleprompter independently per device, including URL presets with `?mirror=1` and `?mirror=0`.\n- Start the prompter directly from the editor with **Command–Return**.\n- Director Mode now preserves paragraph breaks during live edits and protects the confirmed read prefix more reliably.\n- The compact notch has improved spacing around its controls and a softer text fade near the bottom.\n- A complete guide at [textream.net/docs](https://textream.net/docs/) documents every setting, script cues, the URL scheme, and Director API examples in Swift, JavaScript, Python, and Node.js.\n- The source tree now includes Textream for iPhone and iPad, with Word Tracking, Classic and Voice-Activated guidance, camera recording, saved recordings, and landscape mirror controls. Mobile distribution is handled separately through the App Store.\n\n## Fixes and polish\n\n- Fixed Near Top positioning in Classic and Voice-Activated settings previews.\n- Fixed paragraph preservation in the Director browser editor.\n- Fixed **Reset All** so it also restores speech language and Hide from Screen Sharing.\n- Restricted Remote and Director custom ports to `1024–65534`, preserving the required WebSocket port.\n- Improved live layout recalculation after font and overlay-size changes.\n- Made PowerPoint presenter-note imports reliable in the Mac App Store sandbox.\n\n## Merged pull requests\n\n- [#79 — docs: use official Homebrew install command](https://github.com/f/textream/pull/79) by @f\n- [#80 — Prepare Textream for the Mac App Store](https://github.com/f/textream/pull/80) by @f\n- [#81 — Make PowerPoint import reliable in the App Store sandbox](https://github.com/f/textream/pull/81) by @f\n- [#82 — Declare App Store export compliance](https://github.com/f/textream/pull/82) by @f\n- [#83 — Add direct support email](https://github.com/f/textream/pull/83) by @f\n- [#84 — docs: remove signed and notarized note](https://github.com/f/textream/pull/84) by @f\n- [#85 — Configure textream.net as the canonical domain](https://github.com/f/textream/pull/85) by @f\n- [#86 — Add App Store download to homepage](https://github.com/f/textream/pull/86) by @f\n- [#87 — Add Mac App Store link to README](https://github.com/f/textream/pull/87) by @f\n- [#96 — Add configurable teleprompter reading options](https://github.com/f/textream/pull/96) by @needim\n- [#97 — Add per-device mirror mode to the Remote teleprompter view](https://github.com/f/textream/pull/97) by @skobylite\n- [#100 — Start the prompter with ⌘↩ from the main window](https://github.com/f/textream/pull/100) by @skobylite\n- [#101 — Add Reading settings and comprehensive documentation](https://github.com/f/textream/pull/101) by @f\n\n## Contributors\n\nThank you to @needim for the new reading controls and tracking improvements, and to @skobylite for per-device Remote mirroring and the Command–Return shortcut. Thanks also to @voicaandrei for the earlier mirror-mode proposal referenced by #97.\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.6.5...v1.7.0",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.7.0",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.7.0",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.7.0",
+    "published_at": "2026-08-22T21:50:25Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4796,
+        "release_id": 197,
+        "name": "Textream-macos15.dmg",
+        "size": 1896984,
+        "download_url": "https://github.com/f/textream/releases/download/v1.7.0/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4797,
+        "release_id": 197,
+        "name": "Textream.dmg",
+        "size": 1886676,
+        "download_url": "https://github.com/f/textream/releases/download/v1.7.0/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "repository_id": 13,
+    "tag_name": "v4.2.2-beta.2",
+    "name": "v4.2.2-beta.2",
+    "body": "\n### Added\n\n- **Video text style panel** — selected text effects now expose font family, size, bold/italic, text/background colors, background style, glyph outline, and alignment controls with live paused-preview updates. Styles carry forward to new text segments and remain compatible with saved projects. (#307)\n- **Visible + Effect control** — video effects can be added from the toolbar at the playhead, with nearest-gap placement when the requested time is occupied. (#307)\n\n### Changed\n\n- **WYSIWYG video zoom editing** — zoom selections keep the video aspect ratio, remain within valid bounds, and match the region rendered by preview and export. (#301, #307)\n\n### Fixed\n\n- Transient text editors now own and discard their undo history, preventing Cmd+Z crashes after an editor closes.\n- Escape now cancels an in-progress scroll capture instead of finalizing it (#333).\n- Screenshot filename de-duplication can no longer overwrite an existing file after exhausting numbered names or during concurrent saves (#344).\n- **Video editor timecode rounding** — the timeline's tenths-of-a-second digit could read one low (e.g. 2.3s shown as \"0:02.2\") because it was truncated from a floating-point subtraction instead of rounded. Deriving minutes/seconds/tenths from a single rounded value fixes the digit and the boundary roll-over (1.999s now shows \"0:02.0\", not \"0:01.9\").\n- Built-in GIF exports now preserve playback speed for non-divisor frame-rate conversions and account for GIF centisecond delay rounding (#340).\n- MP4 exports now show persistent percentage progress and ignore duplicate Save/Copy actions while processing (#323).\n- Microphone capture now keeps a stable 48 kHz mono format when Bluetooth headsets switch audio profiles, preventing slowed and pitch-shifted recordings (#326).\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.2-beta.2",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.2-beta.2",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.2-beta.2",
+    "published_at": "2026-08-12T15:32:35Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5008,
+        "release_id": 370,
+        "name": "MacShot-Offline.dmg",
+        "size": 6661182,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.2-beta.2/MacShot-Offline.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      },
+      {
+        "id": 5009,
+        "release_id": 370,
+        "name": "MacShot.dmg",
+        "size": 6850331,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.2-beta.2/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "repository_id": 18,
+    "tag_name": "v1.6.5",
+    "name": "Textream v1.6.5",
+    "body": "## Installation\n\n- **Textream.dmg** — for macOS 26 Tahoe and later (recommended, includes Liquid Glass effects)\n- **Textream-macos15.dmg** — for macOS 15 Sequoia\n\n1. Download the DMG for your macOS version\n2. Open the DMG and drag **Textream** to Applications\n3. Open Textream normally. The app is signed and notarized by Apple.\n\nOr install via Homebrew:\n\n```\nbrew install textream\n```\n\n\n## What's Changed\n* Support macOS 15.0 by @f in https://github.com/f/textream/pull/78\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.6.4...v1.6.5\n",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.6.5",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.6.5",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.6.5",
+    "published_at": "2026-08-09T20:56:56Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4798,
+        "release_id": 198,
+        "name": "Textream-macos15.dmg",
+        "size": 1838655,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.5/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4799,
+        "release_id": 198,
+        "name": "Textream.dmg",
+        "size": 1829615,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.5/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "repository_id": 18,
+    "tag_name": "v1.6.4",
+    "name": "Textream v1.6.4",
+    "body": "## Installation\n\n- **Textream.dmg** — for macOS 26 Tahoe and later (recommended, includes Liquid Glass effects)\n- **Textream-macos15.dmg** — for macOS 15 Sequoia\n\n1. Download the DMG for your macOS version\n2. Open the DMG and drag **Textream** to Applications\n3. Open Textream normally. The app is signed and notarized by Apple.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n## What's Changed\n* Sign and notarize macOS releases by @f in https://github.com/f/textream/pull/77\n\n## New Contributors\n* @f made their first contribution in https://github.com/f/textream/pull/77\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.6.3...v1.6.4",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.6.4",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.6.4",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.6.4",
+    "published_at": "2026-08-09T20:49:58Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4800,
+        "release_id": 199,
+        "name": "Textream-macos15.dmg",
+        "size": 1838679,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.4/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4801,
+        "release_id": 199,
+        "name": "Textream.dmg",
+        "size": 1810350,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.4/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "repository_id": 8,
+    "tag_name": "v3.0.11",
+    "name": "v3.0.11",
+    "body": "## Bug fixes\r\n- fix: fixed wrong module popup opening from the combined view\r\n\r\n## New features\r\n- feat: cleaned up dead code\r\n- feat: adjusted Battery popup to show battery and power adapter values simultaneously (#3368)\r\n- feat: added System Stats button to the support options",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.11",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.11",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.11",
+    "published_at": "2026-08-09T10:06:12Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4769,
+        "release_id": 169,
+        "name": "Stats.dmg",
+        "size": 7496768,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.11/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "repository_id": 18,
+    "tag_name": "v1.6.3",
+    "name": "Textream v1.6.3",
+    "body": "## Installation\n\n- **Textream.dmg** — for macOS 26 Tahoe and later (recommended, includes Liquid Glass effects)\n- **Textream-macos15.dmg** — for macOS 15 Sequoia\n\n1. Download the DMG for your macOS version\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n## What's Changed\n* Fix RTL text rendering for Arabic, Hebrew, and other right-to-left scripts by @MHegazy89 in https://github.com/f/textream/pull/63\n\n## New Contributors\n* @MHegazy89 made their first contribution in https://github.com/f/textream/pull/63\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.6.2...v1.6.3",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.6.3",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.6.3",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.6.3",
+    "published_at": "2026-08-08T22:06:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4802,
+        "release_id": 200,
+        "name": "Textream-macos15.dmg",
+        "size": 1822575,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.3/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4803,
+        "release_id": 200,
+        "name": "Textream.dmg",
+        "size": 1792472,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.3/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "repository_id": 8,
+    "tag_name": "v3.0.10",
+    "name": "v3.0.10",
+    "body": "## Bug fixes\r\n- fix: fixed Network reader blocking forever on a hung nettop process (#3499)\r\n- fix: fixed per-core CPU load overflow crash after long uptime (#3476)\r\n- fix: fixed CPU frequency reads for base M5 (#3439)\r\n- fix: added Fan value support for fan view in combined view (#3410)\r\n\r\n## New features\r\n- feat: redesigned Combined view\r\n\r\n## Localization\r\n- lang: added Tamil translation (#3471)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.10",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.10",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.10",
+    "published_at": "2026-08-02T11:59:01Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4770,
+        "release_id": 170,
+        "name": "Stats.dmg",
+        "size": 7533136,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.10/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 439,
+    "repository_id": 17,
+    "tag_name": "v5.0.4",
+    "name": "v5.0.4 (Beta)",
+    "body": "## Highlights\r\n* (macOS) **DirectX 11 graphics support for Windows**: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.\r\n* **Vulkan 1.3 graphics support for Linux**: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).\r\n\r\n## Notes\r\n* UTM 5 now requires macOS 13 and iOS 16 as the minimum supported version. If you are running an older version, you should stay on the last stable release of UTM 4.\r\n* We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.\r\n* (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.\r\n* (macOS) Apple CoreGL backend does not support Vulkan or DirectX.\r\n* KosmicKrisp is provided as a WIP but the current upstream build is incomplete so MoltenVK is the recommended driver\r\n* Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.\r\n\r\n## Changes (v5.0.4)\r\n* (macOS) Added support for Neptune backend in virglrenderer for DirectX support\r\n* Localization: Updated German (thanks @Benjamin123-tech)\r\n* Scripting: new reload config and VLAN commands (#7710, #7711) (thanks @GregOriol)\r\n* SPICE: Fixed various bugs in renderer that leads to performance and tearing issues\r\n* SPICE: Fixed a memory leak that could result in large amount of memory use by UTM\r\n* Updated USB icon (#7718) (thanks @tan9)\r\n* Fixed crash in UTMRegistry and memory leak in AVF installer (#7701) (thanks @Casey)\r\n\r\n## Changes (v5.0.3)\r\n* Fixed regression in GRUB rendering time due to new graphics backend\r\n* Fixed Vulkan issues on latest Wayland\r\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\r\n* Home: Confirm delete when using swipe left (#3086)\r\n* Home: Prevent duplicate VMs from appearing (#7533) (thanks @DevSecTim)\r\n* AVF: Fixed CPU spike and mic loss due to two audio devices (thanks @matapo)\r\n* Scripting: Added ability to get IP address from AVF machines (#7643) (thanks @hellcastter)\r\n* Scripting: Fixed \"update registry\" for AVM backend (#7664) (thanks @EkkoG)\r\n* Scripting: Improve USB device matching logic (thanks @TronickDev)\r\n\r\n## Changes (v5.0.2)\r\n* Environment variables are now logged when debug log is enabled\r\n* Fixed a regression in GL acceleration where desktop might not render correctly (#7626)\r\n* Added geometry shaders support to MoltenVK to enable DXVK (thanks @Anducalliew433) (#7575)\r\n* (iOS) Fixed an issue where EAGL backend boots into a black screen (#7587)\r\n* (iOS) Fixed a crash on iOS 15 due to incompatible symbols (#7593)\r\n* (iOS) Fixed verbose logging for graphics backend\r\n* (iOS) Fixed a crash when GL is enabled due to missing support for glDrawElementsInstancedBaseVertex (#7596)\r\n* (macOS) Fixed an issue when after resizing a window if the guest outputs a different resolution size, the wrong texture resolution is used leading to misaligned cursor and warped graphics (#5781)\r\n* (macOS) Fixed an issue where the window resizes to 0x0 when native scaling is enabled\r\n\r\n## Changes (v5.0.1)\r\n* CocoaSpice: Reworked Metal renderer to be faster and have lower latency\r\n* Fixed an issue where a BIOS file with a comma in the filename will fail to load\r\n* Default FPS will now be the maximum refresh rate of the display on macOS and iPadOS (iPhone with ProMotion will still have 60Hz as the default rate but can be overridden to 120Hz through settings)\r\n* (macOS) Fixed issue causing `HV_UNSUPPORTED` on startup with Vulkan enabled (#7579)\r\n* (iOS) Fixed resolution issue on external displays (#6040)\r\n* (iOS) Pinch to zoom will turn off automatically updating zoom from the guest (until reset with the resize button)\r\n* (iOS) Fixed external display menu not updating\r\n* (iOS) Fixed incorrect scale on external displays and connecting an external display will now automatically scale to fit\r\n* (iOS) Fixed an issue where powering off the VM will show the home screen but not terminate UTM in the background\r\n\r\n## Changes (v5.0.0)\r\n* Add Venus support for Vulkan (#4551)\r\n* Add Apple Core OpenGL support for OpenGL 4.1 (#4285) (thanks @startergo)\r\n\r\n## Issues\r\nPlease check the full list on [Github](https://github.com/utmapp/UTM/issues) and help report any bug you find that is not listed.\r\n\r\n## Installation\r\n\r\n* [iOS](https://docs.getutm.app/installation/ios/)\r\n* [macOS](https://docs.getutm.app/installation/macos/)\r\n\r\n| File | Description | Installation | JIT | Hypervisor | USB |\r\n|------|------------|--------------|-----|-----------|-----|\r\n| UTM.deb | Jailbroken iOS version | Open in Cydia, dpkg, or Sileo | Yes | Yes(1) | Yes |\r\n| UTM.dmg | macOS version | Mounting and copying UTM.app to /Applications | Yes | Yes | Yes |\r\n| UTM.ipa | Non-jailbroken iOS version (sideloading) | AltStore, etc (see guide) | Yes(2) | No | No |\r\n| UTM-HV.ipa | Non-jailbroken iOS version (TrollStore) | TrollStore | Yes | Yes(1) | Yes |\r\n| UTM-SE.ipa | Non-jailbroken iOS version (sideloading) | AltStore, enterprise signing, etc | No | No | No |\r\n| UTM-Remote.ipa | Remote client | Any | No | No | No |\r\n\r\n1. Hypervisor on iOS requires an M1 iPad or newer.\r\n2. Enabling JIT may require a separate JIT enabler such as [Jitterbug][2] or Jitstreamer.\r\n\r\n[1]: https://getutm.app/install/\r\n[2]: https://github.com/osy/Jitterbug",
+    "html_url": "https://github.com/utmapp/UTM/releases/tag/v5.0.4",
+    "tarball_url": "https://api.github.com/repos/utmapp/UTM/tarball/v5.0.4",
+    "zipball_url": "https://api.github.com/repos/utmapp/UTM/zipball/v5.0.4",
+    "published_at": "2026-08-01T16:26:39Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:05Z",
+    "assets": [
+      {
+        "id": 5116,
+        "release_id": 439,
+        "name": "UTM-HV.ipa",
+        "size": 131828675,
+        "download_url": "https://github.com/utmapp/UTM/releases/download/v5.0.4/UTM-HV.ipa",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:32Z"
+      },
+      {
+        "id": 5120,
+        "release_id": 439,
+        "name": "UTM-Remote-visionOS.ipa",
+        "size": 32074564,
+        "download_url": "https://github.com/utmapp/UTM/releases/download/v5.0.4/UTM-Remote-visionOS.ipa",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:32Z"
+      },
+      {
+        "id": 5121,
+        "release_id": 439,
+        "name": "UTM-Remote.ipa",
+        "size": 31448777,
+        "download_url": "https://github.com/utmapp/UTM/releases/download/v5.0.4/UTM-Remote.ipa",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:32Z"
+      },
+      {
+        "id": 5118,
+        "release_id": 439,
+        "name": "UTM-SE-visionOS.ipa",
+        "size": 216427298,
+        "download_url": "https://github.com/utmapp/UTM/releases/download/v5.0.4/UTM-SE-visionOS.ipa",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:32Z"
+      },
+      {
+        "id": 5123,
+        "release_id": 439,
+        "name": "UTM-SE.ipa",
+        "size": 215854429,
+        "download_url": "https://github.com/utmapp/UTM/releases/download/v5.0.4/UTM-SE.ipa",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:32Z"
+      },
+      {
+        "id": 5122,
+        "release_id": 439,
+        "name": "UTM-visionOS.ipa",
+        "size": 132398133,
+        "download_url": "https://github.com/utmapp/UTM/releases/download/v5.0.4/UTM-visionOS.ipa",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:32Z"
+      },
+      {
+        "id": 5117,
+        "release_id": 439,
+        "name": "UTM.deb",
+        "size": 130373572,
+        "download_url": "https://github.com/utmapp/UTM/releases/download/v5.0.4/UTM.deb",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:32Z"
+      },
+      {
+        "id": 5124,
+        "release_id": 439,
+        "name": "UTM.dmg",
+        "size": 301103643,
+        "download_url": "https://github.com/utmapp/UTM/releases/download/v5.0.4/UTM.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:32Z"
+      },
+      {
+        "id": 5119,
+        "release_id": 439,
+        "name": "UTM.ipa",
+        "size": 131828424,
+        "download_url": "https://github.com/utmapp/UTM/releases/download/v5.0.4/UTM.ipa",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:32Z"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "repository_id": 5,
+    "tag_name": "1.140.0",
+    "name": "1.140.0",
+    "body": "## ClashX v1.140.0\n\n### Bug Fixes / 问题修复\n\n- **keep proxy selector at top of status menu**\n  Preserve the prioritized proxy-group order when inserting menu items instead of reversing it at a fixed index.\n\n  修复: 代理相关问题\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.140.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.140.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.140.0",
+    "published_at": "2026-07-24T04:39:29Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3589,
+        "release_id": 1,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 46009591,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.140.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3590,
+        "release_id": 1,
+        "name": "ClashX.dmg",
+        "size": 46229797,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.140.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "repository_id": 1,
+    "tag_name": "v2.5.2",
+    "name": "Clash Verge Rev v2.5.2",
+    "body": "## v2.5.2\n\n### 🐞 修复问题\n\n- 修复 macOS 托盘速率显示样式异常\n- 修复订阅 TLS 1.0/1.1 等过旧协议时显示更明确错误原因\n- 修复 gzip 压缩订阅响应被当作无效 YAML 导致导入失败的问题\n- 修复订阅 URL 使用空密码 Basic Auth 时未发送认证信息的问题\n- 修复 Linux 托盘可能与其他 Tauri 程序冲突导致的图标异常\n- 修复前端连接页面导致的内存泄漏\n- 修复 macOS 12（Monterey）首页 IP 卡片兼容性问题\n- 修复首页代理卡片可能错误显示通信异常的问题\n- 修复 Fake-IP 模式开启 IPv6 后未生成 fake-ip-range6 的问题\n- 修复 DNS 覆写的高级模式无法正常编辑\n- 修复部分非标准 WebDAV 服务器在备份目录已存在时的问题\n- 修复 Linux 应用内更新问题\n- 修复 JS 脚本验证因 console 方法调用导致的执行失败问题\n- 修复 macOS 内存压力下 WebView 渲染进程被系统终止引发的白屏与主进程内存泄漏\n- 修复全局热键开关设置可能被意外覆盖的问题\n- 修复编辑节点时 Base64 解码未能正确处理非 ASCII 字符的问题\n- 修复订阅规则编辑器自定义规则偶发显示为空的问题\n- 修复开启“允许局域网连接”后，其他局域网设备仍可能无法连接代理的问题\n- 修复“允许局域网连接”页面可能无法显示网络接口的问题\n- 修复导入包含无效 v2ray-plugin 参数的 ss:// 链接时可能崩溃的问题\n- 修复 macOS 托盘图标可能闪烁的问题\n- 修复 macOS 应用启动及从菜单栏重新打开时，窗口可能无法正确激活的问题\n- 修复 macOS App Translocation 状态下服务安装或启动异常的问题\n- 修复异常窗口尺寸被保存后，应用窗口可能无法正常显示的问题\n- 修复首页上传和下载总流量统计不准确的问题\n- 修复首页当前代理状态偶尔不同步的问题\n- 修复 URLTest 代理组未出现在部分代理组选择列表中的问题\n- 修复切换代理模式失败时未正确显示错误的问题\n- 修复重新加载 Clash 配置后规则页面数据未及时刷新的问题\n- 修复全局快捷键隐藏主窗口行为异常的问题\n- 修复外部控制器 CORS 编辑时输入框可能丢失焦点的问题\n- 修复日志刷新时页面可能被强制滚动到底部的问题\n- 修复全局扩展脚本中的通配符配置可能生成无效 YAML 的问题\n- 修复代理组筛选后定位及滚动位置恢复异常的问题\n- 修复编辑订阅配置时清空 HTTP 请求超时会报错的问题\n- 修复纯 IP 连接的主机地址显示错误，并保留目标 IP 为空时的地址回退\n- 修复 Windows 管理员模式下启动 TUN 时因等待不可用 Service 导致延迟 30 秒的问题\n- 修复内核启动慢导致首页上下跳动的问题\n- 修复 VLESS xhttp 链接解析及 IPv6 地址格式问题\n- 修复通过普通导入或深链导入订阅后，自动更新任务未及时生效的问题\n- 修复链式配置文件首次编辑失败及校验回滚后遗留空文件的问题，并优化文件读取错误提示\n\n\u003cdetails\u003e\n\u003csummary\u003e\u003cstrong\u003e ✨ 新增功能 \u003c/strong\u003e\u003c/summary\u003e\n\n- **Mihomo(Meta) 内核升级至 v1.19.29**\n- 增加 TrustTunnel、OpenVPN、Tailscale、GostRelay 节点显示支持\n- 全局扩展脚本增加恢复默认按钮\n- DNS 添加 fake-ip-range6 可配置项\n- Linux 无边框窗口支持拖拽调整大小\n- 代理组新增筛选、排序、延迟测试和快速定位工具\n- 首页当前节点过滤已隐藏的代理组\n\n\u003c/details\u003e\n\n\u003cdetails\u003e\n\u003csummary\u003e\u003cstrong\u003e 🚀 优化改进 \u003c/strong\u003e\u003c/summary\u003e\n\n- 更健壮的服务生命周期管理\n- 更健壮的 Mihomo API 通信机制\n- 关闭 autofill 弹出窗口\n- 改进切换订阅后激活选中节点的逻辑\n- 实现代理组粘性滚动列表\n- 完善了配置覆写的相关逻辑\n- 支持 Provider 节点延迟检测\n- 优化页面不可见时的 Mihomo WebSocket 订阅，减少后台资源占用\n- 代理组支持分别恢复普通模式和链式代理模式的滚动位置\n- 重构改进订阅配置切换逻辑\n- 优化大量订阅卡片时的拖拽排序性能\n\n\u003c/details\u003e\n\n\u003cdetails\u003e\n\u003csummary\u003e\u003cstrong\u003e 👙 界面样式 \u003c/strong\u003e\u003c/summary\u003e\n\n- 改进 Sticky Groups 的吸顶阴影、间距和展开/折叠样式\n- 优化代理组工具栏和筛选框布局\n\n\u003c/details\u003e\n\n## 下载地址\n\n### Windows (不再支持Win7)\n#### 正常版本(推荐)\n- [64位(常用)](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64-setup.exe) | [ARM64(不常用)](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_arm64-setup.exe)\n\n#### 内置Webview2版(体积较大，仅在企业版系统或无法安装webview2时使用)\n- [64位](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64_fixed_webview2-setup.exe) | [ARM64](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_arm64_fixed_webview2-setup.exe)\n\n### macOS\n- [Apple M芯片](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_aarch64.dmg) | [Intel芯片](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64.dmg)\n\n### Linux\n#### DEB包(Debian系) 使用 apt ./路径 安装\n- [64位](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_amd64.deb) | [ARM64](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_arm64.deb) | [ARMv7](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_armhf.deb)\n\n#### RPM包(Redhat系) 使用 dnf ./路径 安装\n- [64位](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge-2.5.2-1.x86_64.rpm) | [ARM64](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge-2.5.2-1.aarch64.rpm) | [ARMv7](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge-2.5.2-1.armhfp.rpm)\n\n### FAQ\n- [常见问题](https://clash-verge-rev.github.io/faq/windows.html)\n\n### 稳定机场VPN推荐\n- [狗狗加速](https://verge.dginv.click/#/register?code=oaxsAGo6)\n\nCreated at Mon Jul 20 01:00:25 CST 2026.\n",
+    "html_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/v2.5.2",
+    "tarball_url": "https://api.github.com/repos/clash-verge-rev/clash-verge-rev/tarball/v2.5.2",
+    "zipball_url": "https://api.github.com/repos/clash-verge-rev/clash-verge-rev/zipball/v2.5.2",
+    "published_at": "2026-07-19T17:00:26Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:41Z",
+    "assets": [
+      {
+        "id": 4153,
+        "release_id": 137,
+        "name": "Clash.Verge-2.5.2-1.aarch64.rpm",
+        "size": 79390710,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge-2.5.2-1.aarch64.rpm",
+        "content_type": "application/x-rpm",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4154,
+        "release_id": 137,
+        "name": "Clash.Verge-2.5.2-1.armhfp.rpm",
+        "size": 83173132,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge-2.5.2-1.armhfp.rpm",
+        "content_type": "application/x-rpm",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4155,
+        "release_id": 137,
+        "name": "Clash.Verge-2.5.2-1.x86_64.rpm",
+        "size": 83035866,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge-2.5.2-1.x86_64.rpm",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4156,
+        "release_id": 137,
+        "name": "Clash.Verge-2.5.2-1.x86_64.rpm.sig",
+        "size": 420,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge-2.5.2-1.x86_64.rpm.sig",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4157,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_aarch64.app.tar.gz",
+        "size": 62343846,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_aarch64.app.tar.gz",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4158,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_aarch64.app.tar.gz.sig",
+        "size": 412,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_aarch64.app.tar.gz.sig",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4159,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_aarch64.dmg",
+        "size": 60935420,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_aarch64.dmg",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4160,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_amd64.deb",
+        "size": 83045404,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_amd64.deb",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4161,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_amd64.deb.sig",
+        "size": 416,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_amd64.deb.sig",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4162,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_arm64-setup.exe",
+        "size": 41452521,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_arm64-setup.exe",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4163,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_arm64-setup.exe.sig",
+        "size": 424,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_arm64-setup.exe.sig",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4164,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_arm64.deb",
+        "size": 79394696,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_arm64.deb",
+        "content_type": "application/x-debian-package",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4165,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_arm64_fixed_webview2-setup.exe",
+        "size": 220304017,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_arm64_fixed_webview2-setup.exe",
+        "content_type": "application/x-msdownload",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4166,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_arm64_fixed_webview2-setup.exe.sig",
+        "size": 424,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_arm64_fixed_webview2-setup.exe.sig",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4167,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_armhf.deb",
+        "size": 83180370,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_armhf.deb",
+        "content_type": "application/x-debian-package",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4168,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_x64-setup.exe",
+        "size": 46964366,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64-setup.exe",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4169,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_x64-setup.exe.sig",
+        "size": 424,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64-setup.exe.sig",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4170,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_x64.app.tar.gz",
+        "size": 67047408,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64.app.tar.gz",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4171,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_x64.app.tar.gz.sig",
+        "size": 412,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64.app.tar.gz.sig",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4172,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_x64.dmg",
+        "size": 65843472,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64.dmg",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4173,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_x64_fixed_webview2-setup.exe",
+        "size": 237316704,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64_fixed_webview2-setup.exe",
+        "content_type": "application/x-msdownload",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4174,
+        "release_id": 137,
+        "name": "Clash.Verge_2.5.2_x64_fixed_webview2-setup.exe.sig",
+        "size": 424,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64_fixed_webview2-setup.exe.sig",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:09Z"
+      },
+      {
+        "id": 4175,
+        "release_id": 137,
+        "name": "latest.json",
+        "size": 6471,
+        "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/latest.json",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:09Z"
+      }
+    ]
+  },
+  {
+    "id": 409,
+    "repository_id": 9,
+    "tag_name": "v1.15.1",
+    "name": "Dorso v1.15.1",
+    "body": "## What's New\n\n### Bug Fixes\n- **Appearance selection always sticks** - Choosing Auto, Light, or Dark in Settings now applies immediately and stays applied after a relaunch.\n- **No more color flicker** - Toggles keep Dorso's colors when switching appearance instead of briefly flashing your system accent color.\n\n## Installation\n\n1. Download `Dorso-v1.15.1.dmg` or `Dorso-v1.15.1.zip`\n2. Drag `Dorso.app` to Applications\n3. Launch normally - no warnings!\n4. Grant camera permission and complete calibration\n\nAlready on 1.14.0 or later? Dorso will offer this update itself, or use \"Check for Updates\" in the menu bar.\n\n## Requirements\n- macOS 13.0 (Ventura) or later",
+    "html_url": "https://github.com/tldev/dorso/releases/tag/v1.15.1",
+    "tarball_url": "https://api.github.com/repos/tldev/dorso/tarball/v1.15.1",
+    "zipball_url": "https://api.github.com/repos/tldev/dorso/zipball/v1.15.1",
+    "published_at": "2026-07-19T16:46:28Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:02Z",
+    "assets": [
+      {
+        "id": 5055,
+        "release_id": 409,
+        "name": "Dorso-v1.15.1.dmg",
+        "size": 9371965,
+        "download_url": "https://github.com/tldev/dorso/releases/download/v1.15.1/Dorso-v1.15.1.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:30Z"
+      },
+      {
+        "id": 5056,
+        "release_id": 409,
+        "name": "Dorso-v1.15.1.zip",
+        "size": 9446967,
+        "download_url": "https://github.com/tldev/dorso/releases/download/v1.15.1/Dorso-v1.15.1.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:30Z"
+      }
+    ]
+  },
+  {
+    "id": 410,
+    "repository_id": 9,
+    "tag_name": "v1.15.0",
+    "name": "Dorso v1.15.0",
+    "body": "## What's New\n\n### Redesigned Settings\n- **A cleaner, calmer Settings window** - Everything is now organized into clear sections, sliders and buttons follow one consistent style, device status is spelled out instead of cryptic icons, and tooltips appear quickly with easier-to-hit targets. Still just as compact.\n\n### Appearance\n- **Choose your look** - New Auto / Light / Dark option in Settings. Auto follows your system like before, or pin Dorso to the mode you prefer.\n\n\u003cimg src=\"https://github.com/tldev/dorso/releases/download/v1.15.0/dorso-settings.png\" alt=\"The redesigned Settings window\" width=\"480\"\u003e\n\n## Installation\n\n1. Download `Dorso-v1.15.0.dmg` or `Dorso-v1.15.0.zip`\n2. Drag `Dorso.app` to Applications\n3. Launch normally - no warnings!\n4. Grant camera permission and complete calibration\n\nAlready on 1.14.0 or later? Dorso will offer this update itself, or use \"Check for Updates\" in the menu bar.\n\n## Requirements\n- macOS 13.0 (Ventura) or later",
+    "html_url": "https://github.com/tldev/dorso/releases/tag/v1.15.0",
+    "tarball_url": "https://api.github.com/repos/tldev/dorso/tarball/v1.15.0",
+    "zipball_url": "https://api.github.com/repos/tldev/dorso/zipball/v1.15.0",
+    "published_at": "2026-07-19T16:32:07Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:02Z",
+    "assets": [
+      {
+        "id": 5058,
+        "release_id": 410,
+        "name": "Dorso-v1.15.0.dmg",
+        "size": 9371283,
+        "download_url": "https://github.com/tldev/dorso/releases/download/v1.15.0/Dorso-v1.15.0.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:30Z"
+      },
+      {
+        "id": 5059,
+        "release_id": 410,
+        "name": "Dorso-v1.15.0.zip",
+        "size": 9445595,
+        "download_url": "https://github.com/tldev/dorso/releases/download/v1.15.0/Dorso-v1.15.0.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:30Z"
+      },
+      {
+        "id": 5057,
+        "release_id": 410,
+        "name": "dorso-settings.png",
+        "size": 185649,
+        "download_url": "https://github.com/tldev/dorso/releases/download/v1.15.0/dorso-settings.png",
+        "content_type": "image/png",
+        "created_at": "2026-08-30T16:38:30Z"
+      }
+    ]
+  },
+  {
+    "id": 411,
+    "repository_id": 9,
+    "tag_name": "v1.14.2",
+    "name": "Dorso v1.14.2",
+    "body": "## What's New\n\n### Bug Fix\n- **Update alerts now show up front and center** - When a background update check found a new version, the alert could open invisibly behind your other windows and go unnoticed. It now comes right to the front. Manual checks and silent automatic installs are unaffected.\n\n## Installation\n\n1. Download `Dorso-v1.14.2.dmg` or `Dorso-v1.14.2.zip`\n2. Drag `Dorso.app` to Applications\n3. Launch normally - no warnings!\n4. Grant camera permission and complete calibration\n\nAlready on 1.14.0 or later? Dorso will offer this update itself, or use \"Check for Updates\" in the menu bar.\n\n## Requirements\n- macOS 13.0 (Ventura) or later",
+    "html_url": "https://github.com/tldev/dorso/releases/tag/v1.14.2",
+    "tarball_url": "https://api.github.com/repos/tldev/dorso/tarball/v1.14.2",
+    "zipball_url": "https://api.github.com/repos/tldev/dorso/zipball/v1.14.2",
+    "published_at": "2026-07-19T15:47:45Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:02Z",
+    "assets": [
+      {
+        "id": 5060,
+        "release_id": 411,
+        "name": "Dorso-v1.14.2.dmg",
+        "size": 9325100,
+        "download_url": "https://github.com/tldev/dorso/releases/download/v1.14.2/Dorso-v1.14.2.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:30Z"
+      },
+      {
+        "id": 5061,
+        "release_id": 411,
+        "name": "Dorso-v1.14.2.zip",
+        "size": 9390408,
+        "download_url": "https://github.com/tldev/dorso/releases/download/v1.14.2/Dorso-v1.14.2.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:30Z"
+      }
+    ]
+  },
+  {
+    "id": 412,
+    "repository_id": 9,
+    "tag_name": "v1.14.1",
+    "name": "Dorso v1.14.1",
+    "body": "## What's New\n\n### Bug Fix\n- **Blur no longer sticks when switching compatibility mode** - Toggling compatibility mode in Settings while your screen was blurred could leave the blur stuck on permanently. It now clears cleanly and, if you are still slouching, fades back in as expected.\n\n## Installation\n\n1. Download `Dorso-v1.14.1.dmg` or `Dorso-v1.14.1.zip`\n2. Drag `Dorso.app` to Applications\n3. Launch normally - no warnings!\n4. Grant camera permission and complete calibration\n\nAlready on 1.14.0? Dorso will offer this update automatically, or use \"Check for Updates\" in the menu bar.\n\n## Requirements\n- macOS 13.0 (Ventura) or later",
+    "html_url": "https://github.com/tldev/dorso/releases/tag/v1.14.1",
+    "tarball_url": "https://api.github.com/repos/tldev/dorso/tarball/v1.14.1",
+    "zipball_url": "https://api.github.com/repos/tldev/dorso/zipball/v1.14.1",
+    "published_at": "2026-07-19T15:19:17Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:02Z",
+    "assets": [
+      {
+        "id": 5062,
+        "release_id": 412,
+        "name": "Dorso-v1.14.1.dmg",
+        "size": 9324569,
+        "download_url": "https://github.com/tldev/dorso/releases/download/v1.14.1/Dorso-v1.14.1.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:30Z"
+      },
+      {
+        "id": 5063,
+        "release_id": 412,
+        "name": "Dorso-v1.14.1.zip",
+        "size": 9389713,
+        "download_url": "https://github.com/tldev/dorso/releases/download/v1.14.1/Dorso-v1.14.1.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:30Z"
+      }
+    ]
+  },
+  {
+    "id": 413,
+    "repository_id": 9,
+    "tag_name": "v1.14.0",
+    "name": "Dorso v1.14.0",
+    "body": "## What's New\n\n### Auto-Update\n- **Dorso now updates itself** - When a new version is out, Dorso offers to download and install it for you. No more manual downloads. Check anytime with \"Check for Updates\" in the menu bar, and turn background checks on or off in Settings.\n\nThanks to @Shadow1363 for suggesting this! ([#83](https://github.com/tldev/dorso/issues/83))\n\nApp Store installs are unaffected and keep updating through the App Store.\n\n## Installation\n\n1. Download `Dorso-v1.14.0.dmg` or `Dorso-v1.14.0.zip`\n2. Drag `Dorso.app` to Applications\n3. Launch normally - no warnings!\n4. Grant camera permission and complete calibration\n\nThis is the release that enables auto-updates, so it needs one last manual download. Updates after this one arrive on their own.\n\n## Requirements\n- macOS 13.0 (Ventura) or later",
+    "html_url": "https://github.com/tldev/dorso/releases/tag/v1.14.0",
+    "tarball_url": "https://api.github.com/repos/tldev/dorso/tarball/v1.14.0",
+    "zipball_url": "https://api.github.com/repos/tldev/dorso/zipball/v1.14.0",
+    "published_at": "2026-07-19T15:09:17Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:02Z",
+    "assets": [
+      {
+        "id": 5064,
+        "release_id": 413,
+        "name": "Dorso-v1.14.0.dmg",
+        "size": 9324887,
+        "download_url": "https://github.com/tldev/dorso/releases/download/v1.14.0/Dorso-v1.14.0.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:30Z"
+      },
+      {
+        "id": 5065,
+        "release_id": 413,
+        "name": "Dorso-v1.14.0.zip",
+        "size": 9390030,
+        "download_url": "https://github.com/tldev/dorso/releases/download/v1.14.0/Dorso-v1.14.0.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:30Z"
+      }
+    ]
+  }
+]

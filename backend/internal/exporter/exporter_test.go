@@ -4,6 +4,7 @@ import (
 	"context"
 	"os"
 	"path/filepath"
+	"strconv"
 	"testing"
 
 	"getreleased/internal/database"
@@ -22,7 +23,9 @@ func TestExportWritesAllJSON(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	if _, err := db.SaveRepository(context.Background(), &release.Repository{Owner: "o", Name: "n", FullName: "o/n"}); err != nil {
+	repo := &release.Repository{Owner: "o", Name: "n", FullName: "o/n"}
+	repoID, err := db.SaveRepository(context.Background(), repo)
+	if err != nil {
 		t.Fatal(err)
 	}
 
@@ -31,7 +34,7 @@ func TestExportWritesAllJSON(t *testing.T) {
 		t.Fatalf("export: %v", err)
 	}
 
-	for _, name := range []string{"repositories.json", "releases.json"} {
+	for _, name := range []string{"repositories.json", "releases-recent.json"} {
 		info, err := os.Stat(filepath.Join(exportDir, name))
 		if err != nil {
 			t.Errorf("expected %s: %v", name, err)
@@ -40,5 +43,14 @@ func TestExportWritesAllJSON(t *testing.T) {
 		if info.Size() == 0 {
 			t.Errorf("%s is empty", name)
 		}
+	}
+
+	shard := filepath.Join(exportDir, "releases", strconv.FormatInt(repoID, 10)+".json")
+	info, err := os.Stat(shard)
+	if err != nil {
+		t.Fatalf("expected release shard %s: %v", shard, err)
+	}
+	if info.Size() == 0 {
+		t.Errorf("%s is empty", shard)
 	}
 }

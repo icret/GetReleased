@@ -1,0 +1,731 @@
+[
+  {
+    "id": 225,
+    "repository_id": 3,
+    "tag_name": "v0.21.1",
+    "name": "v0.21.1",
+    "body": "fix some bugs",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.21.1",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.21.1",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.21.1",
+    "published_at": "2020-12-11T09:37:21Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4835,
+        "release_id": 225,
+        "name": "uPic.zip",
+        "size": 18758055,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.21.1/uPic.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "repository_id": 3,
+    "tag_name": "v0.21.0",
+    "name": "v0.21.0",
+    "body": "- 修复 uPic 扩展图标在改变系统主题时不会自动变换。\r\n- 适配 macOS11 big sur\r\n- 适配 MacBook apple silicon 机型\r\n\r\n--------------\r\n\r\n- Fixed uPic extension icon not changing themes in real-time when switching system themes\r\n- Adapted macOS11 big sur\r\n- Adapted for MacBook apple silicon models",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.21.0",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.21.0",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.21.0",
+    "published_at": "2020-11-14T02:56:40Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4836,
+        "release_id": 226,
+        "name": "uPic.zip",
+        "size": 18758215,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.21.0/uPic.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "repository_id": 3,
+    "tag_name": "v0.20.1",
+    "name": "v0.20.1",
+    "body": "Fixed bugs",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.20.1",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.20.1",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.20.1",
+    "published_at": "2020-10-02T13:34:42Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4837,
+        "release_id": 227,
+        "name": "uPic.zip",
+        "size": 13762231,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.20.1/uPic.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "repository_id": 3,
+    "tag_name": "v0.20.0",
+    "name": "v0.20.0",
+    "body": "## 优化\r\n- 重构 Amazon S3 图床，使其支持第三方 S3 协议服务。\r\n- 移除单独 MinIO 图床，可采用 S3 自定义实现。\r\n- 自定义图床优化 Content-Type。\r\n\r\n-------------\r\n\r\n## Optimization\r\n- Restructure Amazon S3 graphs to support third-party S3 protocol services.\r\n- Removed individual MinIO graphs for S3 custom implementations.\r\n- Custom graph bed optimization Content-Type.",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.20.0",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.20.0",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.20.0",
+    "published_at": "2020-08-14T04:55:24Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4838,
+        "release_id": 228,
+        "name": "uPic.zip",
+        "size": 13934419,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.20.0/uPic.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "repository_id": 3,
+    "tag_name": "v0.19.6",
+    "name": "v0.19.6",
+    "body": "## 新增\r\n\r\n- 新增是否转义URL开关\r\n\r\n--------------------\r\n\r\n## Added\r\n- Add URL escape switch",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.19.6",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.19.6",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.19.6",
+    "published_at": "2020-07-28T06:54:40Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4839,
+        "release_id": 229,
+        "name": "uPic.zip",
+        "size": 11020061,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.19.6/uPic.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "repository_id": 3,
+    "tag_name": "v0.19.5",
+    "name": "v0.19.5",
+    "body": "优化代码\r\n优化翻译\r\n\r\n--------\r\n\r\nOptimized code\r\nOptimized translation",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.19.5",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.19.5",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.19.5",
+    "published_at": "2020-07-23T07:36:15Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4840,
+        "release_id": 230,
+        "name": "uPic.zip",
+        "size": 11034840,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.19.5/uPic.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "repository_id": 3,
+    "tag_name": "v0.19.4",
+    "name": "v0.19.4",
+    "body": "修复了一些问题。\r\n\r\n--------\r\n\r\nFixed some bugs.",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.19.4",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.19.4",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.19.4",
+    "published_at": "2020-07-08T01:13:37Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4841,
+        "release_id": 231,
+        "name": "uPic.zip",
+        "size": 11034836,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.19.4/uPic.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "repository_id": 3,
+    "tag_name": "v0.19.3",
+    "name": "v0.19.3",
+    "body": "自我的开发者账号被苹果删除后，经过半个多月的申诉、等待。现在苹果已经恢复我的账号。\r\n\r\n所以这个版本主要是签发新的证书打包了一下 APP，以解决大家打不开 APP 的问题。感谢大家的支持，给大家的使用带来了不便也很抱歉！\r\n\r\n其他更新：\r\n- 更新： 更新微博域名\r\n\r\n-------------------------------------\r\n\r\nAfter more than half a month of appeals and waiting after my developer account was deleted by Apple. Now Apple has restored my account.\r\n\r\nSo this version is mainly a new certificate issued to package the app to solve the problem of people not being able to open the app. Thanks for your support, and sorry for the inconvenience!\r\n\r\nOther updates.\r\n- Update: Update Weibo domain name",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.19.3",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.19.3",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.19.3",
+    "published_at": "2020-06-12T08:00:42Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4842,
+        "release_id": 232,
+        "name": "uPic.zip",
+        "size": 11261219,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.19.3/uPic.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "repository_id": 3,
+    "tag_name": "v0.19.2_fix",
+    "name": "Fuck the apple certificate",
+    "body": "首先我想对各位使用 uPic 的用户说声抱歉，目前因为个人开发者账号的问题导致 uPic APP 无法正常使用了。具体原因：https://github.com/gee1k/uPic/issues/110\r\n\r\n现在我暂时重新创建了一个新的 Apple ID（未开通开发者授权），使用其免费的个人调试证书重新打包了一个版本。希望能暂时给你们解决 app 无法打开的问题。之后我还会想办法！\r\n\u003e ps: 我也不能完全保证这个版本所有人打开都不会有不安全提示！\r\n\r\n最后我再申明一下：\r\n对于这次 app 打不开，macOS 提示 app 存在危险的消息。这只是 Apple 对所有没有证书的 app 的一种验证提示，并不代表 app 真的不安全。我向大家保证 uPic 从来没有收集过用户的任何个人信息，没有任何病毒。大家请放心！\r\n\r\n-----\r\n\r\nFirst of all, I'd like to apologize to anyone using uPic, there is currently a problem with your personal developer account which is causing the following problems The uPic app is not working properly. Specific reason: https://github.com/gee1k/uPic/issues/110\r\n\r\nNow I've temporarily recreated a new Apple ID (without a developer license) to use it's free personal Debugging the certificate repackaged a version. Hopefully, this will temporarily solve the problem of the app not opening for you. I'll figure it out after that!\r\n\u003e ps: I also can't fully guarantee that this version will not be unsafe for everyone to open!\r\n\r\nLet me conclude by stating.\r\nFor this time the app won't open and macOS is alerting you that the app is in danger. This is just a validation tip from Apple for all apps that don't have a certificate, and it doesn't mean the app isn't working. Safety. I can assure you that uPic has never collected any personal information from users and is virus-free. Rest assured!\r\n",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.19.2_fix",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.19.2_fix",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.19.2_fix",
+    "published_at": "2020-06-07T11:15:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4843,
+        "release_id": 233,
+        "name": "uPic.zip",
+        "size": 10942577,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.19.2_fix/uPic.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "repository_id": 3,
+    "tag_name": "v0.19.2",
+    "name": "v0.19.2",
+    "body": "🥺I have purchased an Apple Developer account and hope to solve the certificate verification issue perfectly.\r\n\r\nOther updates:\r\n- fix typo\r\n\r\n--------\r\n\r\n🥺已购买苹果开发者账号，希望能完美解决证书验证问题。\r\n\r\n其他更新\r\n- 修复错字\r\n",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.19.2",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.19.2",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.19.2",
+    "published_at": "2020-05-05T02:38:45Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4844,
+        "release_id": 234,
+        "name": "uPic.dmg",
+        "size": 10768237,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.19.2/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      },
+      {
+        "id": 4845,
+        "release_id": 234,
+        "name": "uPic.zip",
+        "size": 11006085,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.19.2/uPic.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "repository_id": 3,
+    "tag_name": "v0.19.1",
+    "name": "v0.19.1",
+    "body": "🥺Dear users, sorry!\r\n    The App cannot be opened due to the invalidation of the App certificate due to misuse. Now fixed, trouble manually updating it to the latest version.[v0.19.1](https://github.com/gee1k/uPic/releases/tag/v0.19.0)\r\n\r\n------\r\n\r\n🥺各位用户，抱歉！\r\n由于误操作导致 App 证书失效，App 无法打开。现已修复，麻烦手动更新到最新版。 [v0.19.1](https://github.com/gee1k/uPic/releases/tag/v0.19.0)",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.19.1",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.19.1",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.19.1",
+    "published_at": "2020-04-28T10:47:59Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4846,
+        "release_id": 235,
+        "name": "uPic.dmg",
+        "size": 10753948,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.19.1/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "repository_id": 3,
+    "tag_name": "v0.19.0",
+    "name": "v0.19.0",
+    "body": "- Added: MinIo support.\r\n- Fix: History was not saved successfully when uploading by command line.\r\n- Update: PayPal link.\r\n\r\n-------------\r\n\r\n- 新增：支持 MinIo。\r\n- 修复：命令行方式上传时历史记录没有成功保存。\r\n- 更新：PayPal 链接。",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.19.0",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.19.0",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.19.0",
+    "published_at": "2020-04-26T03:09:05Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4847,
+        "release_id": 236,
+        "name": "uPic.dmg",
+        "size": 10663501,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.19.0/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "repository_id": 3,
+    "tag_name": "v0.18.2",
+    "name": "v0.18.2",
+    "body": "- Fixed: Custom host failed to upload in some cases.\r\n    - Support Chevereto!，[tutorial addresses](https://blog.svend.cc/upic/tutorials/chevereto/en/)\r\n- Fixed: Custom host can cause problems when the URL returned does not have a complete schema. fixes 90\r\n\r\n----------\r\n\r\n- 修复：自定义图床在某些情况下会上传失败。\r\n    - - 支持 Chevereto 啦，[教程地址](https://blog.svend.cc/upic/tutorials/chevereto/)\r\n- 修复：自定义图床在返回的 URL 没有完整 schema 时会出现问题。fixes 90",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.18.2",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.18.2",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.18.2",
+    "published_at": "2020-04-03T01:46:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4848,
+        "release_id": 237,
+        "name": "uPic.dmg",
+        "size": 10625803,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.18.2/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "repository_id": 3,
+    "tag_name": "v0.18.1",
+    "name": "v0.18.1",
+    "body": "- Fixed: in some cases uploading online images will miss the file suffix.\r\n- Fixed: uPic voice permissions could not be controlled in system notification Settings.\r\n\r\n------------\r\n\r\n- 修复: 在某些情况下上传在线图片会缺失文件后缀名。\r\n- 修复: 在系统通知设置中无法控制 uPic 的声音权限。",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.18.1",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.18.1",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.18.1",
+    "published_at": "2020-03-28T08:26:32Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4849,
+        "release_id": 238,
+        "name": "uPic.dmg",
+        "size": 10626131,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.18.1/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "repository_id": 3,
+    "tag_name": "v0.18.0",
+    "name": "v0.18.0",
+    "body": "- 新增：上传文件夹（选择文件夹、拖拽文件夹、文件夹右键菜单），自动按照文件夹结构上传到服务器。fixes #81 \r\n- 新增：自定义图床URL支持变量。\r\n- 新增：自定义图床支持 Base64 格式上传。fixes #80 \r\n- 新增：变量 {mimetype}。fixes #80 \r\n- 新增: 访达扩展图标选项。thx @L1cardo \r\n\r\n----------\r\n\r\n- Added: Upload folder (select folder, drag folder, folder context menu), automatically according to the folder structure upload to the server. fixes #81 \r\n- Added: Custom host URL support variables.\r\n- Added: Custom host support Base64 format uploader. fixes #80 \r\n- Added: Variable {mimetype}. fixes #80 \r\n- Added: Finder extension icon option. thx @L1cardo ",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.18.0",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.18.0",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.18.0",
+    "published_at": "2020-03-09T10:23:34Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4850,
+        "release_id": 239,
+        "name": "uPic.dmg",
+        "size": 10792690,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.18.0/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "repository_id": 3,
+    "tag_name": "v0.17.0",
+    "name": "v0.17.0",
+    "body": "- Added: Support [Lsky Pro](https://www.lsky.pro/) host. fixes #77\r\n- Added: Added variable {suffix} to get file extension without`.`.\r\n- Added: Style handling suffix supports variable syntax.\r\n\r\n-------------\r\n\r\n- 支持 [Lsky Pro](https://www.lsky.pro/) 图床。fixes #77\r\n- 新增变量 {suffix} 以获取不带 `.` 的文件扩展名。\r\n- 样式处理后缀支持变量语法。",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.17.0",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.17.0",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.17.0",
+    "published_at": "2020-03-01T09:45:47Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4851,
+        "release_id": 240,
+        "name": "uPic.dmg",
+        "size": 10678188,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.17.0/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "repository_id": 3,
+    "tag_name": "v0.16.5",
+    "name": "v0.16.5",
+    "body": "- 新增: 添加偏好设置快捷键。感谢 @tinyRatP \r\n- 修复: 图床配置时，重置后配置面板内容未更新。\r\n- 改进: 优化输出路径。\r\n- 改进: 优化从浏览器拖拽上传。\r\n- 改进: Imgur ClientID 输入框改为安全输入框。\r\n\r\n-----\r\n\r\n- Added: Add preference shortcuts. Thanks @tinyRatP \r\n- Fixed: After resetting the configuration of the host, the content of the interface is not updated.\r\n- Improved: Optimize the output URL format.\r\n- Improved: Optimize browser drag and drop upload.\r\n- Improved: Modify the Client ID input box on the Imgur image bed to be a secure input box.",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.16.5",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.16.5",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.16.5",
+    "published_at": "2020-01-19T02:49:22Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4852,
+        "release_id": 241,
+        "name": "uPic.dmg",
+        "size": 10643533,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.16.5/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "repository_id": 3,
+    "tag_name": "v0.16.4",
+    "name": "v0.16.4",
+    "body": "注意⚠️：如果更新后打开 APP 无反应（状态栏没有），可先在`活动监视器`中查看是否存在进程，并结束进程重新开启。\r\n- 修复: 某些情况下打开 APP 没有主界面。只存在进程。\r\n- 改进: 当保存路径中的日期、时间不足2位数时自动补0。\r\n\r\n-------\r\n\r\nNote ⚠️: If there is no response when opening the APP after the update (the status bar is not), you can first check whether there is a process in the Activity Monitor and end the process and restart it.\r\n- Fixed: In some cases, the app opens without the main interface, only the process exists.\r\n- Improved: Auto-complete with the date and timeless than two digits in the save path.",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.16.4",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.16.4",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.16.4",
+    "published_at": "2020-01-08T16:43:53Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4853,
+        "release_id": 242,
+        "name": "uPic.dmg",
+        "size": 10633707,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.16.4/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "repository_id": 3,
+    "tag_name": "v0.16.1",
+    "name": "v0.16.1",
+    "body": "- 修复: 只能添加一个 SM.MS 图床\r\n- 修复: SM.MS V1 API 停止使用，全面升级到 V2\r\n- 改进: SM.MS 图床配置界面 Token 采用安全输出框\r\n- 改进: Imgur 图床配置界面新增一键获取 Client ID 按钮\r\n\r\n-----\r\n\r\n- Fixed: Only one SM.MS host can be added\r\n- Fixed: SMMS abandons V1 API and uses V2 API for uploading uniformly\r\n- Improved: SM.MS Token uses secure input box\r\n- Improved: Add a button to get client ID in Imgur",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.16.1",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.16.1",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.16.1",
+    "published_at": "2020-01-04T13:21:31Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4854,
+        "release_id": 243,
+        "name": "uPic.dmg",
+        "size": 10637536,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.16.1/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "repository_id": 3,
+    "tag_name": "v0.16.0",
+    "name": "v0.16.0",
+    "body": "- 新增：支持命令行上传。\r\n- 新增：支持 SM.MS V2 版本。\r\n- 新增：微博图床可配置访问域名（还存在少数域名没有防盗链）。 fixes #67 \r\n - 改进：优化从浏览器拖拽上传。支持更多格式文件直接拖拽（包括 GIF）。\r\n- 改进：使用 SM.MS 图床上传图片，当图片已存在时会提示成功并返回已存在的图片链接。\r\n- 改进：更新图床图标。\r\n\r\n-----\r\n\r\n- Added: Provide a command line to upload.\r\n- Added: Support for SM.MS Version 2.\r\n- Added: Weibo host supports the custom configuration domain. fixes #67 \r\n- Improved: Optimize browser drag and drop upload.  More formats supported (including GIF).\r\n- Improved: When uploading duplicate pictures on the SM.MS hosts, it will automatically return to the existing picture link.\r\n- Improved: Update host icons",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.16.0",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.16.0",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.16.0",
+    "published_at": "2020-01-02T02:54:47Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4855,
+        "release_id": 244,
+        "name": "uPic.dmg",
+        "size": 10598046,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.16.0/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "repository_id": 3,
+    "tag_name": "v0.15.3",
+    "name": "v0.15.3",
+    "body": "- 修复: 自定义图床上传时崩溃。\r\n- 改进: 菜单栏中的上传菜单项显示其全局快捷键。\r\n- 改进: 优化上传历史记录储存方式和缩略图大小。\r\n- 优化: 删除保存路径改版的 workaround 代码。\r\n- 改进: 其他的一些小问题优化。\r\n\r\n--------\r\n\r\n- Fixed: Custom host crashes on upload.\r\n- Improved: The upload menu item in the menu bar shows its global shortcuts.\r\n- Improved: Optimize upload history storage and thumbnail size.\r\n- Improved: Removed workaround code for save path revision.\r\n- Improved: Optimization of other minor issues.",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.15.3",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.15.3",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.15.3",
+    "published_at": "2019-12-25T06:18:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4856,
+        "release_id": 245,
+        "name": "uPic.dmg",
+        "size": 10434766,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.15.3/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "repository_id": 3,
+    "tag_name": "v0.15.2",
+    "name": "v0.15.2",
+    "body": "- 更新：阿里云、腾讯云区域信息。 fixes #60 \r\n- 改进：阿里云、腾讯云区域管理的代码逻辑。\r\n- 改进：Finder 中右键上传方式修改为 URL Scheme 方式。支持在 uPic 未开启状态下，自动开启 APP 并上传。 fixes #59 \r\n- 修改：图床配置中验证按钮的文字\r\n\r\n\u003e ⚠️ 更新完请重启一下 Finder (`按住 option 右键 Dock 栏选择重新启动`)，以让 Finder 右键上传功能被重新加载。\r\n\r\n-----\r\n\r\n- Update: Aliyun and Tencent Cloud region. fixes #60 \r\n- Improved: Alibaba Cloud and Tencent Cloud area management code logic.\r\n- Improved: Finder context menu upload is invoked by URL Scheme. When uPic is not started, it can automatically apply and upload.  fixes #59 \r\n- Fixed: host verification label.\r\n\r\n\u003e ⚠️ After the update, please restart the Finder (`hold the option right-click Dock bar and select restart`), so that the Finder right-click upload function is reloaded.",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.15.2",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.15.2",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.15.2",
+    "published_at": "2019-12-21T06:33:17Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4857,
+        "release_id": 246,
+        "name": "uPic.dmg",
+        "size": 9265147,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.15.2/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "repository_id": 3,
+    "tag_name": "v0.15.1",
+    "name": "v0.15.1",
+    "body": "# ✨ New\r\n- 自定义图床配置中的 Header、Body 值均支持变量语法。\r\n- 添加图床配置一键测试上传功能\r\n\r\n-------\r\n# ✨ New\r\n- Add support for variables for custom host Header and Body property values\r\n- Add test host configuration upload button",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.15.1",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.15.1",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.15.1",
+    "published_at": "2019-12-12T09:28:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4858,
+        "release_id": 247,
+        "name": "uPic.dmg",
+        "size": 9267640,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.15.1/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "repository_id": 3,
+    "tag_name": "v0.15.0",
+    "name": "v0.15.0",
+    "body": "# ✨ New\r\n- 正式支持 PNG 压缩。\r\n- Github 图床配置添加默认 CDN 选项。（默认使用 jsdelivr）\r\n\r\n# 🎨 Improved\r\n- 优化改进图床配置界面及代码逻辑。\r\n- 优化程序自启动实现方案，采用 LoginItem 方法实现。在系统设置中可见。 (感谢 [L1cardo](https://github.com/L1cardo))\r\n- 安装包体积更小了\r\n\r\n-------\r\n# ✨ New\r\n- Add PNG compression support.\r\n- Github host adds default CDN options. (jsdelivr is used by default)\r\n\r\n# 🎨 Improved\r\n- Improved host configuration interface and code.\r\n- Improve the implementation method of self-starting by using LoginItem. Visible in system settings. (Thanks to [L1cardo](https://github.com/L1cardo))\r\n- The installer is smaller",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.15.0",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.15.0",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.15.0",
+    "published_at": "2019-12-06T17:04:34Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4859,
+        "release_id": 248,
+        "name": "uPic.dmg",
+        "size": 9270327,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.15.0/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "repository_id": 3,
+    "tag_name": "v0.14.2",
+    "name": "v0.14.2",
+    "body": "# New\r\n- 新增上传历史配置功能。(感谢 [L1cardo](https://github.com/L1cardo))\r\n\r\n# Improved\r\n- 过长文件名可滚动展示。(感谢 [nlnlnull](https://github.com/nlnlnull))\r\n- 解决历史记录计时器重复调用的 Bug。(感谢 [nlnlnull](https://github.com/nlnlnull))\r\n- 优化滑动时的展示\u0026消失逻辑。(感谢 [nlnlnull](https://github.com/nlnlnull))\r\n\r\n------------\r\n\r\n# New\r\n- Add history record configuration. (Thanks to [L1cardo](https://github.com/L1cardo))\r\n\r\n# Improved\r\n- Overly long file names can be scrolled. (Thanks to [nlnlnull](https://github.com/nlnlnull))\r\n- Addresses a bug where history timers are repeatedly called. (Thanks to [nlnlnull](https://github.com/nlnlnull))\r\n- Optimize the display \u0026 disappear logic when sliding. (Thanks to  [nlnlnull](https://github.com/nlnlnull))",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.14.2",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.14.2",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.14.2",
+    "published_at": "2019-12-02T05:20:05Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4860,
+        "release_id": 249,
+        "name": "uPic.dmg",
+        "size": 12417688,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.14.2/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "repository_id": 3,
+    "tag_name": "v0.14.1",
+    "name": "v0.14.1 Release",
+    "body": "## 🐛 Bugs\r\n- 修复上传完成后返回的 URL 为空时会导致上传历史功能崩溃的问题\r\n- 修复历史记录计时器重复调用的问题\r\n\r\n## 🎨 Optimize\r\n- 优化滑动时的展示\u0026消失逻辑\r\n- 文件名过长可滚动展示\r\n\r\n--------\r\n## 🐛 Bugs\r\n- Fixed upload history crash when the file URL is empty after a successful upload.\r\n- Fixed the bug that the history timer is called repeatedly.\r\n\r\n## 🎨 Optimize\r\n- Optimize the display \u0026 disappear logic when sliding.\r\n- The filename is too long to scroll.\r\n",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.14.1",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.14.1",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.14.1",
+    "published_at": "2019-11-26T08:26:08Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4861,
+        "release_id": 250,
+        "name": "uPic.dmg",
+        "size": 12373905,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.14.1/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "repository_id": 3,
+    "tag_name": "v0.14.0",
+    "name": "v0.14.0 Release",
+    "body": "## ✨ Features\r\n\r\n- 上传历史功能全新改版。感谢[@nlnnull](https://github.com/nlnlnull)、[@L1cardo](https://github.com/L1cardo)\r\n  \u003e 由于此功能改动较大，之前的上传历史将无法保留。请悉知\r\n\r\n--------\r\n\r\n## ✨ Features\r\n\r\n- A new revision of the upload history feature. thank[@nlnnull](https://github.com/nlnlnull)、[@L1cardo](https://github.com/L1cardo)\r\n  \u003e Due to the large changes in this feature, the previous upload history will not be retained.",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.14.0",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.14.0",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.14.0",
+    "published_at": "2019-11-24T04:36:04Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4862,
+        "release_id": 251,
+        "name": "uPic.dmg",
+        "size": 12371116,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.14.0/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "repository_id": 3,
+    "tag_name": "v0.13.0",
+    "name": "V0.13.0 Release",
+    "body": "## ✨ New Feature\r\n\r\n- 支持百度云 BOS\r\n\r\n## 🐛 Bugs\r\n\r\n- 修复 smms 图床在某些情况下压缩上传会失败的问题\r\n- 修复域名、文件夹配置时多配置了`/`时会无法访问的问题\r\n\r\n--------\r\n\r\n## ✨ New Feature\r\n\r\n- Support Baidu Cloud BOS\r\n\r\n## 🐛 Bugs\r\n\r\n- Fixed an issue where the smms graph bed would fail to upload in some cases.\r\n- Fixed an issue where domain and folder configuration could be accessed when `/` was configured.",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.13.0",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.13.0",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.13.0",
+    "published_at": "2019-11-19T09:17:29Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4863,
+        "release_id": 252,
+        "name": "uPic.dmg",
+        "size": 11613600,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.13.0/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "repository_id": 3,
+    "tag_name": "v0.12.4",
+    "name": "V0.12.4 Release",
+    "body": "## 🐛 Bugs\r\n- 修复weibo上传报错 403 的问题\r\n- 修复切换系统主题后 Finder 中的图标不能及时调整颜色\r\n\r\n## 🎨 Optimize\r\n- 调整配置界面帮助按钮的位置\r\n- 调整通知权限请求时机\r\n- 优化上传历史图片预览效果\r\n\r\n--------\r\n## 🐛 Bugs\r\n- Fix the problem of weibo upload error 403\r\n- Fix After switching the system theme, the icons in the Finder cannot adjust the color in time.\r\n\r\n## 🎨 Optimize\r\n- Adjust the position of the configuration interface help button\r\n- Adjust notification permission request timing\r\n- Optimize upload history image preview\r\n",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.12.4",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.12.4",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.12.4",
+    "published_at": "2019-10-31T08:19:45Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4864,
+        "release_id": 253,
+        "name": "uPic.dmg",
+        "size": 11593351,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.12.4/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "repository_id": 3,
+    "tag_name": "v0.12.3",
+    "name": "v0.12.3 Release",
+    "body": "## 🎨 Optimize\r\n- 优化本地化（多语言）[@L1cardo](https://github.com/L1cardo)\r\n\r\n## 🐛 Bugs\r\n- 修复配置界面帮助按钮被裁剪的bug\r\n- 修复上传历史中URL包含中文以及特殊字符的无法预览的问题\r\n\r\n--------\r\n## 🎨 Optimize\r\n- Optimized localization (multiple languages) [@L1cardo](https://github.com/L1cardo)\r\n\r\n## 🐛 Bugs\r\n- Fixed a bug where the configuration interface help button was cropped\r\n- Fixed an issue where the URL in the upload history contained Chinese and special characters could not be previewed",
+    "html_url": "https://github.com/gee1k/uPic/releases/tag/v0.12.3",
+    "tarball_url": "https://api.github.com/repos/gee1k/uPic/tarball/v0.12.3",
+    "zipball_url": "https://api.github.com/repos/gee1k/uPic/zipball/v0.12.3",
+    "published_at": "2019-10-20T07:36:19Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:46Z",
+    "assets": [
+      {
+        "id": 4865,
+        "release_id": 254,
+        "name": "uPic.dmg",
+        "size": 11594124,
+        "download_url": "https://github.com/gee1k/uPic/releases/download/v0.12.3/uPic.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:13Z"
+      }
+    ]
+  }
+]

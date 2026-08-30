@@ -1,0 +1,629 @@
+[
+  {
+    "id": 356,
+    "repository_id": 12,
+    "tag_name": "v1.5.0",
+    "name": "v1.5.0",
+    "body": "## Final Release (v1.5.0)\r\n\r\n** this project wil be archived soon **\r\n\r\nwhen i started this project 9 months ago, it was really just a side project to help indie devs make better demos and share what they were building. i never expected it to get anywhere close to where it is today. somehow it ended up at 120k+ downloads and almost 40k stars, which is still kind of crazy to me.\r\n\r\ni've genuinely enjoyed building it, but i also feel like i've achieved everything i originally set out to do with the project. i guess that's also part of why i'm comfortable ending it.\r\n\r\nthere are already plenty of successors and forks carrying the torch in their own way and I highly encourage you to check [them](https://github.com/webadderallorg/Recordly) out. \r\n\r\nthanks to **everyone** who contributed 🙏 , used the app and helped maintain the project, making it truly community first.\r\n\r\neven though i'm stepping away, i'd still love to see what people continue building with OpenScreen. if you're using it for your demos, products, walkthroughs, feel free to tag me on X and share what you've made. seeing how people used OpenScreen was always one of the most rewarding parts of working on it.\r\n\r\n### Changes\r\n\r\n- Native Capture in MacOS \u0026 Windows (sorry Linux folks 😢)\r\n- Much improved camera animation (Auto-focus cursor tracking) - [check video here](https://drive.google.com/file/d/1_fJvf_V9W226ivo4BeQQGTe1-932AMRf/view?usp=sharing); manual is still an option \r\n- Custom Cursors (size, type, effects, post recording path smoothening)\r\n- Auto Captioning for voiceovers.\r\n- New and improved UI.\r\n- Improved stability for longer recordings. \r\n- Disable webcam post processing. \r\n- Timeline Snapping guides.\r\n- Annotation text animations.\r\n- Language support: English, Arabic, Spanish, French, Italian, Japanese, Korean, Russian, Turkish, Vietnamese, Portuguese (Brazil), Chinese (Simplified), Chinese (Traditional)\r\n- Audio waveform for easier hinting.\r\n- deprecated Blurs. \r\n- Vertical HUD layout (toggle)",
+    "html_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/v1.5.0",
+    "tarball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/tarball/v1.5.0",
+    "zipball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/zipball/v1.5.0",
+    "published_at": "2026-06-06T19:30:20Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:58Z",
+    "assets": [
+      {
+        "id": 4958,
+        "release_id": 356,
+        "name": "Openscreen-Linux-1.5.0.AppImage",
+        "size": 335602723,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.5.0/Openscreen-Linux-1.5.0.AppImage",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4959,
+        "release_id": 356,
+        "name": "Openscreen-Linux-1.5.0.deb",
+        "size": 266520348,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.5.0/Openscreen-Linux-1.5.0.deb",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4960,
+        "release_id": 356,
+        "name": "Openscreen-Linux-1.5.0.pacman",
+        "size": 233328384,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.5.0/Openscreen-Linux-1.5.0.pacman",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4961,
+        "release_id": 356,
+        "name": "Openscreen-Mac-arm64-.dmg",
+        "size": 301886441,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.5.0/Openscreen-Mac-arm64-.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4962,
+        "release_id": 356,
+        "name": "Openscreen-Mac-x64-.dmg",
+        "size": 307499951,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.5.0/Openscreen-Mac-x64-.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4963,
+        "release_id": 356,
+        "name": "Openscreen.Setup.1.5.0.exe",
+        "size": 283960904,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.5.0/Openscreen.Setup.1.5.0.exe",
+        "content_type": "application/x-msdownload",
+        "created_at": "2026-08-30T16:38:25Z"
+      }
+    ]
+  },
+  {
+    "id": 357,
+    "repository_id": 12,
+    "tag_name": "v1.4.0",
+    "name": "v1.4.0",
+    "body": "fixed stuff, potentially broke stuff, shipped new stuff\r\n\r\n## What's Changed\r\n- Finally a notarized app thanks to @samirpatil2000 🐐 - please check out his other work\r\n- fixed Linux pixel export errors.\r\n- webcam shape masks.\r\n- new 3d iso, left, right tilt animation presets (experimental)\r\n- mouse highlighter with position slider (on all OS) and emphasizer for mouse clicks (only on macOS)\r\n- Blur parts of the video\r\n- extend speed options and custom speed inputs\r\n- webcam selection\r\n- new dual frame preset\r\n- UX improvements\r\n- Move playhead using arrow keys\r\n- improved adaptive smoothing for auto follow zoom\r\n- user preferences persistence\r\n- duplicate annotations easily\r\n- webcam size presets\r\n- pause/resume recording with countdown before start.\r\n- security fixes\r\n- Nix flake, Arch Linux support and Hyprland bug fixes\r\n- new languages support - Polish, Turkish, Korean, Arabic, Japanese, zh-TW",
+    "html_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/v1.4.0",
+    "tarball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/tarball/v1.4.0",
+    "zipball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/zipball/v1.4.0",
+    "published_at": "2026-05-06T05:28:38Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:58Z",
+    "assets": [
+      {
+        "id": 4964,
+        "release_id": 357,
+        "name": "Openscreen-Linux-latest.AppImage",
+        "size": 236819629,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.4.0/Openscreen-Linux-latest.AppImage",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4965,
+        "release_id": 357,
+        "name": "Openscreen-Linux-latest.deb",
+        "size": 189175876,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.4.0/Openscreen-Linux-latest.deb",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4966,
+        "release_id": 357,
+        "name": "Openscreen-Linux-latest.pacman",
+        "size": 165420408,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.4.0/Openscreen-Linux-latest.pacman",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4968,
+        "release_id": 357,
+        "name": "Openscreen-Mac-x64-Installer.dmg",
+        "size": 214962982,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.4.0/Openscreen-Mac-x64-Installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4967,
+        "release_id": 357,
+        "name": "Openscreen-mac-installer.dmg",
+        "size": 209137925,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.4.0/Openscreen-mac-installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4969,
+        "release_id": 357,
+        "name": "Openscreen.Setup.latest.exe",
+        "size": 196604749,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.4.0/Openscreen.Setup.latest.exe",
+        "content_type": "application/x-msdownload",
+        "created_at": "2026-08-30T16:38:25Z"
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "repository_id": 12,
+    "tag_name": "v1.3.0",
+    "name": "v1.3.0",
+    "body": "some fixes, more bugs, more features\r\n\r\nChangelog\r\n\r\n- undo-redo changes\r\n- localization - chinese, english and spanish\r\n- fix path resolution issues on Windows\r\n- fix audio desync and speed issue\r\n- restart recording\r\n- improved transitions and motion blur\r\n- e2e testing ci check\r\n- webcam support in vertical and pip mode.\r\n- support for transparent backgrounds  (choose native aspect ratio and 0 padding)",
+    "html_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/v1.3.0",
+    "tarball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/tarball/v1.3.0",
+    "zipball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/zipball/v1.3.0",
+    "published_at": "2026-04-02T05:19:00Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:58Z",
+    "assets": [
+      {
+        "id": 4970,
+        "release_id": 358,
+        "name": "Openscreen-Linux-latest.AppImage",
+        "size": 222841852,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.3.0/Openscreen-Linux-latest.AppImage",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4972,
+        "release_id": 358,
+        "name": "Openscreen-Mac-x64-Installer.dmg",
+        "size": 223328979,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.3.0/Openscreen-Mac-x64-Installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4971,
+        "release_id": 358,
+        "name": "Openscreen-mac-installer.dmg",
+        "size": 218461749,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.3.0/Openscreen-mac-installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4973,
+        "release_id": 358,
+        "name": "Openscreen.Setup.latest.exe",
+        "size": 187478499,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.3.0/Openscreen.Setup.latest.exe",
+        "content_type": "application/x-msdownload",
+        "created_at": "2026-08-30T16:38:25Z"
+      }
+    ]
+  },
+  {
+    "id": 359,
+    "repository_id": 12,
+    "tag_name": "v1.2.0",
+    "name": "v1.2.0 (fixed)",
+    "body": "\r\n## Please re-install in case you faced issues (updated binaries)\r\n\r\nThis is a **big** one! \r\n\r\nNote: this release includes some significant changes. From my testing everything looks stable, but there’s always a chance a few bugs slipped through. If you run into anything, please open an issue.\r\n\r\n### Features\r\n- Cursor Telemetry driven Automatic Zoom Suggestions (click magic wand button to see the suggestions apply).\r\n- Microphone and system audio capture.\r\n- Save edits as \"projects\" that you can come back to (persisted). \r\n- New Speed track to speed up/ slow down sections of the video.\r\n- Import custom google fonts for annotation texts.\r\n- Configurable Keyboard Shortcuts.\r\n\r\n\r\n### Bug fixes/ Improvements\r\n- Big Exporter revamp. You'll notice significantly faster exports than before since we moved away from frame based seeking.\r\n- Revamped HUD overlay.\r\n- Big Improvements to Timeline UX.\r\n- Reveal exported video button option after export. \r\n- Linter and CI checks for PRs and standardization.\r\n- Annotation text wrapping bug.\r\n\r\n\u003cbr/\u003e\r\n\r\nReally grateful to everyone using it, contributing, and giving feedback. It’s been amazing seeing the project reach more and more people. \r\n\r\nI’ll be taking a break for a bit. \r\n\r\nIf you’ve found the tool useful, feel free to share it with someone who might find it helpful too.\r\n\r\nThe project has grown quite a bit, and keeping things moving while maintaining high code quality takes time. I also have a few other commitments and ideas I’m excited to explore.",
+    "html_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/v1.2.0",
+    "tarball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/tarball/v1.2.0",
+    "zipball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/zipball/v1.2.0",
+    "published_at": "2026-03-08T07:47:35Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:58Z",
+    "assets": [
+      {
+        "id": 4974,
+        "release_id": 359,
+        "name": "Openscreen-Linux-latest.AppImage",
+        "size": 222391916,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.2.0/Openscreen-Linux-latest.AppImage",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4976,
+        "release_id": 359,
+        "name": "Openscreen-Mac-x64-Installer.dmg",
+        "size": 222830150,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.2.0/Openscreen-Mac-x64-Installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4975,
+        "release_id": 359,
+        "name": "Openscreen-mac-installer.dmg",
+        "size": 218004729,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.2.0/Openscreen-mac-installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4977,
+        "release_id": 359,
+        "name": "Openscreen.Setup.latest.exe",
+        "size": 187446397,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.2.0/Openscreen.Setup.latest.exe",
+        "content_type": "application/x-msdownload",
+        "created_at": "2026-08-30T16:38:25Z"
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "repository_id": 12,
+    "tag_name": "v1.1.2",
+    "name": "v1.1.2",
+    "body": "### Bug fixes/ Improvements\r\n\r\n- Fixes export not matching preview issues (effects lost such as zoom, trims, etc) due to stale closures (hopefully)",
+    "html_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/v1.1.2",
+    "tarball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/tarball/v1.1.2",
+    "zipball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/zipball/v1.1.2",
+    "published_at": "2026-02-07T04:21:22Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:58Z",
+    "assets": [
+      {
+        "id": 4978,
+        "release_id": 360,
+        "name": "Openscreen-Linux-latest.AppImage",
+        "size": 216659889,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.1.2/Openscreen-Linux-latest.AppImage",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4980,
+        "release_id": 360,
+        "name": "Openscreen-Mac-x64-Installer.dmg",
+        "size": 217223750,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.1.2/Openscreen-Mac-x64-Installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4979,
+        "release_id": 360,
+        "name": "Openscreen-mac-installer.dmg",
+        "size": 212333538,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.1.2/Openscreen-mac-installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4981,
+        "release_id": 360,
+        "name": "Openscreen.Setup.latest.exe",
+        "size": 182527809,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.1.2/Openscreen.Setup.latest.exe",
+        "content_type": "application/x-msdownload",
+        "created_at": "2026-08-30T16:38:25Z"
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "repository_id": 12,
+    "tag_name": "v1.1.0",
+    "name": "v1.1.0",
+    "body": "# What's New\r\n### Features\r\n- GIF export\r\n\r\n### Bug fixes/ Improvements\r\n- Improved Settings Panel UI/UX\r\n- ExportDialog state on retrying exports.\r\n- wallpaper selection improvement.\r\n- source selector windows ux improvement.\r\n- near instant appimage boot time.\r\n- tutorial on how trim region works.\r\n- fix border radius issue on exports\r\n- dynamic tray to quit apps on invisbility.",
+    "html_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/v1.1.0",
+    "tarball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/tarball/v1.1.0",
+    "zipball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/zipball/v1.1.0",
+    "published_at": "2026-01-21T05:21:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:58Z",
+    "assets": [
+      {
+        "id": 4982,
+        "release_id": 361,
+        "name": "Openscreen-Linux-latest.AppImage",
+        "size": 216662835,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.1.0/Openscreen-Linux-latest.AppImage",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4984,
+        "release_id": 361,
+        "name": "Openscreen-Mac-x64-Installer.dmg",
+        "size": 217251310,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.1.0/Openscreen-Mac-x64-Installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4983,
+        "release_id": 361,
+        "name": "Openscreen-mac-installer.dmg",
+        "size": 212326824,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.1.0/Openscreen-mac-installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4985,
+        "release_id": 361,
+        "name": "Openscreen.Setup.latest.exe",
+        "size": 182527624,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.1.0/Openscreen.Setup.latest.exe",
+        "content_type": "application/x-msdownload",
+        "created_at": "2026-08-30T16:38:25Z"
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "repository_id": 12,
+    "tag_name": "v1.0.2",
+    "name": "v1.0.2",
+    "body": "# What's New\r\n\r\n### Bug fixes/ Improvements\r\n- Linux Support finally. Refer README for installation help.\r\n- Disabled user-select for more native desktop app like experience.\r\n- HUD Overlay UX improvements.\r\n- resolved issue where app doesn't quit on Windows.\r\n",
+    "html_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/v1.0.2",
+    "tarball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/tarball/v1.0.2",
+    "zipball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/zipball/v1.0.2",
+    "published_at": "2025-12-14T17:56:57Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:58Z",
+    "assets": [
+      {
+        "id": 4986,
+        "release_id": 362,
+        "name": "Openscreen-Linux-latest.AppImage",
+        "size": 167772230,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.0.2/Openscreen-Linux-latest.AppImage",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4988,
+        "release_id": 362,
+        "name": "Openscreen-Mac-x64-Installer.dmg",
+        "size": 179693388,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.0.2/Openscreen-Mac-x64-Installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4987,
+        "release_id": 362,
+        "name": "Openscreen-mac-installer.dmg",
+        "size": 175235612,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.0.2/Openscreen-mac-installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4989,
+        "release_id": 362,
+        "name": "Openscreen.Setup.latest.exe",
+        "size": 160086674,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.0.2/Openscreen.Setup.latest.exe",
+        "content_type": "application/x-msdownload",
+        "created_at": "2026-08-30T16:38:25Z"
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "repository_id": 12,
+    "tag_name": "v1.0.1",
+    "name": "v1.0.1",
+    "body": "# What's New\r\n\r\n### Bug fixes/ Improvements\r\n- fixes issue where build fails showing default wallpaper in export, unless changed to something else.\r\n- better ux for color picker via hex inputs \u0026 standard colors\r\n- delete button for trim items.",
+    "html_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/v1.0.1",
+    "tarball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/tarball/v1.0.1",
+    "zipball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/zipball/v1.0.1",
+    "published_at": "2025-12-06T06:48:14Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:58Z",
+    "assets": [
+      {
+        "id": 4991,
+        "release_id": 363,
+        "name": "Openscreen-Mac-x64-Installer.dmg",
+        "size": 179764068,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.0.1/Openscreen-Mac-x64-Installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4990,
+        "release_id": 363,
+        "name": "Openscreen-mac-installer.dmg",
+        "size": 175194252,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.0.1/Openscreen-mac-installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4992,
+        "release_id": 363,
+        "name": "Openscreen.Setup.latest.exe",
+        "size": 160085552,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v1.0.1/Openscreen.Setup.latest.exe",
+        "content_type": "application/x-msdownload",
+        "created_at": "2026-08-30T16:38:25Z"
+      }
+    ]
+  },
+  {
+    "id": 364,
+    "repository_id": 12,
+    "tag_name": "1.0.0",
+    "name": "v1.0.0",
+    "body": "# Release Notes 🚀 \r\n\r\nJumping from `v0.2` to `v1.0` 😃 as we added a bunch of features, fixed bugs, and made things more stable. \r\n\r\n## What's New\r\n- HUD Overlay UX improvements.\r\n- Resizable Preview-Timeline Layout.\r\n- Trim segments of the video just like drag areas.\r\n- Option to enable/disable motion-blur.\r\n- Customize border radius for the recording.\r\n- Customize video padding against wallpaper. \r\n- Exports in multiple aspect ratios (1:1, 16:9, 9:16, 4:5, 4:3)  \r\n- Annotations (text, arrows, images).\r\n- Draggable timeline playhead.\r\n- Shortcuts for better UX.\r\n- Export Resolution options. \r\n- Fixed bad export fps drop (please reinstall)\r\n\r\n## Bugs fixed\r\n- Exported video aspect ratio not matching 16:9.\r\n- Missing zoom level on timeline appearing a 6x.\r\n- Fixing the border radius issue found in macOS 26.\r\n- Wallpaper not showing up in export at times.\r\n\r\nAs much as I would like to implement auto-updates from the app using electron-updater, it is not reliable and worth the effort because the app is unsigned. \r\n\r\nEnjoy the features! Thank you for the feedback and interest!\r\n",
+    "html_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/1.0.0",
+    "tarball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/tarball/1.0.0",
+    "zipball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/zipball/1.0.0",
+    "published_at": "2025-12-03T07:19:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:58Z",
+    "assets": [
+      {
+        "id": 4993,
+        "release_id": 364,
+        "name": "Openscreen-Linux-1.0.0.AppImage",
+        "size": 167767735,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/1.0.0/Openscreen-Linux-1.0.0.AppImage",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4994,
+        "release_id": 364,
+        "name": "Openscreen-Linux-1.0.0.deb",
+        "size": 117254544,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/1.0.0/Openscreen-Linux-1.0.0.deb",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4996,
+        "release_id": 364,
+        "name": "Openscreen-Mac-x64-Installer.dmg",
+        "size": 179838966,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/1.0.0/Openscreen-Mac-x64-Installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4995,
+        "release_id": 364,
+        "name": "Openscreen-mac-installer.dmg",
+        "size": 175206090,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/1.0.0/Openscreen-mac-installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4997,
+        "release_id": 364,
+        "name": "Openscreen.Setup.latest.exe",
+        "size": 160104108,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/1.0.0/Openscreen.Setup.latest.exe",
+        "content_type": "application/x-msdownload",
+        "created_at": "2026-08-30T16:38:25Z"
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "repository_id": 12,
+    "tag_name": "v0.2.0",
+    "name": "v0.2.0",
+    "body": "# Release Notes\r\n\r\n## What's New\r\n\r\n\r\n- We now finally have a Windows release!!\r\n- General UI improvements for a smoother experience.\r\n- Timeline UX enhancements:\r\n  - Add zooms at playhead position.\r\n  - Default zoom duration reduced to 1000ms.\r\n- Add keyframes to your projects for general purpose tracking.\r\n- Adjust shadow intensity.\r\n- Rename recordings and choose custom export locations.\r\n- You can now choose to record or load an existing recording for flexibility (can be any other videos as well).\r\n- Better Feedback for actions/ errors.\r\n- Keyboard shortcuts for adding \u0026 deleting zooms/ flags.\r\n\r\nEnjoy the new features!\r\n",
+    "html_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/v0.2.0",
+    "tarball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/tarball/v0.2.0",
+    "zipball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/zipball/v0.2.0",
+    "published_at": "2025-11-26T05:52:59Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:58Z",
+    "assets": [
+      {
+        "id": 4999,
+        "release_id": 365,
+        "name": "Openscreen-Mac-x64-Installer.dmg",
+        "size": 185510570,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v0.2.0/Openscreen-Mac-x64-Installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 4998,
+        "release_id": 365,
+        "name": "Openscreen-mac-installer.dmg",
+        "size": 180920213,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v0.2.0/Openscreen-mac-installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 5000,
+        "release_id": 365,
+        "name": "Openscreen.Setup.latest.exe",
+        "size": 166319125,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v0.2.0/Openscreen.Setup.latest.exe",
+        "content_type": "application/x-msdownload",
+        "created_at": "2026-08-30T16:38:25Z"
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "repository_id": 12,
+    "tag_name": "v0.1.1",
+    "name": "v0.1.1",
+    "body": "- small improvements in export.\r\n- migration from mp4muxer to mediabunny\r\n- reduced bundle size and dmg file size\r\n- logo update\r\n- support for intel based chips\r\n\r\nThanks to @Ramberto for helping out with [Linux support](https://github.com/siddharthvaddem/openscreen/issues/10#issuecomment-3577631343)! ",
+    "html_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/v0.1.1",
+    "tarball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/tarball/v0.1.1",
+    "zipball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/zipball/v0.1.1",
+    "published_at": "2025-11-24T00:09:36Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:58Z",
+    "assets": [
+      {
+        "id": 5001,
+        "release_id": 366,
+        "name": "Openscreen-Linux-0.0.1.AppImage",
+        "size": 184328882,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v0.1.1/Openscreen-Linux-0.0.1.AppImage",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 5003,
+        "release_id": 366,
+        "name": "Openscreen-Mac-x64-Installer.dmg",
+        "size": 195971317,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v0.1.1/Openscreen-Mac-x64-Installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      },
+      {
+        "id": 5002,
+        "release_id": 366,
+        "name": "Openscreen-mac-installer.dmg",
+        "size": 191367912,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v0.1.1/Openscreen-mac-installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "repository_id": 12,
+    "tag_name": "v0.1.0",
+    "name": "v0.1.0",
+    "body": "- Added batch frame processing and other frameRenderer optimizations. Exports are now 2-3x faster compared to 0.0.0",
+    "html_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/v0.1.0",
+    "tarball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/tarball/v0.1.0",
+    "zipball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/zipball/v0.1.0",
+    "published_at": "2025-11-23T08:04:40Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:58Z",
+    "assets": [
+      {
+        "id": 5004,
+        "release_id": 367,
+        "name": "Openscreen-Mac-Installer.dmg",
+        "size": 394468377,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v0.1.0/Openscreen-Mac-Installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "repository_id": 12,
+    "tag_name": "v0.0.0",
+    "name": "v0.0.0",
+    "body": "## Release Notes  \r\n### v0.0.0\r\n\r\nBeta release of OpenScreen. May contain bugs, but includes the core tools needed to create smooth and clean product demos.\r\n\r\n### Features\r\n- Record your whole screen or individual apps.\r\n- Add manual zooms with customizable depth levels.\r\n- Adjust zoom duration, position, and timing exactly how you want.\r\n- Crop recordings to hide anything you do not want in the frame.\r\n- Choose wallpapers, solid colors, or gradients for your background.\r\n- Known slow exports. Working on making it faster for future versions!\r\n",
+    "html_url": "https://github.com/siddharthvaddem/openscreen/releases/tag/v0.0.0",
+    "tarball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/tarball/v0.0.0",
+    "zipball_url": "https://api.github.com/repos/siddharthvaddem/openscreen/zipball/v0.0.0",
+    "published_at": "2025-11-19T19:13:14Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:58Z",
+    "assets": [
+      {
+        "id": 5005,
+        "release_id": 368,
+        "name": "Openscreen-Mac-0.0.0-Installer.dmg",
+        "size": 392293524,
+        "download_url": "https://github.com/siddharthvaddem/openscreen/releases/download/v0.0.0/Openscreen-Mac-0.0.0-Installer.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:25Z"
+      }
+    ]
+  }
+]

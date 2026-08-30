@@ -64,17 +64,19 @@ func (d *DB) StatsLanguages(ctx context.Context) ([]LanguageCount, error) {
 
 // TopRepository 按 Star 排序的仓库。
 type TopRepository struct {
-	ID            int64  `json:"id" db:"id"`
-	FullName      string `json:"full_name" db:"full_name"`
-	Stars         int    `json:"stars" db:"stars"`
-	LatestVersion string `json:"latest_version" db:"latest_version"`
-	Language      string `json:"language" db:"language"`
+	ID               int64  `json:"id" db:"id"`
+	FullName         string `json:"full_name" db:"full_name"`
+	Stars            int    `json:"stars" db:"stars"`
+	LatestVersion    string `json:"latest_version" db:"latest_version"`
+	LatestReleaseURL string `json:"latest_release_url" db:"latest_release_url"`
+	Language         string `json:"language" db:"language"`
 }
 
 func (d *DB) StatsTopRepositories(ctx context.Context, limit int) ([]TopRepository, error) {
 	var rows []TopRepository
 	err := d.conn.SelectContext(ctx, &rows,
-		`SELECT id, full_name, stars, COALESCE(latest_version, '') AS latest_version, COALESCE(language, '') AS language
+		`SELECT id, full_name, stars, COALESCE(latest_version, '') AS latest_version,
+		        COALESCE(latest_release_url, '') AS latest_release_url, COALESCE(language, '') AS language
 		 FROM repositories ORDER BY stars DESC LIMIT ?`, limit)
 	return rows, err
 }

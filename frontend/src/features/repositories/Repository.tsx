@@ -1,11 +1,12 @@
 'use client'
 
 import { useMemo, useState } from 'react'
+import { flushSync } from 'react-dom'
 import Link from 'next/link'
 import { Archive, ArrowLeft, ExternalLink, GitCommitVertical, Lock, Package, Star } from 'lucide-react'
 
 import type { Release, Repository } from '@/types'
-import { releasesOfRepository, paginate } from '@/lib/aggregations'
+import { sortReleasesNewestFirst, paginate } from '@/lib/aggregations'
 import { ReleaseCard } from '@/features/releases/ReleaseCard'
 import { Badge } from '@/components/ui/badge'
 import { Pagination } from '@/components/Pagination'
@@ -22,7 +23,7 @@ interface RepositoryPageProps {
 export default function Repository({ repository, releases }: RepositoryPageProps) {
   const [currentPage, setCurrentPage] = useState(1)
 
-  const allRepositoryReleases = useMemo(() => releasesOfRepository(releases, repository.id), [releases, repository.id])
+  const allRepositoryReleases = useMemo(() => sortReleasesNewestFirst(releases), [releases])
   const pagedReleases = useMemo(() => paginate(allRepositoryReleases, currentPage, PAGE_SIZE), [allRepositoryReleases, currentPage])
 
   const latest = allRepositoryReleases[0]
@@ -30,7 +31,7 @@ export default function Repository({ repository, releases }: RepositoryPageProps
   const [expandedId, setExpandedId] = useState<number | null>(latest?.id ?? null)
 
   function handleJump(releaseId: number) {
-    setExpandedId(releaseId)
+    flushSync(() => setExpandedId(releaseId))
     document.getElementById(`release-${releaseId}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 

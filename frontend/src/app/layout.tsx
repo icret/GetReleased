@@ -1,11 +1,11 @@
 import type { Metadata, Viewport } from 'next'
-import { Plus_Jakarta_Sans, Inter, JetBrains_Mono } from 'next/font/google'
+import { Bricolage_Grotesque, Inter, JetBrains_Mono } from 'next/font/google'
 
 import './globals.css'
 import { SiteHeader } from '@/components/SiteHeader'
 import { Footer } from '@/components/Footer'
 
-const displayFont = Plus_Jakarta_Sans({
+const displayFont = Bricolage_Grotesque({
   subsets: ['latin'],
   weight: ['600', '700', '800'],
   variable: '--font-display-src',

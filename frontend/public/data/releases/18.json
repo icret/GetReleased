@@ -1,0 +1,773 @@
+[
+  {
+    "id": 197,
+    "repository_id": 18,
+    "tag_name": "v1.7.0",
+    "name": "Textream v1.7.0",
+    "body": "## Installation\n\n- **Textream.dmg** — for macOS 26 Tahoe and later (recommended, includes Liquid Glass effects)\n- **Textream-macos15.dmg** — for macOS 15 Sequoia\n\n1. Download the DMG for your macOS version.\n2. Open the DMG and drag **Textream** to Applications.\n3. Open Textream normally. The app is signed and notarized by Apple.\n\nOr install via Homebrew:\n\n```sh\nbrew install textream\n```\n\n## Highlights\n\n- A new **Reading** settings pane brings together reading position, paragraph dividers, last-spoken words, and keep-awake controls.\n- Choose **Centered** or **Near Top** reading position with steadier tracking, correct live-preview geometry, and animated preview transitions.\n- Optional paragraph breaks now appear as subtle three-dot dividers with more breathing room.\n- Remote viewers can mirror the teleprompter independently per device, including URL presets with `?mirror=1` and `?mirror=0`.\n- Start the prompter directly from the editor with **Command–Return**.\n- Director Mode now preserves paragraph breaks during live edits and protects the confirmed read prefix more reliably.\n- The compact notch has improved spacing around its controls and a softer text fade near the bottom.\n- A complete guide at [textream.net/docs](https://textream.net/docs/) documents every setting, script cues, the URL scheme, and Director API examples in Swift, JavaScript, Python, and Node.js.\n- The source tree now includes Textream for iPhone and iPad, with Word Tracking, Classic and Voice-Activated guidance, camera recording, saved recordings, and landscape mirror controls. Mobile distribution is handled separately through the App Store.\n\n## Fixes and polish\n\n- Fixed Near Top positioning in Classic and Voice-Activated settings previews.\n- Fixed paragraph preservation in the Director browser editor.\n- Fixed **Reset All** so it also restores speech language and Hide from Screen Sharing.\n- Restricted Remote and Director custom ports to `1024–65534`, preserving the required WebSocket port.\n- Improved live layout recalculation after font and overlay-size changes.\n- Made PowerPoint presenter-note imports reliable in the Mac App Store sandbox.\n\n## Merged pull requests\n\n- [#79 — docs: use official Homebrew install command](https://github.com/f/textream/pull/79) by @f\n- [#80 — Prepare Textream for the Mac App Store](https://github.com/f/textream/pull/80) by @f\n- [#81 — Make PowerPoint import reliable in the App Store sandbox](https://github.com/f/textream/pull/81) by @f\n- [#82 — Declare App Store export compliance](https://github.com/f/textream/pull/82) by @f\n- [#83 — Add direct support email](https://github.com/f/textream/pull/83) by @f\n- [#84 — docs: remove signed and notarized note](https://github.com/f/textream/pull/84) by @f\n- [#85 — Configure textream.net as the canonical domain](https://github.com/f/textream/pull/85) by @f\n- [#86 — Add App Store download to homepage](https://github.com/f/textream/pull/86) by @f\n- [#87 — Add Mac App Store link to README](https://github.com/f/textream/pull/87) by @f\n- [#96 — Add configurable teleprompter reading options](https://github.com/f/textream/pull/96) by @needim\n- [#97 — Add per-device mirror mode to the Remote teleprompter view](https://github.com/f/textream/pull/97) by @skobylite\n- [#100 — Start the prompter with ⌘↩ from the main window](https://github.com/f/textream/pull/100) by @skobylite\n- [#101 — Add Reading settings and comprehensive documentation](https://github.com/f/textream/pull/101) by @f\n\n## Contributors\n\nThank you to @needim for the new reading controls and tracking improvements, and to @skobylite for per-device Remote mirroring and the Command–Return shortcut. Thanks also to @voicaandrei for the earlier mirror-mode proposal referenced by #97.\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.6.5...v1.7.0",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.7.0",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.7.0",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.7.0",
+    "published_at": "2026-08-22T21:50:25Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4796,
+        "release_id": 197,
+        "name": "Textream-macos15.dmg",
+        "size": 1896984,
+        "download_url": "https://github.com/f/textream/releases/download/v1.7.0/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4797,
+        "release_id": 197,
+        "name": "Textream.dmg",
+        "size": 1886676,
+        "download_url": "https://github.com/f/textream/releases/download/v1.7.0/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "repository_id": 18,
+    "tag_name": "v1.6.5",
+    "name": "Textream v1.6.5",
+    "body": "## Installation\n\n- **Textream.dmg** — for macOS 26 Tahoe and later (recommended, includes Liquid Glass effects)\n- **Textream-macos15.dmg** — for macOS 15 Sequoia\n\n1. Download the DMG for your macOS version\n2. Open the DMG and drag **Textream** to Applications\n3. Open Textream normally. The app is signed and notarized by Apple.\n\nOr install via Homebrew:\n\n```\nbrew install textream\n```\n\n\n## What's Changed\n* Support macOS 15.0 by @f in https://github.com/f/textream/pull/78\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.6.4...v1.6.5\n",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.6.5",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.6.5",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.6.5",
+    "published_at": "2026-08-09T20:56:56Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4798,
+        "release_id": 198,
+        "name": "Textream-macos15.dmg",
+        "size": 1838655,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.5/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4799,
+        "release_id": 198,
+        "name": "Textream.dmg",
+        "size": 1829615,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.5/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "repository_id": 18,
+    "tag_name": "v1.6.4",
+    "name": "Textream v1.6.4",
+    "body": "## Installation\n\n- **Textream.dmg** — for macOS 26 Tahoe and later (recommended, includes Liquid Glass effects)\n- **Textream-macos15.dmg** — for macOS 15 Sequoia\n\n1. Download the DMG for your macOS version\n2. Open the DMG and drag **Textream** to Applications\n3. Open Textream normally. The app is signed and notarized by Apple.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n## What's Changed\n* Sign and notarize macOS releases by @f in https://github.com/f/textream/pull/77\n\n## New Contributors\n* @f made their first contribution in https://github.com/f/textream/pull/77\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.6.3...v1.6.4",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.6.4",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.6.4",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.6.4",
+    "published_at": "2026-08-09T20:49:58Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4800,
+        "release_id": 199,
+        "name": "Textream-macos15.dmg",
+        "size": 1838679,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.4/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4801,
+        "release_id": 199,
+        "name": "Textream.dmg",
+        "size": 1810350,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.4/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "repository_id": 18,
+    "tag_name": "v1.6.3",
+    "name": "Textream v1.6.3",
+    "body": "## Installation\n\n- **Textream.dmg** — for macOS 26 Tahoe and later (recommended, includes Liquid Glass effects)\n- **Textream-macos15.dmg** — for macOS 15 Sequoia\n\n1. Download the DMG for your macOS version\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n## What's Changed\n* Fix RTL text rendering for Arabic, Hebrew, and other right-to-left scripts by @MHegazy89 in https://github.com/f/textream/pull/63\n\n## New Contributors\n* @MHegazy89 made their first contribution in https://github.com/f/textream/pull/63\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.6.2...v1.6.3",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.6.3",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.6.3",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.6.3",
+    "published_at": "2026-08-08T22:06:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4802,
+        "release_id": 200,
+        "name": "Textream-macos15.dmg",
+        "size": 1822575,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.3/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4803,
+        "release_id": 200,
+        "name": "Textream.dmg",
+        "size": 1792472,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.3/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "repository_id": 18,
+    "tag_name": "v1.6.2",
+    "name": "Textream v1.6.2",
+    "body": "## Installation\n\n- **Textream.dmg** — for macOS 26 Tahoe and later (recommended, includes Liquid Glass effects)\n- **Textream-macos15.dmg** — for macOS 15 Sequoia\n\n1. Download the DMG for your macOS version\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.6.1...v1.6.2",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.6.2",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.6.2",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.6.2",
+    "published_at": "2026-07-09T21:51:58Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4804,
+        "release_id": 201,
+        "name": "Textream-macos15.dmg",
+        "size": 1806688,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.2/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4805,
+        "release_id": 201,
+        "name": "Textream.dmg",
+        "size": 1791930,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.2/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "repository_id": 18,
+    "tag_name": "v1.6.1",
+    "name": "Textream v1.6.1",
+    "body": "## Installation\n\n- **Textream.dmg** — for macOS 26 Tahoe and later (recommended, includes Liquid Glass effects)\n- **Textream-macos15.dmg** — for macOS 15 Sequoia\n\n1. Download the DMG for your macOS version\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.6.0...v1.6.1",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.6.1",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.6.1",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.6.1",
+    "published_at": "2026-07-09T20:21:25Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4806,
+        "release_id": 202,
+        "name": "Textream-macos15.dmg",
+        "size": 1804907,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.1/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4807,
+        "release_id": 202,
+        "name": "Textream.dmg",
+        "size": 1791374,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.1/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "repository_id": 18,
+    "tag_name": "v1.6.0",
+    "name": "Textream v1.6.0",
+    "body": "## What's New\n\n### Local language suggestions\n- Detects the current script language entirely on-device with macOS Natural Language after 2.5 seconds without edits.\n- Suggests a compatible speech-recognition locale when the script and selected speech language differ.\n- Keeps language changes user-controlled and handles regional and Simplified/Traditional script variants.\n\n### More reliable microphones and dictation\n- Prevents stale permission and recognition callbacks from reviving or replacing stopped microphone sessions.\n- Adds cancellable startup states, clearer microphone errors, retry backoff, and safer hardware-change recovery.\n- Improves editor dictation across recognition restarts and multi-channel input devices.\n- Prevents duplicate microphone sessions during page changes.\n\n### Better word following\n- Improves CJK token matching, bracketed cue handling, and completion around trailing punctuation.\n- Uses long-form dictation hints and source context for better recognition accuracy.\n- Includes the recognition-resilience improvements from PR #67 for jumps and transient recognizer availability.\n\n## Installation\n\n- **Textream.dmg** — macOS 26 Tahoe and later\n- **Textream-macos15.dmg** — macOS 15 Sequoia\n\nDownload the DMG for your macOS version, open it, and drag **Textream** to Applications.\n\nSince the app is not notarized, macOS may block it on first launch. Run:\n\n```bash\nxattr -cr /Applications/Textream.app\n```\n\nOr install with Homebrew:\n\n```bash\nbrew install f/textream/textream\n```\n\n**Full Changelog:** https://github.com/f/textream/compare/v1.5.2...v1.6.0\n",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.6.0",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.6.0",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.6.0",
+    "published_at": "2026-07-09T19:20:57Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4808,
+        "release_id": 203,
+        "name": "Textream-macos15.dmg",
+        "size": 1807659,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.0/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4809,
+        "release_id": 203,
+        "name": "Textream.dmg",
+        "size": 1783109,
+        "download_url": "https://github.com/f/textream/releases/download/v1.6.0/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "repository_id": 18,
+    "tag_name": "v1.5.2",
+    "name": "Textream v1.5.2",
+    "body": "## Changelog\n\n### Features\n- Add cue color and brightness settings for annotation text\n- Add overlay transparency with blur and slider\n\n### Bug Fixes\n- Fix voice tracking highlight and mic stall bugs in word tracking mode\n- Start playback from selected page and install key monitor in pinned mode\n- Downmix multi-channel audio to mono for SFSpeechRecognizer\n- Keep text visible after WPM auto-scroll reaches the end\n- Stop BrowserServer timer from advancing after scroll completes\n- Apply same fix to ExternalDisplayView and BrowserServer\n- Always show page sidebar and read current page on play",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.5.2",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.5.2",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.5.2",
+    "published_at": "2026-05-08T14:54:35Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4810,
+        "release_id": 204,
+        "name": "Textream-macos15.dmg",
+        "size": 1701405,
+        "download_url": "https://github.com/f/textream/releases/download/v1.5.2/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4811,
+        "release_id": 204,
+        "name": "Textream.dmg",
+        "size": 1680151,
+        "download_url": "https://github.com/f/textream/releases/download/v1.5.2/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "repository_id": 18,
+    "tag_name": "v1.5.1",
+    "name": "Textream v1.5.1",
+    "body": "## Installation\n\n- **Textream.dmg** — for macOS 26 Tahoe and later (recommended, includes Liquid Glass effects)\n- **Textream-macos15.dmg** — for macOS 15 Sequoia\n\n1. Download the DMG for your macOS version\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.5.0...v1.5.1",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.5.1",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.5.1",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.5.1",
+    "published_at": "2026-02-27T20:26:13Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4812,
+        "release_id": 205,
+        "name": "Textream-macos15.dmg",
+        "size": 1653589,
+        "download_url": "https://github.com/f/textream/releases/download/v1.5.1/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4813,
+        "release_id": 205,
+        "name": "Textream.dmg",
+        "size": 1635326,
+        "download_url": "https://github.com/f/textream/releases/download/v1.5.1/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "repository_id": 18,
+    "tag_name": "v1.5.0",
+    "name": "Textream v1.5.0",
+    "body": "## Installation\n\n- **Textream.dmg** — for macOS 26 Tahoe and later (recommended, includes Liquid Glass effects)\n- **Textream-macos15.dmg** — for macOS 15 Sequoia\n\n1. Download the DMG for your macOS version\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.4.3...v1.5.0",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.5.0",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.5.0",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.5.0",
+    "published_at": "2026-02-26T21:49:53Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4814,
+        "release_id": 206,
+        "name": "Textream-macos15.dmg",
+        "size": 1642937,
+        "download_url": "https://github.com/f/textream/releases/download/v1.5.0/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4815,
+        "release_id": 206,
+        "name": "Textream.dmg",
+        "size": 1628788,
+        "download_url": "https://github.com/f/textream/releases/download/v1.5.0/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "repository_id": 18,
+    "tag_name": "v1.4.3",
+    "name": "Textream v1.4.3",
+    "body": "## Installation\n\n- **Textream.dmg** — for macOS 26 Tahoe and later (recommended, includes Liquid Glass effects)\n- **Textream-macos15.dmg** — for macOS 15 Sequoia\n\n1. Download the DMG for your macOS version\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.4.2...v1.4.3",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.4.3",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.4.3",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.4.3",
+    "published_at": "2026-02-26T21:35:31Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4816,
+        "release_id": 207,
+        "name": "Textream-macos15.dmg",
+        "size": 1581134,
+        "download_url": "https://github.com/f/textream/releases/download/v1.4.3/Textream-macos15.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      },
+      {
+        "id": 4817,
+        "release_id": 207,
+        "name": "Textream.dmg",
+        "size": 1564586,
+        "download_url": "https://github.com/f/textream/releases/download/v1.4.3/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "repository_id": 18,
+    "tag_name": "v1.4.1",
+    "name": "Textream v1.4.1",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n## What's Changed\n* feat(overlay): make floating window resizable by @AndreaGriffiths11 in https://github.com/f/textream/pull/15\n\n## New Contributors\n* @AndreaGriffiths11 made their first contribution in https://github.com/f/textream/pull/15\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.4.0...v1.4.1",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.4.1",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.4.1",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.4.1",
+    "published_at": "2026-02-26T20:55:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4818,
+        "release_id": 208,
+        "name": "Textream.dmg",
+        "size": 1580286,
+        "download_url": "https://github.com/f/textream/releases/download/v1.4.1/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "repository_id": 18,
+    "tag_name": "v1.4.0",
+    "name": "Textream v1.4.0",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.3.6...v1.4.0",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.4.0",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.4.0",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.4.0",
+    "published_at": "2026-02-11T19:34:39Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4819,
+        "release_id": 209,
+        "name": "Textream.dmg",
+        "size": 1514039,
+        "download_url": "https://github.com/f/textream/releases/download/v1.4.0/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "repository_id": 18,
+    "tag_name": "v1.3.6",
+    "name": "Textream v1.3.6",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.3.5...v1.3.6",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.3.6",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.3.6",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.3.6",
+    "published_at": "2026-02-11T09:55:10Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4820,
+        "release_id": 210,
+        "name": "Textream.dmg",
+        "size": 1422044,
+        "download_url": "https://github.com/f/textream/releases/download/v1.3.6/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "repository_id": 18,
+    "tag_name": "v1.3.5",
+    "name": "Textream v1.3.5",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.3.4...v1.3.5",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.3.5",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.3.5",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.3.5",
+    "published_at": "2026-02-10T21:16:41Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4821,
+        "release_id": 211,
+        "name": "Textream.dmg",
+        "size": 1406997,
+        "download_url": "https://github.com/f/textream/releases/download/v1.3.5/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "repository_id": 18,
+    "tag_name": "v1.3.4",
+    "name": "Textream v1.3.4",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.3.3...v1.3.4",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.3.4",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.3.4",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.3.4",
+    "published_at": "2026-02-10T15:18:14Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4822,
+        "release_id": 212,
+        "name": "Textream.dmg",
+        "size": 1353915,
+        "download_url": "https://github.com/f/textream/releases/download/v1.3.4/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "repository_id": 18,
+    "tag_name": "v1.3.3",
+    "name": "Textream v1.3.3",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.3.2...v1.3.3",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.3.3",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.3.3",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.3.3",
+    "published_at": "2026-02-10T12:58:33Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4823,
+        "release_id": 213,
+        "name": "Textream.dmg",
+        "size": 1340382,
+        "download_url": "https://github.com/f/textream/releases/download/v1.3.3/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "repository_id": 18,
+    "tag_name": "v1.3.2",
+    "name": "Textream v1.3.2",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.3.1...v1.3.2",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.3.2",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.3.2",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.3.2",
+    "published_at": "2026-02-09T22:58:37Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4824,
+        "release_id": 214,
+        "name": "Textream.dmg",
+        "size": 1323392,
+        "download_url": "https://github.com/f/textream/releases/download/v1.3.2/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "repository_id": 18,
+    "tag_name": "v1.3.1",
+    "name": "Textream v1.3.1",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.3.0...v1.3.1",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.3.1",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.3.1",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.3.1",
+    "published_at": "2026-02-09T22:21:10Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4825,
+        "release_id": 215,
+        "name": "Textream.dmg",
+        "size": 1310174,
+        "download_url": "https://github.com/f/textream/releases/download/v1.3.1/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "repository_id": 18,
+    "tag_name": "v1.3.0",
+    "name": "Textream v1.3.0",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.2.4...v1.3.0",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.3.0",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.3.0",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.3.0",
+    "published_at": "2026-02-09T22:08:34Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4826,
+        "release_id": 216,
+        "name": "Textream.dmg",
+        "size": 1310505,
+        "download_url": "https://github.com/f/textream/releases/download/v1.3.0/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "repository_id": 18,
+    "tag_name": "v1.2.4",
+    "name": "Textream v1.2.4",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.2.3...v1.2.4",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.2.4",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.2.4",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.2.4",
+    "published_at": "2026-02-09T14:54:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4827,
+        "release_id": 217,
+        "name": "Textream.dmg",
+        "size": 1133539,
+        "download_url": "https://github.com/f/textream/releases/download/v1.2.4/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "repository_id": 18,
+    "tag_name": "v1.2.3",
+    "name": "Textream v1.2.3",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.2.1...v1.2.3",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.2.3",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.2.3",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.2.3",
+    "published_at": "2026-02-09T12:13:43Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4828,
+        "release_id": 218,
+        "name": "Textream.dmg",
+        "size": 1103889,
+        "download_url": "https://github.com/f/textream/releases/download/v1.2.3/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "repository_id": 18,
+    "tag_name": "v1.2.1",
+    "name": "Textream v1.2.1",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.2.0...v1.2.1",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.2.1",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.2.1",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.2.1",
+    "published_at": "2026-02-09T11:48:11Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4829,
+        "release_id": 219,
+        "name": "Textream.dmg",
+        "size": 1123952,
+        "download_url": "https://github.com/f/textream/releases/download/v1.2.1/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "repository_id": 18,
+    "tag_name": "v1.2.0",
+    "name": "Textream v1.2.0",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.1.0...v1.2.0",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.2.0",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.2.0",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.2.0",
+    "published_at": "2026-02-09T09:33:56Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4830,
+        "release_id": 220,
+        "name": "Textream.dmg",
+        "size": 1068590,
+        "download_url": "https://github.com/f/textream/releases/download/v1.2.0/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "repository_id": 18,
+    "tag_name": "v1.1.1",
+    "name": "Textream v1.1.1",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.1.0...v1.1.1",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.1.1",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.1.1",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.1.1",
+    "published_at": "2026-02-08T20:32:41Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4831,
+        "release_id": 221,
+        "name": "Textream.dmg",
+        "size": 890976,
+        "download_url": "https://github.com/f/textream/releases/download/v1.1.1/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "repository_id": 18,
+    "tag_name": "v1.1.0",
+    "name": "Textream v1.1.0",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.0.1...v1.1.0",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.1.0",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.1.0",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.1.0",
+    "published_at": "2026-02-08T20:15:45Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4832,
+        "release_id": 222,
+        "name": "Textream.dmg",
+        "size": 890058,
+        "download_url": "https://github.com/f/textream/releases/download/v1.1.0/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "repository_id": 18,
+    "tag_name": "v1.0.1",
+    "name": "Textream v1.0.1",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/compare/v1.0.0...v1.0.1",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.0.1",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.0.1",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.0.1",
+    "published_at": "2026-02-08T10:54:39Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4833,
+        "release_id": 223,
+        "name": "Textream.dmg",
+        "size": 691468,
+        "download_url": "https://github.com/f/textream/releases/download/v1.0.1/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "repository_id": 18,
+    "tag_name": "v1.0.0",
+    "name": "Textream v1.0.0",
+    "body": "## Installation\n\n1. Download **Textream.dmg** below\n2. Open the DMG and drag **Textream** to Applications\n3. Since the app is not notarized, macOS may block it on first launch. Run the following command in Terminal to fix this:\n\n```\nxattr -cr /Applications/Textream.app\n```\n\nThen open Textream normally.\n\nOr install via Homebrew:\n\n```\nbrew install f/textream/textream\n```\n\n\n**Full Changelog**: https://github.com/f/textream/commits/v1.0.0",
+    "html_url": "https://github.com/f/textream/releases/tag/v1.0.0",
+    "tarball_url": "https://api.github.com/repos/f/textream/tarball/v1.0.0",
+    "zipball_url": "https://api.github.com/repos/f/textream/zipball/v1.0.0",
+    "published_at": "2026-02-08T10:45:49Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:44Z",
+    "assets": [
+      {
+        "id": 4834,
+        "release_id": 224,
+        "name": "Textream.dmg",
+        "size": 691467,
+        "download_url": "https://github.com/f/textream/releases/download/v1.0.0/Textream.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:11Z"
+      }
+    ]
+  }
+]

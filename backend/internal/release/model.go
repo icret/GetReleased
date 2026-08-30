@@ -3,27 +3,29 @@ package release
 import "time"
 
 type Repository struct {
-	ID                int64     `json:"id" db:"id"`
-	Owner             string    `json:"owner" db:"owner"`
-	Name              string    `json:"name" db:"name"`
-	FullName          string    `json:"full_name" db:"full_name"`
-	Description       string    `json:"description" db:"description"`
-	LogoPath          string    `json:"logo_path" db:"logo_path"`
-	Stars             int       `json:"stars" db:"stars"`
-	Language          string    `json:"language" db:"language"`
-	IsArchived        bool      `json:"is_archived" db:"is_archived"`
-	IsPrivate         bool      `json:"is_private" db:"is_private"`
-	PushedAt          time.Time `json:"pushed_at" db:"pushed_at"`
-	LatestVersion     string    `json:"latest_version" db:"latest_version"`
-	LatestReleaseURL  string    `json:"latest_release_url" db:"latest_release_url"`
-	LatestReleaseDate time.Time `json:"latest_release_date" db:"latest_release_date"`
-	ETag              string    `json:"-" db:"etag"`
-	LastModified      string    `json:"-" db:"last_modified"`
-	LastCheckedAt     time.Time `json:"last_checked_at" db:"last_checked_at"`
-	Remark            string    `json:"remark" db:"remark"`
-	CreatedAt         time.Time `json:"created_at" db:"created_at"`
-	UpdatedAt         time.Time `json:"updated_at" db:"updated_at"`
-	Tags              []Tag     `json:"tags,omitempty"`
+	ID                 int64     `json:"id" db:"id"`
+	Owner              string    `json:"owner" db:"owner"`
+	Name               string    `json:"name" db:"name"`
+	FullName           string    `json:"full_name" db:"full_name"`
+	Description        string    `json:"description" db:"description"`
+	LogoPath           string    `json:"logo_path" db:"logo_path"`
+	Stars              int       `json:"stars" db:"stars"`
+	Language           string    `json:"language" db:"language"`
+	IsArchived         bool      `json:"is_archived" db:"is_archived"`
+	IsPrivate          bool      `json:"is_private" db:"is_private"`
+	PushedAt           time.Time `json:"pushed_at" db:"pushed_at"`
+	LatestVersion      string    `json:"latest_version" db:"latest_version"`
+	LatestReleaseURL   string    `json:"latest_release_url" db:"latest_release_url"`
+	LatestReleaseDate  time.Time `json:"latest_release_date" db:"latest_release_date"`
+	ETag               string    `json:"-" db:"etag"`
+	LastModified       string    `json:"-" db:"last_modified"`
+	LastCheckedAt      time.Time `json:"last_checked_at" db:"last_checked_at"`
+	Remark             string    `json:"remark" db:"remark"`
+	CreatedAt          time.Time `json:"created_at" db:"created_at"`
+	UpdatedAt          time.Time `json:"updated_at" db:"updated_at"`
+	Tags               []Tag     `json:"tags,omitempty"`
+	ReleaseCount       int       `json:"release_count" db:"-"`
+	LatestIsPrerelease bool      `json:"latest_is_prerelease,omitempty" db:"-"`
 }
 
 type Tag struct {

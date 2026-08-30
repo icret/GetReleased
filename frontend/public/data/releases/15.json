@@ -1,0 +1,698 @@
+[
+  {
+    "id": 271,
+    "repository_id": 15,
+    "tag_name": "v0.14.7",
+    "name": "Reframed v0.14.7",
+    "body": "\n### Features\n\n- implement sample buffering in AudioTrackWriter to prevent data loss when input is not ready ([8c67fff](https://github.com/jkuri/Reframed/commit/8c67fff4949c3754743f8724f5acf18cb7cbcd10))\n\n### Bug Fixes\n\n- **cursor:** swap ibeam PDF directory mapping so default iBeam renders as vertical bar ([ef898ca](https://github.com/jkuri/Reframed/commit/ef898cada2f55410bd593b72f5db7f37b5fa974c))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.14.7",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.14.7",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.14.7",
+    "published_at": "2026-04-16T17:24:29Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4866,
+        "release_id": 271,
+        "name": "Reframed-0.14.7.dmg",
+        "size": 20410581,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.14.7/Reframed-0.14.7.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "repository_id": 15,
+    "tag_name": "v0.14.6",
+    "name": "Reframed v0.14.6",
+    "body": "\n### Bug Fixes\n\n- **export:** fix audio quality by matching sample rate and removing destructive time-scaling ([22dc93c](https://github.com/jkuri/Reframed/commit/22dc93cf9c8e525b12ada335fbc4133a1894b4f0))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.14.6",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.14.6",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.14.6",
+    "published_at": "2026-03-26T16:50:56Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4867,
+        "release_id": 272,
+        "name": "Reframed-0.14.6.dmg",
+        "size": 20408690,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.14.6/Reframed-0.14.6.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "repository_id": 15,
+    "tag_name": "v0.14.5",
+    "name": "Reframed v0.14.5",
+    "body": "\n### Bug Fixes\n\n- **ui:** guard against nil NSApp in isDark getter to prevent crash on launch for macOS 15.1 (closes #7) ([c6a94e2](https://github.com/jkuri/Reframed/commit/c6a94e2a8b08b7067787637799f76ade89cbba35))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.14.5",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.14.5",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.14.5",
+    "published_at": "2026-03-25T14:07:04Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4868,
+        "release_id": 273,
+        "name": "Reframed-0.14.5.dmg",
+        "size": 20467850,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.14.5/Reframed-0.14.5.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "repository_id": 15,
+    "tag_name": "v0.14.4",
+    "name": "Reframed v0.14.4",
+    "body": "\n### Features\n\n- **cursor:** add seamless cursor loop animation for GIF export ([644f66f](https://github.com/jkuri/Reframed/commit/644f66f3367b28f82e1ea32b8c24c4c2c0c39dda))\n\n### Bug Fixes\n\n- **export:** write click sound audio in chunks to prevent stall on long recordings (closes #6) ([32c94cc](https://github.com/jkuri/Reframed/commit/32c94cca609c25488d6970622e8988c689544b69))\n- **editor:** add history descriptions for cursor effect changes ([9e90588](https://github.com/jkuri/Reframed/commit/9e905885843ddb30d7c4f95a2679e42235bdd689))\n- **editor:** allow undo/redo keyboard shortcuts to reach editor window ([c9a1b27](https://github.com/jkuri/Reframed/commit/c9a1b27c8c8780c25a74857d7b7b5096d2e29e04))\n- **editor:** remove extra padding above click sound when no audio tracks exist ([50f7f88](https://github.com/jkuri/Reframed/commit/50f7f88f0134d512e3f3d7bb524827d921f242a3))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.14.4",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.14.4",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.14.4",
+    "published_at": "2026-03-22T12:02:10Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4869,
+        "release_id": 274,
+        "name": "Reframed-0.14.4.dmg",
+        "size": 20467279,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.14.4/Reframed-0.14.4.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "repository_id": 15,
+    "tag_name": "v0.14.3",
+    "name": "Reframed v0.14.3",
+    "body": "\n### Features\n\n- **cursor:** add click bounce, sway, motion blur, system cursor detection, and zoom soft clamping ([94a4451](https://github.com/jkuri/Reframed/commit/94a4451b59330012250102bf16a9ba3e90072dda))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.14.3",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.14.3",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.14.3",
+    "published_at": "2026-03-18T20:16:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4870,
+        "release_id": 275,
+        "name": "Reframed-0.14.3.dmg",
+        "size": 20462285,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.14.3/Reframed-0.14.3.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "repository_id": 15,
+    "tag_name": "v0.14.2",
+    "name": "Reframed v0.14.2",
+    "body": "\n### Bug Fixes\n\n- **logging:** correct log directory and file name to match app name ([cdaf7fb](https://github.com/jkuri/Reframed/commit/cdaf7fbb210d5ceef4e915b39b27864c908685c3))\n- **camera:** add missing camera entitlement to enable permission prompt ([399591f](https://github.com/jkuri/Reframed/commit/399591f970dbe7d09ff1af5301a02ca69aadd318))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.14.2",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.14.2",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.14.2",
+    "published_at": "2026-03-17T15:01:51Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4871,
+        "release_id": 276,
+        "name": "Reframed-0.14.2.dmg",
+        "size": 20415879,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.14.2/Reframed-0.14.2.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "repository_id": 15,
+    "tag_name": "v0.14.1",
+    "name": "Reframed v0.14.1",
+    "body": "\n### Features\n\n- **captions:** custom position of the captions ([cf70403](https://github.com/jkuri/Reframed/commit/cf70403ce7a79053737f18cd6fe433c714257619))\n- **captions:** add segment editing/deletion, fix transcription merge logic ([9057f72](https://github.com/jkuri/Reframed/commit/9057f721dad3382df65f857c7969034b8d1e5ddf))\n\n### Bug Fixes\n\n- **export:** add video segment mapping to resolve source time from composition time for non-linear video segments ([bc2ae01](https://github.com/jkuri/Reframed/commit/bc2ae013aa7f071dcebeeb0f1740600229b0944f))\n- **captions:** use segment text instead of Whisper words for display ([1d4da22](https://github.com/jkuri/Reframed/commit/1d4da22147fc58d654933f8454860d355f7602c8))\n- revert unintended buttonStyle changes introduced during refactor ([e4fee02](https://github.com/jkuri/Reframed/commit/e4fee021ce9da1ff7e571296dd4dc90bff106e6b))\n- **recording:** handle webcam and microphone disconnect during recording ([1d7858f](https://github.com/jkuri/Reframed/commit/1d7858ff19a5a7d58cccd7a37de1e9e71b43813b))\n- **captions:** scale font relative to recording width instead of hardcoded 1920 ([f8dcc26](https://github.com/jkuri/Reframed/commit/f8dcc2640bbaa6e68d508caa62abef310061f25e))\n- **compositor:** position captions relative to canvas instead of video rect ([4a8fa68](https://github.com/jkuri/Reframed/commit/4a8fa6858ca346320c97a282bfce525aacd4392f))\n\n### Refactoring\n\n- deduplicate caption visibleText and unify text measurement ([334540f](https://github.com/jkuri/Reframed/commit/334540fc622f78f943920a3fc9c68ea74af4cb79))\n- split VideoCompositor export into focused extension files ([c489cec](https://github.com/jkuri/Reframed/commit/c489cec01567f9b503e441bcc6817ac326bd115c))\n- split export sheet and history into smaller files ([8d70034](https://github.com/jkuri/Reframed/commit/8d700345304b5b1fed666de6cc070cb7db0847e7))\n- split RecordingCoordinator and SessionState into focused extension files ([91371f6](https://github.com/jkuri/Reframed/commit/91371f68537b0b88f58e60e403f20b6257921d89))\n- move misplaced functions to correct extension files ([b55dd2f](https://github.com/jkuri/Reframed/commit/b55dd2fcd9264877fb294160e70f39983535272a))\n- split large views into smaller extension files for maintainability ([7acdbde](https://github.com/jkuri/Reframed/commit/7acdbdec0803c36ec20295388465f52689c22581))\n\n### Chores\n\n- add symbolic link AGENTS.md to CLAUDE.md ([7bec5f9](https://github.com/jkuri/Reframed/commit/7bec5f904f0bccd2107de018ab3e10f2a7bb691e))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.14.1",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.14.1",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.14.1",
+    "published_at": "2026-03-15T17:36:25Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4872,
+        "release_id": 277,
+        "name": "Reframed-0.14.1.dmg",
+        "size": 20415675,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.14.1/Reframed-0.14.1.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "repository_id": 15,
+    "tag_name": "v0.14.0",
+    "name": "Reframed v0.14.0",
+    "body": "\n### Features\n\n- **compositor:** add HDR export via CIImage pipeline, refactor shared helpers, fix recording capture ([b6c9986](https://github.com/jkuri/Reframed/commit/b6c99865b7c043a98dee0fb0e5ef98281abeaad3))\n- **recording:** add PiP recording preview window ([6457c72](https://github.com/jkuri/Reframed/commit/6457c72506d4dc0f5e94b80f158b21795f474a65))\n\n### Bug Fixes\n\n- **compositor:** rewrite manual export to render directly like parallel export ([75bec65](https://github.com/jkuri/Reframed/commit/75bec652b17632a81a3ef5db93a4eeb30c576605))\n- **recording:** clamp preview window position within screen bounds ([2df5c21](https://github.com/jkuri/Reframed/commit/2df5c21393805ff836448d963af66092b297d9b1))\n- **compositor:** scale custom region border width for export resolution ([906a911](https://github.com/jkuri/Reframed/commit/906a91140d9bdc194a919ceba7effee7139a2596))\n- **compositor:** camera slide/scale transitions interpolate from PiP position ([60c2f55](https://github.com/jkuri/Reframed/commit/60c2f553dab6b9294ae3c21fd5426c83ce1d0d7f))\n\n### Chores\n\n- bump LastUpgradeCheck to 2630 to suppress Xcode settings warning ([11b09fb](https://github.com/jkuri/Reframed/commit/11b09fb981ddac499a5927e9cc05b2c867dfc678))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.14.0",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.14.0",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.14.0",
+    "published_at": "2026-03-09T20:04:34Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4873,
+        "release_id": 278,
+        "name": "Reframed-0.14.0.dmg",
+        "size": 20343185,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.14.0/Reframed-0.14.0.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "repository_id": 15,
+    "tag_name": "v0.13.2",
+    "name": "Reframed v0.13.2",
+    "body": "\n### Features\n\n- **ui:** improve UX for all capture selection modes ([73f7c39](https://github.com/jkuri/Reframed/commit/73f7c3947936a738bb3ab2ade1990934488dcc72))\n- **ui:** show inline device picker when camera/mic toggle has no device selected ([d162aec](https://github.com/jkuri/Reframed/commit/d162aec5ca9447206eb2f2b455dfc42b74dbeb2e))\n- **ui:** add dim outer area and hide camera preview options to popover ([ff1b11d](https://github.com/jkuri/Reframed/commit/ff1b11deb89070aff262ad32ebe7de68473523c0))\n- **project:** make recording project names more meaningful by default ([d41c020](https://github.com/jkuri/Reframed/commit/d41c020b455ac43f1dc447de1bda2160ece0c2bc))\n- **menu-bar:** move version to top-right corner and fix permissions text ([0952d39](https://github.com/jkuri/Reframed/commit/0952d39ec7bb4c79e4d7566df19c68e512a80b90))\n- **menu-bar:** add quit and check-for-updates buttons to footer ([f34c124](https://github.com/jkuri/Reframed/commit/f34c124ca325192ad2675eb7b096a17f9a7b52e9))\n- **recording:** lossless audio recording with standardized 48kHz capture ([0d39c96](https://github.com/jkuri/Reframed/commit/0d39c961f7a34ea90caf0c1ced78641ce1918144))\n- **editor:** zoom-aware and typing-aware cursor smoothing ([bf34905](https://github.com/jkuri/Reframed/commit/bf34905a3ef50d7d99a53b3b90f0f8e1544bba74))\n\n### Bug Fixes\n\n- **ui:** Enter key now triggers countdown timer in all capture modes ([3697f95](https://github.com/jkuri/Reframed/commit/3697f950d442ef5ad09636a09b8a0ad1ecb2f01b))\n- correct repository capitalization in the GitHub link within Credits.html ([5c6efb4](https://github.com/jkuri/Reframed/commit/5c6efb45fe157aedaff3f929fb474c211ca07770))\n- **recording:** auto-stop recording when captured window is closed ([c352ef7](https://github.com/jkuri/Reframed/commit/c352ef7db8d37d392a8f93478a03621b96156998))\n- **menu-bar:** hide quick actions until permissions are granted ([518c7b2](https://github.com/jkuri/Reframed/commit/518c7b24f72197a085ad3847a86a958ff01262b3))\n- **recording:** increase webcam bitrate multiplier for better quality ([f095e14](https://github.com/jkuri/Reframed/commit/f095e14ca454b1082423ea078b2c38d0a79eef9f))\n- **editor:** enable audio tab when cursor metadata is present ([d348d91](https://github.com/jkuri/Reframed/commit/d348d910e86f5b47241d4834ef1414ea5979598d))\n\n### Performance\n\n- **export:** improve performance of parallel export and reduce usage ([c2a93f9](https://github.com/jkuri/Reframed/commit/c2a93f940f9bf040cdd50d9d2114bb779ad9b5b7))\n\n### Refactoring\n\n- **compositor:** rename CameraVideoCompositor to FrameRenderer ([aaf47f8](https://github.com/jkuri/Reframed/commit/aaf47f88727c8126fe9592dc64ba532f9a4aea05))\n- extract shared video/audio encoding settings into EncodingSettings utility ([a7b66d4](https://github.com/jkuri/Reframed/commit/a7b66d460e974ef2097d82200456be7d0906ef93))\n\n### Chores\n\n- **changelog:** exclude all docs commits from changelog generation ([78231fa](https://github.com/jkuri/Reframed/commit/78231fa483fcfab6e59edb53373936ed9ec16af6))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.13.2",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.13.2",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.13.2",
+    "published_at": "2026-03-06T22:30:05Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4874,
+        "release_id": 279,
+        "name": "Reframed-0.13.2.dmg",
+        "size": 20269835,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.13.2/Reframed-0.13.2.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "repository_id": 15,
+    "tag_name": "v0.13.1",
+    "name": "Reframed v0.13.1",
+    "body": "\n### Bug Fixes\n\n- **auto-update:** make Sparkle auto-updates work correctly ([5542024](https://github.com/jkuri/Reframed/commit/55420241dd4d7dbfb99c63de36d1e6fe1d052bbe))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.13.1",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.13.1",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.13.1",
+    "published_at": "2026-03-04T20:34:28Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4875,
+        "release_id": 280,
+        "name": "Reframed-0.13.1.dmg",
+        "size": 20075282,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.13.1/Reframed-0.13.1.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "repository_id": 15,
+    "tag_name": "appcast",
+    "name": "Appcast",
+    "body": "Sparkle appcast feed. This release is updated automatically.",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/appcast",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/appcast",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/appcast",
+    "published_at": "2026-03-04T20:02:37Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4877,
+        "release_id": 282,
+        "name": "appcast.xml",
+        "size": 1213,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/appcast/appcast.xml",
+        "content_type": "application/xml",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "repository_id": 15,
+    "tag_name": "v0.13.0",
+    "name": "Reframed v0.13.0",
+    "body": "\n### Features\n\n- add Sparkle auto-updates with appcast generation and publish workflow ([4b2fdd4](https://github.com/jkuri/Reframed/commit/4b2fdd4a107ab20f33063dac968a51974763c666))\n- **editor:** add drag-and-drop for background image sections ([a9dc970](https://github.com/jkuri/Reframed/commit/a9dc970234afa636c2ecfbdea08e04301140fc8c))\n\n### Bug Fixes\n\n- **editor:** disable spotlight when no regions are added ([8589d9e](https://github.com/jkuri/Reframed/commit/8589d9ebd9c226fc24ae294b0988a267f787c873))\n- **ui:** auto-close TailwindColorPicker popover on selection ([990a236](https://github.com/jkuri/Reframed/commit/990a236d0fe0b40cd7b06b85c4e7885e37f7dc57))\n- **editor:** sync webcam player layer when camera is re-enabled ([521db16](https://github.com/jkuri/Reframed/commit/521db16b9408d5053e3f3e71ab84d60ec4ab1c09))\n\n### Refactoring\n\n- deduplicate transition controls, color picker, cleanup, and timestamp code ([f9f12e5](https://github.com/jkuri/Reframed/commit/f9f12e5e478a77e5d92947254f5ee218161da379))\n\n### Styling\n\n- **editor:** increase width of custom region popovers ([978f783](https://github.com/jkuri/Reframed/commit/978f78396553ae138f345433ef0fded2f15691b7))\n\n### Chores\n\n- **ui:** update permissions view texts with explanations ([9862a95](https://github.com/jkuri/Reframed/commit/9862a95d33faddaf87f74141a8d1f432a60fb317))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.13.0",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.13.0",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.13.0",
+    "published_at": "2026-03-04T20:02:33Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4876,
+        "release_id": 281,
+        "name": "Reframed-0.13.0.dmg",
+        "size": 20078882,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.13.0/Reframed-0.13.0.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "repository_id": 15,
+    "tag_name": "v0.12.1",
+    "name": "v0.12.1",
+    "body": "## [v0.12.1](https://github.com/jkuri/Reframed/compare/v0.12.0...v0.12.1) (2026-03-01)\r\n\r\n\u003e Note: No new features in this minor release, but a lot of style and UX improvements.\r\n\r\n### Styling\r\n\r\n- **app:** define variables and colors and follow shadcn patterns ([5dfc51a](https://github.com/jkuri/Reframed/commit/5dfc51a218e8dc2a4ae1f6693f472ad8f98285df))\r\n- **export:** improve UX on export sheet and disable controls during the process ([c11ca52](https://github.com/jkuri/Reframed/commit/c11ca5209b0b446f079411d9a10dfeb2dd6efaf4))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.12.1",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.12.1",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.12.1",
+    "published_at": "2026-03-02T19:28:11Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4878,
+        "release_id": 283,
+        "name": "Reframed-0.12.1.dmg",
+        "size": 19193600,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.12.1/Reframed-0.12.1.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "repository_id": 15,
+    "tag_name": "v0.12.0",
+    "name": "v0.12.0",
+    "body": "## [v0.12.0](https://github.com/jkuri/Reframed/compare/v0.11.1...v0.12.0) (2026-03-01)\r\n\r\n### Features\r\n\r\n- **editor:** animate timeline track show/hide with smooth layout transitions ([587eda8](https://github.com/jkuri/Reframed/commit/587eda865422e4fa76abca09d33fdb4711cfe9bc))\r\n- **effects:** add spotlight regions timeline track with per-region overrides and fade transitions ([30a9848](https://github.com/jkuri/Reframed/commit/30a98483ada3934ba84e09d667a5ad42821cb5ec))\r\n- **effects:** add spotlight effect with compositor support and lenient codable decoders ([5cd894c](https://github.com/jkuri/Reframed/commit/5cd894cc712d2c3aee342baabce2e1299c364df5))\r\n- **editor:** replace synthesized click sounds with 30 MP3 samples and add reusable Dropdown component ([0f759fa](https://github.com/jkuri/Reframed/commit/0f759fa925f1cf018249bfd96cada75d3d2e6983))\r\n\r\n### Bug Fixes\r\n\r\n- **editor:** hide muted audio and disabled camera tracks from timeline ([6bf1f37](https://github.com/jkuri/Reframed/commit/6bf1f377b4fd44c156c93ead399bdc62b4754a4a))\r\n- **zoom:** merge overlapping auto-zoom regions before generating keyframes ([4071967](https://github.com/jkuri/Reframed/commit/407196720939184d151582fbfbd94dfcee8bab83))\r\n- **editor:** hide screen shadow during transitions and disable cursor/zoom tabs without cursor data ([cf9cf56](https://github.com/jkuri/Reframed/commit/cf9cf56305c0b3b85269d7a83fa7b57769f7c261))\r\n\r\n### Refactoring\r\n\r\n- **editor:** replace History change descriptions with data-driven rules array ([b9e415e](https://github.com/jkuri/Reframed/commit/b9e415eac9eba59753f3ac3f74d0c9d7d320287b))\r\n\r\n### Styling\r\n\r\n- **editor:** update UI color palette, standardize corner radius, and refine borders across various components follow shadcn stuff ([92ceab4](https://github.com/jkuri/Reframed/commit/92ceab4651f59689f1a1a50f2bffe863fa0db8a4))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.12.0",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.12.0",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.12.0",
+    "published_at": "2026-03-01T00:13:46Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4879,
+        "release_id": 284,
+        "name": "Reframed-0.12.0.dmg",
+        "size": 19177717,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.12.0/Reframed-0.12.0.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "repository_id": 15,
+    "tag_name": "v0.11.1",
+    "name": "v0.11.1",
+    "body": "## [v0.11.1](https://github.com/jkuri/Reframed/compare/v0.11.0...v0.11.1) (2026-02-28)\r\n\r\n### Features\r\n\r\n- **menubar:** show pulsating processing icon during export and fix icon reset ([0553e1e](https://github.com/jkuri/Reframed/commit/0553e1e8c907808440189ec53dbebe72e81fa985))\r\n- **menubar:** stop recording on menu bar icon click during capture ([9d7e3e8](https://github.com/jkuri/Reframed/commit/9d7e3e808515d1251abf7bb022845fd533bc767e))\r\n- **menubar:** add custom programmatic menu bar icon with state variations ([d4cd813](https://github.com/jkuri/Reframed/commit/d4cd813158c7fc163b007b2aecebdb453e9e96ae))\r\n- **captions:** add empty state when no speech is detected after transcription ([4c4a1e6](https://github.com/jkuri/Reframed/commit/4c4a1e6670b199dadeca0e1deb66049194ba935c))\r\n- **captions:** replace model popover with segment picker and add sizes to descriptions ([ed3cc1e](https://github.com/jkuri/Reframed/commit/ed3cc1eba4d5001d93f0bdbcc5126667091b30a7))\r\n- **captions:** auto-close model/language pickers and add language search ([43cc373](https://github.com/jkuri/Reframed/commit/43cc373ebcfb9a3a671b90269a133b4d13c63390))\r\n\r\n### Bug Fixes\r\n\r\n- **captions:** add cancel button for model download and fix download cancellation ([3fafde1](https://github.com/jkuri/Reframed/commit/3fafde14df20724d41fb116c860497b6e80b9e34))\r\n- **captions:** filter out non-speech segments from transcription results ([7c29360](https://github.com/jkuri/Reframed/commit/7c2936055e6fde061b7cf976abae0e0a0c6a533a))\r\n- **editor:** cancel in-flight tasks and guard waveform generation on project deletion ([a898c89](https://github.com/jkuri/Reframed/commit/a898c8923277c3d38c318d5beaaddb89c10777c8))\r\n- **captions:** prefer denoised mic audio for caption transcription ([9c5744e](https://github.com/jkuri/Reframed/commit/9c5744e4f29d1f606fc60f8f13a2e2bf6a5c1a52))\r\n- replace force unwraps with safe error handling and add resource cleanup deinits ([c21e693](https://github.com/jkuri/Reframed/commit/c21e693b4d17cec829de1b709e24df2c97d6234e))\r\n- **editor:** cancel pending save task and reset project state when deleting a recording ([dd2ac26](https://github.com/jkuri/Reframed/commit/dd2ac265a953a539ce9a3fd00ff59520e8e1c03f))\r\n- **capture:** focus captured window on recording start and improve toolbar window ordering. ([bced83b](https://github.com/jkuri/Reframed/commit/bced83b169b6455f557d338e10de1a048d0e8832))\r\n\r\n### Refactoring\r\n\r\n- **menubar:** make new menubar from scratch ([bd1b904](https://github.com/jkuri/Reframed/commit/bd1b9044c9d16acc589a1abfc27031e3101b654b))\r\n- **style:** centralize and apply UI dimension constants for various components ([631aac2](https://github.com/jkuri/Reframed/commit/631aac20f20cc544dbaefa5d3363e0ffcca6be50))\r\n\r\n### Styling\r\n\r\n- **recording:** decrease window selection background opacity ([0f978f5](https://github.com/jkuri/Reframed/commit/0f978f555663f34e159049be4779cd5830f02b21))\r\n\r\n### Chores\r\n\r\n- **captions:** replace Whisper `small` model with `turbo` and update model size and description details ([9a5cc34](https://github.com/jkuri/Reframed/commit/9a5cc349b625675d2fa7a357e7675cc9d3c7f042))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.11.1",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.11.1",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.11.1",
+    "published_at": "2026-02-28T15:23:44Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4880,
+        "release_id": 285,
+        "name": "Reframed-0.11.1.dmg",
+        "size": 18784205,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.11.1/Reframed-0.11.1.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "repository_id": 15,
+    "tag_name": "v0.11.0",
+    "name": "v0.11.0",
+    "body": "## [v0.11.0](https://github.com/jkuri/Reframed/compare/v0.10.2...v0.11.0) (2026-02-28)\r\n\r\n### Features\r\n\r\n- **captions:** add caption history tracking and improve transcription ([b9c60d8](https://github.com/jkuri/Reframed/commit/b9c60d8f3d367024c0e726f059764e88fbafa542))\r\n- **captions:** add speech-to-text captions using WhisperKit ([a7c6c8e](https://github.com/jkuri/Reframed/commit/a7c6c8e351010c8f3b8873b4391dc3b67ed055bd))\r\n- **camera:** implement camera backgrounds - blur/color/gradient/image and make sure this also process in parallel when exporting ([d208dc9](https://github.com/jkuri/Reframed/commit/d208dc9c092ce9a8e790b824a8363b6a45084581))\r\n\r\n### Bug Fixes\r\n\r\n- **captions:** apply audio/video drift correction to caption timestamps ([505fac1](https://github.com/jkuri/Reframed/commit/505fac181ec89309e53234afe3137646f3fd8b2a))\r\n- **captions:** fix segment grouping, display linger, and export sync ([b78dc2d](https://github.com/jkuri/Reframed/commit/b78dc2d4bb964a7bac3a03f8f3e20e468a18f39c))\r\n- **sync:** add real-time audio/video drift correction during recording ([d44e7d4](https://github.com/jkuri/Reframed/commit/d44e7d48c24c0a565d9bc87b2934a068c896d16f))\r\n- **export:** fix audio missing when video has cuts not starting at beginning ([ce8e703](https://github.com/jkuri/Reframed/commit/ce8e70325a0498b5d9449e42f1641a17a1c8ffd7))\r\n- **camera:** fix fullscreen aspect ratio, fill mode, transitions, and cleanup ([a76543e](https://github.com/jkuri/Reframed/commit/a76543e2ca37432408e9cafc4314184a63194c09))\r\n- **export:** preserve settings when preset switches to Custom ([6a63cad](https://github.com/jkuri/Reframed/commit/6a63cad40f1db942c8699d718dbb80836d0a1210))\r\n\r\n### Performance\r\n\r\n- **captions:** tune WhisperKit decoding options for faster transcription ([d5750f4](https://github.com/jkuri/Reframed/commit/d5750f4dcaef09811b398ce367182e9275255a93))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.11.0",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.11.0",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.11.0",
+    "published_at": "2026-02-28T01:25:19Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4881,
+        "release_id": 286,
+        "name": "Reframed-0.11.0.dmg",
+        "size": 18745556,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.11.0/Reframed-0.11.0.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "repository_id": 15,
+    "tag_name": "v0.10.2",
+    "name": "v0.10.2",
+    "body": "## [v0.10.2](https://github.com/jkuri/Reframed/compare/v0.10.1...v0.10.2) (2026-02-26)\r\n\r\n### Features\r\n\r\n- **cursors:** implement SVG based cursors and make them from scratch with adjustable colors now ([2ccee06](https://github.com/jkuri/Reframed/commit/2ccee06df33d5d86614ef953999a12b8f669832c))\r\n- **export:** add platform presets for quick export configuration ([ddee41c](https://github.com/jkuri/Reframed/commit/ddee41c8f330205c8f9b97e7358bf5411826ee00))\r\n\r\n### Bug Fixes\r\n\r\n- **export:** reset settings to defaults when switching to Custom preset ([247c25e](https://github.com/jkuri/Reframed/commit/247c25eb789f9179dc15fd9de444aa6ba049ba48))\r\n- **editor:** improve cursor overlay smoothness in preview playback ([fb5ee2c](https://github.com/jkuri/Reframed/commit/fb5ee2caa4898c049503b76d85612228b7559de3))\r\n- **shortcuts:** prevent global keyboard shortcuts from propagating to other apps during recording ([cf7a68f](https://github.com/jkuri/Reframed/commit/cf7a68f3e8cfb278e29c57d5e665534e9c664ab9))\r\n- **permissions:** show permissions window on startup in case they are not granted already ([a9e5e51](https://github.com/jkuri/Reframed/commit/a9e5e516dcdc846e73696bdf61b12de1a7ea159b))\r\n\r\n### Refactoring\r\n\r\n- split large files into focused extensions and improve error logging ([3f3ad35](https://github.com/jkuri/Reframed/commit/3f3ad35afec2830a761058c9bc840914a3e5f53a))\r\n\r\n### Styling\r\n\r\n- **colors:** update colors for popovers and editor tracks ([a2f409e](https://github.com/jkuri/Reframed/commit/a2f409e00aadf6ea9c571a9df846c189ef90e800))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.10.2",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.10.2",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.10.2",
+    "published_at": "2026-02-26T17:59:56Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4882,
+        "release_id": 287,
+        "name": "Reframed-0.10.2.dmg",
+        "size": 15408412,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.10.2/Reframed-0.10.2.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "repository_id": 15,
+    "tag_name": "v0.10.1",
+    "name": "v0.10.1",
+    "body": "## [v0.10.1](https://github.com/jkuri/Reframed/compare/v0.10.0...v0.10.1) (2026-02-25)\r\n\r\n### Bug Fixes\r\n\r\n- **capture:** fix multiple display selection and capture for all three modes - display, window and area (closes #4) ([2b3ff7e](https://github.com/jkuri/Reframed/commit/2b3ff7e6a58a15cbe4902c944dfbf42e883c8d45))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.10.1",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.10.1",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.10.1",
+    "published_at": "2026-02-25T17:38:28Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4883,
+        "release_id": 288,
+        "name": "Reframed-0.10.1.dmg",
+        "size": 15337082,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.10.1/Reframed-0.10.1.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "repository_id": 15,
+    "tag_name": "v0.10.0",
+    "name": "v0.10.0",
+    "body": "## [v0.10.0](https://github.com/jkuri/Reframed/compare/v0.9.4...v0.10.0) (2026-02-24)\r\n\r\n### Features\r\n\r\n- **capture:** support multi-display selection for entire screen recording ([1647c9a](https://github.com/jkuri/Reframed/commit/1647c9ac599943e36edbe9d72928b94bca8560b6))\r\n- **preview:** add progress ti preview mode and implement seek and drag to specific time section ([8bed9e2](https://github.com/jkuri/Reframed/commit/8bed9e29dcaf6906f5fffe91e77d894250f611f9))\r\n- **video:** introduce the video regions and cut impl ([2b37010](https://github.com/jkuri/Reframed/commit/2b370101cbb4655ca18e44061758f0b98c0b7d04))\r\n\r\n### Bug Fixes\r\n\r\n- **ui:** use muted background for cursor style picker ([2827b99](https://github.com/jkuri/Reframed/commit/2827b99af6c59b49a466e5f236bdf529b215fbb9))\r\n- **editor:** change default click highlight color to black ([40f05e8](https://github.com/jkuri/Reframed/commit/40f05e824b5a9dac7b0c1aca385214cb2d52bc8c))\r\n- **editor:** snap smoothed cursor to click positions during spring simulation ([dca316a](https://github.com/jkuri/Reframed/commit/dca316af7d6ca5a097ce839e67513d763514df72))\r\n- **editor:** don't show toolbar when editor window closes ([4e51114](https://github.com/jkuri/Reframed/commit/4e511140c7729abac14205bdb86f47fcf192f90b))\r\n- **ui:** use primaryText color for success checkmarks ([02deb0e](https://github.com/jkuri/Reframed/commit/02deb0e5fd5641c5f1909ffa268cc984b2d9a826))\r\n- **editor:** ensure history entries always have descriptive labels ([689de4f](https://github.com/jkuri/Reframed/commit/689de4f0a25b5177125ccfe221f131059665896e))\r\n- **editor:** disable delete button while exporting ([947b712](https://github.com/jkuri/Reframed/commit/947b7121d646be7bf6d8505d002ade1c6bbcada6))\r\n- **ui:** pin about tab footer to bottom of settings view ([9fd3b90](https://github.com/jkuri/Reframed/commit/9fd3b9013869dcd4f64deb1a0e388b95be2589b2))\r\n- **ui:** update SliderRow label colors on appearance change ([274f45e](https://github.com/jkuri/Reframed/commit/274f45e9a2bf059e98945769ea34717bbbcb5955))\r\n- **config:** correct default output folder name to ~/Movies/Reframed ([4472b3f](https://github.com/jkuri/Reframed/commit/4472b3f56a8e1b1229c9ae42bd41aa5dac359e15))\r\n- **transition:** fix scale transition for screen in the editor preview ([8752870](https://github.com/jkuri/Reframed/commit/87528701f8eab5d7acb0013f3e5ecc17d5784359))\r\n- **transition:** cursor in preview mode while in screen transiton now works properly ([400886c](https://github.com/jkuri/Reframed/commit/400886c4bfdb8e780d9c05666ebeb1db73f37f4c))\r\n- **transition:** fix transitions in editor preview mode ([b88526e](https://github.com/jkuri/Reframed/commit/b88526e54235cdb8231fcbe3f02132c597be7d9e))\r\n- **export:** fix parallel export crashing sometimes when cancel ([04492ce](https://github.com/jkuri/Reframed/commit/04492ceb82b5060cbd0d7d14f34b48310a5fbd13))\r\n- **zoom:** use ZTP formula for zoom in and out transition ([51f3134](https://github.com/jkuri/Reframed/commit/51f31342218188aee967004b3ef8d25cee6ff877))\r\n\r\n### Refactoring\r\n\r\n- **editor:** move cursor movement section from Animate tab to Cursor tab ([e3e2b7d](https://github.com/jkuri/Reframed/commit/e3e2b7d2f483589e382cadb4ba695b6a5e18b6b2))\r\n- remove unused files and function implementations, rename some methods and other stuff ([3e89f77](https://github.com/jkuri/Reframed/commit/3e89f770df80cdfe0f9d1f7d042a3be2ad4a844b))\r\n\r\n### Styling\r\n\r\n- **capture:** fix window mode capture to follow same new styles ([9da8c0f](https://github.com/jkuri/Reframed/commit/9da8c0f9972369b30752675021c66e25b773effa))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.10.0",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.10.0",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.10.0",
+    "published_at": "2026-02-24T18:14:22Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4884,
+        "release_id": 289,
+        "name": "Reframed-0.10.0.dmg",
+        "size": 15339433,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.10.0/Reframed-0.10.0.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "repository_id": 15,
+    "tag_name": "v0.9.4",
+    "name": "v0.9.4",
+    "body": "## [v0.9.4](https://github.com/jkuri/Reframed/compare/v0.9.3...v0.9.4) (2026-02-21)\r\n\r\n### Features\r\n\r\n- **recording:** add option to hide webcam preview while recording ([1daaa78](https://github.com/jkuri/Reframed/commit/1daaa7806f986fb2d1444e3c7c51c217e00158cc))\r\n\r\n### Bug Fixes\r\n\r\n- **tranisiton:** make slide camera animation go off screen no matter what height is configured ([bba8bda](https://github.com/jkuri/Reframed/commit/bba8bda593b62d00aaaf5a15d1ef236a19fa8def))\r\n- **cursor:** make webcam PiP have higher z-index than cursor ([fd8009a](https://github.com/jkuri/Reframed/commit/fd8009aa393a32f535df866a1a53e774474b9efa))\r\n\r\n### Performance\r\n\r\n- **transitions:** show background capture while in full-screen webcam transition mode ([1ad8cd9](https://github.com/jkuri/Reframed/commit/1ad8cd9332da1ee30af6669561fa45d6712b5c5f))\r\n\r\n### Styling\r\n\r\n- **app:** restyle the whole app using shadcn monochrome colours ([be3e89b](https://github.com/jkuri/Reframed/commit/be3e89be1b1228513efaaf74bf3eefe3f24b8f7e))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.9.4",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.9.4",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.9.4",
+    "published_at": "2026-02-21T13:35:24Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4885,
+        "release_id": 290,
+        "name": "Reframed-0.9.4.dmg",
+        "size": 15189037,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.9.4/Reframed-0.9.4.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "repository_id": 15,
+    "tag_name": "v0.9.3",
+    "name": "v0.9.3",
+    "body": "## [v0.9.3](https://github.com/jkuri/Reframed/compare/v0.9.2...v0.9.3) (2026-02-20)\r\n\r\n### Features\r\n\r\n- **animations:** make camera PiP animations like fade, slide in, scale work in both preview and export ([f286360](https://github.com/jkuri/Reframed/commit/f28636000aeb2c4df6dd9e1457c018097d5f8db8))\r\n- **camera:** add option for custom style and position regions on webcam webcam track ([ff8069e](https://github.com/jkuri/Reframed/commit/ff8069e93cbfb58d8375917ee0d371810780ec49))\r\n- **camera:** enhance camera regions with option to hide camera on specific sections on the timeline ([54e3166](https://github.com/jkuri/Reframed/commit/54e31660efb4a615b3ecd5b5b10c31abe9718727))\r\n- **settings:** add about section in settings popover and check for updates feature ([a751572](https://github.com/jkuri/Reframed/commit/a751572f19d47365ba8546f7fd6200552fd9efba))\r\n- **editor:** add more info about the project in the panel ([d621371](https://github.com/jkuri/Reframed/commit/d621371b579dfc5d232378dc8d4bb0cf84430627))\r\n- **recording:** make option to enable/disable outer area as dimmed while recording ([71d6ca2](https://github.com/jkuri/Reframed/commit/71d6ca2b4f54664896efc1f23bdd73391ef18ed4))\r\n- **video:** switch standard quality video encoding to H.265 (HEVC) 10-bit and update related UI labels and descriptions ([81aeea5](https://github.com/jkuri/Reframed/commit/81aeea53701c2b62aa5db7b11b1baad6ec7776fb))\r\n- **capture:** adjusted video export bitrates and keyframe intervals, removed specific compression properties, and set global high interpolation quality for camera video rendering. ([307febf](https://github.com/jkuri/Reframed/commit/307febf07b8d7a7c780017db4e01c1a8a350ba92))\r\n- **capture:** enhance capturing screen with options like superscale, codec selection and some other stuff ([2a945c4](https://github.com/jkuri/Reframed/commit/2a945c49ac73852037080b47edcf8fcc6a2c7a6c))\r\n\r\n### Bug Fixes\r\n\r\n- **preview:** fix camera bugs around PiP camera bounds and rendering ([7ad4c84](https://github.com/jkuri/Reframed/commit/7ad4c846173302f83af30824de39e52055831f4a))\r\n- **compositor:** make sure manual export also keep the fps as requested ([33f861c](https://github.com/jkuri/Reframed/commit/33f861c66a3f1ed431ef6e29f4b4f805706d8445))\r\n- **metadata:** write correct metadata about cursor in case of window recording and dragged to another position ([171f5ff](https://github.com/jkuri/Reframed/commit/171f5ffc4446187a32226231fdcb7ffbba30c68c))\r\n- **config:** merge existing config values in case of a new property is defined, make it backward compatible ([6003119](https://github.com/jkuri/Reframed/commit/6003119bd0975552288d52371557f95faa8ebf8b))\r\n- **config:** save state of audio streams ([b76eff2](https://github.com/jkuri/Reframed/commit/b76eff2158ad1cb2732b2dff0e5afa9f4e4e790f))\r\n- **recording:** update dimmed area and border in case recording specific window and its dragged to new position ([3ac2569](https://github.com/jkuri/Reframed/commit/3ac25690ea84335ec895ea9199d0f707b2623de9))\r\n\r\n### Performance\r\n\r\n- **camera:** lower down the bitrate multiplier in case of webcam ([7dbc64d](https://github.com/jkuri/Reframed/commit/7dbc64d5856bb995e9139c2ad70c7d583260fed9))\r\n- **video:** match bitreate of captured and exported video ([0692f2d](https://github.com/jkuri/Reframed/commit/0692f2d357970ac27eca1bbd69a400c1c8551b4a))\r\n- **video:** improve the quality of the captured and exported video ([74d7f84](https://github.com/jkuri/Reframed/commit/74d7f8488901e78c92fa0057613130596e676419))\r\n\r\n### Refactoring\r\n\r\n- **colors:** make all colors used in timeline tracks in hex format for easier changes ([bc4d259](https://github.com/jkuri/Reframed/commit/bc4d259055533fed15d3eaed854618da3a9f71f1))\r\n- **compositor:** break video compositor into more source files ([aaa7052](https://github.com/jkuri/Reframed/commit/aaa70523754a329c55ba627a8bd46f358a61b06a))\r\n- **settings:** refactor EditorView's tap gesture handling to reliably resign the first responder and update the UpdateChecker to use nonisolated functions for improved concurrency. ([ef130b8](https://github.com/jkuri/Reframed/commit/ef130b80e684f700baaf7ded70923f7d49da9cc5))\r\n- **ui:** make reusable inline editable text component and use it for renaming the project ([e93c668](https://github.com/jkuri/Reframed/commit/e93c668af096d258ea1b67ddde1480928f4b041e))\r\n- **ux:** improve the behavour of the device recording and show the preview before it starts recording ([dc18a26](https://github.com/jkuri/Reframed/commit/dc18a268f0451e04ef02f796e1ac56bd44c273d1))\r\n- **ux:** improve the user xp before start recordin, in countdown mode, overlay removed ([0639424](https://github.com/jkuri/Reframed/commit/063942436420fd8aada1718c9ba46561ce4e432a))\r\n\r\n### Styling\r\n\r\n- **topbar:** minor export button padding fix ([f0b7bf7](https://github.com/jkuri/Reframed/commit/f0b7bf756c23ed5a0c8f0990cbb00b0e9c68c14a))\r\n- **colours:** update the mic and system audio track colors to look better on both light and dark mode ([f4213e3](https://github.com/jkuri/Reframed/commit/f4213e3bc0a626b99b5eb4e2c1d3d1a63d34d3b2))\r\n- **zoom:** update manual zoom region edit popover to consistently follow the colors across the app ([10b2a78](https://github.com/jkuri/Reframed/commit/10b2a78555c4194f62b1bfeb769e99fc585568a9))\r\n- **editor:** improve the camera region edit popover dialog ([18f7b01](https://github.com/jkuri/Reframed/commit/18f7b01ebb4ff1ea71581fdaf5b3e1f62360a79f))\r\n- **editor:** modify the colours and border radius on editor elements ([b3959a1](https://github.com/jkuri/Reframed/commit/b3959a187dcbd24572fe1ea56786921311fdbad8))\r\n- **menubar:** improve the style ef menubar items ([2a79a25](https://github.com/jkuri/Reframed/commit/2a79a254820cff4af1dc4d644b20e43d4138703b))\r\n- **properties-panel:** improve readability and display project size in general info ([64372a0](https://github.com/jkuri/Reframed/commit/64372a0cdafe6288da354fe0afed3dd867661941))\r\n\r\n\r\n\r\n\u003e **NOTE**: This version is still not properly signed as I am waiting for Apple Developer Enrollment process (pending atm). Next version `v0.10.0` will be. ",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.9.3",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.9.3",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.9.3",
+    "published_at": "2026-02-20T15:49:41Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4886,
+        "release_id": 291,
+        "name": "Reframed-0.9.3.dmg",
+        "size": 15218115,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.9.3/Reframed-0.9.3.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "repository_id": 15,
+    "tag_name": "v0.9.2",
+    "name": "v0.9.2",
+    "body": "## [v0.9.2](https://github.com/jkuri/Reframed/compare/v0.9.1...v0.9.2) (2026-02-19)\r\n\r\n### Features\r\n\r\n- **capture:** adjusted video export bitrates and keyframe intervals, removed specific compression properties, and set global high interpolation quality for camera video rendering. ([e4140ef](https://github.com/jkuri/Reframed/commit/e4140ef2c016ee8d86dcd94225fb5667322ed984))\r\n- **capture:** enhance capturing screen with options like superscale, codec selection and some other stuff ([f736879](https://github.com/jkuri/Reframed/commit/f736879c4b2fb6fc6fc80ba28a7e70748598f310))\r\n\r\n### Chores\r\n\r\n- **icon:** new AppIcon ([15875a2](https://github.com/jkuri/Reframed/commit/15875a28e22e0f23a0ceaca4730f1b9495da08f3))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.9.2",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.9.2",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.9.2",
+    "published_at": "2026-02-19T11:44:28Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4887,
+        "release_id": 292,
+        "name": "Reframed-0.9.2.dmg",
+        "size": 14890480,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.9.2/Reframed-0.9.2.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "repository_id": 15,
+    "tag_name": "v0.9.1",
+    "name": "v0.9.1",
+    "body": "## [v0.9.1](https://github.com/jkuri/Reframed/compare/v0.9.0...v0.9.1) (2026-02-18)\r\n\r\n### Features\r\n\r\n- **export:** add ProRes 4444 and ProRes 422 codec options ([efe06a3](https://github.com/jkuri/Reframed/commit/efe06a36d95d66451749f3245b786e185f923aab))\r\n- **export:** add gif export option available using gifski lib, progressbar and eta also implemented ([4ce7a62](https://github.com/jkuri/Reframed/commit/4ce7a62e183b8ec54f3402ce3262b054e73c0429))\r\n- **export:** make export dialog when done restyles and with copy to clipboard action ([22abde3](https://github.com/jkuri/Reframed/commit/22abde38b462c63c8684f5013fc2153fef809294))\r\n- **camera:** make full-screen mode options like aspect ratio and fill mode for webcam ([eb38282](https://github.com/jkuri/Reframed/commit/eb38282ac3c8f46d6fa475b155dbf931d41faa78))\r\n\r\n### Refactoring\r\n\r\n- **ui:** make components and view reusable where possible and don't repeat the code ([5cbd82b](https://github.com/jkuri/Reframed/commit/5cbd82b439d124dcb90808916dd2c0063de99679))\r\n\r\n### Styling\r\n\r\n- **colors:** make editor colors apply on change and make history popover match styles of other popovers in the app ([dd8b3d5](https://github.com/jkuri/Reframed/commit/dd8b3d5ec665a3fbb95885e61a36a777b51b77a9))\r\n- **appearance:** make sure all colors are updated when switch appearance (light/dark) mode ([e654bbb](https://github.com/jkuri/Reframed/commit/e654bbb487b30feddc57400c68cb55df7b924f3a))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.9.1",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.9.1",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.9.1",
+    "published_at": "2026-02-18T22:12:12Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4888,
+        "release_id": 293,
+        "name": "Reframed-0.9.1.dmg",
+        "size": 15521807,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.9.1/Reframed-0.9.1.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "repository_id": 15,
+    "tag_name": "v0.9.0",
+    "name": "v0.9.0",
+    "body": "## [v0.9.0](https://github.com/jkuri/Reframed/compare/v0.8.2...v0.9.0) (2026-02-18)\r\n\r\n### Features\r\n\r\n- **timeline:** improve the timeline zoom and scrollbar ([5689f45](https://github.com/jkuri/Reframed/commit/5689f45fbf47ecc1f66e3f69c6152d95d6211095))\r\n- **audio:** cache denoised mic audio stream so it doesn't regenerates everytime you open the project, also use the cached stream when exporting ([97d1d22](https://github.com/jkuri/Reframed/commit/97d1d22012892090065532b4c70b2f7614749ca4))\r\n- **timeline:** add zoom to timeline ([76efdb7](https://github.com/jkuri/Reframed/commit/76efdb7e3bc38d2d48897ce3565a18f982b96553))\r\n- **history:** make popover to rollback to specific history snaphot ([b42cec8](https://github.com/jkuri/Reframed/commit/b42cec8d3ca6c75fb988ab64ce2aff0c5e75d966))\r\n- **editor:** save history of actions done on editor, undo/redo implemented ([70f5ee3](https://github.com/jkuri/Reframed/commit/70f5ee3412ceecafaa1b89a17f42a752f270b89a))\r\n\r\n### Bug Fixes\r\n\r\n- **timeline:** improve handlers for resize/drag on all tracks ([ed3086a](https://github.com/jkuri/Reframed/commit/ed3086a8a784e5acd23243c646702dd835640179))\r\n- **audio:** fix denoising progress tracker to yield current right current status ([73f37ed](https://github.com/jkuri/Reframed/commit/73f37ed86d4ab33cb12c7023744959f442aa6d49))\r\n\r\n### Chores\r\n\r\n- **claude:** add swiftui and swift concurrency skills for claude code ([d6951a0](https://github.com/jkuri/Reframed/commit/d6951a0aeaf32aa7fb48f57e363cf66f1f7e6eeb))\r\n- **export:** change the order of audio bitrate options ([3faca95](https://github.com/jkuri/Reframed/commit/3faca95d5f92e4b5dd91588bbc70365e28e6b41d))\r\n\r\n### Build\r\n\r\n- **Makefile:** make dmg now creates universal  release for both Intel x86 and Apple Silicon ([40d6d6d](https://github.com/jkuri/Reframed/commit/40d6d6d9c7c6e61821ca1815be1c27e0c93160ba))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.9.0",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.9.0",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.9.0",
+    "published_at": "2026-02-18T17:51:09Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4889,
+        "release_id": 294,
+        "name": "Reframed-0.9.0.dmg",
+        "size": 14618437,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.9.0/Reframed-0.9.0.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "repository_id": 15,
+    "tag_name": "v0.8.2",
+    "name": "v0.8.2",
+    "body": "## [v0.8.2](https://github.com/jkuri/Reframed/compare/v0.8.1...v0.8.2) (2026-02-17)\r\n\r\n### Features\r\n\r\n- **audio:** add noise reducer for microphone audio stream using RNNoise ([b060695](https://github.com/jkuri/Reframed/commit/b060695eb613b3e06ba712c0c4ad4c3e287dc426))\r\n\r\n### Bug Fixes\r\n\r\n- **audio:** show loading status while regenerating mic audio waveform ([e33a834](https://github.com/jkuri/Reframed/commit/e33a834eafbd043eba82799a8cfb1bc7ae857783))\r\n- **audio:** filter out CADefaultDeviceAggregate from mic selection in both options and settings, make sure they are set to nil in teardown procedure ([a60fce6](https://github.com/jkuri/Reframed/commit/a60fce6eb3f677ff93feeaace27f387c9d586dfe))\r\n\r\n### Refactoring\r\n\r\n- **audio:** remove AudioNoiseReducer file, was just a trivial passthrough to RNNoiseProcessor ([178daf7](https://github.com/jkuri/Reframed/commit/178daf73ec5aac19847fe712480dba1a0dda0522))\r\n\r\n### Documentation\r\n\r\n- **readme:** update README.md with mic noise reducer description ([4ef3fb1](https://github.com/jkuri/Reframed/commit/4ef3fb1b45df21d14d3cdd8c461e6b038fd02e83))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.8.2",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.8.2",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.8.2",
+    "published_at": "2026-02-17T21:16:53Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4890,
+        "release_id": 295,
+        "name": "Reframed-0.8.2.dmg",
+        "size": 7495108,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.8.2/Reframed-0.8.2.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "repository_id": 15,
+    "tag_name": "v0.8.1",
+    "name": "v0.8.1",
+    "body": "## [v0.8.1](https://github.com/jkuri/Reframed/compare/v0.8.0...v0.8.1) (2026-02-17)\r\n\r\n### Features\r\n\r\n- **video:** add custom background image possible and make it work in preview and exported video as well ([2b42808](https://github.com/jkuri/Reframed/commit/2b42808fe992790bbd072c504332efafd070664c))\r\n- **editor:** save editor window state like size and position and restore when reopened ([ddad8b2](https://github.com/jkuri/Reframed/commit/ddad8b2bb46f48d9fc477a24cf5bad7952e2b867))\r\n- **camera:** improve the camera options in editor and fix some bugs around that topic ([cb22543](https://github.com/jkuri/Reframed/commit/cb22543961ef803609a9709780b1a073b95e5dd6))\r\n- **camera:** implement webcam background manipulation ([ca93a7b](https://github.com/jkuri/Reframed/commit/ca93a7b6a881947d205fa1a2c168a2d724c586df))\r\n- **camera:** add webcam mirror toggle and implement the feature ([448ba7a](https://github.com/jkuri/Reframed/commit/448ba7a476dd8fa35419397d90c2cbfb471cbee7))\r\n- **editor:** make webcam toggle switch in editor and don't include its stream into transcoder when exporting in case its disabled ([3834da1](https://github.com/jkuri/Reframed/commit/3834da1e838b559de277dddb211968e3cae94a5b))\r\n- **audio:** add microphone audio noise reduction func and re-generate waveform in real-time when changes are updated ([a8caa45](https://github.com/jkuri/Reframed/commit/a8caa4535ac158b1416381a28db3ed3e020db2c5))\r\n- **audio:** add audio tab in editor settings and make muting and volume control possible ([80b98f4](https://github.com/jkuri/Reframed/commit/80b98f4e1b345a8e917a35ad7eaccdc6e181829b))\r\n- **cursor:** implement new section for animate and add cursor movement speed based on spring (tension, friction, mass) - some hardcore styles ([6736c09](https://github.com/jkuri/Reframed/commit/6736c092e3bc5b628b1e6712bce5a5ae5c30c368))\r\n- **editor:** add more gradients, make colors and gradients pickable and visible directly, fix the camera size, make camera aspect ratio configurable, add shadow option for both canvas and camera, make radius configurable in percent unit ([6cb0396](https://github.com/jkuri/Reframed/commit/6cb039693a07064d1c43fc8484129a5135bf69f8))\r\n\r\n### Bug Fixes\r\n\r\n- **timeline:** do not generate and render mic waveform twice initially ([d7f8381](https://github.com/jkuri/Reframed/commit/d7f8381a060c84fe9593861e5c679f90739209be))\r\n- **video-compositor:** use .userInitiated QoS for both video and audio queues, matching the priority of the main thread that receives group.notify callback ([a5b2b7b](https://github.com/jkuri/Reframed/commit/a5b2b7bcfb85c19696b81138df9f02b7c01de53b))\r\n\r\n### Performance\r\n\r\n- **audio:** capture both system and mic audio at 320kbps and make option to reduce the quality in export ([e172bd4](https://github.com/jkuri/Reframed/commit/e172bd44f9c977c6d4dec9830f5ff083cf89ab63))\r\n\r\n### Refactoring\r\n\r\n- **editor:** make more reusable components for editor so we don't repeat ourselves, also some style improvements and other bug fixes are included in this one ([ff1db77](https://github.com/jkuri/Reframed/commit/ff1db777a5cc38f8310f6a074eceffa4be7c8caa))\r\n\r\n### Chores\r\n\r\n- **timeline:** make playhead animation look smoother ([9e7a54b](https://github.com/jkuri/Reframed/commit/9e7a54b4c263bb53173bcc843df26542f1b1a61f))\r\n\r\n### Reverts\r\n\r\n- **camera:** revert backgrounds for webcam as was unable to resolve halo effect ([7b81c12](https://github.com/jkuri/Reframed/commit/7b81c1253304281e736cb157f65f826eb7522a2e))\r\n\r\n## [v0.8.0](https://github.com/jkuri/Reframed/compare/v0.7.0...v0.8.0) (2026-02-15)\r\n\r\n### Features\r\n\r\n- **shortcuts:** implement keyboard shortcuts for recording actions and make keystrokes customizable and configurable in settings ([6b2f7d8](https://github.com/jkuri/Reframed/commit/6b2f7d80780d6eeabc4b6d4f18ab52ca2f5b35c0))\r\n\r\n### Styling\r\n\r\n- **ui:** set dark mode panel backgrounds and light mode primary text to pure black. ([d16f48f](https://github.com/jkuri/Reframed/commit/d16f48f74607c998e349fa3b8652c6a9d4e0d09a))\r\n\r\n### Chores\r\n\r\n- specifically set recording border window sharingType to .none ([ea1244b](https://github.com/jkuri/Reframed/commit/ea1244bfe4d9aa8104efc700fc916d26b3c9f382))\r\n- put window sharing type into constants and read it from there ([16a2b87](https://github.com/jkuri/Reframed/commit/16a2b87f7c7aaf3bb769fad28b2c000b01031479))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.8.1",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.8.1",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.8.1",
+    "published_at": "2026-02-17T17:43:21Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4891,
+        "release_id": 296,
+        "name": "Reframed-0.8.1.dmg",
+        "size": 2289467,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.8.1/Reframed-0.8.1.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "repository_id": 15,
+    "tag_name": "v0.8.0",
+    "name": "v0.8.0",
+    "body": "## [v0.8.0](https://github.com/jkuri/Reframed/compare/v0.7.0...v0.8.0) (2026-02-15)\r\n\r\n### Features\r\n\r\n- **shortcuts:** implement keyboard shortcuts for recording actions and make keystrokes customizable and configurable in settings ([6b2f7d8](https://github.com/jkuri/Reframed/commit/6b2f7d80780d6eeabc4b6d4f18ab52ca2f5b35c0))\r\n\r\n### Styling\r\n\r\n- **ui:** set dark mode panel backgrounds and light mode primary text to pure black. ([d16f48f](https://github.com/jkuri/Reframed/commit/d16f48f74607c998e349fa3b8652c6a9d4e0d09a))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.8.0",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.8.0",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.8.0",
+    "published_at": "2026-02-15T17:31:21Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4892,
+        "release_id": 297,
+        "name": "Reframed-0.8.0.dmg",
+        "size": 2150637,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.8.0/Reframed-0.8.0.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "repository_id": 15,
+    "tag_name": "v0.7.0",
+    "name": "v0.7.0",
+    "body": "## [v0.7.0](https://github.com/jkuri/Reframed/compare/v0.6.0...v0.7.0) (2026-02-15)\r\n\r\n### Features\r\n\r\n- display capture mode, duration, webcam, and audio status for recent projects in the menu bar by updating project metadata and creation. ([64c6e94](https://github.com/jkuri/Reframed/commit/64c6e945e4b361abf44800987209446960b0df47))\r\n- **cursor:** implement 20 different cursor styles ([521d8cf](https://github.com/jkuri/Reframed/commit/521d8cfd525aee7fa815fb4e751dc55025c7f915))\r\n- **export:** make export better and more informational ([3e04415](https://github.com/jkuri/Reframed/commit/3e04415ea6de61899d0bde417b5cc4a59b7fa293))\r\n\r\n### Bug Fixes\r\n\r\n- camera display in full-screen mode ([2d2cfbe](https://github.com/jkuri/Reframed/commit/2d2cfbe1210a00e0a38b144a0048870bd3bb875f))\r\n- export fixes and smaller video files ([aaaf0df](https://github.com/jkuri/Reframed/commit/aaaf0df78340892b0e44b5b607555e267f51a3b5))\r\n- **export:** fix progress real-time and ETA info ([0127529](https://github.com/jkuri/Reframed/commit/0127529d1c1d9dad88393797a04b9a2eadb4fafe))\r\n\r\n### Performance\r\n\r\n- **export:** implement parallel multi-core exporting (optional) ([c9622bd](https://github.com/jkuri/Reframed/commit/c9622bd30ab4d1cadeb4effb99e0acfd78967528))\r\n- reduce the exported video size ([5e78a58](https://github.com/jkuri/Reframed/commit/5e78a5846f29cf6a682195ab2038882ef34966a9))\r\n\r\n### Refactoring\r\n\r\n- **ui:** modify some styles on the UI to be consistent ([1667f71](https://github.com/jkuri/Reframed/commit/1667f71ec8ad12b0aa6ced37749fe1fc168dacce))\r\n- **ui:** define constants for layout and use it ([2af7f04](https://github.com/jkuri/Reframed/commit/2af7f047247101796be953d60d29cff50750f048))\r\n- **ui:** create reusable views where possible ([6a65a36](https://github.com/jkuri/Reframed/commit/6a65a369bf808272e4599e282a9cf5b5b5923e28))\r\n- split views into smaller components ([601e5cc](https://github.com/jkuri/Reframed/commit/601e5ccb0d7b1b84ef3dfc4492af04c6b0ec8de0))\r\n\r\n### Styling\r\n\r\n- decrease SettingsView frame dimensions. ([924640b](https://github.com/jkuri/Reframed/commit/924640b8fccab6208c8dff86cf91f2e00aa710d3))\r\n- **format:** add swift format command to the Makefile and run it ([921d848](https://github.com/jkuri/Reframed/commit/921d848c8cd1f521a02ebc256e25709d991574fd))",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.7.0",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.7.0",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.7.0",
+    "published_at": "2026-02-15T13:26:11Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4893,
+        "release_id": 298,
+        "name": "Reframed-0.7.0.dmg",
+        "size": 2108133,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.7.0/Reframed-0.7.0.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "repository_id": 15,
+    "tag_name": "v0.5.0",
+    "name": "v0.5.0",
+    "body": "**Full Changelog**: https://github.com/jkuri/Reframed/commits/v0.5.0",
+    "html_url": "https://github.com/jkuri/Reframed/releases/tag/v0.5.0",
+    "tarball_url": "https://api.github.com/repos/jkuri/Reframed/tarball/v0.5.0",
+    "zipball_url": "https://api.github.com/repos/jkuri/Reframed/zipball/v0.5.0",
+    "published_at": "2026-02-12T22:40:59Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:50Z",
+    "assets": [
+      {
+        "id": 4894,
+        "release_id": 299,
+        "name": "Reframed-0.5.0.dmg",
+        "size": 1752767,
+        "download_url": "https://github.com/jkuri/Reframed/releases/download/v0.5.0/Reframed-0.5.0.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:18Z"
+      }
+    ]
+  }
+]

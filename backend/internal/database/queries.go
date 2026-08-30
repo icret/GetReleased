@@ -261,6 +261,20 @@ func (d *DB) ListReleases(ctx context.Context) ([]release.Release, error) {
 	return releases, nil
 }
 
+func (d *DB) ListRecentReleases(ctx context.Context, limit int) ([]release.Release, error) {
+	var releases []release.Release
+	err := d.conn.SelectContext(ctx, &releases,
+		`SELECT id, repository_id, tag_name, name, body, html_url, tarball_url, zipball_url, published_at, is_prerelease, created_at
+		 FROM releases ORDER BY published_at DESC LIMIT ?`, limit)
+	if err != nil {
+		return nil, err
+	}
+	if err := d.attachAssets(ctx, releases); err != nil {
+		return nil, err
+	}
+	return releases, nil
+}
+
 type repoRow struct {
 	ID                int64          `db:"id"`
 	Owner             string         `db:"owner"`

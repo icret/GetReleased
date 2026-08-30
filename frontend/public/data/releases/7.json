@@ -1,0 +1,1856 @@
+[
+  {
+    "id": 23,
+    "repository_id": 7,
+    "tag_name": "v0.3.2",
+    "name": "ClashBar 0.3.2",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.3.2-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新集中在 **延迟趋势可视化与官方文档站上线**：节点延迟从「单次结果」升级为保留最近 4 次样本，代理组列表与节点弹窗以信号条形式展示近期趋势；本地测速与 API/提供者历史会合并保留，刷新后不再轻易丢掉刚测出的结果。同时新增完整的 ClashBar 文档站（快速开始、功能总览、排障等），并重写 README 入口与站内链接。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **延迟趋势信号条**：代理组当前节点行与节点弹窗的延迟展示由单色块改为最多 4 根信号条，按时间对齐最近若干次延迟样本并着色；最新一次延迟仍以等宽数字显示，超时继续显示「超时」文案而非 0。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **官方文档站**：新增基于 Fumadocs 的文档站点，覆盖快速开始（含 Core / 无 Core）、配置与订阅、日常使用、系统代理与 TUN、SSID 策略、远程机器、设置维护、常见问题与关于页；README 同步指向 [clashbar.sitoi.cn](https://clashbar.sitoi.cn)。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **延迟样本链路重构**：接口与模型由「仅最新延迟」改为最近 4 次样本序列；组测速 / 单节点测速写入同一套样本，并与 Mihomo API 返回的 history 合并，避免面板刷新后本地测量结果被覆盖。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **提供者与嵌套组回填**：解析代理提供者节点的类型与延迟历史，补充展示用类型信息；延迟查询沿选择链回退到实际叶子节点样本，嵌套代理组展示更准确。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **文档入口与链接维护**：精简主 README 安装与上手说明，统一官网与 Releases 链接；文档站内链改为 `/docs/*` 绝对路径，避免无尾斜杠路由下相对链接失效。\n\n---\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.3.2-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.3.2/ClashBar-0.3.2-apple-silicon.dmg) | [ClashBar-0.3.2-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.3.2/ClashBar-0.3.2-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.3.2-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.3.2/ClashBar-0.3.2-intel.dmg) | [ClashBar-0.3.2-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.3.2/ClashBar-0.3.2-intel-no-core.dmg) |\n\n\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.3.1...v0.3.2",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.3.2",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.3.2",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.3.2",
+    "published_at": "2026-07-19T14:17:28Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3634,
+        "release_id": 23,
+        "name": "ClashBar-0.3.2-apple-silicon-no-core.dmg",
+        "size": 1801977,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.2/ClashBar-0.3.2-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3635,
+        "release_id": 23,
+        "name": "ClashBar-0.3.2-apple-silicon-no-core.dmg.sha256",
+        "size": 107,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.2/ClashBar-0.3.2-apple-silicon-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3636,
+        "release_id": 23,
+        "name": "ClashBar-0.3.2-apple-silicon.dmg",
+        "size": 17247617,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.2/ClashBar-0.3.2-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3637,
+        "release_id": 23,
+        "name": "ClashBar-0.3.2-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.2/ClashBar-0.3.2-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3638,
+        "release_id": 23,
+        "name": "ClashBar-0.3.2-intel-no-core.dmg",
+        "size": 1869003,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.2/ClashBar-0.3.2-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3639,
+        "release_id": 23,
+        "name": "ClashBar-0.3.2-intel-no-core.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.2/ClashBar-0.3.2-intel-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3640,
+        "release_id": 23,
+        "name": "ClashBar-0.3.2-intel.dmg",
+        "size": 18359591,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.2/ClashBar-0.3.2-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3641,
+        "release_id": 23,
+        "name": "ClashBar-0.3.2-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.2/ClashBar-0.3.2-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "repository_id": 7,
+    "tag_name": "v0.3.1",
+    "name": "ClashBar 0.3.1",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.3.1-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新集中在 **代理组图标展示与长期运行稳定性**：代理组现在可展示 Mihomo 配置返回的远程图标，并通过内存与磁盘缓存减少重复下载；同时重构配置文件监听、网络恢复、远程主机探测、日志写入与菜单栏状态刷新，提升配置编辑、网络切换和应用退出等场景下的可靠性与响应效率。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **代理组远程图标**：支持读取并展示 Mihomo 代理组返回的图标地址，在代理组列表和节点弹窗标题中呈现对应图标；图标采用内存与磁盘双层缓存，并限制单文件大小、缓存总量与文件数量，减少重复请求和长期磁盘占用。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **配置文件监听升级**：使用文件系统事件监听配置目录与当前选中的 YAML 文件，替代持续轮询；新增、删除、重命名及直接编辑配置后可及时刷新列表，并仅在当前配置实际变化时重启本地内核。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **网络恢复流程简化**：网络状态监控改为始终启用，断网时自动暂停内核与轮询、网络恢复后自动继续运行，并移除不再需要的「断网停核」开关，减少状态分支和恢复失败风险。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **菜单栏刷新性能优化**：拆分代理、流量、日志与状态栏数据的观察范围，仅在数据真正变化时触发对应界面刷新，降低实时流量、日志和代理状态更新造成的无关重绘。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **远程主机连接检测优化**：复用网络会话并统一管理连接探测任务，新的检查会取消旧请求，避免过期结果覆盖当前状态；删除或修改远程主机时也会同步清理相关任务。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **应用生命周期与日志处理增强**：统一应用依赖和后台任务的启动、取消流程，退出前等待 ClashBar 与 Mihomo 日志写入完成，并保持日志轮转顺序，减少任务残留与日志丢失。\n\n**🐞 修复问题 (Bug Fixes)**\n\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **修复直接编辑配置未被发现的问题**：补充对当前配置文件本身的监听，可识别编辑器原地写入以及原子替换文件等保存方式，避免修改后配置列表或内核未刷新。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **修复远程图标缓存异常**：合并同一地址的并发下载，校验 HTTP 状态与图片数据，并使用原子写入和缓存清理，避免无效响应、损坏文件或重复请求影响图标显示。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **修复远程连接状态被旧请求覆盖的问题**：为探测任务增加取消与代次校验，防止慢请求在目标切换、配置修改或主机删除后写回过期状态。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **修复版本信息缺失时的请求标识**：无法读取 Mihomo 版本时使用默认版本作为 User-Agent 回退值，不再发送包含 `unknown` 的请求标识，提高远程配置请求兼容性。\n\n---\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.3.1-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.3.1/ClashBar-0.3.1-apple-silicon.dmg) | [ClashBar-0.3.1-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.3.1/ClashBar-0.3.1-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.3.1-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.3.1/ClashBar-0.3.1-intel.dmg) | [ClashBar-0.3.1-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.3.1/ClashBar-0.3.1-intel-no-core.dmg) |\n\n\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.3.0...v0.3.1",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.3.1",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.3.1",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.3.1",
+    "published_at": "2026-07-11T02:05:52Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3642,
+        "release_id": 24,
+        "name": "ClashBar-0.3.1-apple-silicon-no-core.dmg",
+        "size": 1797236,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.1/ClashBar-0.3.1-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3643,
+        "release_id": 24,
+        "name": "ClashBar-0.3.1-apple-silicon-no-core.dmg.sha256",
+        "size": 107,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.1/ClashBar-0.3.1-apple-silicon-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3644,
+        "release_id": 24,
+        "name": "ClashBar-0.3.1-apple-silicon.dmg",
+        "size": 17376459,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.1/ClashBar-0.3.1-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3645,
+        "release_id": 24,
+        "name": "ClashBar-0.3.1-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.1/ClashBar-0.3.1-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3646,
+        "release_id": 24,
+        "name": "ClashBar-0.3.1-intel-no-core.dmg",
+        "size": 1863901,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.1/ClashBar-0.3.1-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3647,
+        "release_id": 24,
+        "name": "ClashBar-0.3.1-intel-no-core.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.1/ClashBar-0.3.1-intel-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3648,
+        "release_id": 24,
+        "name": "ClashBar-0.3.1-intel.dmg",
+        "size": 18492577,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.1/ClashBar-0.3.1-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3649,
+        "release_id": 24,
+        "name": "ClashBar-0.3.1-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.1/ClashBar-0.3.1-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "repository_id": 7,
+    "tag_name": "v0.3.0",
+    "name": "ClashBar 0.3.0",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.3.0-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新集中在 **Geo 数据库一键更新与延迟显示、菜单栏交互细节打磨**：System 维护区新增「更新 Geo 数据库」按钮，内核运行时可直接调用 mihomo `/upgrade/geo` 接口刷新 GeoIP / GeoSite 数据，并带进行中 / 成功 / 失败状态反馈与日志，无需重启内核或手动替换数据库文件；代理组路由行与节点弹窗的延迟徽章改为「迷你色块 + 等宽数字」呈现，纵向对比更整齐、可读性更好，超时节点直接显示「超时」文案而不再展示无意义的 0；顶部品牌图标也变为可点击入口，一键打开项目主页。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **Geo 数据库一键更新**：在 System 设置页「系统维护」区域新增「更新 Geo 数据库」按钮，内核运行时可直接触发 mihomo `/upgrade/geo` 接口刷新 GeoIP / GeoSite 数据库；更新过程中按钮展示进行中状态，完成后给出成功 / 失败反馈并写入日志，约 4 秒后自动恢复，无需重启内核或手动替换数据库文件。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **点击顶部图标访问项目主页**：菜单栏顶部的 ClashBar 品牌图标改为可点击入口，单击即可在浏览器打开项目 GitHub 主页，并补齐悬停提示与无障碍标签。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **延迟徽章视觉重做**：代理组路由行与代理组节点弹窗的延迟显示统一改为「迷你色块 + 等宽数字」徽章，色块按延迟高低着色、数字使用等宽字体，多节点纵向对比时更整齐易读；同时移除组路由行末尾冗余的箭头图标并微调列宽，为延迟列留出更多空间。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **超时延迟显示文案而非 0**：延迟徽章在节点超时（延迟为 0）时直接显示「超时 / Timeout」文案，不再展示无意义的「0」，节点状态更直观。\n\n---\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.3.0-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.3.0/ClashBar-0.3.0-apple-silicon.dmg) | [ClashBar-0.3.0-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.3.0/ClashBar-0.3.0-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.3.0-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.3.0/ClashBar-0.3.0-intel.dmg) | [ClashBar-0.3.0-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.3.0/ClashBar-0.3.0-intel-no-core.dmg) |\n\n\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.2.9...v0.3.0",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.3.0",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.3.0",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.3.0",
+    "published_at": "2026-06-23T09:52:28Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3650,
+        "release_id": 25,
+        "name": "ClashBar-0.3.0-apple-silicon-no-core.dmg",
+        "size": 1760417,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.0/ClashBar-0.3.0-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3651,
+        "release_id": 25,
+        "name": "ClashBar-0.3.0-apple-silicon-no-core.dmg.sha256",
+        "size": 107,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.0/ClashBar-0.3.0-apple-silicon-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3652,
+        "release_id": 25,
+        "name": "ClashBar-0.3.0-apple-silicon.dmg",
+        "size": 17092465,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.0/ClashBar-0.3.0-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3653,
+        "release_id": 25,
+        "name": "ClashBar-0.3.0-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.0/ClashBar-0.3.0-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3654,
+        "release_id": 25,
+        "name": "ClashBar-0.3.0-intel-no-core.dmg",
+        "size": 1831098,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.0/ClashBar-0.3.0-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3655,
+        "release_id": 25,
+        "name": "ClashBar-0.3.0-intel-no-core.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.0/ClashBar-0.3.0-intel-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3656,
+        "release_id": 25,
+        "name": "ClashBar-0.3.0-intel.dmg",
+        "size": 18186220,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.0/ClashBar-0.3.0-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3657,
+        "release_id": 25,
+        "name": "ClashBar-0.3.0-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.3.0/ClashBar-0.3.0-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "repository_id": 7,
+    "tag_name": "v0.2.9",
+    "name": "ClashBar 0.2.9",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.2.9-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新集中在 **规则页面的筛选检索体验与菜单栏快捷键重构**：分流（Rules）页面新增按类型 / 策略筛选、关键字搜索与按策略分组折叠展示，分组状态本地持久化，规则数量再多也能快速定位；菜单栏命令菜单整合为统一的「快捷操作」菜单，把系统代理、TUN、复制代理命令、重载配置等常用动作集中并补齐快捷键。同时把规则保留上限大幅提升以适配大型规则集，并修复状态栏 M/s 量级速率文本被截断的问题。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **规则筛选、搜索与分组**：分流页面新增类型（域名 / IP / 规则集 / 其他）与策略 chip 筛选、关键字搜索，类型 chip 实时显示命中计数；支持按策略分组折叠展示，分组开关状态本地持久化，规则较多时能更快定位目标规则。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **菜单栏快捷操作菜单**：将原有 Core / Actions 命令菜单整合为统一的「快捷操作」菜单，集中系统代理开关、TUN 模式开关、复制本地 / 当前控制端代理命令、重新加载配置等常用动作，并补齐 `⌘S` / `⌘E` / `⌘C` / `⌘⌥C` / `⌘R` 等快捷键。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **规则保留上限提升**：规则保留上限从 100 条提升至 20,000 条（等效无限制），适配大型规则集；该上限仅用于防止异常配置撑爆内存。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **筛选组件复用**：提取共享的筛选 chip 组件，日志页改为复用同一实现，筛选交互在规则页与日志页保持一致。\n\n**🐞 修复问题 (Bug Fixes)**\n\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **状态栏速率文本截断**：修复状态栏在 M/s 量级速率下文本被截断的问题，将速率显示宽度从 38 调整为 43。\n\n---\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.2.9-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.9/ClashBar-0.2.9-apple-silicon.dmg) | [ClashBar-0.2.9-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.9/ClashBar-0.2.9-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.2.9-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.9/ClashBar-0.2.9-intel.dmg) | [ClashBar-0.2.9-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.9/ClashBar-0.2.9-intel-no-core.dmg) |\n\n\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.2.8...v0.2.9",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.2.9",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.2.9",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.2.9",
+    "published_at": "2026-06-22T07:33:12Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3658,
+        "release_id": 26,
+        "name": "ClashBar-0.2.9-apple-silicon-no-core.dmg",
+        "size": 1748139,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.9/ClashBar-0.2.9-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3659,
+        "release_id": 26,
+        "name": "ClashBar-0.2.9-apple-silicon-no-core.dmg.sha256",
+        "size": 107,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.9/ClashBar-0.2.9-apple-silicon-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3660,
+        "release_id": 26,
+        "name": "ClashBar-0.2.9-apple-silicon.dmg",
+        "size": 17079909,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.9/ClashBar-0.2.9-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3661,
+        "release_id": 26,
+        "name": "ClashBar-0.2.9-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.9/ClashBar-0.2.9-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3662,
+        "release_id": 26,
+        "name": "ClashBar-0.2.9-intel-no-core.dmg",
+        "size": 1821351,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.9/ClashBar-0.2.9-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3663,
+        "release_id": 26,
+        "name": "ClashBar-0.2.9-intel-no-core.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.9/ClashBar-0.2.9-intel-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3664,
+        "release_id": 26,
+        "name": "ClashBar-0.2.9-intel.dmg",
+        "size": 18177942,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.9/ClashBar-0.2.9-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3665,
+        "release_id": 26,
+        "name": "ClashBar-0.2.9-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.9/ClashBar-0.2.9-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "repository_id": 7,
+    "tag_name": "v0.2.8",
+    "name": "ClashBar 0.2.8",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.2.8-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新集中在 **日志文件体积治理、软链接配置的完整支持、配置校验报错体验与 UI 主题统一**：磁盘日志改为基于大小的滚动归档（单文件 10MB、保留 5 份），彻底告别无限膨胀；软链接配置现在能正确出现在列表中、用自身目录作为内核工作目录并参与外部改动检测；配置校验失败弹窗支持滚动查看长报错、一键复制详情，并针对 GEO 相关错误给出排查提示；同时把全局 UI 收敛到统一主题常量与系统原生配色。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **配置校验错误可滚动查看与复制**：配置校验失败弹窗改为可滚动视图，支持完整查看超长错误信息并一键“复制详情”，便于反馈问题；同时针对 GEO 数据库等常见配置错误补充了智能排查提示。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **日志策略简化**：移除可配置的“最大日志条目数”设置，应用内 Logs 面板改用固定 5,000 条视窗；磁盘日志体积统一交由基于大小的滚动归档管理，配置项更精简。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **UI 主题统一**：将菜单栏界面收敛到统一的主题常量与布局 token，使用系统原生配色替代自定义主题色，字号对齐 macOS HIG，整体观感更一致、维护成本更低。\n\n**🐞 修复问题 (Bug Fixes)**\n\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **日志文件无限膨胀** (#78)：修复磁盘日志文件持续增长无上限的问题；现在采用基于大小的滚动归档（单文件超过 10MB 即滚动，最多保留 5 份历史），避免日志占满磁盘。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **软链接配置处理修正**：修复软链接配置文件不出现在配置列表、内核工作目录被错误指向链接目标父目录、以及外部编辑无法触发变更检测的问题；现在按解析后的目标类型列出配置，并以配置自身所在目录作为工作目录。\n\n---\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.2.8-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.8/ClashBar-0.2.8-apple-silicon.dmg) | [ClashBar-0.2.8-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.8/ClashBar-0.2.8-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.2.8-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.8/ClashBar-0.2.8-intel.dmg) | [ClashBar-0.2.8-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.8/ClashBar-0.2.8-intel-no-core.dmg) |\n\n\n\n## What's Changed\n* fix(logs): prevent mihomo.log from growing without bound by @xccduck in https://github.com/Sitoi/ClashBar/pull/78\n\n## New Contributors\n* @xccduck made their first contribution in https://github.com/Sitoi/ClashBar/pull/78\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.2.7...v0.2.8",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.2.8",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.2.8",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.2.8",
+    "published_at": "2026-06-17T06:14:35Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3666,
+        "release_id": 27,
+        "name": "ClashBar-0.2.8-apple-silicon-no-core.dmg",
+        "size": 1711150,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.8/ClashBar-0.2.8-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3667,
+        "release_id": 27,
+        "name": "ClashBar-0.2.8-apple-silicon-no-core.dmg.sha256",
+        "size": 107,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.8/ClashBar-0.2.8-apple-silicon-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3668,
+        "release_id": 27,
+        "name": "ClashBar-0.2.8-apple-silicon.dmg",
+        "size": 17083735,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.8/ClashBar-0.2.8-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3669,
+        "release_id": 27,
+        "name": "ClashBar-0.2.8-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.8/ClashBar-0.2.8-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3670,
+        "release_id": 27,
+        "name": "ClashBar-0.2.8-intel-no-core.dmg",
+        "size": 1778930,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.8/ClashBar-0.2.8-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3671,
+        "release_id": 27,
+        "name": "ClashBar-0.2.8-intel-no-core.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.8/ClashBar-0.2.8-intel-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3672,
+        "release_id": 27,
+        "name": "ClashBar-0.2.8-intel.dmg",
+        "size": 18146900,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.8/ClashBar-0.2.8-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3673,
+        "release_id": 27,
+        "name": "ClashBar-0.2.8-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.8/ClashBar-0.2.8-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "repository_id": 7,
+    "tag_name": "v0.2.7",
+    "name": "ClashBar 0.2.7",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.2.7-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新集中在 **日志管理、订阅配置验证、配置文件软链接支持与 macOS 26.5.1 兼容性修复**：新增可配置的日志容量设置，默认无限制，用户可根据需要选择 1K 到 50K 条限制；订阅更新现在会验证配置内容，拒绝过期提示等非法内容，避免内核崩溃和日志爆炸；配置目录支持软链接指向外部配置文件，方便跨设备同步；同时修复 macOS 26.5.1+ 菜单栏图标不可见的问题，并优化菜单栏显示逻辑。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **可配置的日志容量**：在 System 设置页面新增\"最大日志条目数\"选项，默认无限制，可选择 1,000 / 5,000 / 10,000 / 20,000 / 50,000 条限制，替代原有硬编码的 200 条上限。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **订阅配置内容验证** (#80)：订阅更新时会验证返回内容是否为合法的 Clash 配置，拒绝纯文本提示、HTML 页面等非法内容，防止错误配置覆盖导致内核 reload 失败和日志风暴。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **配置文件软链接支持** (#74)：配置目录现在支持软链接（symlink）指向外部配置文件，方便使用 mackup 等工具进行跨设备配置同步，兼容其他 Clash 客户端的使用习惯。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **菜单栏行为优化**：改进菜单栏打开/关闭时的状态清理逻辑，避免代理组信息在重新打开时闪烁；停止内核时清除代理展示状态，避免停止后仍显示过期信息。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **远程机器状态管理**：优化远程机器验证会话的失效处理，在切换或断开时正确清理验证状态。\n\n**🐞 修复问题 (Bug Fixes)**\n\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **macOS 26.5.1+ 菜单栏图标不可见** (#82)：修复在 macOS 26.5.1 及更高版本上菜单栏图标无法显示的问题；通过设置透明占位图片确保 ControlCenter 识别 status item 有内容并正确渲染。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **订阅过期导致日志爆炸** (#80)：修复订阅过期后服务器返回错误提示文本被当作配置写入，导致内核反复 reload 失败、触发 TUN 句柄错误、CPU 占用 100% 和日志文件在短时间内膨胀到数十 GB 的问题。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **配置软链接无法识别** (#74)：修复配置目录中的软链接文件无法被识别为有效配置的问题；现在安全检查会验证软链接本身是否在安全目录内，而不是解析到真实路径进行检查。\n\n---\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.2.7-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.7/ClashBar-0.2.7-apple-silicon.dmg) | [ClashBar-0.2.7-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.7/ClashBar-0.2.7-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.2.7-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.7/ClashBar-0.2.7-intel.dmg) | [ClashBar-0.2.7-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.7/ClashBar-0.2.7-intel-no-core.dmg) |\n\n\n\n## What's Changed\n* fix(menu-bar): avoid proxy group flicker on reopen by @MacbClarke in https://github.com/Sitoi/ClashBar/pull/72\n\n## New Contributors\n* @MacbClarke made their first contribution in https://github.com/Sitoi/ClashBar/pull/72\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.2.6...v0.2.7",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.2.7",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.2.7",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.2.7",
+    "published_at": "2026-06-15T07:03:35Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3674,
+        "release_id": 28,
+        "name": "ClashBar-0.2.7-apple-silicon-no-core.dmg",
+        "size": 1718784,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.7/ClashBar-0.2.7-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3675,
+        "release_id": 28,
+        "name": "ClashBar-0.2.7-apple-silicon-no-core.dmg.sha256",
+        "size": 107,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.7/ClashBar-0.2.7-apple-silicon-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3676,
+        "release_id": 28,
+        "name": "ClashBar-0.2.7-apple-silicon.dmg",
+        "size": 17068648,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.7/ClashBar-0.2.7-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3677,
+        "release_id": 28,
+        "name": "ClashBar-0.2.7-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.7/ClashBar-0.2.7-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3678,
+        "release_id": 28,
+        "name": "ClashBar-0.2.7-intel-no-core.dmg",
+        "size": 1787659,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.7/ClashBar-0.2.7-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3679,
+        "release_id": 28,
+        "name": "ClashBar-0.2.7-intel-no-core.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.7/ClashBar-0.2.7-intel-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3680,
+        "release_id": 28,
+        "name": "ClashBar-0.2.7-intel.dmg",
+        "size": 18141818,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.7/ClashBar-0.2.7-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3681,
+        "release_id": 28,
+        "name": "ClashBar-0.2.7-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.7/ClashBar-0.2.7-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "repository_id": 7,
+    "tag_name": "v0.2.6",
+    "name": "ClashBar 0.2.6",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.2.6-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新集中在 **菜单栏窗口固定、Proxy 页面操作密度与流量曲线显示稳定性**：Header 新增固定按钮，可让主窗口在切换应用或点击外部时继续保持显示；Proxy Providers 区域支持折叠并记住状态，代理组标题也补上了快捷延迟测试入口；同时流量 Sparkline 改为固定 60 点滑动窗口，避免短序列被拉满整段宽度导致趋势判断失真。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **菜单栏窗口固定模式**：Header 新增固定 / 取消固定按钮；固定后主窗口会保留在所有 Space 中，并且点击外部区域不会自动关闭，适合需要持续观察代理状态、连接列表或日志的场景。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **Proxy Providers 折叠控制**：Proxy 页面中的 Providers 区域新增展开 / 折叠按钮，并通过本地偏好保存折叠状态，订阅较多时可以减少页面占用。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **代理组快捷延迟测试**：代理组弹出面板标题区新增延迟测试按钮，可以直接对当前代理组触发测速，不必再进入更深层级寻找操作。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **流量曲线固定窗口**：状态栏流量 Sparkline 改为固定 60 点滑动窗口，最新数据从右侧推进，历史点按固定间距保留，短数据序列不再被强行铺满整个图表。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **流量面积填充对齐真实数据**：Sparkline 面积闭合改为使用首尾真实数据点的横坐标，避免数据不足时填充区域延伸到不存在的时间段。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **本地化文案补齐**：补充展开、折叠、固定和取消固定的中英文文案，让新增控件的无障碍标签与悬停提示保持一致。\n\n---\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.2.6-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.6/ClashBar-0.2.6-apple-silicon.dmg) | [ClashBar-0.2.6-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.6/ClashBar-0.2.6-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.2.6-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.6/ClashBar-0.2.6-intel.dmg) | [ClashBar-0.2.6-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.6/ClashBar-0.2.6-intel-no-core.dmg) |\n\n\n\n## What's Changed\n* feat(ui): improve UX with Pin mode, scrollable alerts, and sparkline enhancements by @TakahashiMinato in https://github.com/Sitoi/ClashBar/pull/70\n\n## New Contributors\n* @TakahashiMinato made their first contribution in https://github.com/Sitoi/ClashBar/pull/70\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.2.5...v0.2.6",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.2.6",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.2.6",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.2.6",
+    "published_at": "2026-05-19T02:03:03Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3682,
+        "release_id": 29,
+        "name": "ClashBar-0.2.6-apple-silicon-no-core.dmg",
+        "size": 1711539,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.6/ClashBar-0.2.6-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3683,
+        "release_id": 29,
+        "name": "ClashBar-0.2.6-apple-silicon-no-core.dmg.sha256",
+        "size": 107,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.6/ClashBar-0.2.6-apple-silicon-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3684,
+        "release_id": 29,
+        "name": "ClashBar-0.2.6-apple-silicon.dmg",
+        "size": 16691517,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.6/ClashBar-0.2.6-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3685,
+        "release_id": 29,
+        "name": "ClashBar-0.2.6-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.6/ClashBar-0.2.6-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3686,
+        "release_id": 29,
+        "name": "ClashBar-0.2.6-intel-no-core.dmg",
+        "size": 1780693,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.6/ClashBar-0.2.6-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3687,
+        "release_id": 29,
+        "name": "ClashBar-0.2.6-intel-no-core.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.6/ClashBar-0.2.6-intel-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3688,
+        "release_id": 29,
+        "name": "ClashBar-0.2.6-intel.dmg",
+        "size": 17754847,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.6/ClashBar-0.2.6-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3689,
+        "release_id": 29,
+        "name": "ClashBar-0.2.6-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.6/ClashBar-0.2.6-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "repository_id": 7,
+    "tag_name": "v0.2.5",
+    "name": "ClashBar 0.2.5",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.2.5-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新集中在 **Connections 页面偏好持久化与 Mac 休眠唤醒后的 TUN 句柄失效问题**：连接列表现在会记住传输协议过滤器和排序方式，重新打开菜单或重启应用后不再回到默认视图；同时修正 Mac 休眠断网触发停服时的 TUN 运行态关闭顺序，先关闭运行中的 TUN 再停止内核，避免唤醒后 Mihomo 继续读取已被 macOS 释放的旧 TUN / UDP Socket 句柄并刷出 `socket operation on non-socket` 错误。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **Connections 过滤与排序偏好持久化**：Connections 页面会保存传输协议过滤器和排序选项；用户重新打开菜单或重启应用后，会自动恢复上次选择的连接列表视图。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **Connections 偏好恢复容错**：读取到失效的过滤或排序配置时会回退到默认值并写回，避免旧配置或异常值导致连接列表状态不可预期。\n\n**🐞 修复问题 (Bug Fixes)**\n\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **休眠唤醒后 Mihomo 旧句柄刷屏**：修复 Mac 进入休眠后网络连接被系统断开、TUN 虚拟网卡或 UDP Socket 句柄在内核层面失效，但 Mihomo 唤醒后仍尝试读取旧句柄导致 `socket operation on non-socket` 错误持续刷屏的问题；现在断网停服会先尝试关闭 TUN 运行态，再进入内核停止流程。\n\n---\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.2.5-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.5/ClashBar-0.2.5-apple-silicon.dmg) | [ClashBar-0.2.5-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.5/ClashBar-0.2.5-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.2.5-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.5/ClashBar-0.2.5-intel.dmg) | [ClashBar-0.2.5-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.5/ClashBar-0.2.5-intel-no-core.dmg) |\n\n\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.2.4...v0.2.5",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.2.5",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.2.5",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.2.5",
+    "published_at": "2026-05-12T01:09:43Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3690,
+        "release_id": 30,
+        "name": "ClashBar-0.2.5-apple-silicon-no-core.dmg",
+        "size": 1707655,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.5/ClashBar-0.2.5-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3691,
+        "release_id": 30,
+        "name": "ClashBar-0.2.5-apple-silicon-no-core.dmg.sha256",
+        "size": 107,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.5/ClashBar-0.2.5-apple-silicon-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3692,
+        "release_id": 30,
+        "name": "ClashBar-0.2.5-apple-silicon.dmg",
+        "size": 13142216,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.5/ClashBar-0.2.5-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3693,
+        "release_id": 30,
+        "name": "ClashBar-0.2.5-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.5/ClashBar-0.2.5-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3694,
+        "release_id": 30,
+        "name": "ClashBar-0.2.5-intel-no-core.dmg",
+        "size": 1775331,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.5/ClashBar-0.2.5-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3695,
+        "release_id": 30,
+        "name": "ClashBar-0.2.5-intel-no-core.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.5/ClashBar-0.2.5-intel-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3696,
+        "release_id": 30,
+        "name": "ClashBar-0.2.5-intel.dmg",
+        "size": 14000554,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.5/ClashBar-0.2.5-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3697,
+        "release_id": 30,
+        "name": "ClashBar-0.2.5-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.5/ClashBar-0.2.5-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "repository_id": 7,
+    "tag_name": "v0.2.4",
+    "name": "ClashBar 0.2.4",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.2.4-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新集中修复了 **断网场景下的 WebSocket 重连风暴**：网络断开后会立即取消所有流轮询，并在流协调器的重连判定中加入离线保护，避免 mihomo 在无效连接上持续读写触发日志风暴；同时整理了菜单栏视图的代码结构，提升可读性与后续维护效率。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **暂无内容**：当前版本未新增独立功能项，更新重点为稳定性与代码质量修复。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **菜单栏视图代码整理**：拆分过长表达式与链式调用，在状态变化回调中直接使用新值，统一布局与阴影参数格式，提升代码可读性与后续维护效率。\n\n**🐞 修复问题 (Bug Fixes)**\n\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **断网时 WebSocket 重连风暴**：修复网络断开后 WebSocket 轮询未及时取消的问题，现在断网后会立即停止所有流请求，避免 mihomo 在无效文件描述符上持续读写触发日志风暴。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **断网期间竞态重连**：在流协调器重连判定中加入离线状态保护，防止断网期间多条竞态重连路径与网络管理停服流程互相干扰。\n\n---\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.2.4-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.4/ClashBar-0.2.4-apple-silicon.dmg) | [ClashBar-0.2.4-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.4/ClashBar-0.2.4-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.2.4-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.4/ClashBar-0.2.4-intel.dmg) | [ClashBar-0.2.4-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.4/ClashBar-0.2.4-intel-no-core.dmg) |\n\n\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.2.3...v0.2.4",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.2.4",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.2.4",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.2.4",
+    "published_at": "2026-05-05T07:49:09Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3698,
+        "release_id": 31,
+        "name": "ClashBar-0.2.4-apple-silicon-no-core.dmg",
+        "size": 1705905,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.4/ClashBar-0.2.4-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3699,
+        "release_id": 31,
+        "name": "ClashBar-0.2.4-apple-silicon-no-core.dmg.sha256",
+        "size": 107,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.4/ClashBar-0.2.4-apple-silicon-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3700,
+        "release_id": 31,
+        "name": "ClashBar-0.2.4-apple-silicon.dmg",
+        "size": 13140698,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.4/ClashBar-0.2.4-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3701,
+        "release_id": 31,
+        "name": "ClashBar-0.2.4-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.4/ClashBar-0.2.4-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3702,
+        "release_id": 31,
+        "name": "ClashBar-0.2.4-intel-no-core.dmg",
+        "size": 1774977,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.4/ClashBar-0.2.4-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3703,
+        "release_id": 31,
+        "name": "ClashBar-0.2.4-intel-no-core.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.4/ClashBar-0.2.4-intel-no-core.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3704,
+        "release_id": 31,
+        "name": "ClashBar-0.2.4-intel.dmg",
+        "size": 14000112,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.4/ClashBar-0.2.4-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3705,
+        "release_id": 31,
+        "name": "ClashBar-0.2.4-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.4/ClashBar-0.2.4-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "repository_id": 7,
+    "tag_name": "v0.2.3",
+    "name": "ClashBar 0.2.3",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.2.3-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新主要围绕 **Wi-Fi 场景下的配置自动切换、控制器 WebUI 直达、系统代理绕过规则与状态一致性** 展开：现在可以在 Proxy 菜单开启基于当前 Wi-Fi（SSID）的配置自动切换，并把当前网络直接绑定到指定配置；Header 也新增了一键打开控制器 WebUI 的入口，若配置中声明了 `external-ui-url` / `external-ui-name` 会优先打开对应界面，否则也会自动回退到可直接使用的 MetaCubeXD 初始化链接；同时，System 页面新增本地系统代理绕过规则管理，支持编辑、恢复默认并在系统代理重应用时持续保留。除此之外，本次还补上了 `GLOBAL` 代理组在不同模式下的显示一致性、系统代理 Helper 的预热/校验/恢复链路，以及 WebUI 链接跟随控制端变化同步更新等一批细节修复。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **SSID 配置自动切换**：在 Proxy 快捷菜单中新增 Wi-Fi 自动切换开关；开启后可以通过配置文件右键菜单直接绑定当前 Wi-Fi（SSID）到指定配置，绑定规则会持久保存，切换网络后会自动命中并切换到对应配置。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **SSID 绑定可视化与结果反馈**：配置列表项会展示已绑定 Wi-Fi 的 badge，并在右键菜单中提供绑定当前 Wi-Fi、解绑当前 Wi-Fi 与按条目解绑已绑定 Wi-Fi 等操作；当策略真正命中并完成配置切换后，状态栏会显示短暂横幅反馈，确认本次切换来自哪个 Wi-Fi、切到了哪个配置。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **控制器 WebUI 直达入口**：Header 新增一键打开 WebUI 的快捷按钮；如果当前配置声明了 `external-ui-url` / `external-ui-name`，会优先打开控制器实际配置的 WebUI 路径，不再要求用户自己手动拼 URL。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **控制器模式下的 WebUI 回退能力**：对于只有 `external-controller` / `secret`、但没有内置 UI 路径的控制器场景，现在也会自动生成可直接使用的 MetaCubeXD 初始化链接，本地或远程控制端场景下都更容易直接进入管理界面。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **系统代理绕过规则管理**：在 System 页面新增 macOS 系统代理绕过列表，支持新增、编辑、删除、保存与恢复默认例外项；这些规则会写入系统代理绕过域名/网段列表，适合保留 `localhost`、局域网网段或自定义直连域名。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **SSID 权限与状态提示**：开启 Wi-Fi 自动切换后，菜单会更明确地展示当前 Wi-Fi 名称或授权状态；首次使用时会主动走权限申请链路，未授权、未连接 Wi-Fi 或命中缺失配置时也会给出更直接的提示与日志反馈，减少“开了但不知道为什么没生效”的困惑。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **设置页交互收敛**：将“代理绕过”收纳进可展开区域，并加入规则数量提示、展开/收起动画和更精简的文案；在远程控制端场景下，也会明确标注该区域属于“本地”系统设置，减少误以为会同步到远端机器的情况。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **日志保真度提升**：应用内日志改为保留更完整的原始消息内容，并统一时间格式化逻辑；复制整条日志或复制原始消息时会更接近真实输出，对于排查 Mihomo 与 ClashBar 自身问题都更直接。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **控制器地址与 WebUI 同步**：当 `external-controller`、`secret`、`external-ui-url` 或 `external-ui-name` 发生变化时，WebUI 入口会跟着刷新；本地配置切换、远程目标切换和轮询刷新后的控制端地址都会尽量保持一致。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **系统代理 Helper 健康检查**：围绕系统代理 Helper 增补后台项目授权、进程运行状态、签名/安装位置校验与失败原因透传，在遇到 Helper 未注册、未启动、未获批准或打包环境不正确时，界面与日志会给出更具体的诊断信息。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **工程与状态流整理**：围绕 `AppViewModel` 重整应用生命周期、配置、轮询、流式更新、日志、系统代理和持久化链路，并补上更清晰的 stores / services / use cases 划分，为后续继续叠加远程控制、自动化和状态同步功能打下更稳基础。\n\n**🐞 修复问题 (Bug Fixes)**\n\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **首次启用 SSID 自动切换**：修复首次开启 Wi-Fi 自动切换时权限请求链路可能漏掉、导致功能看起来已经打开但实际上拿不到当前 SSID 的问题。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **失效 SSID 绑定清理**：修复 Wi-Fi 绑定规则在配置文件被删除、移动或不再可用后仍继续保留的情况，现应用会在初始化时清理无效绑定，避免策略反复命中不存在的配置。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **WebUI 链接陈旧**：修复切换配置、切换本地/远程控制端或刷新运行时配置后，WebUI 入口仍可能指向旧控制器地址或旧 UI 路径的问题。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **`GLOBAL` 代理组显示错误**：修复在 Rule / Direct 等非 Global 模式下，Proxy 列表中仍可能显示 `GLOBAL` 分组的问题；现在只有在真正处于 Global 模式时才会展示，并且模式切换后会立即刷新列表与延迟探测范围。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **系统代理绕过项丢失**：修复系统代理重新应用、启动校验或一致性修复过程中，自定义代理绕过规则容易被覆盖或遗漏的问题，确保本地例外项会一并写回 macOS。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **系统代理启动一致性**：增强应用启动、回到前台和系统代理已开启场景下的 Helper 预热、注册与配置校验流程，减少“开关仍是开的，但系统代理实际上没生效”或目标地址已变更却未及时修正的情况。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **Helper 恢复链路与错误提示**：修复系统代理 Helper 在未放入“应用程序”目录、后台项目未允许、签名不匹配、连接失败或启动超时等场景下反馈不够直观的问题，让恢复路径和失败原因都更清楚。\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.2.3-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.3/ClashBar-0.2.3-apple-silicon.dmg) | [ClashBar-0.2.3-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.3/ClashBar-0.2.3-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.2.3-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.3/ClashBar-0.2.3-intel.dmg) | [ClashBar-0.2.3-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.3/ClashBar-0.2.3-intel-no-core.dmg) |\n\n\n\n## What's Changed\n* Refactor app architecture and enhance configuration features by @Sitoi in https://github.com/Sitoi/ClashBar/pull/61\n\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.2.2...v0.2.3",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.2.3",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.2.3",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.2.3",
+    "published_at": "2026-04-17T16:18:08Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3706,
+        "release_id": 32,
+        "name": "ClashBar-0.2.3-apple-silicon-no-core.dmg",
+        "size": 1707044,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.3/ClashBar-0.2.3-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3707,
+        "release_id": 32,
+        "name": "ClashBar-0.2.3-apple-silicon.dmg",
+        "size": 13075257,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.3/ClashBar-0.2.3-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3708,
+        "release_id": 32,
+        "name": "ClashBar-0.2.3-intel-no-core.dmg",
+        "size": 1774517,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.3/ClashBar-0.2.3-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3709,
+        "release_id": 32,
+        "name": "ClashBar-0.2.3-intel.dmg",
+        "size": 13941122,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.3/ClashBar-0.2.3-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "repository_id": 7,
+    "tag_name": "v0.2.2",
+    "name": "ClashBar 0.2.2",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.2.2-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新主要围绕 **远程配置订阅、Proxy 节点延迟探测与远程目标状态一致性** 展开：现在可以把远程配置当作订阅来管理，支持自动更新、手动刷新、复制订阅链接与删除清理；Proxy 页面补上节点级延迟测试和更明确的终端代理命令目标；同时重做远程机器管理面板，并修复远程切换后的速率显示、离线切换保护和核心模式持久化等问题。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **远程订阅配置管理**：新增远程配置订阅元数据管理，导入 URL 时可设置自动更新与更新间隔，并支持按项刷新、批量刷新、复制订阅链接和删除时同步清理订阅信息。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **节点级延迟测试**：在 Proxy Group 的节点列表中新增单节点延迟测试，切换前可以直接比较具体节点的实时延迟表现。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **远程机器管理器重做**：重构远程机器管理面板与编辑器，补上本地/远程分区、连接预览和更直接的切换反馈，管理多控制端时更清晰。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **远程目标状态可视化**：Header、配置切换菜单和 System Proxy 行会更明确地展示当前本地/远程目标、订阅刷新状态以及下次自动更新时间，减少跨目标操作时的混淆。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **终端代理命令导出**：复制终端代理命令时可分别选择本地 `127.0.0.1` 或当前控制端地址；在 `allow-lan` 打开且控制器绑定到 `0.0.0.0` / `localhost` 时，也会尽量解析当前设备 IPv4，导出的命令更可用。\n\n**🐞 修复问题 (Bug Fixes)**\n\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **远程切换速率显示**：修复本地/远程目标切换后状态栏速率文本可能不更新的问题，避免远程目标实际可用但界面仍显示已停止。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **离线远程切换保护**：修复远程机器离线时仍可能被切换或导出错误代理地址的问题，降低误操作风险。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **核心模式持久化**：修复 Settings 快照未保存当前 Core Mode 的问题，减少重启、切换配置或同步后模式状态不一致的情况。\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.2.2-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.2/ClashBar-0.2.2-apple-silicon.dmg) | [ClashBar-0.2.2-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.2/ClashBar-0.2.2-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.2.2-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.2/ClashBar-0.2.2-intel.dmg) | [ClashBar-0.2.2-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.2/ClashBar-0.2.2-intel-no-core.dmg) |\n\n\n\n## What's Changed\n* fix(remote): sync statusText on target switch for speed display by @QuentinHsu in https://github.com/Sitoi/ClashBar/pull/51\n* Enhance proxy features and remote configuration management by @Sitoi in https://github.com/Sitoi/ClashBar/pull/60\n\n## New Contributors\n* @QuentinHsu made their first contribution in https://github.com/Sitoi/ClashBar/pull/51\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.2.1...v0.2.2",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.2.2",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.2.2",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.2.2",
+    "published_at": "2026-04-07T08:52:49Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3710,
+        "release_id": 33,
+        "name": "ClashBar-0.2.2-apple-silicon-no-core.dmg",
+        "size": 1659185,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.2/ClashBar-0.2.2-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3711,
+        "release_id": 33,
+        "name": "ClashBar-0.2.2-apple-silicon.dmg",
+        "size": 12977248,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.2/ClashBar-0.2.2-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3712,
+        "release_id": 33,
+        "name": "ClashBar-0.2.2-intel-no-core.dmg",
+        "size": 1725973,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.2/ClashBar-0.2.2-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3713,
+        "release_id": 33,
+        "name": "ClashBar-0.2.2-intel.dmg",
+        "size": 13866238,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.2/ClashBar-0.2.2-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "repository_id": 7,
+    "tag_name": "v0.2.1",
+    "name": "ClashBar 0.2.1",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.2.1-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新主要围绕 **远程机器管理、菜单栏交互重构与系统代理恢复链路** 展开：新增远程控制端管理与本地/远程快速切换，Proxy、Rules、Connections、Logs、System 等页面会围绕当前目标自动切换；同时重做顶部模式/标签分段控件、代理详情与连接列表排版，并加强系统代理 Helper 的健康检查、恢复与提示，让多端点场景下的操作更清晰、状态更可信。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **远程机器管理**：在菜单栏中新增远程机器管理面板，支持添加、编辑、删除远程控制端，并可在本地 Mihomo 与远程机器之间快速切换。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **远程目标感知视图**：顶部 Header 会显示当前连接目标与连通状态，Proxy、Logs、Connections、System 页面也会围绕当前目标自动刷新，多控制端场景下不容易混淆。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **远程场景只读保护**：连接远程机器时，涉及本地应用或仅应作用于本地内核的设置会明确标注为只读或本地生效，减少误操作风险。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **菜单栏分段控件重做**：顶部模式切换与标签栏改为自定义分段控件，选中态、悬停反馈和整体层次更统一，菜单栏交互更贴近原生体验。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **代理与概览展示**：重新整理 Proxy 页的流量概览、快捷操作、Provider/Group 行信息和节点类型展示，查看节点状态、切换配置与复制代理命令时更直观。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **连接与日志信息密度**：Connections 页补充过滤、排序、链路与流量摘要展示；Logs、Rules、System 页的列表与卡片布局也同步细化，在固定宽度菜单栏里能承载更多信息。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **系统代理状态可视化**：系统代理入口现在会同时展示后台项目授权、Helper 进程与当前生效地址等状态，定位问题和确认代理指向都更直接。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **工程结构与构建链路**：将应用进一步整理为 App / Session / Domain / Infrastructure / Features 等分层，并补充 beta DMG 预发布流程、二进制瘦身和打包优化，为后续迭代与分发打下更稳的基础。\n\n**🐞 修复问题 (Bug Fixes)**\n\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **系统代理恢复链路**：修复系统代理在启动、唤醒或切换场景下可能出现“开关已开但系统未生效”的问题，必要时会自动补齐配置并刷新真实状态。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **Helper 自恢复与预热**：修复系统代理 Helper 可能未及时拉起、注册状态失效或连接超时的问题，应用激活时会主动预热，并在连接失败后尝试恢复。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **授权与安装提示**：针对未放入“应用程序”目录、后台项目未允许、Helper 未注册或签名异常等场景补充更明确的错误提示，减少“打不开系统代理但不知道原因”的情况。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **远程切换状态一致性**：修复本地/远程目标切换时系统代理、快捷操作和页面状态可能不同步的问题，避免显示目标与实际控制端不一致。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **远程场景快捷操作适配**：修复复制终端代理命令、TUN/System Proxy 等快捷操作在远程使用场景下的适配问题，降低误用本地配置的风险。\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.2.1-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.1/ClashBar-0.2.1-apple-silicon.dmg) | [ClashBar-0.2.1-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.1/ClashBar-0.2.1-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.2.1-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.1/ClashBar-0.2.1-intel.dmg) | [ClashBar-0.2.1-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.1/ClashBar-0.2.1-intel-no-core.dmg) |\n\n\n\n## What's Changed\n* 优化远程切换与系统代理状态一致性，完善终端命令复制交互 by @lovitus in https://github.com/Sitoi/ClashBar/pull/45\n* Refactor architecture and enhance menu bar functionality by @Sitoi in https://github.com/Sitoi/ClashBar/pull/48\n\n## New Contributors\n* @lovitus made their first contribution in https://github.com/Sitoi/ClashBar/pull/45\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.2.0...v0.2.1",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.2.1",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.2.1",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.2.1",
+    "published_at": "2026-03-26T15:45:38Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3714,
+        "release_id": 34,
+        "name": "ClashBar-0.2.1-apple-silicon-no-core.dmg",
+        "size": 1612049,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.1/ClashBar-0.2.1-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3715,
+        "release_id": 34,
+        "name": "ClashBar-0.2.1-apple-silicon.dmg",
+        "size": 12899520,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.1/ClashBar-0.2.1-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3716,
+        "release_id": 34,
+        "name": "ClashBar-0.2.1-intel-no-core.dmg",
+        "size": 1670031,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.1/ClashBar-0.2.1-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3717,
+        "release_id": 34,
+        "name": "ClashBar-0.2.1-intel.dmg",
+        "size": 13764834,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.1/ClashBar-0.2.1-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "repository_id": 7,
+    "tag_name": "v0.2.0",
+    "name": "ClashBar 0.2.0",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.2.0-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新主要聚焦在 **菜单栏交互稳定性与性能修复**：重点解决代理分组悬停时 CPU 异常飙高、Popover 悬停判定不稳、System 页面提示条布局跳动，以及 TUN 与系统代理状态在恢复场景下不同步的问题；同时继续优化活动数据缓存和界面细节，让整体菜单栏体验更顺滑。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **暂无内容**：当前版本未新增独立功能项，更新重点为稳定性、性能与交互体验修复。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **活动数据缓存**：为 Activity 页和菜单栏相关派生数据增加缓存与预计算，减少列表刷新和统计展示时的额外开销。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **实时连接状态处理**：整理实时连接与 WebSocket 数据流处理逻辑，降低 `AppState` 与页面刷新逻辑的耦合，提升 Activity、Proxy、Rules 等页面的刷新稳定性。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **菜单栏视觉打磨**：继续细化菜单栏界面的间距、标题区、Sparkline 和 System 页展示细节，整体观感更统一。\n\n**🐞 修复问题 (Bug Fixes)**\n\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **代理分组悬停高占用**：修复鼠标悬停代理分组时可能触发 CPU 占用飙升的问题，显著减轻卡顿与发热。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **Popover 悬停稳定性**：修复附着式 Popover 在鼠标移动过程中的悬停判定不稳定问题，减少误闪动和意外收起。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **System 页布局跳动**：修复反馈提示条出现或消失时导致的 System 页面布局偏移问题。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **TUN 状态同步**：修复持久化的 TUN 开关状态与真实运行状态可能不一致的问题，避免界面显示和实际状态脱节。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **系统代理恢复竞态**：增强 Helper 恢复阶段的容错处理，减少系统代理状态恢复过程中的偶发异常。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **Fallback 分组排序**：修复 Fallback 代理组在刷新后的排序不稳定问题，让列表顺序更可预期。\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.2.0-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.0/ClashBar-0.2.0-apple-silicon.dmg) | [ClashBar-0.2.0-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.0/ClashBar-0.2.0-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.2.0-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.0/ClashBar-0.2.0-intel.dmg) | [ClashBar-0.2.0-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.2.0/ClashBar-0.2.0-intel-no-core.dmg) |\n\n\n\n## What's Changed\n* Add GitHub Actions CI for build verification and SwiftFormat linting by @Sitoi in https://github.com/Sitoi/ClashBar/pull/12\n* Update license to GNU General Public License v3 in README by @Sitoi in https://github.com/Sitoi/ClashBar/pull/13\n* Enhance config monitoring and proxy UX with code simplifications by @Sitoi in https://github.com/Sitoi/ClashBar/pull/15\n* Add proxy group visibility controls and format expiry timestamps by @Sitoi in https://github.com/Sitoi/ClashBar/pull/16\n* Refactor menu bar and app helpers for streamlined layout and actions by @Sitoi in https://github.com/Sitoi/ClashBar/pull/17\n* Enhance config handling and improve settings UI by @Sitoi in https://github.com/Sitoi/ClashBar/pull/19\n* Stabilize app controller, menu layout, and TUN state management by @Sitoi in https://github.com/Sitoi/ClashBar/pull/20\n* Enhance menu bar stability and add release update notifications by @Sitoi in https://github.com/Sitoi/ClashBar/pull/22\n* Stabilize tab layout sizing and unify menu bar styles by @Sitoi in https://github.com/Sitoi/ClashBar/pull/23\n* Enhance macOS support and improve build/release processes by @Sitoi in https://github.com/Sitoi/ClashBar/pull/25\n* Restore proxy state and add keyboard shortcut for system tab by @Sitoi in https://github.com/Sitoi/ClashBar/pull/26\n* Enhance branding, proxy features, and status bar icon behavior by @Sitoi in https://github.com/Sitoi/ClashBar/pull/34\n* Improve status item rendering and stabilize menu bar sizing by @Sitoi in https://github.com/Sitoi/ClashBar/pull/36\n\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.1.9...v0.2.0",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.2.0",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.2.0",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.2.0",
+    "published_at": "2026-03-17T15:09:11Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3718,
+        "release_id": 35,
+        "name": "ClashBar-0.2.0-apple-silicon-no-core.dmg",
+        "size": 2126462,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.0/ClashBar-0.2.0-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3719,
+        "release_id": 35,
+        "name": "ClashBar-0.2.0-apple-silicon.dmg",
+        "size": 13399537,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.0/ClashBar-0.2.0-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3720,
+        "release_id": 35,
+        "name": "ClashBar-0.2.0-intel-no-core.dmg",
+        "size": 2205299,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.0/ClashBar-0.2.0-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3721,
+        "release_id": 35,
+        "name": "ClashBar-0.2.0-intel.dmg",
+        "size": 14286024,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.2.0/ClashBar-0.2.0-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "repository_id": 7,
+    "tag_name": "v0.1.9",
+    "name": "ClashBar 0.1.9",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.1.9-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新集中修正了 **状态栏显示稳定性**：速度文本改为模板图像渲染，减少频繁重绘；同时修复状态栏宽度与弹出面板高度在切换场景下容易抖动、跳变的问题，让菜单栏体验更稳。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **模板化速度文本渲染**：状态栏上下行速率文本改为缓存模板图像渲染，保留系统原生的高亮/变暗行为，同时减少文本逐帧绘制开销。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **状态栏渲染路径**：整理状态栏显示刷新与渲染辅助逻辑，宽度计算与运行态图标切换更直接，后续维护成本更低。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **Popover 尺寸跟随**：菜单弹出面板改为使用标准边界尺寸，并更及时响应高度变化，减少内容变化后的尺寸滞后。\n\n**🐞 修复问题 (Bug Fixes)**\n\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **状态栏宽度抖动**：修复状态栏在图标/速率模式切换时宽度容易波动的问题，显示更稳定。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **弹出面板跳变**：修复菜单栏弹出面板在不同屏幕参数和内容高度变化下尺寸不稳定的问题，避免打开后出现跳一下的体验。\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.1.9-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.9/ClashBar-0.1.9-apple-silicon.dmg) | [ClashBar-0.1.9-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.9/ClashBar-0.1.9-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.1.9-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.9/ClashBar-0.1.9-intel.dmg) | [ClashBar-0.1.9-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.9/ClashBar-0.1.9-intel-no-core.dmg) |\n\n\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.1.8...v0.1.9",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.1.9",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.1.9",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.1.9",
+    "published_at": "2026-03-16T06:52:55Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3722,
+        "release_id": 36,
+        "name": "ClashBar-0.1.9-apple-silicon-no-core.dmg",
+        "size": 2104336,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.9/ClashBar-0.1.9-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3723,
+        "release_id": 36,
+        "name": "ClashBar-0.1.9-apple-silicon.dmg",
+        "size": 13236670,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.9/ClashBar-0.1.9-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3724,
+        "release_id": 36,
+        "name": "ClashBar-0.1.9-intel-no-core.dmg",
+        "size": 2180762,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.9/ClashBar-0.1.9-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3725,
+        "release_id": 36,
+        "name": "ClashBar-0.1.9-intel.dmg",
+        "size": 14102136,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.9/ClashBar-0.1.9-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "repository_id": 7,
+    "tag_name": "v0.1.8",
+    "name": "ClashBar 0.1.8",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.1.8-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新集中在 **代理页面体验提升**：新增 Proxy Group 排序切换（延迟排序 / 原始顺序），重新设计了代理订阅行的信息展示；同时修复了多显示器下状态栏图标不跟随系统变暗的问题，并加固了 Helper XPC 认证安全性。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **代理组排序切换**：在 Proxy 页面工具栏新增排序切换，可在延迟排序与默认节点顺序之间切换，同时仍遵循隐藏不可用节点的过滤规则。\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **状态栏运行状态图标**：更新品牌图标资源，状态栏图标区分运行（Running）与休眠（Sleeping）两种状态。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **订阅信息重设计**：重新设计代理订阅（Proxy Provider）行，直接展示更新时间、刷新状态、到期信息和用量进度，信息一目了然。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **Provider 状态精简**：移除 Provider 节点级别的延迟、测试、展开等冗余状态追踪，保持订阅行聚焦于摘要信息，减少不必要的内存占用。\n\n**🐞 修复问题 (Bug Fixes)**\n\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **状态栏图标变暗**：为状态栏图标启用 `isTemplate` 模式，修复多显示器切换焦点时图标不跟随系统自动变暗的问题，行为与系统电池、Wi-Fi 图标保持一致。\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **Helper XPC 认证**：XPC 认证改为基于代码签名要求（Code Signing Requirement），替代原有的 PID 签名校验方式，提升安全性与可靠性。\n\n---\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.1.8-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.8/ClashBar-0.1.8-apple-silicon.dmg) | [ClashBar-0.1.8-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.8/ClashBar-0.1.8-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.1.8-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.8/ClashBar-0.1.8-intel.dmg) | [ClashBar-0.1.8-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.8/ClashBar-0.1.8-intel-no-core.dmg) |\n\n\n\n## What's Changed\n* fix(status-bar): enable template mode for status item icon by @yueshangzuo in https://github.com/Sitoi/ClashBar/pull/29\n\n## New Contributors\n* @yueshangzuo made their first contribution in https://github.com/Sitoi/ClashBar/pull/29\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.1.7...v0.1.8",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.1.8",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.1.8",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.1.8",
+    "published_at": "2026-03-13T03:04:35Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3726,
+        "release_id": 37,
+        "name": "ClashBar-0.1.8-apple-silicon-no-core.dmg",
+        "size": 2706971,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.8/ClashBar-0.1.8-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3727,
+        "release_id": 37,
+        "name": "ClashBar-0.1.8-apple-silicon.dmg",
+        "size": 13867670,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.8/ClashBar-0.1.8-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3728,
+        "release_id": 37,
+        "name": "ClashBar-0.1.8-intel-no-core.dmg",
+        "size": 2783401,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.8/ClashBar-0.1.8-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3729,
+        "release_id": 37,
+        "name": "ClashBar-0.1.8-intel.dmg",
+        "size": 14703119,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.8/ClashBar-0.1.8-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "repository_id": 7,
+    "tag_name": "v0.1.7",
+    "name": "ClashBar 0.1.7",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.1.7-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新重点补上了 **系统代理状态恢复** 这块一直该做但没做干净的事情：重启应用后不再莫名掉代理；同时顺手把 `System` 页快捷键和启动后的分组延迟探测补齐，让常用操作更顺手。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **系统页快捷键**：新增 `Command + ,` 快捷键，支持从菜单命令快速切换到 `System` 页面，更符合 macOS 用户习惯。\n\n**🚀 优化改进 (Improvements)**\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **启动延迟探测**：内核启动完成后会自动触发 Proxy Group 延迟测试，用户打开面板时能更快看到各组节点状态。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **退出清理流程**：应用退出时会主动清理系统代理，减少异常退出后系统仍残留无效代理状态的情况。\n\n**🐞 修复问题 (Bug Fixes)**\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **系统代理恢复**：修复 ClashBar 重新启动后系统代理状态丢失的问题；如果退出前已开启代理，应用恢复运行后会自动按上次状态恢复。\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.1.7-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.7/ClashBar-0.1.7-apple-silicon.dmg) | [ClashBar-0.1.7-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.7/ClashBar-0.1.7-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.1.7-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.7/ClashBar-0.1.7-intel.dmg) | [ClashBar-0.1.7-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.7/ClashBar-0.1.7-intel-no-core.dmg) |\n\n\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.1.6...v0.1.7",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.1.7",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.1.7",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.1.7",
+    "published_at": "2026-03-10T06:22:13Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3730,
+        "release_id": 38,
+        "name": "ClashBar-0.1.7-apple-silicon-no-core.dmg",
+        "size": 2611612,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.7/ClashBar-0.1.7-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3731,
+        "release_id": 38,
+        "name": "ClashBar-0.1.7-apple-silicon.dmg",
+        "size": 13746769,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.7/ClashBar-0.1.7-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3732,
+        "release_id": 38,
+        "name": "ClashBar-0.1.7-intel-no-core.dmg",
+        "size": 2692390,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.7/ClashBar-0.1.7-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3733,
+        "release_id": 38,
+        "name": "ClashBar-0.1.7-intel.dmg",
+        "size": 14643905,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.7/ClashBar-0.1.7-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "repository_id": 7,
+    "tag_name": "v0.1.6",
+    "name": "ClashBar 0.1.6",
+    "body": "## 更新内容\n\n![macOS](https://img.shields.io/badge/macOS-Supported-000000?style=flat-square\u0026logo=apple) ![Version](https://img.shields.io/badge/Release-v0.1.6-10B981?style=flat-square) ![Core](https://img.shields.io/badge/Core-Mihomo-6366f1?style=flat-square)\n\n\u003e 本次更新重点把 **Mihomo 内核升级** 直接做进了菜单栏底部，运行中的用户无需再手动折腾；同时补齐了升级结果反馈、版本刷新与新版检测时机，减少“点了没反应”和版本信息滞后的问题。\n\n### 📝 更新日志 (Changelog)\n\n**✨ 新增功能 (New Features)**\n\n- ![Feature](https://img.shields.io/badge/Feature-10B981?style=flat-square) **内核一键升级**：在菜单栏底部新增 Mihomo 内核升级入口，支持在运行中直接检查并执行升级操作。\n\n**🚀 优化改进 (Improvements)**\n\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **升级反馈**：为内核升级补充进行中、成功、已是最新版、失败等明确状态提示，并同步写入日志，减少黑盒体验。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **版本同步**：升级完成后自动刷新内核版本号，底部显示的 Mihomo 版本会尽快与实际运行版本保持一致。\n- ![Optimize](https://img.shields.io/badge/Optimize-3B82F6?style=flat-square) **版本检查时机**：应用新版检测改为在面板展开时刷新，避免后台无效轮询，同时保证用户打开菜单时能看到最新版本提示。\n\n**🐞 修复问题 (Bug Fixes)**\n\n- ![Fix](https://img.shields.io/badge/Fix-EF4444?style=flat-square) **升级响应兼容性**：兼容 Mihomo `/upgrade` 接口的多种响应与错误文案，正确识别“已是最新版”场景，避免把正常结果误判为失败。\n\n### 📥 下载地址 (Downloads)\n\n请根据您的 Mac 处理器芯片选择对应的版本下载（普通用户建议下载带有 **[内置内核]** 的版本）：\n\n| 🖥 平台架构 (Architecture) | 📦 内置 Mihomo 内核 (默认推荐) | 🛠️ 无内核纯净版 (适合高阶用户) |\n| :--- | :--- | :--- |\n| ![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-M系列芯片-0071E3?style=flat-square\u0026logo=apple\u0026logoColor=white) | [ClashBar-0.1.6-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.6/ClashBar-0.1.6-apple-silicon.dmg) | [ClashBar-0.1.6-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.6/ClashBar-0.1.6-apple-silicon-no-core.dmg) |\n| ![Intel](https://img.shields.io/badge/Intel-x86__64-0071C5?style=flat-square\u0026logo=intel\u0026logoColor=white) | [ClashBar-0.1.6-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.6/ClashBar-0.1.6-intel.dmg) | [ClashBar-0.1.6-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.6/ClashBar-0.1.6-intel-no-core.dmg) |\n\n\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.1.5...v0.1.6",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.1.6",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.1.6",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.1.6",
+    "published_at": "2026-03-10T02:45:54Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3734,
+        "release_id": 39,
+        "name": "ClashBar-0.1.6-apple-silicon-no-core.dmg",
+        "size": 2606263,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.6/ClashBar-0.1.6-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3735,
+        "release_id": 39,
+        "name": "ClashBar-0.1.6-apple-silicon.dmg",
+        "size": 13743308,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.6/ClashBar-0.1.6-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3736,
+        "release_id": 39,
+        "name": "ClashBar-0.1.6-intel-no-core.dmg",
+        "size": 2689776,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.6/ClashBar-0.1.6-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3737,
+        "release_id": 39,
+        "name": "ClashBar-0.1.6-intel.dmg",
+        "size": 14610053,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.6/ClashBar-0.1.6-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "repository_id": 7,
+    "tag_name": "v0.1.5",
+    "name": "ClashBar 0.1.5",
+    "body": "## 更新内容\n\n### 🐞 修复问题\n\n- 修复 macOS 13 Intel 平台下的兼容性问题，提升应用在旧版 Intel 设备上的启动与界面稳定性\n\n\u003cdetails\u003e\n\u003csummary\u003e\u003cstrong\u003e ✨ 新增功能 \u003c/strong\u003e\u003c/summary\u003e\n\n- 新增无内核版本的 ClashBar 安装包，支持按需分发不内置 Mihomo 内核的应用版本\n- 支持在未内置核心组件时提供首次启动引导，方便用户手动安装和配置 Mihomo 内核\n\n\u003c/details\u003e\n\n\u003cdetails\u003e\n\u003csummary\u003e\u003cstrong\u003e 🚀 优化改进 \u003c/strong\u003e\u003c/summary\u003e\n\n- 优化未内置内核场景下的启动流程，缺少托管内核时将延后自动启动并提供更清晰的提示信息\n- 调整启动失败与 TUN 相关错误提示文案，帮助用户更快定位和处理手动安装内核后的运行问题\n- 优化打包与发布流程，适配新的安装包结构并同步更新相关资源与文档\n\n\u003c/details\u003e\n\n## 下载地址\n\n- Apple Silicon（内置 Mihomo）: [ClashBar-0.1.5-apple-silicon.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.5/ClashBar-0.1.5-apple-silicon.dmg)\n- Apple Silicon（无内核）: [ClashBar-0.1.5-apple-silicon-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.5/ClashBar-0.1.5-apple-silicon-no-core.dmg)\n- Intel（内置 Mihomo）: [ClashBar-0.1.5-intel.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.5/ClashBar-0.1.5-intel.dmg)\n- Intel（无内核）: [ClashBar-0.1.5-intel-no-core.dmg](https://github.com/Sitoi/ClashBar/releases/download/v0.1.5/ClashBar-0.1.5-intel-no-core.dmg)\n\n\n## What's Changed\n* fix for macOS 13 Intel platform. by @f1ynng8 in https://github.com/Sitoi/ClashBar/pull/24\n\n## New Contributors\n* @f1ynng8 made their first contribution in https://github.com/Sitoi/ClashBar/pull/24\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.1.4...v0.1.5",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.1.5",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.1.5",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.1.5",
+    "published_at": "2026-03-09T15:32:58Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3738,
+        "release_id": 40,
+        "name": "ClashBar-0.1.5-apple-silicon-no-core.dmg",
+        "size": 2597745,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.5/ClashBar-0.1.5-apple-silicon-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3739,
+        "release_id": 40,
+        "name": "ClashBar-0.1.5-apple-silicon.dmg",
+        "size": 13734099,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.5/ClashBar-0.1.5-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3740,
+        "release_id": 40,
+        "name": "ClashBar-0.1.5-intel-no-core.dmg",
+        "size": 2674364,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.5/ClashBar-0.1.5-intel-no-core.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3741,
+        "release_id": 40,
+        "name": "ClashBar-0.1.5-intel.dmg",
+        "size": 14594232,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.5/ClashBar-0.1.5-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "repository_id": 7,
+    "tag_name": "v0.1.4",
+    "name": "ClashBar 0.1.4",
+    "body": "**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.1.3...v0.1.4",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.1.4",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.1.4",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.1.4",
+    "published_at": "2026-03-09T11:04:17Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3742,
+        "release_id": 41,
+        "name": "ClashBar-0.1.4-apple-silicon.dmg",
+        "size": 13732816,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.4/ClashBar-0.1.4-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3743,
+        "release_id": 41,
+        "name": "ClashBar-0.1.4-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.4/ClashBar-0.1.4-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3744,
+        "release_id": 41,
+        "name": "ClashBar-0.1.4-intel.dmg",
+        "size": 14591310,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.4/ClashBar-0.1.4-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3745,
+        "release_id": 41,
+        "name": "ClashBar-0.1.4-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.4/ClashBar-0.1.4-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "repository_id": 7,
+    "tag_name": "v0.1.3",
+    "name": "ClashBar 0.1.3",
+    "body": "**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.1.2...v0.1.3",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.1.3",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.1.3",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.1.3",
+    "published_at": "2026-03-08T13:14:11Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3746,
+        "release_id": 42,
+        "name": "ClashBar-0.1.3-apple-silicon.dmg",
+        "size": 13800408,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.3/ClashBar-0.1.3-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3747,
+        "release_id": 42,
+        "name": "ClashBar-0.1.3-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.3/ClashBar-0.1.3-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3748,
+        "release_id": 42,
+        "name": "ClashBar-0.1.3-intel.dmg",
+        "size": 14670883,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.3/ClashBar-0.1.3-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3749,
+        "release_id": 42,
+        "name": "ClashBar-0.1.3-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.3/ClashBar-0.1.3-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "repository_id": 7,
+    "tag_name": "v0.1.2",
+    "name": "ClashBar 0.1.2",
+    "body": "**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.1.1...v0.1.2",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.1.2",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.1.2",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.1.2",
+    "published_at": "2026-03-07T01:51:22Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3750,
+        "release_id": 43,
+        "name": "ClashBar-0.1.2-apple-silicon.dmg",
+        "size": 14860302,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.2/ClashBar-0.1.2-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3751,
+        "release_id": 43,
+        "name": "ClashBar-0.1.2-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.2/ClashBar-0.1.2-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3752,
+        "release_id": 43,
+        "name": "ClashBar-0.1.2-intel.dmg",
+        "size": 15899644,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.2/ClashBar-0.1.2-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3753,
+        "release_id": 43,
+        "name": "ClashBar-0.1.2-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.2/ClashBar-0.1.2-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "repository_id": 7,
+    "tag_name": "v0.1.1",
+    "name": "ClashBar 0.1.1",
+    "body": "**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.1.0...v0.1.1",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.1.1",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.1.1",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.1.1",
+    "published_at": "2026-03-06T01:59:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3754,
+        "release_id": 44,
+        "name": "ClashBar-0.1.1-apple-silicon.dmg",
+        "size": 14820974,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.1/ClashBar-0.1.1-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3755,
+        "release_id": 44,
+        "name": "ClashBar-0.1.1-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.1/ClashBar-0.1.1-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3756,
+        "release_id": 44,
+        "name": "ClashBar-0.1.1-intel.dmg",
+        "size": 15848353,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.1/ClashBar-0.1.1-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3757,
+        "release_id": 44,
+        "name": "ClashBar-0.1.1-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.1/ClashBar-0.1.1-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "repository_id": 7,
+    "tag_name": "v0.1.0",
+    "name": "ClashBar 0.1.0",
+    "body": "**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.0.9...v0.1.0",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.1.0",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.1.0",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.1.0",
+    "published_at": "2026-03-05T14:47:32Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3758,
+        "release_id": 45,
+        "name": "ClashBar-0.1.0-apple-silicon.dmg",
+        "size": 14804152,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.0/ClashBar-0.1.0-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3759,
+        "release_id": 45,
+        "name": "ClashBar-0.1.0-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.0/ClashBar-0.1.0-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3760,
+        "release_id": 45,
+        "name": "ClashBar-0.1.0-intel.dmg",
+        "size": 15838793,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.0/ClashBar-0.1.0-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3761,
+        "release_id": 45,
+        "name": "ClashBar-0.1.0-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.1.0/ClashBar-0.1.0-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "repository_id": 7,
+    "tag_name": "v0.0.9",
+    "name": "ClashBar 0.0.9",
+    "body": "**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.0.8...v0.0.9",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.0.9",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.0.9",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.0.9",
+    "published_at": "2026-03-05T07:44:51Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3762,
+        "release_id": 46,
+        "name": "ClashBar-0.0.9-apple-silicon.dmg",
+        "size": 14853199,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.9/ClashBar-0.0.9-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3763,
+        "release_id": 46,
+        "name": "ClashBar-0.0.9-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.9/ClashBar-0.0.9-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3764,
+        "release_id": 46,
+        "name": "ClashBar-0.0.9-intel.dmg",
+        "size": 15892344,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.9/ClashBar-0.0.9-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3765,
+        "release_id": 46,
+        "name": "ClashBar-0.0.9-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.9/ClashBar-0.0.9-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "repository_id": 7,
+    "tag_name": "v0.0.8",
+    "name": "ClashBar 0.0.8",
+    "body": "**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.0.6...v0.0.8",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.0.8",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.0.8",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.0.8",
+    "published_at": "2026-03-05T03:36:53Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3766,
+        "release_id": 47,
+        "name": "ClashBar-0.0.8-apple-silicon.dmg",
+        "size": 14829667,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.8/ClashBar-0.0.8-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3767,
+        "release_id": 47,
+        "name": "ClashBar-0.0.8-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.8/ClashBar-0.0.8-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3768,
+        "release_id": 47,
+        "name": "ClashBar-0.0.8-intel.dmg",
+        "size": 15866682,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.8/ClashBar-0.0.8-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3769,
+        "release_id": 47,
+        "name": "ClashBar-0.0.8-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.8/ClashBar-0.0.8-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "repository_id": 7,
+    "tag_name": "v0.0.6",
+    "name": "ClashBar 0.0.6",
+    "body": "## What's Changed\n* Refactor menu helpers, enhance transport features, and update README by @Sitoi in https://github.com/Sitoi/ClashBar/pull/9\n* ci: verify build and format by @Goooler in https://github.com/Sitoi/ClashBar/pull/6\n\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.0.5...v0.0.6",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.0.6",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.0.6",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.0.6",
+    "published_at": "2026-03-04T13:04:44Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3770,
+        "release_id": 48,
+        "name": "ClashBar-0.0.6-apple-silicon.dmg",
+        "size": 14975810,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.6/ClashBar-0.0.6-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3771,
+        "release_id": 48,
+        "name": "ClashBar-0.0.6-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.6/ClashBar-0.0.6-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3772,
+        "release_id": 48,
+        "name": "ClashBar-0.0.6-intel.dmg",
+        "size": 16288499,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.6/ClashBar-0.0.6-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3773,
+        "release_id": 48,
+        "name": "ClashBar-0.0.6-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.6/ClashBar-0.0.6-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "repository_id": 7,
+    "tag_name": "v0.0.5",
+    "name": "ClashBar 0.0.5",
+    "body": "## What's Changed\n* Support managed core directory and enhance overlay sync with retry by @Sitoi in https://github.com/Sitoi/ClashBar/pull/8\n* docs: add macOS Gatekeeper workarounds to README FAQ by @Goooler in https://github.com/Sitoi/ClashBar/pull/7\n\n## New Contributors\n* @Goooler made their first contribution in https://github.com/Sitoi/ClashBar/pull/7\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.0.4...v0.0.5",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.0.5",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.0.5",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.0.5",
+    "published_at": "2026-03-04T07:40:30Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3774,
+        "release_id": 49,
+        "name": "ClashBar-0.0.5-apple-silicon.dmg",
+        "size": 14961969,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.5/ClashBar-0.0.5-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3775,
+        "release_id": 49,
+        "name": "ClashBar-0.0.5-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.5/ClashBar-0.0.5-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3776,
+        "release_id": 49,
+        "name": "ClashBar-0.0.5-intel.dmg",
+        "size": 16287230,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.5/ClashBar-0.0.5-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3777,
+        "release_id": 49,
+        "name": "ClashBar-0.0.5-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.5/ClashBar-0.0.5-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "repository_id": 7,
+    "tag_name": "v0.0.4",
+    "name": "ClashBar 0.0.4",
+    "body": "## What's Changed\n* Enhance proxy support, typography, and core validation alerts by @Sitoi in https://github.com/Sitoi/ClashBar/pull/5\n\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.0.3...v0.0.4",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.0.4",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.0.4",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.0.4",
+    "published_at": "2026-03-04T05:40:03Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3778,
+        "release_id": 50,
+        "name": "ClashBar-0.0.4-apple-silicon.dmg",
+        "size": 14948121,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.4/ClashBar-0.0.4-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3779,
+        "release_id": 50,
+        "name": "ClashBar-0.0.4-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.4/ClashBar-0.0.4-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3780,
+        "release_id": 50,
+        "name": "ClashBar-0.0.4-intel.dmg",
+        "size": 16264251,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.4/ClashBar-0.0.4-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3781,
+        "release_id": 50,
+        "name": "ClashBar-0.0.4-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.4/ClashBar-0.0.4-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "repository_id": 7,
+    "tag_name": "v0.0.3",
+    "name": "ClashBar 0.0.3",
+    "body": "## What's Changed\n* Refactor menu helpers and enhance activity transport features by @Sitoi in https://github.com/Sitoi/ClashBar/pull/3\n\n## New Contributors\n* @Sitoi made their first contribution in https://github.com/Sitoi/ClashBar/pull/3\n\n**Full Changelog**: https://github.com/Sitoi/ClashBar/compare/v0.0.2...v0.0.3",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.0.3",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.0.3",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.0.3",
+    "published_at": "2026-03-03T16:34:07Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3782,
+        "release_id": 51,
+        "name": "ClashBar-0.0.3-apple-silicon.dmg",
+        "size": 14948906,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.3/ClashBar-0.0.3-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3783,
+        "release_id": 51,
+        "name": "ClashBar-0.0.3-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.3/ClashBar-0.0.3-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3784,
+        "release_id": 51,
+        "name": "ClashBar-0.0.3-intel.dmg",
+        "size": 16265828,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.3/ClashBar-0.0.3-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3785,
+        "release_id": 51,
+        "name": "ClashBar-0.0.3-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.3/ClashBar-0.0.3-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "repository_id": 7,
+    "tag_name": "v0.0.2",
+    "name": "ClashBar 0.0.2",
+    "body": "**Full Changelog**: https://github.com/Sitoi/clashbar/compare/v0.0.1...v0.0.2",
+    "html_url": "https://github.com/Sitoi/ClashBar/releases/tag/v0.0.2",
+    "tarball_url": "https://api.github.com/repos/Sitoi/ClashBar/tarball/v0.0.2",
+    "zipball_url": "https://api.github.com/repos/Sitoi/ClashBar/zipball/v0.0.2",
+    "published_at": "2026-03-02T02:14:06Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:33Z",
+    "assets": [
+      {
+        "id": 3786,
+        "release_id": 52,
+        "name": "ClashBar-0.0.2-apple-silicon.dmg",
+        "size": 14890551,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.2/ClashBar-0.0.2-apple-silicon.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3787,
+        "release_id": 52,
+        "name": "ClashBar-0.0.2-apple-silicon.dmg.sha256",
+        "size": 99,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.2/ClashBar-0.0.2-apple-silicon.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3788,
+        "release_id": 52,
+        "name": "ClashBar-0.0.2-intel.dmg",
+        "size": 16204024,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.2/ClashBar-0.0.2-intel.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:01Z"
+      },
+      {
+        "id": 3789,
+        "release_id": 52,
+        "name": "ClashBar-0.0.2-intel.dmg.sha256",
+        "size": 91,
+        "download_url": "https://github.com/Sitoi/ClashBar/releases/download/v0.0.2/ClashBar-0.0.2-intel.dmg.sha256",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:01Z"
+      }
+    ]
+  }
+]

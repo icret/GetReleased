@@ -1,0 +1,735 @@
+[
+  {
+    "id": 1650,
+    "repository_id": 8,
+    "tag_name": "v3.0.14",
+    "name": "v3.0.14",
+    "body": "## Bug fixes\r\n- fix: fixed Bluetooth reader starting CoreBluetooth scans while the module is disabled (#3572)\r\n- fix: fixed blurry inactive widget previews in the settings window in some cases\r\n\r\n## New features\r\n- feat: improved network interface detection when VPN is enabled  (#3582)\r\n- feat: improved RTL layout (#3546)\r\n- feat: added an option to specify the SMART update interval in the Disk module (#3554)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.14",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.14",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.14",
+    "published_at": "2026-08-30T08:54:15Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-30T10:47:52Z",
+    "assets": [
+      {
+        "id": 4766,
+        "release_id": 1650,
+        "name": "Stats.dmg",
+        "size": 7547726,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.14/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "repository_id": 8,
+    "tag_name": "v3.0.13",
+    "name": "v3.0.13",
+    "body": "**HOT FIX**\r\n\r\n## Bug fixes\r\n- fix: fixed white block in the menu bar when combined modules separator is enabled (#3564)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.13",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.13",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.13",
+    "published_at": "2026-08-23T21:33:57Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4767,
+        "release_id": 167,
+        "name": "Stats.dmg",
+        "size": 7498688,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.13/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "repository_id": 8,
+    "tag_name": "v3.0.12",
+    "name": "v3.0.12",
+    "body": "## Bug fixes\r\n- fix: added DCP0 group to the GPU FPS reader (#3551)\r\n- fix: fixed Total System Consumption spike after wake from sleep (#3543)\r\n- fix: fixed nvme_smart_log struct layout in the NVMe SMART reader (#3547)\r\n- fix: fixed separator color in the combined modules (#3534)\r\n- fix: fixed per-core CPU load calculation after tick counter overflow (#3529)\r\n- fix: fixed invisible text in the Help window on light appearance (#3523)\r\n\r\n## New features\r\n- feat: added PBwo display backlight power sensor for MacBook Neo (#3519)\r\n- feat: improved Disk free space calculation\r\n\r\n## Localization\r\n- lang: improved Turkish localization (#3559)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.12",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.12",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.12",
+    "published_at": "2026-08-23T12:39:40Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4768,
+        "release_id": 168,
+        "name": "Stats.dmg",
+        "size": 7498871,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.12/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "repository_id": 8,
+    "tag_name": "v3.0.11",
+    "name": "v3.0.11",
+    "body": "## Bug fixes\r\n- fix: fixed wrong module popup opening from the combined view\r\n\r\n## New features\r\n- feat: cleaned up dead code\r\n- feat: adjusted Battery popup to show battery and power adapter values simultaneously (#3368)\r\n- feat: added System Stats button to the support options",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.11",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.11",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.11",
+    "published_at": "2026-08-09T10:06:12Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4769,
+        "release_id": 169,
+        "name": "Stats.dmg",
+        "size": 7496768,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.11/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "repository_id": 8,
+    "tag_name": "v3.0.10",
+    "name": "v3.0.10",
+    "body": "## Bug fixes\r\n- fix: fixed Network reader blocking forever on a hung nettop process (#3499)\r\n- fix: fixed per-core CPU load overflow crash after long uptime (#3476)\r\n- fix: fixed CPU frequency reads for base M5 (#3439)\r\n- fix: added Fan value support for fan view in combined view (#3410)\r\n\r\n## New features\r\n- feat: redesigned Combined view\r\n\r\n## Localization\r\n- lang: added Tamil translation (#3471)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.10",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.10",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.10",
+    "published_at": "2026-08-02T11:59:01Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4770,
+        "release_id": 170,
+        "name": "Stats.dmg",
+        "size": 7533136,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.10/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "repository_id": 8,
+    "tag_name": "v3.0.9",
+    "name": "v3.0.9",
+    "body": "## Bug fixes\r\n- fix: fixed one time spikes machanizm that causes 0 speed in some cases (#3437)\r\n\r\n## New features\r\n- feat: updated update script that should prevent from resetting macOS widgets after update (#3416)\r\n- feat: added additional mechanism for getting the battery max capacity (#3392)\r\n- feat: updated README with uninstall instruction, more precise requirements and OSS details\r\n- feat: added logic to show a Support window only after user interaction with Stats to prevent showing the window at random time (#3423)\r\n- feat: updated uninstall script",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.9",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.9",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.9",
+    "published_at": "2026-07-19T11:47:24Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4771,
+        "release_id": 171,
+        "name": "Stats.dmg",
+        "size": 7556968,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.9/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "repository_id": 8,
+    "tag_name": "v3.0.8",
+    "name": "v3.0.8",
+    "body": "## Bug fixes\r\n- fix: fixed zero SSD used space when receiving a zero block size (#3432)\r\n- fix: fixed auto unit adjusting multiplier when using different unit base (#3385)\r\n- fix: added detection if disk details were changed (#3396)\r\n- fix: fixed invisible elements bug when enabling spacer between widgets (#3362)\r\n- fix: fixed m5 Pro super core detection (#3414)\r\n- fix: added Ethernet details to the native widget (#3403)\r\n- fix: fixed not updating interface details if process-based option is enabled (#3408)\r\n\r\n## New features\r\n- feat: small improvements to the async calls, added an option to deregister the machine from System Stats\r\n- feat: added a few new tests to the project\r\n- feat: added a fix to suppress status bar constraint update (#3395)\r\n- feat: wrapped all widgets variables with sync that allows to prevent data race in some edge cases\r\n\r\n## Localization\r\n- lang: added missing translations",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.8",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.8",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.8",
+    "published_at": "2026-07-12T16:52:51Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4772,
+        "release_id": 172,
+        "name": "Stats.dmg",
+        "size": 7545962,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.8/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "repository_id": 8,
+    "tag_name": "v3.0.7",
+    "name": "v3.0.7",
+    "body": "**HOT FIX**\r\n## Bug fixes\r\n- fix: fixed a few color constants\r\n\r\n## New features\r\n- feat: added an option to toggle ATA SMART reader that are disabled by default due to drivers problems (#3407)\r\n- feat: small improvements in the widgets",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.7",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.7",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.7",
+    "published_at": "2026-07-07T16:37:13Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4773,
+        "release_id": 173,
+        "name": "Stats.dmg",
+        "size": 7440818,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.7/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "repository_id": 8,
+    "tag_name": "v3.0.6",
+    "name": "v3.0.6",
+    "body": "## Bug fixes\r\n- fix: added super cores colors to the combined modules preview (#3383)\r\n- fix: moved to the new way to draw the battery dot in the battery widget to prevent a small bug that caused the .destinationOut to be visible\r\n- fix: fixed battery segment alignment in the Battery popup (#3374)\r\n- fix: fixed GPU popup update on open\r\n\r\n## New features\r\n- feat: improved wifi details fetch in the network reader\r\n- feat: improved CodeSign check in the SMC and moved to the better way of passing arguments to the SMC call\r\n- feat: added a new step in the Setup process: Preset selector that allows you to select what modules/widgets combination will be enabled on first launch\r\n- feat: added ATA SMART reader to the Disk module (#3357)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.6",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.6",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.6",
+    "published_at": "2026-07-05T10:51:35Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4774,
+        "release_id": 174,
+        "name": "Stats.dmg",
+        "size": 7436295,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.6/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "repository_id": 8,
+    "tag_name": "v3.0.5",
+    "name": "v3.0.5",
+    "body": "## Bug fixes\r\n- fix: reverted the old way of fan percentage calculation. 0-max rpm, instead of min-max range (#3360)\r\n\r\n## New features\r\n- feat: added fixed unit option to the Network and Disk modules (#3231)\r\n- feat: separated capacity label and level in the popup view\r\n- feat: added additional button state for fan helper that tells what step is missing (#3344)\r\n\r\n## Localization\r\n- lang: added Bengali translation addition (#3348)\r\n- lang: added missing translations",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.5",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.5",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.5",
+    "published_at": "2026-06-28T15:34:22Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4775,
+        "release_id": 175,
+        "name": "Stats.dmg",
+        "size": 7387171,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.5/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "repository_id": 8,
+    "tag_name": "v3.0.4",
+    "name": "v3.0.4",
+    "body": "## Bug fixes\r\n- fix: removed status background color from the Network widget (#3268)\r\n\r\n## New features\r\n- feat: added threshold for notification to prevent one time spikes (#3211)\r\n- feat: added few new commands for System Stats and small improvements in the Remote popup view\r\n- feat: redesigned fans in the Sensors popup view\r\n- feat: omitted stress tests for non arm platform (#3334)\r\n- feat: redesigned Battery popup view\r\n- feat: added an option to open specific tab in the Activity Monitor from the popup view\r\n- feat: redesigned Clock popup view with option to copy day in the calendar (#3246)\r\n- feat: redesigned Disk popup view\r\n- feat: added an option to set a main color for the Disk module (will be used in the pie chart widget) (#3285)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.4",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.4",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.4",
+    "published_at": "2026-06-21T12:52:54Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4776,
+        "release_id": 176,
+        "name": "Stats.dmg",
+        "size": 7351443,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.4/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "repository_id": 8,
+    "tag_name": "v3.0.3",
+    "name": "v3.0.3",
+    "body": "**HOT FIX**\r\n\r\n- fix: fixed Pie Chart line cap in the widget view",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.3",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.3",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.3",
+    "published_at": "2026-06-14T15:28:34Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4777,
+        "release_id": 177,
+        "name": "Stats.dmg",
+        "size": 7318398,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.3/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "repository_id": 8,
+    "tag_name": "v3.0.2",
+    "name": "v3.0.2",
+    "body": "## Bug fixes\r\n- fix: added detect super cores on the base M5 chip (#3250)\r\n- fix: moved from cp to ditto in the updater script (#3218)\r\n- fix: moved back to draw line chart in the widget instead of using a subview (#3294)\r\n- fix: fixed chart draw that could cause crash in some cases (#3297)\r\n- fix: fixed a lot of optional values that was not properly checked\r\n\r\n## New features\r\n- feat: moved SMC from SMJobBless to the SMAppService.daemon (#3237)\r\n- feat: added an option that preserve the menu bar items position when toggle `Combined modules`\r\n- feat: improved Optimized charging detection and show it as `On Hold` in the battery status in the Battery popup\r\n- feat: redesigned few popup elements\r\n- feat: added a new macOS 27 Golden Gate\r\n\r\n## Localization\r\n- lang: added a new script `scan` that allows to find all untranslated/unused translations\r\n- feat: added missing translations and cleaned translations from unused translations",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.2",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.2",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.2",
+    "published_at": "2026-06-14T14:59:56Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4778,
+        "release_id": 178,
+        "name": "Stats.dmg",
+        "size": 7317828,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.2/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "repository_id": 8,
+    "tag_name": "v3.0.1",
+    "name": "v3.0.1",
+    "body": "## Bug fixes\r\n- fix: fixed top processes height calculation in the Battery popup (#3276)\r\n- fix: adjusted minimal macOS version to 12.0 from 12.4 (#3277)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.1",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.1",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.1",
+    "published_at": "2026-06-07T18:51:14Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4779,
+        "release_id": 179,
+        "name": "Stats.dmg",
+        "size": 7334950,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.1/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "repository_id": 8,
+    "tag_name": "v3.0.0",
+    "name": "v3.0.0",
+    "body": "# First major release in years. \r\n## For reaching 40k stars on GitHub, I decided to release a new major version. It doesn't break anything and doesn't introduce big changes, but it starts a new chapter in Stats - monitoring inside the application. Over the next 6-8 months I have a lot of plans for changes: rewriting the settings logic from scratch (over time there's just too much going on there), adding a more historical view of the data, a few new widgets, and many small features I always wanted to add but held off on to keep the app simple and stable. \r\n\r\n## It's a new chapter for Stats, and I'm very thankful to everyone who helps make Stats better.\r\n\r\n## Bug fixes\r\n- fix: fixed preview/settings button visibility\r\n- fix: moved back to the CSDiskSpaceGetRecoveryEstimate + purgeable but now with most important fix - removeAllCachedResourceValues. Since the macOS by default cache the requested URL data. So does not case what method we use - it will be always cached. And this one is more efficient than `volumeAvailableCapacityForImportantUsageKey`. (#3249)\r\n\r\n## New features\r\n- feat: added a new module Remote that allows to monitor remote systems\r\n- feat: removed custom icons and moved to the SF Symbols \r\n- feat: adjusted the radius in the popups \r\n- feat: small adjustments in all popups \r\n- feat: redesigned the sections title in the popups \r\n- feat: redesigned ColumnChartView \r\n- feat: redesigned GPU popup view, dropped multi GPU view, only selected GPU will be visible in the popup \r\n- feat: small redesign in the RAM popup \r\n- feat: redesigned Battery popup \r\n- feat: moved to macOS 12 as a minimum required version\r\n- feat: added animation to the Charts\r\n- feat: enabled Network preview\r\n- feat: enabled Disk preview\r\n- feat: deleted dead code from the project\r\n- feat: enabled RAM preview\r\n- feat: added solution for `Desktop widgets not showing the data` to the FAQ section in the README.md\r\n- feat: enabled GPU preview\r\n- feat: enabled CPU preview\r\n\r\n## Localization\r\n- lang: improved automatic translation with gemma4 model",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v3.0.0",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v3.0.0",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v3.0.0",
+    "published_at": "2026-06-07T09:39:58Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4780,
+        "release_id": 180,
+        "name": "Stats.dmg",
+        "size": 7331442,
+        "download_url": "https://github.com/exelban/stats/releases/download/v3.0.0/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "repository_id": 8,
+    "tag_name": "v2.12.16",
+    "name": "v2.12.16",
+    "body": "# Last release with macOS 11 support\r\n\r\n**HOT FIX**\r\n\r\n- fix: moved back to the CSDiskSpaceGetRecoveryEstimate + purgeable but now with most important fix - removeAllCachedResourceValues. Since the macOS by default cache the requested URL data. So does not case what method we use - it will be always cached. And this one is more efficient than volumeAvailableCapacityForImportantUsageKey. (https://github.com/exelban/stats/issues/3249)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.16",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.16",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.16",
+    "published_at": "2026-06-03T11:15:40Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4781,
+        "release_id": 181,
+        "name": "Stats.dmg",
+        "size": 7408687,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.16/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "repository_id": 8,
+    "tag_name": "v2.12.15",
+    "name": "v2.12.15",
+    "body": "## Bug fixes\r\n- fix: reverted to volumeAvailableCapacityForImportantUsageKey for disk free space since CSDiskSpaceGetRecoveryEstimate + purgeable space is unreliable\r\n- fix: fixed stale data on popup reopen across all modules (matches CPU fix)\r\n\r\n## New features\r\n- feat: added calendar selecting option to the Clock module (#3230)\r\n- feat: renamed Remote plugin to SystemStats\r\n- feat: adjusted Repeater leeway to better manage reads\r\n- feat: added RegexCache to the TextWidget that allows caching some calculations",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.15",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.15",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.15",
+    "published_at": "2026-05-24T16:39:32Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4782,
+        "release_id": 182,
+        "name": "Stats.dmg",
+        "size": 7402764,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.15/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "repository_id": 8,
+    "tag_name": "v2.12.14",
+    "name": "v2.12.14",
+    "body": "## Bug fixes\r\n- fix: fixed possible memory leaks\r\n- fix: fixed display fps visibility in the GPU popup\r\n\r\n## New features\r\n- feat: added custom colors for widgets (#3165)\r\n- feat: redesigned Network usage timer (#3175)\r\n- feat: fixed stale CPU popup data when reopening the popup\r\n- feat: improved LineChart rendering by showing gaps when data is unavailable instead of drawing a misleading continuous line\r\n- feat: added timestamp tooltips to the connectivity chart\r\n- feat: added Network preview (disabled for now)\r\n- feat: moved Settings, Update, Setup, and Support windows to lazy-loaded initialization, reducing startup memory usage according to Stats.\r\n- feat: added How to contribute section to the README.md\r\n- feat: added System Stats account information to the Stats, for non free users the contribution alert will be hidden\r\n\r\n## Localization\r\n- lang: improved German translations (#3207)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.14",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.14",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.14",
+    "published_at": "2026-05-17T09:54:14Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4783,
+        "release_id": 183,
+        "name": "Stats.dmg",
+        "size": 7389991,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.14/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "repository_id": 8,
+    "tag_name": "v2.12.13",
+    "name": "v2.12.13",
+    "body": "# Bug fixes\r\n- fix: fixed inverted separator color (#3139)\r\n\r\n## New features\r\n- feat: added authorization step when trying to update Stats as non-admin (#3153)\r\n\r\n## Localization\r\n- lang: fixed some Dutch translations (#3179)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.13",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.13",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.13",
+    "published_at": "2026-05-03T12:54:51Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4784,
+        "release_id": 184,
+        "name": "Stats.dmg",
+        "size": 7266025,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.13/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "repository_id": 8,
+    "tag_name": "v2.12.12",
+    "name": "v2.12.12",
+    "body": "## Bug fixes\r\n- fix: refresh popup readers when popup reopens (#2988)\r\n\r\n## New features\r\n- feat: adjusted stepper field width constraints (#3105)\r\n- feat: improvements in the Remote module\r\n- feat: moved ANE utilization from read to calculation from power usage\r\n- feat: added Disk preview (disabled for now)\r\n- feat: improved updater mechanism for better handling of the mount point, and added new app version signature\r\n- feat: removed powermetric from the SMC helper. It was added with the idea that it might be used someday, but due to security risks, I will just remove it from the app.\r\n\r\n## Localization\r\n- lang: updated Japanese translations for clarity and accuracy (#3161)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.12",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.12",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.12",
+    "published_at": "2026-04-26T11:02:54Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4785,
+        "release_id": 185,
+        "name": "Stats.dmg",
+        "size": 7263013,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.12/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "repository_id": 8,
+    "tag_name": "v2.12.11",
+    "name": "v2.12.11",
+    "body": "## Bug fixes\r\n- fix: fixed release version for v2.12.10 (#3154)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.11",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.11",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.11",
+    "published_at": "2026-04-19T17:10:30Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4786,
+        "release_id": 186,
+        "name": "Stats.dmg",
+        "size": 7198890,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.11/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "repository_id": 8,
+    "tag_name": "v2.12.10",
+    "name": "v2.12.10",
+    "body": "## Bug fixes\r\n- fix: fixed case when reading I/O from the network interface that is not available cause crash\r\n\r\n## New features\r\n- feat: added GPU preview (disabled for now)\r\n- feat: added display FPS to the GPU module\r\n- feat: added FAQ for hidden menu bar icons on macOS 26\r\n\r\n## Localization\r\n- lang: updated French translations in Localizable.strings (#3151)\r\n- lang: updated Estonian language (#3149)\r\n- lang: fixes to auto translation (#3129)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.10",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.10",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.10",
+    "published_at": "2026-04-19T15:44:45Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4787,
+        "release_id": 187,
+        "name": "Stats.dmg",
+        "size": 7198900,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.10/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "repository_id": 8,
+    "tag_name": "v2.12.9",
+    "name": "v2.12.9",
+    "body": "## Bug fixes\r\n- fix: fixed data race in the Sensors popup\r\n- fix: fixed Fan helper installation process by using System over domain for launchd (#3008)\r\n- fix: fixed Line Chart draw offset\r\n\r\n## New features\r\n- feat: added RAM preview (disabled for now)\r\n- feat: added ANE utilization to the GPU module (#2897)\r\n\r\n## Localization\r\n- lang: improved Korean language support (#3127) type\r\n- lang: updated Japanese translations in Localizable.strings (#3113)\r\n- lang: added missing translations",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.9",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.9",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.9",
+    "published_at": "2026-04-12T11:41:45Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4788,
+        "release_id": 188,
+        "name": "Stats.dmg",
+        "size": 7187289,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.9/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "repository_id": 8,
+    "tag_name": "v2.12.8",
+    "name": "v2.12.8",
+    "body": "## Bug fixes\r\n- fix: fixed data race in the Disk processes reader (#3100)\r\n\r\n## New features\r\n- feat: added Dot widget to the RAM module to visualize the ram pressure level (#3042)\r\n- feat: small improvements in the Remote module\r\n- feat: moved State widget to Dot widget. From now it will just show any color provided by module\r\n- feat: initialized CPU preview component (not active for now)\r\n- feat: added label to Stack widget that allow to show bluetooth device name instead of id\r\n\r\n## Localization\r\n- lang: updated missing translations",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.8",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.8",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.8",
+    "published_at": "2026-04-05T14:44:12Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4789,
+        "release_id": 189,
+        "name": "Stats.dmg",
+        "size": 7187964,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.8/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "repository_id": 8,
+    "tag_name": "v2.12.7",
+    "name": "v2.12.7",
+    "body": "## Bug fixes\r\n- fix: fixed cases when cpu total freq will be NaN (#3086)\r\n\r\n## New features\r\n- feat: handled case when DMG mounting fails (#3046)\r\n\r\n## Localization\r\n- lang: updated Turkish translation (#3077)\r\n- lang: updated Polish translations (#3072)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.7",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.7",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.7",
+    "published_at": "2026-03-29T10:02:31Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4790,
+        "release_id": 190,
+        "name": "Stats.dmg",
+        "size": 7194416,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.7/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "repository_id": 8,
+    "tag_name": "v2.12.6",
+    "name": "v2.12.6",
+    "body": "**HOT FIX**\r\n\r\n## Bug fixes\r\n- fix: fixed LineChart draw with an offset when a label is present (#3071)\r\n- fix: try to omit duplicates of the Bluetooth devices using vendor and product ID (#3025)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.6",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.6",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.6",
+    "published_at": "2026-03-26T11:41:45Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4791,
+        "release_id": 191,
+        "name": "Stats.dmg",
+        "size": 7217319,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.6/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "repository_id": 8,
+    "tag_name": "v2.12.5",
+    "name": "v2.12.5",
+    "body": "## Bug fixes\r\n- fix: corrected Mac Studio M3 Ultra name and release years in deviceDict (#3066)\r\n- fix: fixed fan control helper on M5 (#3051)\r\n- fix: adjusted clock list table height to be fully visible in the min window size (#3032)\r\n\r\n## New features\r\n- feat: added `Enable in Settings` text to all macOS widgets\r\n- feat: improved support for new M5 gen (#3047, #3050)\r\n- feat: added an option to switch between emoji flag and country code in the Network module (#3034)\r\n- feat: updated M5 cpu sensors (thanks to @MiikaLaurila and @dkorunic)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.5",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.5",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.5",
+    "published_at": "2026-03-22T19:00:31Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4792,
+        "release_id": 192,
+        "name": "Stats.dmg",
+        "size": 7230218,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.5/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "repository_id": 8,
+    "tag_name": "v2.12.4",
+    "name": "v2.12.4",
+    "body": "## Bug fixes\r\n- fix: fixed Apple Silicon power readings scaling with update interval (#3018)\r\n- fix: fixed incorrect CPU tick calculation after UInt32 overflow (#3014)\r\n\r\n## New features\r\n- feat: added base M5 CPU and GPU core sensors (#3027)\r\n- feat: limited WiFi details read every 15 seconds to reduce CPU usage\r\n- feat: added new MacBooks ids and new MacBook Neo to the known devices\r\n- feat: added an option to sync reader fire time to the second bound that helps to sync time in Clock module\r\n- feat: added sleep mode to the reader, in some cases there is no need for reads since the widget is not visualizing anything. In this case, the reader could go to sleep mode and be active only when popup is open. It's available only for the sensor module for now.\r\n- feat: added an option to sync clock with ntp server and moved reader to separate file",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.4",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.4",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.4",
+    "published_at": "2026-03-15T10:03:46Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4793,
+        "release_id": 193,
+        "name": "Stats.dmg",
+        "size": 7217162,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.4/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "repository_id": 8,
+    "tag_name": "v2.12.3",
+    "name": "v2.12.3",
+    "body": "**HOT FIX**\r\n\r\n- fixed: fixed missing background on older macOS (#3015)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.3",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.3",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.3",
+    "published_at": "2026-03-08T18:06:03Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4794,
+        "release_id": 194,
+        "name": "Stats.dmg",
+        "size": 7157758,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.3/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "repository_id": 8,
+    "tag_name": "v2.12.2",
+    "name": "v2.12.2",
+    "body": "# New features\r\n- feat: added an option to resize the settings window, also the settings window position and size will be autosaved\r\n- feat: added a new way to obtain Bluetooth device battery levels using pmset (#2990)\r\n- feat: added an option to use a HTTP method for connectivity check (#2971)\r\n\r\n## Localization\r\n- lang: generated missing translations for all languages using translategemma:4b model",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.2",
+    "tarball_url": "https://api.github.com/repos/exelban/stats/tarball/v2.12.2",
+    "zipball_url": "https://api.github.com/repos/exelban/stats/zipball/v2.12.2",
+    "published_at": "2026-03-08T14:40:56Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z",
+    "assets": [
+      {
+        "id": 4795,
+        "release_id": 195,
+        "name": "Stats.dmg",
+        "size": 7156852,
+        "download_url": "https://github.com/exelban/stats/releases/download/v2.12.2/Stats.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:10Z"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "repository_id": 8,
+    "tag_name": "v2.12.1",
+    "name": "v2.12.1",
+    "body": "## Bug fixes\r\n- fix: cherry-pick changes from #2983 to fix the automatic fan mode after sleep (#2977)\r\n- fix: removed menu item position control when showing widget in the menu bar (#2987)\r\n\r\n## New features\r\n- feat: added flag emoji instead of country code in the popup view, and countryCode and flag options to the Text widget (#2916)\r\n\r\n## Localization\r\n- lang: updated Taiwan Traditional Chinese Localization (#2975)",
+    "html_url": "https://github.com/exelban/stats/releases/tag/v2.12.1",
+    "tarball_url": "",
+    "zipball_url": "",
+    "published_at": "2026-03-01T17:31:54Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:43Z"
+  }
+]

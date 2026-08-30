@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import type { Release, Repository } from '@/types'
-import { latestReleasesByRepository, releaseCountByRepository, releasesOfRepository, sortReleasesNewestFirst, sortRepositories, paginate } from './aggregations'
+import { sortReleasesNewestFirst, sortRepositories, paginate } from './aggregations'
 
 function release(overrides: Partial<Release>): Release {
   return {
@@ -55,65 +55,36 @@ describe('sortReleasesNewestFirst', () => {
   })
 })
 
-describe('latestReleasesByRepository', () => {
-  it('按仓库取发布时间最新的版本', () => {
-    const latest = latestReleasesByRepository(releases)
-    expect(latest[1]?.tag_name).toBe('v1.1.0')
-    expect(latest[2]?.tag_name).toBe('v2.0.0')
-  })
-
-  it('空数组返回空对象', () => {
-    expect(latestReleasesByRepository([])).toEqual({})
-  })
-})
-
-describe('releaseCountByRepository', () => {
-  it('统计每个仓库的版本数量', () => {
-    expect(releaseCountByRepository(releases)).toEqual({ 1: 2, 2: 1 })
-  })
-})
-
-describe('releasesOfRepository', () => {
-  it('按仓库过滤并倒序排列', () => {
-    const filtered = releasesOfRepository(releases, 1)
-    expect(filtered.map((r) => r.tag_name)).toEqual(['v1.1.0', 'v1.0.0'])
-  })
-
-  it('无匹配版本返回空数组', () => {
-    expect(releasesOfRepository(releases, 99)).toEqual([])
-  })
-})
-
-const repos: Repository[] = [repository({ id: 1, name: 'beta', created_at: '2026-01-01T00:00:00Z' }), repository({ id: 2, name: 'alpha', created_at: '2026-06-01T00:00:00Z' }), repository({ id: 3, name: 'gamma', created_at: '2026-03-01T00:00:00Z' })]
+const repos: Repository[] = [
+  repository({ id: 1, name: 'beta', created_at: '2026-01-01T00:00:00Z', latest_release_date: '2026-03-01T00:00:00Z', release_count: 2 }),
+  repository({ id: 2, name: 'alpha', created_at: '2026-06-01T00:00:00Z', latest_release_date: '2026-06-01T00:00:00Z', release_count: 1 }),
+  repository({ id: 3, name: 'gamma', created_at: '2026-03-01T00:00:00Z' }),
+]
 
 describe('sortRepositories', () => {
   it('latest 按最新发布时间降序', () => {
-    const latestByRepo = { 1: releases[1], 2: releases[2] }
-    const countByRepo = { 1: 2, 2: 1 }
-    const sorted = sortRepositories(repos, { latestByRepo, countByRepo, sortKey: 'latest' })
+    const sorted = sortRepositories(repos, 'latest')
     expect(sorted.map((r) => r.id)).toEqual([2, 1, 3])
   })
 
   it('count 按 Release 数量降序', () => {
-    const latestByRepo = { 1: releases[1], 2: releases[2] }
-    const countByRepo = { 1: 2, 2: 1 }
-    const sorted = sortRepositories(repos, { latestByRepo, countByRepo, sortKey: 'count' })
+    const sorted = sortRepositories(repos, 'count')
     expect(sorted.map((r) => r.id)).toEqual([1, 2, 3])
   })
 
   it('name 按名称升序', () => {
-    const sorted = sortRepositories(repos, { latestByRepo: {}, countByRepo: {}, sortKey: 'name' })
+    const sorted = sortRepositories(repos, 'name')
     expect(sorted.map((r) => r.name)).toEqual(['alpha', 'beta', 'gamma'])
   })
 
   it('created 按追踪时间降序', () => {
-    const sorted = sortRepositories(repos, { latestByRepo: {}, countByRepo: {}, sortKey: 'created' })
+    const sorted = sortRepositories(repos, 'created')
     expect(sorted.map((r) => r.id)).toEqual([2, 3, 1])
   })
 
   it('不修改原数组', () => {
     const before = repos.map((r) => r.id)
-    sortRepositories(repos, { latestByRepo: {}, countByRepo: {}, sortKey: 'name' })
+    sortRepositories(repos, 'name')
     expect(repos.map((r) => r.id)).toEqual(before)
   })
 })

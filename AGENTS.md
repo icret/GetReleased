@@ -9,7 +9,7 @@
 1. 管理需要追踪的 GitHub Repository，支持标签（多对多）与按标签筛选。
 2. Go Tracker 定时通过 GitHub API 获取 Release 数据。
 3. 数据保存到 SQLite。
-4. Go 将 SQLite 导出为前端可直接读取的 JSON。
+4. Go 将 SQLite 导出为前端可直接读取的分片 JSON（`repositories.json` + `releases-recent.json` + 按仓库分片 `releases/{id}.json`）。
 5. React + TypeScript 前端展示项目、Release、版本、发布时间、Release Notes。
 6. Nginx 提供前端静态文件与 JSON。
 7. 管理员后台：密码登录、仓库/标签 CRUD、手动触发追踪，Go Server 提供 Admin API。
@@ -82,9 +82,8 @@ Go 结构体映射见 `backend/internal/release/model.go`（`Repository` / `Tag`
 
 * 修改文件、目录、模块边界前，先读取 `docs/project_structure.md` 与相邻文件，遵循现有约定。
 * 修改业务逻辑前向用户确认；纯格式化/补注释/修 typo 可直接执行。
-* 不主动 `git commit` / `git push`，除非用户明确要求。
 * 新增依赖前检查"暂缓启用"清单，确认不属于未到时机的功能。
-* 优先复用 `frontend/src/lib/`、`frontend/src/components/`、`backend/internal/tracker/` 中已有工具，禁止重复造轮子。
+* 优先复用 `frontend/src/lib/`、`frontend/src/components/`、`backend/internal/tracker/` 中已有工具。
 * 完成代码后必须运行构建/测试/lint（见下文"构建与验证命令"），不交付未验证代码。
 
 ## 技术栈
@@ -121,7 +120,7 @@ Go 结构体映射见 `backend/internal/release/model.go`（`Repository` / `Tag`
 
 ### 数据层
 
-* **公开页面** — 构建期 `fs` 读取 JSON（SSG 数据注入 `public/data/*.json`），无运行时 `fetch`
+* **公开页面** — 构建期 `fs` 读取 JSON（SSG 数据注入），无运行时 `fetch`。数据文件：`public/data/repositories.json`（仓库列表，含 `release_count`/`latest_is_prerelease` 导出聚合字段）、`public/data/releases-recent.json`（最近 50 条 release，首页 feed 用）、`public/data/releases/{repository_id}.json`（每仓库全量 release，详情页用）
 * **管理后台** — 运行时 `fetch` 调用 Go Server Admin API（JWT 鉴权）
 
 ### Web / 部署
@@ -223,7 +222,7 @@ pnpm format                     # 格式化（prettier --write .）
 * 命名：组件 `PascalCase`（如 `RepositoryCard`、`ReleaseCard`），工具函数 `camelCase`，类型 `PascalCase`。
 * 文件名：组件文件 `PascalCase.tsx`，工具/类型 `kebab-case.ts` 或 `index.ts`，文档 `snake_case.md`。
 * 非必要不自写 CSS，优先用 Tailwind 工具类与已有 `globals.css`。
-* 一律使用 pnpm，禁止 npm / yarn。
+
 
 ## 测试约定
 
@@ -259,7 +258,7 @@ pnpm format                     # 格式化（prettier --write .）
 
 数据更新需重新构建，顺序固定（不可颠倒）：
 
-1. Go tracker 导出最新 JSON 到 `frontend/public/data/`
+1. Go tracker 导出分片 JSON 到 `frontend/public/data/`（`repositories.json` + `releases-recent.json` + `releases/{id}.json`）
 2. `pnpm build` 读取 JSON 生成静态产物 `out/`
 3. 同步 `out/` 至 Nginx `root`
 
@@ -271,9 +270,7 @@ Go Server（Admin API）作为独立 systemd 服务常驻运行，Nginx 通过 `
 
 ## 项目结构
 
-**AI 在创建文件、修改目录、涉及模块边界时，必须先读取 [docs/project_structure.md](docs/project_structure.md)。**
-
-**核心约束**：顶层固定为 `backend/`、`frontend/`、`deploy/`，边界清晰，禁止提前实现未来功能。
+详见 [docs/project_structure.md](docs/project_structure.md)。核心约束：顶层固定为 `backend/`、`frontend/`、`deploy/`，边界清晰。
 
 ## 常见陷阱
 
@@ -281,7 +278,7 @@ Go Server（Admin API）作为独立 systemd 服务常驻运行，Nginx 通过 `
 * **SQLite 并发**：tracker 写入时 server 可读不可写；WAL 模式下读写可并发，但双写需避免。
 * **JWT_SECRET**：空值拒绝启动；长度不足 32 字节虽可运行但不符最佳实践。
 * **SITE_URL**：未设置时回退占位符 `https://getreleased.example.com`，线上 sitemap/robots/OG 域名错误，部署前必须设置。
-* **部署顺序**：必须先导出 JSON 后 build，颠倒会导致静态页数据过期。
+
 * **静态导出限制**：`output: 'export'` 下不支持运行时服务端 API；admin 页面通过客户端 `fetch` 调用 Go Server，不走 SSG 数据注入。
 * **lefthook 未生效**：hook 不触发通常是 lefthook 未安装，需先安装二进制（`go install` 或从 [releases](https://github.com/evilmartians/lefthook/releases) 下载）再 `lefthook install`。
 

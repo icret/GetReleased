@@ -1,0 +1,737 @@
+[
+  {
+    "id": 1,
+    "repository_id": 5,
+    "tag_name": "1.140.0",
+    "name": "1.140.0",
+    "body": "## ClashX v1.140.0\n\n### Bug Fixes / 问题修复\n\n- **keep proxy selector at top of status menu**\n  Preserve the prioritized proxy-group order when inserting menu items instead of reversing it at a fixed index.\n\n  修复: 代理相关问题\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.140.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.140.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.140.0",
+    "published_at": "2026-07-24T04:39:29Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3589,
+        "release_id": 1,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 46009591,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.140.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3590,
+        "release_id": 1,
+        "name": "ClashX.dmg",
+        "size": 46229797,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.140.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "repository_id": 5,
+    "tag_name": "1.139.0",
+    "name": "1.139.0",
+    "body": "## ClashX v1.139.0\n\n### Bug Fixes / 问题修复\n\n- **align share-link Go DNS defaults with DoH/DoT (parity with Swift template)**\n  The clashConvertShareLinks Go cgo function still emitted plain UDP/53 DNS in the auto-generated config when users imported share links through the Go path:\n\n  修复: align share-link Go DNS defaults with DoH/DoT (parity with Swift template)\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.139.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.139.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.139.0",
+    "published_at": "2026-05-07T07:48:23Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3591,
+        "release_id": 2,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 47938768,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.139.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3592,
+        "release_id": 2,
+        "name": "ClashX.dmg",
+        "size": 46851413,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.139.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "repository_id": 5,
+    "tag_name": "1.138.0",
+    "name": "1.138.0",
+    "body": "## ClashX v1.138.0\n\n### Bug Fixes / 问题修复\n\n- **upgrade generated config DNS to DoH/DoT to resolve CN domain timeout**\n  When CN domains (doubao.com, qq.com, baidu.com, etc.) are matched by GEOSITE/cn or DOMAIN-SUFFIX rules and routed DIRECT, mihomo's internal resolver was failing with 'dns resolve failed: context deadline exceeded' on networks where plain UDP/53 is throttled, filtered, or polluted.\n\n  修复 CN domain timeout 的问题\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.138.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.138.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.138.0",
+    "published_at": "2026-05-06T03:05:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3593,
+        "release_id": 3,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 47936985,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.138.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3594,
+        "release_id": 3,
+        "name": "ClashX.dmg",
+        "size": 46851789,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.138.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "repository_id": 5,
+    "tag_name": "1.137.0",
+    "name": "1.137.0",
+    "body": "## ClashX v1.137.0\n\n### Bug Fixes / 问题修复\n\n- **prioritize proxy selector in generated configs**\n  修复: 代理相关问题\n\n- **support mihomo share-link conversion**\n  支持 mihomo 相关问题\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.137.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.137.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.137.0",
+    "published_at": "2026-04-29T16:55:32Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3595,
+        "release_id": 4,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 47932584,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.137.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3596,
+        "release_id": 4,
+        "name": "ClashX.dmg",
+        "size": 46642804,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.137.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "repository_id": 5,
+    "tag_name": "1.136.0",
+    "name": "1.136.0",
+    "body": "## ClashX v1.136.0\n\n### Bug Fixes / 问题修复\n\n- **pin speedContainerView.leading to restore menu bar speed on Catalina**\n  The speedContainerView had no leading constraint in the XIB — only trailing, top, and bottom were defined. In v1.118.0 this was fine because the NSTextField labels inside had both leading and trailing pinned to the container, so their intrinsic content size propagated upward and gave the container a non-zero width.\n\n  修复: 菜单栏相关问题\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.136.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.136.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.136.0",
+    "published_at": "2026-04-25T04:47:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3597,
+        "release_id": 5,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 47914043,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.136.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3598,
+        "release_id": 5,
+        "name": "ClashX.dmg",
+        "size": 46622254,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.136.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "repository_id": 5,
+    "tag_name": "1.135.0",
+    "name": "1.135.0",
+    "body": "## ClashX v1.135.0\n\n### Bug Fixes / 问题修复\n\n- **remove Catalina snapshot rendering to restore menu bar speed display**\n  On macOS 10.15, the snapshot rendering path introduced in v1.131.0 never worked: the StatusItemView was never added to the button's subview tree, so Auto Layout never ran and SpeedTextView's NSTextField subviews had zero frames when dataWithPDF captured them.\n\n  移除菜单栏相关问题\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.135.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.135.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.135.0",
+    "published_at": "2026-04-25T03:47:21Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3599,
+        "release_id": 6,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 47913051,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.135.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3600,
+        "release_id": 6,
+        "name": "ClashX.dmg",
+        "size": 46866831,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.135.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "repository_id": 5,
+    "tag_name": "1.134.0",
+    "name": "1.134.0",
+    "body": "## ClashX v1.134.0\n\n### Bug Fixes / 问题修复\n\n- **use dataWithPDF for Catalina menu bar speed rendering**\n  bitmapImageRepForCachingDisplay returns nil for offscreen views (views not attached to a window). On macOS 10.15, the StatusItemView is not added to the button's subview hierarchy, so the guard in updateImage silently returns early and no speed image is ever set.\n\n  使用菜单栏相关问题\n\n- **restore valid workflow indentation**\n  修复 restore valid workflow indentation 相关问题\n\n- **align website history summaries with release sections**\n  修复: align website history summaries with release sections\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.134.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.134.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.134.0",
+    "published_at": "2026-04-24T04:06:23Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3601,
+        "release_id": 7,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 47911963,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.134.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3602,
+        "release_id": 7,
+        "name": "ClashX.dmg",
+        "size": 46870590,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.134.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "repository_id": 5,
+    "tag_name": "1.133.0",
+    "name": "1.133.0",
+    "body": "## ClashX v1.133.0\n\n### Bug Fixes / 问题修复\n\n- **restore Catalina menu bar speed rendering**\n  恢复菜单栏相关问题\n\n- **exclude Sisyphus attribution lines from generated notes**\n  修复: exclude Sisyphus attribution lines from generated notes\n\n- **improve Chinese translation quality for generated notes**\n  修复 improve Chinese translation quality for generated notes 相关问题\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.133.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.133.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.133.0",
+    "published_at": "2026-04-23T03:02:36Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3603,
+        "release_id": 8,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 47911420,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.133.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3604,
+        "release_id": 8,
+        "name": "ClashX.dmg",
+        "size": 46872848,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.133.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "repository_id": 5,
+    "tag_name": "1.132.0",
+    "name": "1.132.0",
+    "body": "## ClashX v1.132.0\n\n### Bug Fixes / 问题修复\n\n- **restore older macOS status UI compatibility**\n\n  恢复旧版 macOS 状态界面 兼容性相关问题\n\n### New Features / 新功能\n\n- **upgrade generated compatibility configs to geosite template**\n\n  升级生成的兼容配置为 geosite 模板\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。\n",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.132.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.132.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.132.0",
+    "published_at": "2026-04-22T14:46:31Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3605,
+        "release_id": 9,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 47912989,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.132.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3606,
+        "release_id": 9,
+        "name": "ClashX.dmg",
+        "size": 47412770,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.132.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "repository_id": 5,
+    "tag_name": "1.131.0",
+    "name": "1.131.0",
+    "body": "## ClashX v1.131.0\n\n### Bug Fixes / 问题修复\n\n- **restore Catalina compatibility for generated configs and UI**\n\n  修复: restore Catalina compatibility for generated configs and UI\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。\n",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.131.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.131.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.131.0",
+    "published_at": "2026-04-22T05:59:39Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3607,
+        "release_id": 10,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 47891928,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.131.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3608,
+        "release_id": 10,
+        "name": "ClashX.dmg",
+        "size": 46613547,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.131.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "repository_id": 5,
+    "tag_name": "1.130.0",
+    "name": "1.130.0",
+    "body": "## ClashX v1.130.0\n\n### Bug Fixes / 问题修复\n\n- **add GEOIP CN/private direct rules to generated share-link config**\n  When buildConfigFromShareLinks generates a Clash config from ss:// share links, the rules section only had MATCH,Proxy which routes ALL traffic through the proxy — including Chinese domestic sites like Baidu.\n\n  修复: add GEOIP CN/private direct rules to generated share-link config\n\n- **speed text blank after layout and settings tab gray block on macOS 15**\n  SpeedTextView: override layout() to re-trigger needsDisplay after Auto Layout resolves bounds. The initial draw() call may occur when bounds are still zero (before the first layout pass), causing text to be invisible. Subsequent traffic callbacks only fire if speed values change, so without this override the text never redraws after layout completes.\n\n  修复: speed text blank after layout and settings tab gray block on macOS 15\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.130.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.130.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.130.0",
+    "published_at": "2026-04-21T08:05:13Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3609,
+        "release_id": 11,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 47881599,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.130.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3610,
+        "release_id": 11,
+        "name": "ClashX.dmg",
+        "size": 46613019,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.130.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "repository_id": 5,
+    "tag_name": "1.129.0",
+    "name": "1.129.0",
+    "body": "## ClashX v1.129.0\n\n### Bug Fixes / 问题修复\n\n- **auto-select group, speed display, settings tab icons**\n  Three regressions fixed:\n\n  修复: auto-select group, speed display, settings tab icons\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.129.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.129.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.129.0",
+    "published_at": "2026-04-21T07:28:16Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3611,
+        "release_id": 12,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 47877322,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.129.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3612,
+        "release_id": 12,
+        "name": "ClashX.dmg",
+        "size": 46613303,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.129.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "repository_id": 5,
+    "tag_name": "1.128.0",
+    "name": "1.128.0",
+    "body": "## ClashX v1.128.0\n\n### Bug Fixes / 问题修复\n\n- **handle double-encoded share links and skip unknown protocols**\n  Some subscription providers (e.g. sub.cucloud.top) return a base64 payload where each individual proxy URI is itself base64-encoded a second time, so lines look like `c3M6Ly9...` instead of `ss://...`.\n\n  修复: handle double-encoded share links and skip unknown protocols\n\n- **restore config home dir to ~/.config/clash/ and upgrade to mihomo**\n  Two fixes in this release:\n\n  修复: 恢复 配置目录 to ~/.config/clash/ 并 upgrade to mihomo\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.128.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.128.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.128.0",
+    "published_at": "2026-04-21T05:03:02Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3613,
+        "release_id": 13,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 47872847,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.128.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3614,
+        "release_id": 13,
+        "name": "ClashX.dmg",
+        "size": 46611480,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.128.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "repository_id": 5,
+    "tag_name": "1.127.0",
+    "name": "1.127.0",
+    "body": "## ClashX v1.127.0\n\n### Bug Fixes / 问题修复\n\n- **convert base64 SS subscriptions into Clash config**\n\n  修复: 订阅相关问题\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。\n",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.127.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.127.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.127.0",
+    "published_at": "2026-04-21T03:00:23Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3615,
+        "release_id": 14,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 30404627,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.127.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3616,
+        "release_id": 14,
+        "name": "ClashX.dmg",
+        "size": 28131207,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.127.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "repository_id": 5,
+    "tag_name": "1.126.0",
+    "name": "1.126.0",
+    "body": "## ClashX v1.126.0\n\n### Bug Fixes / 问题修复\n\n- **set mihomo User-Agent for subscription downloads**\n  Subscription providers commonly gate their Clash/mihomo-format response on the request User-Agent. Alamofire's default UA exposes the ClashX product name (e.g. \"ClashX/1.125.0 ... Alamofire/5.x\"), which many providers treat as a legacy Dreamacro/clash client and either block or serve a dummy config containing sentinel nodes such as:\n\n  修复: 订阅相关问题\n\n### New Features / 新功能\n\n- **generate bilingual release notes and dispatch rich payload**\n  generate bilingual release notes and dispatch rich payload\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.126.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.126.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.126.0",
+    "published_at": "2026-04-20T13:28:32Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3617,
+        "release_id": 15,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 30380681,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.126.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3618,
+        "release_id": 15,
+        "name": "ClashX.dmg",
+        "size": 28275496,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.126.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "repository_id": 5,
+    "tag_name": "1.125.0",
+    "name": "1.125.0",
+    "body": "## ClashX v1.125.0\n\n### Bug Fixes / 问题修复\n\n- **Fix high CPU usage on macOS 26 (Tahoe) / 修复 macOS 26 (Tahoe) 高 CPU 占用问题**\n  On macOS 26, `NSTextField` inside `NSStatusBarButton` triggers an infinite redraw loop, causing ~50% CPU usage — especially noticeable with external displays. Replaced the speed text labels with a custom `SpeedTextView` that uses `NSString.draw(at:withAttributes:)` directly, eliminating the rendering loop entirely.\n\n  在 macOS 26 上，状态栏按钮内的 `NSTextField` 会触发无限重绘循环，导致约 50% 的 CPU 占用——外接显示器时尤为明显。使用自定义的 `SpeedTextView` 替代原有的 `NSTextField`，通过 `NSString.draw(at:withAttributes:)` 直接绘制文本，彻底消除了重绘循环问题。\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.125.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.125.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.125.0",
+    "published_at": "2026-04-13T13:43:33Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3619,
+        "release_id": 16,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 30379907,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.125.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3620,
+        "release_id": 16,
+        "name": "ClashX.dmg",
+        "size": 28919416,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.125.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "repository_id": 5,
+    "tag_name": "1.124.0",
+    "name": "1.124.0",
+    "body": "## ClashX v1.124.0\n\n### Bug Fixes / 问题修复\n\n- **Fix port conflict on launch / 修复启动时端口冲突问题**\n  Skip port availability check when the port matches the currently running instance, preventing unnecessary port conflict errors on restart.\n\n  启动时如果端口已被当前运行的实例占用，则跳过端口可用性检查，避免重启时出现不必要的端口冲突错误。\n\n- **Preserve dashboard UI path across config reloads / 修复配置重载后仪表盘路径丢失问题**\n  Fixed the issue where the dashboard UI path was lost after reloading the config file, and added port fallback logic.\n\n  修复了重载配置文件后仪表盘 UI 路径丢失的问题，并增加了端口回退逻辑。\n\n### Improvements / 改进\n\n- **Automate Sparkle appcast update in CI / CI 自动化 appcast 更新**\n  Simplified Sparkle auto-update configuration and automated appcast.xml generation in the release CI pipeline.\n\n  简化了 Sparkle 自动更新配置，并在发布 CI 流程中自动生成 appcast.xml。\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.124.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.124.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.124.0",
+    "published_at": "2026-04-05T12:42:55Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3621,
+        "release_id": 17,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 30363743,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.124.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3622,
+        "release_id": 17,
+        "name": "ClashX.dmg",
+        "size": 28887783,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.124.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "repository_id": 5,
+    "tag_name": "1.123.0",
+    "name": "ClashX v1.123.0",
+    "body": "## ClashX v1.123.0\n\n### Bug Fixes / 问题修复\n\n- **Fix false update prompt / 修复误报更新弹窗**\n  Fixed Sparkle showing an update notification for v1.122.0 even when already running v1.122.0. The root cause was `CFBundleVersion` (build number) stuck at 1.119.0 while `CFBundleShortVersionString` was 1.122.0. Sparkle compared against the build number and incorrectly detected an available update.\n\n  修复了运行 v1.122.0 时仍弹窗提示有 1.122.0 更新的问题。根本原因是 `CFBundleVersion`（构建号）停留在 1.119.0，而 `CFBundleShortVersionString` 已经是 1.122.0。Sparkle 用构建号做比较，错误地认为有可用更新。\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.123.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.123.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.123.0",
+    "published_at": "2026-03-15T05:25:09Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3623,
+        "release_id": 18,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 30379207,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.123.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3624,
+        "release_id": 18,
+        "name": "ClashX.dmg",
+        "size": 29629937,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.123.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3625,
+        "release_id": 18,
+        "name": "ClashX_v1.123.0.zip",
+        "size": 41729033,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.123.0/ClashX_v1.123.0.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "repository_id": 5,
+    "tag_name": "1.122.0",
+    "name": "ClashX v1.122.0",
+    "body": "## ClashX v1.122.0\n\n### Bug Fixes / 问题修复\n\n- **Fix auto-update / 修复自动更新**\n  Added Sparkle EdDSA signing key (`SUPublicEDKey`) required by Sparkle 2.x. This fixes:\n  - \"Check for Updates\" menu item being greyed out (disabled)\n  - \"Unable to check for updates\" error dialog on app startup\n\n  添加 Sparkle 2.x 所需的 EdDSA 签名密钥（`SUPublicEDKey`），修复了：\n  - \"检查更新\"菜单项灰显无法点击的问题\n  - 启动时弹出\"无法检查更新\"错误对话框的问题\n\n### Note / 说明\n\nThis is the **last version that requires manual download**. After installing v1.122.0, all future updates will work through the in-app \"Check for Updates\" feature.\n\n这是**最后一个需要手动下载的版本**。安装 v1.122.0 后，今后所有更新都可以通过应用内的\"检查更新\"功能完成。\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.122.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.122.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.122.0",
+    "published_at": "2026-03-12T06:13:43Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3626,
+        "release_id": 19,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 30379193,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.122.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3627,
+        "release_id": 19,
+        "name": "ClashX.dmg",
+        "size": 28730343,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.122.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "repository_id": 5,
+    "tag_name": "1.121.0",
+    "name": "ClashX v1.121.0",
+    "body": "## ClashX v1.121.0\n\n### Bug Fixes / 问题修复\n\n- **Helper installation optimization / Helper 安装优化**\n  Silent fallback from SMJobBless to legacy installation when SMJobBless fails — no more `blessError: kSMErrorAuthorizationFailure` dialog.\n  SMJobBless 失败时静默回退到传统安装方式，不再弹出错误对话框。\n\n- **Dashboard auto-connect / Dashboard 自动连接**\n  Built-in Yacd-meta dashboard now passes `hostname`/`port`/`secret` URL params to auto-connect to the Clash API.\n  内置 Yacd-meta 面板现在通过 URL 参数自动连接 Clash API，无需手动输入。\n\n- **Remove dead link / 移除失效链接**\n  Removed obsolete Clash core 1.0.0 upgrade alert (Dreamacro wiki URL is now 404).\n  移除过时的 Clash core 1.0.0 升级提示（原 Dreamacro wiki 链接已 404）。\n\n- **Build fix / 构建修复**\n  Fixed SwiftLint build phase script quoting for paths containing spaces.\n  修复含空格路径下 SwiftLint 构建脚本失败的问题。\n\n---\n\nMinimum system requirement: macOS 10.14.\n最低系统要求：macOS 10.14。",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.121.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.121.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.121.0",
+    "published_at": "2026-03-11T14:41:49Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3628,
+        "release_id": 20,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 30379207,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.121.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3629,
+        "release_id": 20,
+        "name": "ClashX.dmg",
+        "size": 28090161,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.121.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "repository_id": 5,
+    "tag_name": "1.120.0",
+    "name": "v1.120.0 - Dashboard Fix Release",
+    "body": "## 🎉 Dashboard Fix Release\r\n\r\n  This release fixes the **Dashboard not available**\r\n  issue and improves dashboard compatibility.\r\n\r\n  ### 🐛 Bug Fixes\r\n  - ✅ Fixed \"Dashboard not available\" error caused by\r\n   defunct upstream repository\r\n  - Replaced Dreamacro/clash-dashboard with\r\n  MetaCubeX/Yacd-meta\r\n  - Fixed hardcoded API port causing dashboard\r\n  connection failures\r\n  - Dashboard now auto-detects correct API URL from\r\n  window.location\r\n\r\n  ### ✨ Improvements\r\n  - Updated to modern Yacd-meta dashboard with better\r\n  features\r\n  - Improved dashboard installation robustness\r\n  - Better error handling during dependency\r\n  installation\r\n\r\n  ### 🔧 CI/CD Fixes\r\n  - Updated GitHub Actions to use macos-latest runner\r\n  (fixed retired macos-13 issue)\r\n\r\n  ### 📝 Technical Details\r\n  The original Dreamacro/clash-dashboard repository\r\n  was deleted from GitHub, causing builds to fail and\r\n  show a placeholder error page. This release switches\r\n   to the actively maintained MetaCubeX/Yacd-meta fork\r\n   with additional enhancements and automatic API URL\r\n  detection.\r\n\r\n  ### 📦 Installation\r\n  Download `ClashX.dmg` below and drag the app to your\r\n   Applications folder.\r\n\r\n  ### 🔗 Links\r\n  - [Project Website](https://clashx.tech)\r\n  - [Source \r\n  Code](https://github.com/ClashX-Pro/ClashX)\r\n  - [Issues](https://github.com/ClashX-Pro/ClashX/issues)\r\n\r\n  ---\r\n\r\n  **Full Changelog**: https://github.com/ClashX-Pro/ClashX/compare/1.119.0...1.120.0",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.120.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.120.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.120.0",
+    "published_at": "2025-12-21T10:40:39Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3630,
+        "release_id": 21,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 30388254,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.120.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3631,
+        "release_id": 21,
+        "name": "ClashX.dmg",
+        "size": 27732709,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.120.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "repository_id": 5,
+    "tag_name": "1.119.0",
+    "name": "v1.119.0",
+    "body": "## 🎉 macOS 26 (Sequoia) Compatibility Release\r\n  \r\nThis release primarily focuses on **fixing critical crashes and \r\n  compatibility issues on macOS 26 (Sequoia)** and newer versions.\r\n\r\n  ### 🐛 Critical Bug Fixes\r\n\r\n  **macOS 26+ Compatibility**\r\n  - ✅ **Fixed critical startup crash on macOS 26 (Sequoia)**\r\n    - Resolved crash caused by missing `airport` system command\r\n    - Added robust file existence validation before executing\r\n  system commands\r\n    - Implemented comprehensive error handling to prevent future\r\n  crashes\r\n\r\n  **UI Improvements**\r\n  - Removed background colors from proxy list menu items for a\r\n  cleaner interface\r\n  - Fixed menu item click crashes\r\n\r\n  **Development**\r\n  - Configured automatic code signing for easier local development\r\n  - Updated Swift Package Manager dependencies\r\n\r\n  ### ⚠️ Important Notice\r\n\r\n  **All macOS 26 (Sequoia) users must update to this version** to\r\n  avoid crashes and ensure proper functionality.\r\n\r\n  ### 📝 Technical Details\r\n\r\n  This release addresses compatibility issues introduced in macOS\r\n  26 where system utilities have been relocated or removed. ClashX\r\n  now gracefully handles these changes without crashing.\r\n\r\n  ---\r\n\r\n  **Full Changelog**:\r\n  https://github.com/charlessnow/ClashX/compare/1.118.0...1.119.0\r\n\r\n  You can copy this text directly into the release description\r\n  field. The emphasis on macOS 26 (Sequoia) compatibility is\r\n  prominently featured at the top and in the important notice",
+    "html_url": "https://github.com/ClashX-Pro/ClashX/releases/tag/1.119.0",
+    "tarball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/tarball/1.119.0",
+    "zipball_url": "https://api.github.com/repos/ClashX-Pro/ClashX/zipball/1.119.0",
+    "published_at": "2025-10-16T08:10:24Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:31Z",
+    "assets": [
+      {
+        "id": 3632,
+        "release_id": 22,
+        "name": "ClashX.app.dSYM.zip",
+        "size": 25106223,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.119.0/ClashX.app.dSYM.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:37:59Z"
+      },
+      {
+        "id": 3633,
+        "release_id": 22,
+        "name": "ClashX.dmg",
+        "size": 25607694,
+        "download_url": "https://github.com/ClashX-Pro/ClashX/releases/download/1.119.0/ClashX.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:37:59Z"
+      }
+    ]
+  }
+]

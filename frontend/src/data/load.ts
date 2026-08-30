@@ -12,10 +12,10 @@ export function loadRepositories(): Repository[] {
   return readJSON<Repository[]>('repositories.json')
 }
 
-export function loadReleases(): Release[] {
-  return readJSON<Release[]>('releases.json')
+export function loadRecentReleases(): Release[] {
+  return readJSON<Release[]>('releases-recent.json')
 }
 
 export function loadReleasesByRepository(repositoryId: number): Release[] {
-  return loadReleases().filter((release) => release.repository_id === repositoryId)
+  return readJSON<Release[]>(`releases/${repositoryId}.json`)
 }

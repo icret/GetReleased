@@ -1,0 +1,314 @@
+[
+  {
+    "id": 343,
+    "repository_id": 11,
+    "tag_name": "v1.9.0",
+    "name": "v1.9.0",
+    "body": "Pick your own icon for any device, and the menu bar icon stops nudging its neighbors. Two DDC fixes land alongside, including the crash on external-monitor volume changes that shipped in v1.8.0.\n\n✨ **New Features**\n\n🎨 **Choose Any Device's Icon**\n\n  - Open edit mode in the popup and click a device's icon to pick a new one from a catalog of 85 symbols across five categories — Headphones \u0026 Earbuds, Speakers, Computers \u0026 Displays, Microphones, and Connectors \u0026 Other — or search by keyword (\"soundbar\", \"projector\", \"aux\").\n  - A **Suggested** section leads with FineTune's automatic guess from the device's name and connection type, so the right symbol is usually the first one you see.\n  - Your pick follows the device everywhere it appears: device rows, the app-row output picker, the input row, the System Sounds picker, and the menu bar icon when the device-aware style is on.\n\n---\n\n🐛 **Bug Fixes**\n\n  - **Changing volume on a DDC monitor no longer crashes the app.** The Swift 6 migration in v1.8.0 left the debounced DDC write isolated to the main actor, and the runtime trapped the moment it ran on the DDC queue instead (#340, #348, #353, #356). Thanks @maleadt (#361).\n  - **External-monitor volume changes stick.** Some monitors ignore the first DDC command, so FineTune now sends every VCP write twice — the same approach MonitorControl uses (#362). Thanks @maleadt.\n  - **The menu bar icon stays put.** SF Symbols vary in width, so every volume, mute, or device change resized the status item and shifted the menu bar items beside it. All icons now draw on a shared fixed-size canvas (#367).\n\n---\n\n## New Contributors\n* @maleadt made their first contribution in https://github.com/ronitsingh10/FineTune/pull/361\n\n**Full Changelog**: https://github.com/ronitsingh10/FineTune/compare/v1.8.0...v1.9.0\n",
+    "html_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.9.0",
+    "tarball_url": "https://api.github.com/repos/ronitsingh10/FineTune/tarball/v1.9.0",
+    "zipball_url": "https://api.github.com/repos/ronitsingh10/FineTune/zipball/v1.9.0",
+    "published_at": "2026-07-09T07:54:57Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:56Z",
+    "assets": [
+      {
+        "id": 4945,
+        "release_id": 343,
+        "name": "FineTune.dmg",
+        "size": 5436346,
+        "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.9.0/FineTune.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:24Z"
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "repository_id": 11,
+    "tag_name": "v1.8.0",
+    "name": "v1.8.0",
+    "body": "You can now type a volume level straight from the keyboard, and macOS's volume pop is back when you change volume with the media keys. A batch of fixes follows, from Bluetooth call-mode crackle to the first-sound volume blast.\n\n✨ **New Features**\n\n⌨️ **Type a Volume Level from the Keyboard**\n\n  - Type a number on a keyboard-focused app or device row, then press **Return** to set its volume exactly. **⌫** edits the entry and **Esc** cancels it.\n\n🔊 **Volume-Change Feedback Pop**\n\n  - Press the volume keys or drag the volume HUD and the macOS feedback pop plays again; FineTune swallows the media keys, which had silenced it. It follows your **System Settings → Sound → \"Play feedback when volume is changed\"** toggle, and holding **Shift** inverts it for one change. Popup rows stay silent, since the level is already on screen there.\n\n🖥 **Device-Aware Menu Bar Icon**\n\n  - The menu bar icon can now follow your current output device, so its glyph changes when you switch from speakers to headphones. Thanks @Tarschu (#330).\n\n---\n\n🐛 **Bug Fixes**\n\n  - **Bluetooth call mode no longer crackles.** Moving a headset between music (A2DP) and call (SCO) profiles used to crackle on the switch, and that transition is clean now.\n  - **The loudness leveler pumps less.** New defaults stop it from yanking quiet passages up and loud ones down so hard, which is what produced the audible pumping. Thanks @iscle (#304).\n  - **Aggregate devices play audio again.** Routing an app to an aggregate device built in Audio MIDI Setup used to produce silence, because FineTune wrapped it in another aggregate and lost its output channels. It now flattens the aggregate into its real sub-devices, so sound comes through, and a stereo pair you mapped to channels 3/4 lands on 3/4 (#186). Thanks @rlucia (#327).\n  - **Volume lifts off zero again.** A software-controlled device used to freeze in the bottom of its range, so a volume-up shortcut couldn't raise it from zero until now (#295).\n  - **No full-volume blast on the first sound.** The first audible buffer after silence now fades in, and FineTune applies your saved EQ, AutoEQ, and loudness before audio starts. Playback no longer opens with a burst of unprocessed full-volume sound (#268, #273).\n  - **Pressing Return commits a typed volume again.** When you click a row's percentage and type a new value, Return now applies it instead of activating the row; the popup's keyboard navigation had been swallowing Return mid-edit.\n\n---\n\n🔧 **Under the Hood**\n\n  - Swift 6 with strict concurrency: the real-time audio callback now runs entirely off the main actor, and coordination, media-key, and app-list logic moved out of the audio engine, with no change to what you hear.\n  - Continued Simplified Chinese documentation, thanks @whtis (#297, #298).\n\n---\n\n## New Contributors\n* @iscle made their first contribution in https://github.com/ronitsingh10/FineTune/pull/304\n* @rlucia made their first contribution in https://github.com/ronitsingh10/FineTune/pull/327\n* @Tarschu made their first contribution in https://github.com/ronitsingh10/FineTune/pull/330\n\n**Full Changelog**: https://github.com/ronitsingh10/FineTune/compare/v1.7.0...v1.8.0\n",
+    "html_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.8.0",
+    "tarball_url": "https://api.github.com/repos/ronitsingh10/FineTune/tarball/v1.8.0",
+    "zipball_url": "https://api.github.com/repos/ronitsingh10/FineTune/zipball/v1.8.0",
+    "published_at": "2026-06-14T23:42:12Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:56Z",
+    "assets": [
+      {
+        "id": 4946,
+        "release_id": 344,
+        "name": "FineTune.dmg",
+        "size": 5401448,
+        "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.8.0/FineTune.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:24Z"
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "repository_id": 11,
+    "tag_name": "v1.7.0",
+    "name": "v1.7.0",
+    "body": "✨ **New Features**\n\n⌨️ **Global Hotkeys**\n\n  Settings → Shortcuts has a new **Hotkeys** section with four recorders, each with a one-line description so the \"App\" targeting is obvious at a glance:\n\n  - **App Volume Up / App Volume Down** — Raises or lowers the volume of whichever app is currently playing audio. If a YouTube tab plays behind a Terminal in the foreground, the hotkey turns down YouTube, not the terminal. If nothing is audible, the hotkey falls through to the frontmost app.\n  - **App Mute** — Mutes or unmutes the same audible-or-frontmost target.\n  - **Toggle FineTune Popup** — Opens or closes the menu bar popup from anywhere, even inside full-screen apps.\n  - **Hold to ramp** — Holding App Volume Up or Down emits repeats the way macOS does for arrow keys, so volume slides smoothly. (Mute and Popup don't repeat.)\n  - **Auto-unmute on volume-up** — Press App Volume Up while muted and FineTune unmutes and sets the new level in one keystroke.\n\n⏱ **Volume Step**\n\n  - Settings → Shortcuts → **Volume Step** picks **Coarse (12.5%) / Normal (6.25%) / Fine (3.13%) / Extra-Fine (1.56%)**. The setting governs the F10–F12 media keys, the new App hotkeys, and the popup's arrow-key navigation.\n  - Every step happens in slider space, so the first press doesn't snap from 0% to 25% (#277).\n\n⌨️ **Keyboard-Navigate the Popup**\n\n  Once the popup is open:\n\n  - **↑ / ↓** move between rows; **Return** or **Space** activates the focused row; **Esc** closes the popup.\n  - **← / →** adjusts the focused row's volume. Hold **Shift** for a 2× step.\n  - **M** toggles mute on the focused row.\n  - **Tab** switches between Output and Input device tabs when a device row is focused.\n  - The focused row autoscrolls to center as you arrow through, so it stays in view no matter how many apps or devices you have.\n\n🎨 **Theme**\n\n  - **Settings → General → Theme** matches macOS or locks FineTune to Light or Dark. The menu bar popup, every popover, and the volume HUD switch immediately.\n  - The light theme has been rebuilt from scratch with new tokens for cards, badges, and rows, so it reads correctly in daylight instead of looking like inverted dark mode.\n\n🖱 **Scroll-Wheel Volume**\n\n  - **Hover any slider in the popup, the HUD, or the EQ panel and scroll.** Two-finger trackpad swipes feel continuous; mouse-wheel detents move in fixed steps.\n\n🪟 **Settings, Rebuilt**\n\n  - **Native macOS TabView with tile-style theme and popup pickers**, matching System Settings. Settings opens as its own window instead of inside the popup, so you can keep it visible while you tweak the EQ.\n  - **Five tabs**: General, Audio, Shortcuts, Updates, About.\n\n📐 **Popup Size**\n\n  - **Settings → General → Popup Size** picks **Compact / Comfortable / Spacious** with a live tile preview. Compact fits more apps on small screens; Spacious gives bigger hit areas for trackpads.\n\n---\n\n🔧 **Improvements**\n\n  - **Visual refresh across the popup** — Cleaner row spacing, tinted SF-Symbol badges that make the selected device pop out at a glance, hover affordances on every row, and an overall density that matches macOS System Settings.\n  - **Popup fits a 13\" MacBook Air screen** — The popup now lives inside one outer scroll view sized to stay within the menu bar's usable height, instead of stacking per-section scrollers that could overflow.\n  - **Tap anywhere on a device row** to select it. The chevron is no longer the only hit target.\n  - **Multi-output count badge** on the app-row picker. The multi indicator stays visible whenever multi-output is active, and the subtitle reads \"Multi · …\" regardless of count.\n  - **Mute button speaker glyph tracks the slider** — same zero / low / mid / high logic as the menu bar icon.\n  - **EQ panel** moved to a lifted card. Sliders distribute across the full width so the high bands no longer crowd the edge.\n  - **Input device row** aligned with output, picker globe shrunk, hifispeaker glyph 18 → 16pt for parity with the EQ button.\n\n🐛 **Bug Fixes**\n\n  - F10–F12 media keys no longer step in raw gain — they step in the same domain as the slider, so the first press doesn't snap from 0% to 25% (#277).\n  - **HDMI / DisplayPort monitor volume sliders no longer stay dead for the first few seconds after launch.** FineTune now starts in software-gain mode and switches to DDC once the I2C probe confirms the monitor supports it. Thanks @samchouse (#288).\n  - Labels stop looking faded after switching from forced Light back to System appearance.\n  - The multi-output count reflects only devices currently attached, not the historical selection list.\n  - The Settings window no longer fights macOS for its scene state.\n\n---\n\n## New Contributors\n\n* @samchouse made their first contribution in https://github.com/ronitsingh10/FineTune/pull/288\n* @whtis made their first contribution in https://github.com/ronitsingh10/FineTune/pull/282\n\n**Full Changelog**: https://github.com/ronitsingh10/FineTune/compare/v1.6.0...v1.7.0\n",
+    "html_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.7.0",
+    "tarball_url": "https://api.github.com/repos/ronitsingh10/FineTune/tarball/v1.7.0",
+    "zipball_url": "https://api.github.com/repos/ronitsingh10/FineTune/zipball/v1.7.0",
+    "published_at": "2026-05-14T18:51:05Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:56Z",
+    "assets": [
+      {
+        "id": 4947,
+        "release_id": 345,
+        "name": "FineTune.dmg",
+        "size": 5261637,
+        "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.7.0/FineTune.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:24Z"
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "repository_id": 11,
+    "tag_name": "v1.6.0",
+    "name": "v1.6.0",
+    "body": "✨ **New Features**\n\n  🎹 **Media Keys \u0026 Volume HUD**\n\n  - **F10 / F11 / F12 now adjust the default output device through FineTune** — The write goes through FineTune's volume pipeline, so the keys respect the per-device software-volume override. That means they keep working on USB interfaces and HDMI outputs where macOS's own keys are greyed out because the hardware slider is broken.\n  - **Two HUD styles** — Pick **Tahoe** (matches macOS 26) or **Classic** (translucent rounded rect) from Settings → Media Keys \u0026 HUD\n  - **Reliable at cold launch and after sleep** — FineTune primes a hidden window on launch so keys start working immediately, and a tap-disabled watchdog re-arms the event tap if macOS revokes it after sleep\n  - **Opt-in** — Media keys and the HUD are both off by default. Enable them independently from Settings. Accessibility permission is required; the settings panel surfaces a one-click \"Open System Settings\" card when it's missing.\n\n  🔍 **Device Inspector**\n\n  - Tap the info button on any device row to open an inspector sheet with:\n    - Sample rate (with a picker to switch between supported rates)\n    - Transport, format, UID (one-click copy)\n    - Hog-mode banner when another app has exclusive access\n    - Software-volume override (see below)\n  - Replaces the old chevron + UID copy icon with a single, more discoverable control\n\n  🎨 **Dynamic Menu Bar Icon**\n\n  - Four icon styles in Settings: **Default** (FineTune app glyph), **Speaker**, **Waveform**, **Equalizer**\n  - The **Speaker** style now tracks volume live. The icon cycles through \\`speaker.fill\\` → \\`wave.1\\` → \\`wave.2\\` → \\`wave.3\\` as you raise the slider, and switches to \\`speaker.slash.fill\\` when muted.\n  - All styles briefly flash the new output device's SF Symbol when you switch outputs\n  - Changing styles applies instantly. No more \"quit and relaunch\" to see the new icon.\n\n  👁️ **Hide Devices** (thanks @NecipAkgz, #229)\n\n  - Output and input devices now have an eye toggle in edit mode, mirroring the app-hide behavior. Hidden devices stop appearing in the menu bar list until you unhide them.\n\n  ---\n  🔧 **Improvements**\n\n  - **Smarter volume backend** — FineTune now auto-detects hardware, DDC, or software volume per device instead of the old global opt-in. For the minority of devices where auto-detection is wrong (USB DACs and HDMI outputs that claim a hardware slider that doesn't do anything), force software volume from the device inspector. FineTune remembers the choice per device.\n  - **Virtual devices** — User-created aggregates and virtual devices now appear by default; FineTune only hides devices the driver marks as hidden\n  - **Mute-button icon** — The speaker wave on the mute button tracks slider position, matching the menu bar icon\n  - **Reorder mode stability** — Opening a SwiftUI menu inside edit mode no longer collapses the reorder session\n\n---\n\n## New Contributors\n* @NecipAkgz made their first contribution in https://github.com/ronitsingh10/FineTune/pull/229\n\n**Full Changelog**: https://github.com/ronitsingh10/FineTune/compare/v1.5.0...v1.6.0",
+    "html_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.6.0",
+    "tarball_url": "https://api.github.com/repos/ronitsingh10/FineTune/tarball/v1.6.0",
+    "zipball_url": "https://api.github.com/repos/ronitsingh10/FineTune/zipball/v1.6.0",
+    "published_at": "2026-04-23T20:59:29Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:56Z",
+    "assets": [
+      {
+        "id": 4948,
+        "release_id": 346,
+        "name": "FineTune.dmg",
+        "size": 4925771,
+        "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.6.0/FineTune.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:24Z"
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "repository_id": 11,
+    "tag_name": "v1.5.0",
+    "name": "v1.5.0",
+    "body": "✨ **New Features**\n\n  🎧 **Loudness Compensation \u0026 Equalization**\n\n  - **Fletcher-Munson correction** — At low volumes, human hearing loses sensitivity to bass and treble. FineTune now applies frequency-dependent EQ based on [ISO 226:2023](https://www.iso.org/standard/83117.html) equal-loudness contours to compensate, driven by your device and per-app volume\n  - **Real-time loudness equalization** — Measures signal loudness using K-weighted (ITU-R BS.1770) RMS and applies wideband gain with a soft-knee compressor to keep perceived loudness near a target\n  - Both features behind a single toggle in settings, disabled by default\n\n  🔔 **Alert Volume**\n\n  - Control macOS alert and notification volume directly from FineTune settings\n  - Live sync with System Settings via periodic polling\n\n  🔊 **Software Device Volume**\n\n  - Volume control for output devices that don't support hardware volume (e.g., some USB DACs)\n  - Opt-in via Settings — off by default to avoid conflicts with hardware volume\n\n  ---\n  🔧 **Improvements**\n\n  - **User EQ presets** — Save, rename, and delete custom EQ configurations per app\n  - **AutoEQ panel redesign** — Flat layout with mini toggles, cleaner search and profile browsing\n  - **EQ preset name validation** — Discoverable delete and inline rename\n\n  ---\n  🐛 **Bug Fixes**\n\n  - Fixed muted icon not showing when displayed volume is 0% (#120)\n  - Fixed double audio taper on device volume slider — volume curve now matches System Settings\n  - Fixed USB DAC volume quantization feedback loop causing slider jitter\n  - Fixed external headphones not getting EQ applied (PR #203)\n  - Fixed DDC volume slider mixed up on multi-monitor setups (PR #192)\n  - Fixed dropdown layout issue with LazyVStack (PR #184)\n  - Fixed AutoEQ correction toggle to be non-destructive (PR #208)\n  - Fixed alert volume write path using osascript subprocess and debounce\n\n---\n\n## New Contributors\n* @thirdnull made their first contribution in https://github.com/ronitsingh10/FineTune/pull/184\n* @Haeger23 made their first contribution in https://github.com/ronitsingh10/FineTune/pull/192\n* @Vinceundco made their first contribution in https://github.com/ronitsingh10/FineTune/pull/203\n* @coygeek made their first contribution in https://github.com/ronitsingh10/FineTune/pull/208\n* @djbob2000 made their first contribution in https://github.com/ronitsingh10/FineTune/pull/224\n\n**Full Changelog**: https://github.com/ronitsingh10/FineTune/compare/v1.4.1...v1.5.0",
+    "html_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.5.0",
+    "tarball_url": "https://api.github.com/repos/ronitsingh10/FineTune/tarball/v1.5.0",
+    "zipball_url": "https://api.github.com/repos/ronitsingh10/FineTune/zipball/v1.5.0",
+    "published_at": "2026-04-08T22:23:15Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:56Z",
+    "assets": [
+      {
+        "id": 4949,
+        "release_id": 347,
+        "name": "FineTune.dmg",
+        "size": 4644191,
+        "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.5.0/FineTune.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:24Z"
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "repository_id": 11,
+    "tag_name": "v1.4.1",
+    "name": "v1.4.1",
+    "body": "🐛 Bug Fixes \u0026 Performance\n\n  🎚️ EQ Behavior\n\n  - **EQ boost fixed** — Boosting EQ bands was incorrectly lowering volume instead of raising it (#171)\n\n  ⚡ Performance\n\n  - **Fixed high idle CPU usage** — A timer leak caused CPU usage to climb over time, even when no audio was playing (#176)\n  - **Fixed audio resource leak** — Recovering from an unresponsive app could leak system audio resources over long sessions (#176)\n  - **Reduced background polling** when no apps are being controlled (#176)\n\n**Full Changelog**: https://github.com/ronitsingh10/FineTune/compare/v1.4.0...v1.4.1",
+    "html_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.4.1",
+    "tarball_url": "https://api.github.com/repos/ronitsingh10/FineTune/tarball/v1.4.1",
+    "zipball_url": "https://api.github.com/repos/ronitsingh10/FineTune/zipball/v1.4.1",
+    "published_at": "2026-03-20T07:24:36Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:56Z",
+    "assets": [
+      {
+        "id": 4950,
+        "release_id": 348,
+        "name": "FineTune-1.4.1.dmg",
+        "size": 5209324,
+        "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.4.1/FineTune-1.4.1.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:24Z"
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "repository_id": 11,
+    "tag_name": "v1.4.0",
+    "name": "v1.4.0",
+    "body": "✨ **New Features**\n\n  🎧 **AutoEQ Headphone Correction**\n\n  - Per-device headphone EQ — Apply correction profiles from the [AutoEQ database](https://github.com/jaakkopasanen/AutoEQ) — search thousands of models with fuzzy matching\n  - Import custom ParametricEQ.txt files from audio forums and communities\n  - Preamp toggle — keep preamp on for clean, clipping-free playback, or turn it off for louder output with the limiter catching peaks\n  - Profiles cached offline for instant reloads after the first fetch\n  - Star your favorite profiles for quick access\n\n  🔵 **Bluetooth Device Management**\n\n  - Paired-but-disconnected Bluetooth devices now appear in device edit mode\n  - Connect directly from the menu bar — no need to open System Settings\n  - Connection progress spinner and inline error display\n\n  🔒 **Permission Setup**\n\n  - Clear permission banner on first launch when audio capture access is needed\n  - \"Grant Access\" or \"Open System Settings\" buttons depending on permission state\n  - Reduces repeated permission prompts by requesting access once upfront\n\n  👁️ **Ignore App**\n\n  - Hide specific apps from FineTune so they're never tapped\n  - Toggle via the eye icon in edit mode\n  - Ignored apps have their taps torn down and settings cleared\n\n  🔊 **Per-App Boost**\n\n  - Boost is now a per-app control instead of a global setting\n  - Stacked chevron icons on each app row — tap to cycle through boost levels\n  - Replaces the old percentage slider in settings\n\n  ---\n  🔧 **Improvements**\n\n  - **VU meter redesign** — Vertical bar at the far left of each app row with professional-style peak decay\n  - **Edit mode overhaul** — 2-column app grid, unified interface for apps, Bluetooth devices, inputs, and outputs\n  - **EQ slider dimming** — Sliders dim when the equalizer is toggled off so it's clear EQ isn't active\n  - **Cleaner app list** — Multi-process apps like Chrome are grouped under one entry instead of showing separate helper processes\n  - **Settings device picker** — Wider layout with centered content\n\n  ---\n  🐛 **Bug Fixes**\n\n  - **Device priority** — Fixed sorting, grace period handling, and reconnection logic for the priority device system; added alive watcher for wireless devices that take time to initialize after connecting\n  - **Device switching** — Echo suppression prevents bouncing between devices during switches; grace periods (2s wired, 5s Bluetooth) avoid premature re-routing\n  - Fixed volume, VU meter, and EQ breaking after a crossfade device switch\n  - Fixed device volume slider not responding to track clicks (only drag worked)\n  - Fixed tap leak and app flicker from stream-specific tap creation\n  - User-created aggregate devices (from Audio MIDI Setup) now show in the device list (#126)\n  - Fixed layout shift and mute icon inconsistency at zero volume (#120)\n  - Fixed low output on multichannel USB devices like Topping E2x2 OTG (#105)\n  - Fixed potential crash from double-removing HAL listeners\n  - Fixed divide-by-zero in crossfade at very low sample rates\n  - Stale Bluetooth volume confirmation tasks now cancelled on device removal\n  - AutoEQ profiles with invalid filters are rejected instead of applied\n  - NaN/Inf volumes silently corrected to safe defaults\n  - Settings reset now properly clears all in-memory state, not just the file\n  - System dictation and speech processes no longer appear in the app list\n\n---\n\n## New Contributors\n* @Vudgekek made their first contribution in https://github.com/ronitsingh10/FineTune/pull/140\n* @IftatBhuiyan made their first contribution in https://github.com/ronitsingh10/FineTune/pull/153\n\n**Full Changelog**: https://github.com/ronitsingh10/FineTune/compare/v1.3.2...v1.4.0",
+    "html_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.4.0",
+    "tarball_url": "https://api.github.com/repos/ronitsingh10/FineTune/tarball/v1.4.0",
+    "zipball_url": "https://api.github.com/repos/ronitsingh10/FineTune/zipball/v1.4.0",
+    "published_at": "2026-03-18T07:47:52Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:56Z",
+    "assets": [
+      {
+        "id": 4951,
+        "release_id": 349,
+        "name": "FineTune-1.4.0.dmg",
+        "size": 5203528,
+        "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.4.0/FineTune-1.4.0.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:24Z"
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "repository_id": 11,
+    "tag_name": "v1.3.2",
+    "name": "v1.3.2",
+    "body": "🛡️ Audio Engine Hardening\n\nThis release is a comprehensive reliability overhaul of FineTune's audio engine — no new features, just a significantly more robust experience under the hood.\n\n  🔇 Crash Recovery\n\n  - Orphaned device cleanup — If FineTune crashes or is force-quit, aggregate devices are now cleaned up automatically on next launch, preventing the \"apps go silent\" issue\n  - Signal-safe crash guard — Aggregate devices are destroyed during crashes before the process exits, reducing orphaned devices in the first place\n\n  🎚️ EQ \u0026 Audio Quality\n\n  - Soft limiter — Post-EQ clipping prevention catches digital distortion when bands are boosted aggressively\n  - Preamp attenuation — Signal is reduced before EQ processing proportional to max boost, preventing internal clipping\n  - Nyquist guard — EQ bands near or above the Nyquist frequency (e.g. 16kHz at 32kHz sample rate) now pass through cleanly instead of producing robotic artifacts\n  - High sample rate support — Fixed unstable biquad filters on 96kHz+ devices\n\n  🎙️ Bluetooth \u0026 Voice Apps\n\n  - Bluetooth HFP distortion — Fixed audio distortion when using Bluetooth headphones with voice apps like FaceTime, Discord, and Zoom\n  - Extended Bluetooth warmup — Bluetooth device switches now use a 300ms warmup (vs 50ms wired) to account for firmware handshake latency\n  - Rapid reconnect handling — Fixed race conditions during rapid Bluetooth connect/disconnect cycles\n\n  🔄 Device Switching\n\n  - Crossfade state machine — Device switches use a proper RT-safe state machine, eliminating race conditions that could cause glitches\n  - Correct teardown order — Tap lifecycle management enforces Stop → DestroyIOProc → DestroyAggregate → DestroyTap ordering, preventing resource leaks\n  - Re-entrant switch guard — Rapidly switching devices no longer causes resource leaks from overlapping crossfades\n\n  🔊 Volume Control\n\n  - Fallback chain — Volume reading now tries VirtualMainVolume → VolumeScalar → channel 1, supporting more diverse hardware\n  - Correct API usage — VirtualMainVolume queries now use AudioHardwareService APIs (matches system volume slider behavior)\n\n  ---\n  🐛 Bug Fixes\n\n  - DDC monitor leak — Fixed io_service_t resource leak and observer cleanup race in DDC controller\n  - Monitor deinit — Added proper observer cleanup on deallocation for DDC, audio device, and process monitors\n  - Volume listener lifecycle — Overhauled DeviceVolumeMonitor to properly register and unregister HAL listeners\n  - Mono device check — Fixed off-by-one in stream readiness check for mono output devices\n  - Escape to dismiss — Press Escape to close the menu bar popup (with smooth animation)\n  - Percentage width — Fixed UI jitter in the percentage display field\n\n---\n\n## What's Changed\n* Fix percentage width UI glitch by using fixed width instead of minWidth by @fcsonline in https://github.com/ronitsingh10/FineTune/pull/94\n* feat(ui): add Escape key to dismiss menu bar popup by @AbdulEmad in https://github.com/ronitsingh10/FineTune/pull/97\n\n## New Contributors\n* @fcsonline made their first contribution in https://github.com/ronitsingh10/FineTune/pull/94\n* @AbdulEmad made their first contribution in https://github.com/ronitsingh10/FineTune/pull/97\n\n**Full Changelog**: https://github.com/ronitsingh10/FineTune/compare/v1.3.1...v1.3.2",
+    "html_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.3.2",
+    "tarball_url": "https://api.github.com/repos/ronitsingh10/FineTune/tarball/v1.3.2",
+    "zipball_url": "https://api.github.com/repos/ronitsingh10/FineTune/zipball/v1.3.2",
+    "published_at": "2026-02-22T00:47:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:56Z",
+    "assets": [
+      {
+        "id": 4952,
+        "release_id": 350,
+        "name": "FineTune-1.3.2.dmg",
+        "size": 4679547,
+        "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.3.2/FineTune-1.3.2.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:24Z"
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "repository_id": 11,
+    "tag_name": "v1.3.1",
+    "name": "v1.3.1",
+    "body": "✨ New Features\n\n  🖥️ Monitor Speaker Control (DDC)\n\n  - External display volume — Control speaker volume on HDMI/DisplayPort monitors via DDC\n  - Auto-detection — Monitors with DDC support are detected automatically on connect\n  - Hot-plug safe — Debounced re-probing handles monitor connect/disconnect reliably\n\n  📋 Device Priority\n\n  - Priority ordering — Set preferred output device order; highest-priority device becomes default on disconnect\n  - Edit mode — Drag-and-drop or type a number to reorder devices inline\n  - Input fallback — Input devices also follow priority order on disconnect\n  - Persistent — Priority order survives app restarts\n\n  🔗 URL Schemes\n\n  - Automation ready — Control FineTune from Terminal, scripts, Shortcuts, or Raycast\n  - 6 actions — `set-volumes`, `step-volume`, `set-mute`, `toggle-mute`, `set-device`, `reset`\n  - Multi-app support — Set different volumes for multiple apps in a single URL\n  - Inactive app support — Pre-configure apps before they start playing\n  - Copy device UID — Click the copy button in edit mode to get device UIDs for URL automation\n\n  ---\n  🔧 Improvements\n\n  - Device icons — More audio device classifications with appropriate icons\n  - Help tooltips — Hover over device and app names to see full names when truncated\n  - Hardware-only volume — Devices without software volume control (e.g. USB audio interfaces) no longer show non-functional sliders\n  - Virtual input devices — Now shown in input device list while still filtered from outputs\n\n  ---\n  🐛 Bug Fixes\n\n  - Monitor volume slider — Fixed DDC monitor control not working in release builds (App Sandbox was blocking IOKit access)\n  - Auto-update — Fixed Sparkle update checks failing in release builds (same sandbox issue)\n  - RadioButton icon — Fixed selected device icon not displaying correctly\n  - Edit mode styling — Matched hint text style to header status text\n  - DDC probe debounce — Delayed re-probe on monitor hot-plug to avoid race conditions\n\n---\n\n## What's Changed\n* feat: add URL schemes by @Boettner-eric in https://github.com/ronitsingh10/FineTune/pull/1\n* fix(RadioButton): fix selected device icon by @St1ggy in https://github.com/ronitsingh10/FineTune/pull/77\n* Add help tooltips for device/app names. by @jfexyz in https://github.com/ronitsingh10/FineTune/pull/85\n* feat(ui): add more audio device classifications (icons) by @956MB in https://github.com/ronitsingh10/FineTune/pull/93\n\n## New Contributors\n* @Boettner-eric made their first contribution in https://github.com/ronitsingh10/FineTune/pull/1\n* @St1ggy made their first contribution in https://github.com/ronitsingh10/FineTune/pull/77\n* @jfexyz made their first contribution in https://github.com/ronitsingh10/FineTune/pull/85\n* @956MB made their first contribution in https://github.com/ronitsingh10/FineTune/pull/93\n\n**Full Changelog**: https://github.com/ronitsingh10/FineTune/compare/v1.2.0...v1.3.1",
+    "html_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.3.1",
+    "tarball_url": "https://api.github.com/repos/ronitsingh10/FineTune/tarball/v1.3.1",
+    "zipball_url": "https://api.github.com/repos/ronitsingh10/FineTune/zipball/v1.3.1",
+    "published_at": "2026-02-11T23:39:23Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:56Z",
+    "assets": [
+      {
+        "id": 4953,
+        "release_id": 351,
+        "name": "FineTune-1.3.1.dmg",
+        "size": 4654689,
+        "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.3.1/FineTune-1.3.1.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:24Z"
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "repository_id": 11,
+    "tag_name": "v1.3.0",
+    "name": "v1.3.0",
+    "body": "\u003e ⚠️ **Auto-update is broken in this version.** Please [download v1.3.1 manually](https://github.com/ronitsingh10/FineTune/releases/tag/v1.3.1) for the latest fixes, including restored monitor volume control and working auto-updates going forward.\n\n---\n\n✨ New Features\n\n  🖥️ Monitor Speaker Control (DDC)\n\n  - External display volume — Control speaker volume on HDMI/DisplayPort monitors via DDC\n  - Auto-detection — Monitors with DDC support are detected automatically on connect\n  - Hot-plug safe — Debounced re-probing handles monitor connect/disconnect reliably\n\n  📋 Device Priority\n\n  - Priority ordering — Set preferred output device order; highest-priority device becomes default on disconnect\n  - Edit mode — Drag-and-drop or type a number to reorder devices inline\n  - Input fallback — Input devices also follow priority order on disconnect\n  - Persistent — Priority order survives app restarts\n\n  🔗 URL Schemes\n\n  - Automation ready — Control FineTune from Terminal, scripts, Shortcuts, or Raycast\n  - 6 actions — `set-volumes`, `step-volume`, `set-mute`, `toggle-mute`, `set-device`, `reset`\n  - Multi-app support — Set different volumes for multiple apps in a single URL\n  - Inactive app support — Pre-configure apps before they start playing\n  - Copy device UID — Click the copy button in edit mode to get device UIDs for URL automation\n\n  ---\n  🔧 Improvements\n\n  - Device icons — More audio device classifications with appropriate icons\n  - Help tooltips — Hover over device and app names to see full names when truncated\n  - Hardware-only volume — Devices without software volume control (e.g. USB audio interfaces) no longer show non-functional sliders\n  - Virtual input devices — Now shown in input device list while still filtered from outputs\n\n  ---\n  🐛 Bug Fixes\n\n  - RadioButton icon — Fixed selected device icon not displaying correctly\n  - Edit mode styling — Matched hint text style to header status text\n  - DDC probe debounce — Delayed re-probe on monitor hot-plug to avoid race conditions\n\n---\n\n## What's Changed\n* feat: add URL schemes by @Boettner-eric in https://github.com/ronitsingh10/FineTune/pull/1\n* fix(RadioButton): fix selected device icon by @St1ggy in https://github.com/ronitsingh10/FineTune/pull/77\n* Add help tooltips for device/app names. by @jfexyz in https://github.com/ronitsingh10/FineTune/pull/85\n* feat(ui): add more audio device classifications (icons) by @956MB in https://github.com/ronitsingh10/FineTune/pull/93\n\n## New Contributors\n* @Boettner-eric made their first contribution in https://github.com/ronitsingh10/FineTune/pull/1\n* @St1ggy made their first contribution in https://github.com/ronitsingh10/FineTune/pull/77\n* @jfexyz made their first contribution in https://github.com/ronitsingh10/FineTune/pull/85\n* @956MB made their first contribution in https://github.com/ronitsingh10/FineTune/pull/93\n\n**Full Changelog**: https://github.com/ronitsingh10/FineTune/compare/v1.2.0...v1.3.0",
+    "html_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.3.0",
+    "tarball_url": "https://api.github.com/repos/ronitsingh10/FineTune/tarball/v1.3.0",
+    "zipball_url": "https://api.github.com/repos/ronitsingh10/FineTune/zipball/v1.3.0",
+    "published_at": "2026-02-11T22:49:16Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:56Z",
+    "assets": [
+      {
+        "id": 4954,
+        "release_id": 352,
+        "name": "FineTune-1.3.0.dmg",
+        "size": 4656172,
+        "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.3.0/FineTune-1.3.0.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:24Z"
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "repository_id": 11,
+    "tag_name": "v1.2.0",
+    "name": "v1.2.0",
+    "body": "\r\n\r\n✨ New Features\r\n\r\n  🎤 Input Device Control\r\n\r\n  - Microphone monitoring — View and control input devices (microphones) alongside output devices\r\n  - Tabbed interface — Seamlessly switch between Output and Input devices with a sleek pill toggle\r\n  - Input level \u0026 mute control — Adjust input gain and mute state for any microphone\r\n\r\n  🔊 Multi-Device Output\r\n\r\n  - Aggregate device support — Route app audio to multiple output devices simultaneously\r\n  - Multi-device picker — Select multiple devices with checkbox interface in Multi mode\r\n  - Mode toggle — Switch between Single and Multi device modes per app\r\n\r\n  📌 Pinned Apps\r\n\r\n  - Pin your favorites — Keep apps visible in the list even when they're not playing audio\r\n  - Pre-configure settings — Set volume, EQ, and device routing before an app starts playing\r\n  - Persistent pins — Pinned apps and their settings survive app restarts\r\n\r\n  ---\r\n  🔧 Improvements \u0026 Stability\r\n\r\n  - Bluetooth codec protection — Input device lock prevents Bluetooth audio quality downgrade when monitoring microphones\r\n  - Bluetooth timing — Improved device warmup delay (300ms) for more reliable volume readings on Bluetooth devices\r\n  - System sound sync — Validates \"follow default\" preference on startup and enforces it if macOS state drifted\r\n  - Explicit shutdown — Clean audio engine shutdown on app termination\r\n  - Code architecture — Extracted reusable components (AppRowControls, BaseMuteButton, CrossfadeOrchestrator) for better maintainability\r\n  - Consolidated state — Unified volume/mute/identifier into AppAudioState for cleaner data flow\r\n  - Auto-updates — Fixed Sparkle installer for sandboxed app; future updates will install automatically\r\n\r\n  ---\r\n  🐛 Bug Fixes\r\n\r\n  - Popover flicker — Fixed visual flickering when popover content updates by reusing hosting view\r\n  - System daemon filtering — Added more Apple system processes to filter list (FrontBoardServices, NotificationCenter, etc.)\r\n  - Multi-device toggle — Hidden in Settings device picker where it doesn't apply\r\n  - Popover reactivity — Fixed content not updating when state changes while popover is open\r\n  - EditablePercentage — Improved discoverability and click-outside behavior",
+    "html_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.2.0",
+    "tarball_url": "https://api.github.com/repos/ronitsingh10/FineTune/tarball/v1.2.0",
+    "zipball_url": "https://api.github.com/repos/ronitsingh10/FineTune/zipball/v1.2.0",
+    "published_at": "2026-01-31T22:48:10Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:56Z",
+    "assets": [
+      {
+        "id": 4955,
+        "release_id": 353,
+        "name": "FineTune-1.2.0.dmg",
+        "size": 4498165,
+        "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.2.0/FineTune-1.2.0.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:24Z"
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "repository_id": 11,
+    "tag_name": "v1.1.0",
+    "name": "v1.1.0",
+    "body": "\r\n\r\n FineTune 1.1.0 brings a settings panel, sound effects routing, automatic updates, and improved device handling.\r\n\r\n  ### Features\r\n\r\n  - **Settings panel** — Launch at login, 4 menu bar icon styles, configurable default volume (10-100%), and max boost up to 400%\r\n  - **Sound effects routing** — Route system alerts, Siri, and notifications to any output device\r\n  - **Automatic updates** — Built-in Sparkle integration keeps you current\r\n  - **\"System Audio\" routing** — Apps can follow your macOS default device automatically\r\n  - **Smart device reconnection** — Routing preferences restore when devices reconnect\r\n  - **Editable volume input** — Click the percentage anywhere to type an exact value \r\n\r\n  ### Improvements\r\n\r\n  - Volume boost up to 400%\r\n  - Linear volume mapping \r\n  - Better USB audio interface support (MOTU, Focusrite, SSL, FIFINE)\r\n  - Device readiness checks prevent race conditions\r\n  - Polished UI with improved touch targets and typography\r\n  - Filtered system audio daemons from app list\r\n\r\n  ### Bug Fixes\r\n\r\n  - Fixed buffer routing for multi-channel USB interfaces\r\n  - Fixed EQ presets unreadable on dark backgrounds\r\n  - Fixed dropdown menu clipping\r\n  - Corrected default output device property",
+    "html_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.1.0",
+    "tarball_url": "https://api.github.com/repos/ronitsingh10/FineTune/tarball/v1.1.0",
+    "zipball_url": "https://api.github.com/repos/ronitsingh10/FineTune/zipball/v1.1.0",
+    "published_at": "2026-01-26T11:03:11Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:56Z",
+    "assets": [
+      {
+        "id": 4956,
+        "release_id": 354,
+        "name": "FineTune-1.1.0.dmg",
+        "size": 4327403,
+        "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.1.0/FineTune-1.1.0.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:24Z"
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "repository_id": 11,
+    "tag_name": "v1.0.0",
+    "name": "v1.0.0",
+    "body": "---\r\n\r\n**Full Changelog**: https://github.com/ronitsingh10/FineTune/commits/v1.0.0",
+    "html_url": "https://github.com/ronitsingh10/FineTune/releases/tag/v1.0.0",
+    "tarball_url": "https://api.github.com/repos/ronitsingh10/FineTune/tarball/v1.0.0",
+    "zipball_url": "https://api.github.com/repos/ronitsingh10/FineTune/zipball/v1.0.0",
+    "published_at": "2026-01-19T00:04:28Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:56Z",
+    "assets": [
+      {
+        "id": 4957,
+        "release_id": 355,
+        "name": "FineTune-1.0.0.dmg",
+        "size": 3136526,
+        "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.0.0/FineTune-1.0.0.dmg",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:24Z"
+      }
+    ]
+  }
+]

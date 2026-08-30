@@ -1,0 +1,458 @@
+[
+  {
+    "id": 469,
+    "repository_id": 10,
+    "tag_name": "1.8.0",
+    "name": "v1.8.0",
+    "body": "## AppPorts v1.8.0 更新说明 （In English）[直链下载](https://file.shimoko.com/AppPorts)\r\n\r\n### 特别感谢\r\n\r\n这个版本包含两位新贡献者带来的关键改进🎉：\r\n\r\n- 感谢 [@admintertar](https://github.com/admintertar) 实现「自定义目录迁移」与更安全的回滚流程，让 AppPorts 不再只局限于应用和内置数据目录迁移。[#54](https://github.com/wzh4869/AppPorts/pull/54)\r\n- 感谢 [@niazlv](https://github.com/niazlv) 带来应用体积会话缓存、本地化结构修复、俄语翻译补全，以及受保护应用迁移预警，显著提升了稳定性和多语言体验。[#55](https://github.com/wzh4869/AppPorts/pull/55)\r\n\r\n感谢两位首次参与 AppPorts 开发。\r\n\r\n### 新功能\r\n\r\n**自定义目录迁移** — 新增「目录迁移」能力，可将任意本地文件夹迁移到外部存储，并由 AppPorts 管理迁移、接回和还原流程。[#54](https://github.com/wzh4869/AppPorts/pull/54)\r\n\r\n**工具目录新增开发缓存支持** — 「数据目录 \u003e 工具目录」现在内置支持 `.gradle`、`.android`、`.pub-cache`，可迁移 Gradle、Android、Flutter/Dart 相关缓存数据。[#49](https://github.com/wzh4869/AppPorts/issues/49)\r\n\r\n**受保护应用迁移预警** — 迁移 App Store 应用或 root 拥有的应用前，AppPorts 会提示可能因权限限制导致自动迁移失败，并给出更稳妥的处理建议。[#55](https://github.com/wzh4869/AppPorts/pull/55)\r\n\r\n### 改进\r\n\r\n**外部工具目录接回** — 如果本地工具目录不存在，但外部规范目录中已有数据，AppPorts 会显示为「待接回」，可一键补建本地链接并纳入管理。\r\n\r\n**自定义目录迁移更安全** — 目录迁移回滚时会先保留本地安全备份；如果创建链接或清理备份失败，会保留外部副本，降低误删数据风险。[#54](https://github.com/wzh4869/AppPorts/pull/54)\r\n\r\n**应用体积计算更稳定** — 应用体积改为会话级缓存，减少重扫后体积丢失或长时间停留在「计算中」的情况。[#55](https://github.com/wzh4869/AppPorts/pull/55)\r\n\r\n**本地化完善** — 修复部分多行弹窗正文无法匹配本地化的问题，补全俄语界面翻译，并清理 stale key，减少中文或英文 fallback。[#55](https://github.com/wzh4869/AppPorts/pull/55)\r\n\r\n### 修复\r\n\r\n- 修复工具目录本地入口不存在时，无法识别并接回外部规范目录的问题。\r\n- 修复数据目录接回/规范化时可能接受非目录目标的问题。\r\n- 修复隐藏控件空 label 导致字符串目录生成空 key 的问题。\r\n- 修复部分状态、优先级和目录类型在切换语言后仍显示原始 key 的问题。\r\n- 修复 Stub Portal 启动器「外部存储未连接」提示未正确本地化的问题。\r\n\r\n### ⚠️ \"AppPorts\"已损坏，无法打开\r\n\r\n如果打开应用时遇到此提示（且系统建议移到废纸篓），这是因为应用没有进行开发者签名，被 macOS 的 Gatekeeper 机制拦截。\r\n\r\n注意：以下命令假设您已将 AppPorts 拖入「应用程序」文件夹。\r\n\r\n```shell\r\nxattr -rd com.apple.quarantine /Applications/AppPorts.app\r\n```\r\n\r\n## English Release Notes\r\n\r\n### Special Thanks\r\n\r\nThis release includes key contributions from two new contributors🎉:\r\n\r\n- Thanks to [@admintertar](https://github.com/admintertar) for adding custom directory migration and a safer rollback flow. [#54](https://github.com/wzh4869/AppPorts/pull/54)\r\n- Thanks to [@niazlv](https://github.com/niazlv) for improving app size caching, localization structure, Russian translations, and protected-app migration warnings. [#55](https://github.com/wzh4869/AppPorts/pull/55)\r\n\r\n### New Features\r\n\r\n**Custom directory migration** — Added a new directory migration flow for moving arbitrary local folders to external storage, with managed migrate, relink, and restore actions. [#54](https://github.com/wzh4869/AppPorts/pull/54)\r\n\r\n**More built-in developer tool directories** — `Data Directories \u003e Tool Directories` now supports `.gradle`, `.android`, and `.pub-cache` for Gradle, Android, and Flutter/Dart cache data. [#49](https://github.com/wzh4869/AppPorts/issues/49)\r\n\r\n**Protected app migration warning** — AppPorts now warns before migrating App Store apps or root-owned apps, where macOS permissions may prevent automatic replacement. [#55](https://github.com/wzh4869/AppPorts/pull/55)\r\n\r\n### Improvements\r\n\r\n**Relink existing external tool directories** — If the local tool directory is missing but the managed external directory already exists, AppPorts now shows it as `Pending Relink`.\r\n\r\n**Safer custom directory migration** — Rollback now keeps a local safety backup before creating the symlink, and keeps the external copy if link creation or backup cleanup fails. [#54](https://github.com/wzh4869/AppPorts/pull/54)\r\n\r\n**More stable app size calculation** — App size results now use a session cache, reducing cases where sizes disappear after rescans or remain stuck at `Calculating`. [#55](https://github.com/wzh4869/AppPorts/pull/55)\r\n\r\n**Localization cleanup** — Fixed multi-line popup localization matching, completed Russian UI translations, and cleaned stale localization keys. [#55](https://github.com/wzh4869/AppPorts/pull/55)\r\n\r\n### Fixes\r\n\r\n- Fixed external managed tool directories not being detected when the local entry no longer exists.\r\n- Fixed relink/normalization flows accepting non-directory targets in some cases.\r\n- Fixed empty hidden control labels generating an empty localization key.\r\n- Fixed some status, priority, and directory type labels not updating correctly after language changes.\r\n- Fixed the Stub Portal launcher’s `external storage not connected` alert not being localized correctly.\r\n\r\n### ⚠️ \"AppPorts\" is damaged and can't be opened\r\n\r\nIf macOS says AppPorts is damaged and suggests moving it to the Trash, the app was blocked by Gatekeeper because it is not signed with a Developer ID certificate.\r\n\r\nNote: the command below assumes you have moved AppPorts to the Applications folder.\r\n\r\n```shell\r\nxattr -rd com.apple.quarantine /Applications/AppPorts.app\r\n```\r\n## What's Changed\r\n* Add custom directory migration and safer rollback by @admintertar in https://github.com/wzh4869/AppPorts/pull/54\r\n* feat: 体积会话缓存 + 弹窗本地化修复（中文→本地化、补全俄语）+ 受保护应用迁移预警 by @niazlv in https://github.com/wzh4869/AppPorts/pull/55\r\n\r\n## New Contributors\r\n* @admintertar made their first contribution in https://github.com/wzh4869/AppPorts/pull/54\r\n* @niazlv made their first contribution in https://github.com/wzh4869/AppPorts/pull/55\r\n\r\n**Full Changelog**: https://github.com/wzh4869/AppPorts/compare/1.7.1...1.8.0",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.8.0",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.8.0",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.8.0",
+    "published_at": "2026-07-07T14:40:57Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5364,
+        "release_id": 469,
+        "name": "AppPorts1.8.0.dmg",
+        "size": 5691104,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.8.0/AppPorts1.8.0.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 470,
+    "repository_id": 10,
+    "tag_name": "1.7.1",
+    "name": "v1.7.1",
+    "body": "## AppPorts v1.7.1 更新说明 （In English）[直链下载](https://file.shimoko.com/AppPorts)\r\n\r\n### 新功能\r\n\r\n**自定义本地扫描目录** — 「Mac 本地应用」标题栏新增「+」按钮，可添加额外的本地应用扫描目录。适用于 JetBrains Toolbox、Steam 等将应用安装在非 `/Applications` 目录的工具。添加的目录会持久保存，并自动监控文件变化 #48 \r\n\r\n**Stub Portal 版本自动同步** — 外置硬盘上的应用通过 App Store 更新后，本地 Stub Portal 的版本信息现在会自动同步更新，并刷新 macOS Launch Services 缓存，「打开方式」菜单不再显示旧版本号 #50 \r\n### 改进\r\n\r\n**应用扫描性能优化** — 每个应用的 `Info.plist` 读取次数从 7 次降低到 1 次（通过内存缓存），整体扫描速度显著提升。 \r\n\r\n**扫描超时保护** — `codesign` 子进程现在有 10 秒超时保护，避免因大型应用签名检查卡死导致整个扫描挂起。\r\n\r\n**目录体积计算安全上限** — 递归计算应用体积时新增 50 万文件数量上限，防止 Electron 等超大应用包无限遍历。\r\n\r\n**扫描过程可追踪** — 扫描循环新增逐应用 TRACE 日志，便于定位扫描卡在哪个应用。\r\n\r\n**数据目录扫描精准匹配** — 修复 bundle ID 后缀提取逻辑，过滤 `app`、`com`、`org` 等通用 TLD 词汇，避免误匹配系统容器目录导致扫描变慢。此前 `cn.trae.app` 等 bundle ID 会触发扫描 720+ 个不相关容器。 #47 \r\n\r\n### 修复\r\n\r\n修复 Trae 等应用扫描极慢的问题 — bundle ID 中的通用后缀 `app` 导致 `~/Library/Containers/` 下大量不相关目录被误扫描。 \r\n\r\n修复外置硬盘应用通过 App Store 更新后，本地 Stub Portal 版本信息不更新、「打开方式」菜单显示旧版本的问题。 \r\n\r\n修复点击刷新按钮不会触发 Stub Portal 版本同步的问题。\r\n\r\n### ⚠️ \"AppPorts\"已损坏，无法打开\r\n\r\n如果打开应用时遇到此提示（且系统建议移到废纸篓），这是因为应用没有进行开发者签名，被 macOS 的 Gatekeeper 机制拦截。\r\n\r\n注意：以下命令假设您已将 AppPorts 拖入「应用程序」文件夹。\r\n\r\n您需要在终端运行以下命令来移除隔离属性，即可正常打开：\r\n\r\n```bash\r\nxattr -rd com.apple.quarantine /Applications/AppPorts.app\r\n```\r\n\r\n## English Release Notes\r\n\r\n### New Features\r\n\r\n**Custom local scan directories** — The \"Mac Local Apps\" header now has a \"+\" button to add extra local app scan directories. Useful for tools like JetBrains Toolbox and Steam that install apps outside `/Applications`. Added directories are persisted and automatically monitored for changes ([#48](https://github.com/wzh4869/AppPorts/issues/48)).\r\n\r\n**Stub Portal version sync** — When an external app is updated via the App Store, the local Stub Portal's version info is now automatically synced and the macOS Launch Services cache is refreshed. The \"Open With\" menu no longer shows stale version numbers ([#50](https://github.com/wzh4869/AppPorts/issues/50)).\r\n\r\n### Improvements\r\n\r\n**Faster app scanning** — Info.plist reads per app reduced from 7 to 1 (via in-memory cache), significantly improving scan speed.\r\n\r\n**Scan timeout protection** — The `codesign` subprocess now has a 10-second timeout, preventing large app signature checks from blocking the entire scan indefinitely.\r\n\r\n**Directory size calculation safety cap** — A 500,000 file count limit has been added to recursive size calculations, preventing runaway enumeration on Electron and other large app bundles.\r\n\r\n**Scan trace logging** — Per-app TRACE logging added to the scan loop, making it easier to identify which app is slow or stuck during scanning.\r\n\r\n**More precise data directory matching** — Fixed bundle ID suffix extraction to filter generic TLD words like `app`, `com`, `org`. Previously, bundle IDs like `cn.trae.app` would trigger scanning of 720+ unrelated system containers.\r\n\r\n### Fixes\r\n\r\nFixed Trae and similar apps scanning extremely slowly — the generic suffix `app` from the bundle ID caused `~/Library/Containers/` to scan hundreds of unrelated directories.\r\n\r\nFixed local Stub Portal version info not updating after external apps are updated via the App Store, causing the \"Open With\" menu to show stale versions.\r\n\r\nFixed the refresh button not triggering Stub Portal version sync.\r\n\r\n### ⚠️ \"AppPorts\" is damaged and can't be opened\r\n\r\nIf macOS says AppPorts is damaged and suggests moving it to the Trash, the app was blocked by Gatekeeper because it is not signed with a Developer ID certificate.\r\n\r\nNote: the command below assumes you have moved AppPorts to the Applications folder.\r\n\r\nRun this command in Terminal to remove the quarantine attribute:\r\n\r\n```bash\r\nxattr -rd com.apple.quarantine /Applications/AppPorts.app\r\n```\r\n\r\n**Full Changelog**: https://github.com/wzh4869/AppPorts/compare/1.7.0...1.7.1",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.7.1",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.7.1",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.7.1",
+    "published_at": "2026-06-24T12:23:13Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5365,
+        "release_id": 470,
+        "name": "AppPorts1.7.1.dmg",
+        "size": 5387984,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.7.1/AppPorts1.7.1.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 471,
+    "repository_id": 10,
+    "tag_name": "1.7.0",
+    "name": "v1.7.0",
+    "body": "## AppPorts v1.7.0 更新说明 （In English）[直链下载](https://file.shimoko.com/AppPorts)\r\n### 新功能\r\n\r\n**待迁出状态** — 当本地真实应用版本高于外部存储中的同名应用时，AppPorts 现在会将该应用标记为「待迁出」。此状态表示可以安全地将本地新版应用迁移到外部存储，并替换外部旧副本。\r\n\r\n**数据迁移重签名确认** — 迁移应用容器内数据前，AppPorts 现在会询问是否在迁移完成后自动对关联应用执行 Ad-hoc 重签名。用户可以选择「同意重签名」或「不同意，仅迁移」，用于降低容器数据迁移后应用无法识别数据、提示异常或启动异常的风险（[#44](https://github.com/wzh4869/AppPorts/issues/44)）。\r\n\r\n### 界面改进\r\n\r\n**顶部工具栏重排** — 应用页和数据目录页的切换按钮改为更紧凑的图标 + 文本样式，减少按钮占用空间，整体视觉更轻量。\r\n\r\n**数据目录页操作栏优化** — 「工具目录 / 应用数据」切换、迁移后重签名开关、恢复原始签名按钮和刷新按钮现在统一放在顶部工具栏中，不再在数据迁移页内单独占用一整行。\r\n\r\n**应用状态徽章更新** — 应用列表新增「待迁出」状态徽章，方便区分本地版本高于外部旧副本、可以迁出替换的应用。\r\n\r\n**数据目录迁移弹窗本地化** — 数据迁移重签名确认弹窗的标题、正文和按钮现在会跟随当前语言显示，不再出现部分内容回退中文的问题。\r\n\r\n### 改进\r\n\r\n**应用迁移安全策略增强** — 外部目标已存在时，AppPorts 不再仅凭同名或大小相近就自动删除目标。只有目标被明确识别为 AppPorts 管理的旧入口、旧迁移残留，或当前应用处于「待迁出」状态时，才会自动清理并继续迁移。\r\n\r\n**数据目录恢复校验增强** — 数据目录迁移不再使用“目标目录大小接近源目录”的方式判断是否可自动恢复。现在必须完整匹配 AppPorts metadata，包括 `schemaVersion`、`managedBy`、`sourcePath`、`destinationPath` 和 `dataDirType`，才能自动接回或恢复。\r\n\r\n**应用数据扫描更稳定** — 快速切换应用时，旧扫描任务的结果不会再覆盖当前选中应用的数据目录列表，避免出现上一个应用的数据误显示到当前应用中的情况。\r\n\r\n**管理员命令和 AppleScript 转义增强** — 路径中包含引号、反斜杠、空格或中文时，Finder 删除和管理员修复权限命令现在会更安全地处理，降低特殊路径导致命令失败或误执行的风险。\r\n\r\n**本地化完善** — 修复切换语言后部分帮助内容、提示弹窗和数据迁移确认内容仍显示中文或翻译不完整的问题，并补齐所有支持语言的相关翻译（[#43](https://github.com/wzh4869/AppPorts/issues/43)）。\r\n\r\n**中国大陆更新体验优化** — 针对中国大陆网络环境适配更新接口，新增 AppPorts 官网更新源与「国内下载」入口；当 GitHub 访问不稳定时，仍可获取更新说明并通过国内镜像下载。\r\n\r\n### 修复\r\n\r\n修复数据目录迁移可能将外部真实目录误判为可恢复目标的问题。\r\n\r\n修复应用迁移时可能错误删除外部同名真实应用的问题。\r\n\r\n修复外部旧 AppPorts portal / 旧迁移残留无法被稳定识别和清理的问题。\r\n\r\n修复路径包含特殊字符时 AppleScript 或管理员命令可能构造错误的问题。\r\n\r\n修复应用数据迁移流程中，后台迁移或迁移后重签名可能读取到已切换应用的问题。\r\n\r\n修复「待迁出」状态未在应用列表中显示状态徽章的问题。\r\n\r\n### ⚠️ “AppPorts”已损坏，无法打开\r\n\r\n如果打开应用时遇到此提示（且系统建议移到废纸篓），这是因为应用没有进行开发者签名，被 macOS 的 Gatekeeper 机制拦截。\r\n\r\n注意：以下命令假设您已将 AppPorts 拖入「应用程序」文件夹。\r\n\r\n您需要在终端运行以下命令来移除隔离属性，即可正常打开：\r\n\r\n```bash\r\nxattr -rd com.apple.quarantine /Applications/AppPorts.app\r\n```\r\n\r\n## English Release Notes\r\n\r\n### New Features\r\n\r\n**Pending Move Out status** — When a real local app is newer than the matching app on external storage, AppPorts now marks it as “Pending Move Out”. This means the newer local copy can safely replace the older external copy during migration.\r\n\r\n**Re-sign confirmation for app container data migration** — Before migrating app container data, AppPorts now asks whether the related app should be automatically Ad-hoc re-signed after migration. Users can choose to re-sign after migration or migrate only, reducing the risk of app data recognition issues or launch problems after container data migration ([#44](https://github.com/wzh4869/AppPorts/issues/44)).\r\n\r\n### UI Improvements\r\n\r\n**Top toolbar refresh** — The Apps and Data Directories tab switcher now uses a more compact icon + text style, reducing oversized toolbar controls.\r\n\r\n**Cleaner Data Directories toolbar** — The Tool Directories / App Data switcher, re-sign-after-migration toggle, restore original signature button, and refresh button are now consolidated into the top toolbar instead of taking a separate row inside the data migration page.\r\n\r\n**Updated app status badge** — The app list now shows a new “Pending Move Out” badge for local apps that are newer than their matching external copies.\r\n\r\n**Localized data migration dialog** — The re-sign confirmation dialog for data migration now follows the selected app language for its title, message, and buttons.\r\n\r\n### Improvements\r\n\r\n**Safer app migration conflict handling** — When an external target already exists, AppPorts no longer deletes it just because it has the same name or similar contents. Automatic cleanup is only allowed when the target is clearly identified as an AppPorts-managed legacy portal, old migration residue, or when the app is marked as “Pending Move Out”.\r\n\r\n**Stricter data directory recovery checks** — Data directory migration no longer relies on size similarity to decide whether a target can be recovered. AppPorts now requires matching metadata, including `schemaVersion`, `managedBy`, `sourcePath`, `destinationPath`, and `dataDirType`.\r\n\r\n**More stable app data scanning** — When switching apps quickly, stale scan results no longer overwrite the currently selected app’s data directory list.\r\n\r\n**Safer AppleScript and administrator command escaping** — Paths containing quotes, backslashes, spaces, or non-ASCII characters are now handled more safely in Finder deletion and ownership repair commands.\r\n\r\n**Localization updates** — Fixed cases where help content, prompts, and data migration confirmation dialogs could remain in Chinese or have incomplete translations after switching languages. Related translations have been completed for all supported languages ([#43](https://github.com/wzh4869/AppPorts/issues/43)).\r\n\r\n**Improved update experience for users in mainland China**— Added an official AppPorts update feed and a China download entry, so release notes and domestic downloads remain available when GitHub access is unstable.\r\n\r\n### Fixes\r\n\r\nFixed a case where data directory migration could mistake a real external directory for a recoverable AppPorts-managed target.\r\n\r\nFixed a case where app migration could accidentally delete a real external app with the same name.\r\n\r\nFixed detection and cleanup of legacy AppPorts portals and old migration residue.\r\n\r\nFixed AppleScript and administrator command generation for paths containing special characters.\r\n\r\nFixed migration and post-migration re-signing using the wrong selected app after the user switched apps.\r\n\r\nFixed the missing status badge for apps marked as “Pending Move Out”.\r\n\r\n### ⚠️ “AppPorts” is damaged and can’t be opened\r\n\r\nIf macOS says AppPorts is damaged and suggests moving it to the Trash, the app was blocked by Gatekeeper because it is not signed with a Developer ID certificate.\r\n\r\nNote: the command below assumes you have moved AppPorts to the Applications folder.\r\n\r\nRun this command in Terminal to remove the quarantine attribute:\r\n\r\n```bash\r\nxattr -rd com.apple.quarantine /Applications/AppPorts.app\r\n```\r\n\r\n\r\n\r\n**Full Changelog**: https://github.com/wzh4869/AppPorts/compare/1.6.2...1.7.0",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.7.0",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.7.0",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.7.0",
+    "published_at": "2026-05-26T21:29:31Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5366,
+        "release_id": 471,
+        "name": "AppPorts1.7.0.dmg",
+        "size": 5455709,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.7.0/AppPorts1.7.0.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 472,
+    "repository_id": 10,
+    "tag_name": "1.6.2",
+    "name": "v1.6.2",
+    "body": "## **AppPorts v1.6.2 更新说明**\r\n\r\n### **新功能**\r\n- **开机自动重签名** — 新增\"开机自动重签名\"选项（默认开启）。每次用户登录时自动对签名已失效的已迁移应用执行 Ad-hoc 重签名，无需手动操作。可在设置中随时开关。\r\n\r\n### **改进**\r\n- **原生 Stub Launcher** — Stub Portal 改用原生 Mach-O 二进制启动器替代旧版 bash 脚本，修复了通过 Finder 双击关联文档无法打开外部应用的问题（#42）。\r\n- **关于页布局优化** — 内容区域改为可滚动布局，解决窗口尺寸不足时内容被截断的问题。\r\n- **更新弹窗 Markdown 支持** — 更新说明现在支持富文本渲染（标题、列表、加粗、链接等），暗色模式下文字颜色正确适配。\r\n\r\n### **修复**\r\n- 修复原生 Stub Portal 被误识别为普通本地应用的问题。\r\n- 修复\"迁回本地\"操作无法正确清理原生 Stub Portal 的问题。\r\n- 修复链接回本地时应用壳被当作完整应用处理的逻辑漏洞。\r\n- 修复 AutoResignInstaller 安装失败时静默成功的问题。\r\n\r\n### **⚠️ \"AppPorts\"已损坏，无法打开**\r\n如果打开应用时遇到此提示（且系统建议移到废纸篓），这是因为应用没有进行开发者签名，被 macOS 的 Gatekeeper 机制拦截。\r\n（注意：以下命令假设您已将 AppPorts 拖入 **应用程序** 文件夹）\r\n您需要在终端运行以下命令来移除隔离属性，即可正常打开：\r\n   \r\n```bash\r\nxattr -rd com.apple.quarantine /Applications/AppPorts.app\r\n```\r\n\r\n**Full Changelog**: https://github.com/wzh4869/AppPorts/compare/1.6.1...1.6.2",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.6.2",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.6.2",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.6.2",
+    "published_at": "2026-05-21T14:58:51Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5367,
+        "release_id": 472,
+        "name": "AppPorts1.6.2.dmg",
+        "size": 5221597,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.6.2/AppPorts1.6.2.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 473,
+    "repository_id": 10,
+    "tag_name": "1.6.1",
+    "name": "【大更新】1.6.1",
+    "body": "- ⚠️此版本对应用迁移策略和数据迁移做重大调整，因个人精力有限，如出现新旧版本之间的兼容性问题，请回退到旧版本[国内下载列表](https://file.shimoko.com/AppPorts)将应用或应用数据迁回内部存储再使用。            \r\n- 关于此新版本的更多修改细节，请参阅[文档](https://docs-appports.shimoko.com/)       \r\n1. 迁移后的应用不再显示箭头角标，通过[创建Stub Portal(假壳)](https://docs-appports.shimoko.com/AppPorts.html#stub-portal-%E5%A3%B3%E9%97%A8%E6%96%B9%E6%A1%88)来取代/contents软链接方法\r\n2. 自动更新的应用（spark，electron）策略细化\r\n3. 新增[应用签名](https://docs-appports.shimoko.com/datamigrae/resign.html#ad-hoc-%E7%AD%BE%E5%90%8D)管理功能，解决迁移后「已损坏」提示\r\n4. 外置硬盘拔出后，应用列表会标红提示「孤立链接」\r\n5. macOS 15.1+ 用户可直接将 App Store 应用装到外置硬盘,通过 AppStore 托管更新\r\n6. 数据目录迁移更安全：防止误迁移系统目录、中断后自动恢复\r\n7. 扫描和计算大小更快，列表不再反复跳动\r\n8. 复制文件到外置硬盘更稳定，不再因中断报错\r\n9. 应用状态标签重新设计，信息更丰富、点击可查看详情\r\n10. 应用列表刷新后不再丢失选中状态，数据目录支持树形展示\r\n11. 界面细节优化：搜索、排序、分组卡片、图标加载等\r\n12. 新增火星文语言选项\r\n13. 自动化测试更新\r\n\r\n### ⚠️ \"AppPorts\"已损坏，无法打开\r\n如果打开应用时遇到此提示（且系统建议移到废纸篓），这是因为应用没有进行开发者签名，被 macOS 的 Gatekeeper 机制拦截。\r\n（注意：以下命令假设您已将 AppPorts 拖入 **应用程序** 文件夹）\r\n您需要在终端运行以下命令来移除隔离属性，即可正常打开：\r\n```bash\r\nxattr -rd com.apple.quarantine /Applications/AppPorts.app\r\n```\r\n\r\n## What's Changed\r\n* Develop by @wzh4869 in https://github.com/wzh4869/AppPorts/pull/37\r\n\r\n\r\n**Full Changelog**: https://github.com/wzh4869/AppPorts/compare/1.5.5...1.6.1",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.6.1",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.6.1",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.6.1",
+    "published_at": "2026-05-11T20:45:25Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5368,
+        "release_id": 473,
+        "name": "AppPorts1.6.1.dmg",
+        "size": 5130054,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.6.1/AppPorts1.6.1.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 474,
+    "repository_id": 10,
+    "tag_name": "1.5.5",
+    "name": "【兼容性更新】1.5.5",
+    "body": "## 支持 MacOS12 及以上的操作系统，并新增火星文语言\r\n\r\n## What's Changed\r\n* 测试 by @wzh4869 in https://github.com/wzh4869/AppPorts/pull/26\r\n* Develop by @wzh4869 in https://github.com/wzh4869/AppPorts/pull/34\r\n\r\n\r\n**Full Changelog**: https://github.com/wzh4869/AppPorts/compare/1.5.4...1.5.5",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.5.5",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.5.5",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.5.5",
+    "published_at": "2026-04-29T10:48:05Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5369,
+        "release_id": 474,
+        "name": "AppPorts1.5.5.dmg",
+        "size": 4599052,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.5.5/AppPorts1.5.5.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 475,
+    "repository_id": 10,
+    "tag_name": "1.5.4",
+    "name": "1.5.4【功能修复】",
+    "body": "由 @IoneVesper 修复了 Adobe 单应用容器扫描重复的问题，详见：https://github.com/wzh4869/AppPorts/pull/25\r\n## What's Changed\r\n* Fix duplicate Adobe single-app container scan by @IoneVesper in https://github.com/wzh4869/AppPorts/pull/25\r\n\r\n\r\n**Full Changelog**: https://github.com/wzh4869/AppPorts/compare/1.5.3...1.5.4",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.5.4",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.5.4",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.5.4",
+    "published_at": "2026-03-15T17:42:57Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5370,
+        "release_id": 475,
+        "name": "AppPorts1.5.4.dmg",
+        "size": 4738046,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.5.4/AppPorts1.5.4.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 476,
+    "repository_id": 10,
+    "tag_name": "1.5.3",
+    "name": "1.5.3【图标修复】",
+    "body": "【图标修复】通过 Icon Composer 修复了macOS26 以前的操作系统中 AppPorts 图标过大的问题，[如问题继续存在，请在此 issues 继续反馈](https://github.com/wzh4869/AppPorts/issues/13)\r\n\r\n**Full Changelog**: https://github.com/wzh4869/AppPorts/compare/1.5.2...1.5.3",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.5.3",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.5.3",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.5.3",
+    "published_at": "2026-03-15T05:47:15Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5371,
+        "release_id": 476,
+        "name": "AppPorts1.5.3.dmg",
+        "size": 4728366,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.5.3/AppPorts1.5.3.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 477,
+    "repository_id": 10,
+    "tag_name": "1.5.2",
+    "name": "1.5.2【修复更新】by @ IoneVesper",
+    "body": "1. 优化应用迁移策略与回滚机制，改进普通 Mac 应用、自更新应用、iOS 应用和应用套件文件夹的本地入口处理，减少迁移后打不开、回链异常或还原不完整的问题，文件夹应用迁移修改迁移策略。\r\n2. 改进数据目录扫描、软链管理和排序逻辑，Data Directories 页面对受管链接、现有软链、待规范、待接回等状态的识别与展示更加准确，这部分包含了 [PR #22](https://github.com/wzh4869/AppPorts/pull/22) 的优化。\r\n3. 强化数据目录迁移、规范化和异常回滚流程，减少迁移过程中留下半成品目录、错误状态或残留外部副本的情况。\r\n4. 修复已链接应用的大小显示问题，本地列表现在显示的是本地入口实际占用，不再看起来像本地仍保留了一整份完整应用。\r\n5. 增强日志与诊断能力，补充更完整的错误上下文与诊断信息，方便定位迁移失败、权限异常和链接状态问题。\r\n6. 关于页进行修改，对贡献用户展示进行完善，添加“官网”链接\r\n\r\n## What's Changed\r\n* Improve app data scanning, symlink management, and sorting by @IoneVesper in https://github.com/wzh4869/AppPorts/pull/22\r\n\r\n## New Contributors\r\n* @IoneVesper made their first contribution in https://github.com/wzh4869/AppPorts/pull/22\r\n\r\n**Full Changelog**: https://github.com/wzh4869/AppPorts/compare/1.5.1...1.5.2",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.5.2",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.5.2",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.5.2",
+    "published_at": "2026-03-14T13:00:06Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5372,
+        "release_id": 477,
+        "name": "AppPorts1.5.2.dmg",
+        "size": 3768810,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.5.2/AppPorts1.5.2.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 478,
+    "repository_id": 10,
+    "tag_name": "1.5.1",
+    "name": "1.5.1 【修复更新】by @2han9wen71an",
+    "body": "## What's Changed\r\n* 修复vscode，cherry stdio等Electron应用使用完整应用符号链接\r\n* fix: use whole-app symlinks for self-updating apps by @2han9wen71an in https://github.com/wzh4869/AppPorts/pull/18\r\n\r\n## New Contributors\r\n* @2han9wen71an made their first contribution in https://github.com/wzh4869/AppPorts/pull/18\r\n\r\n**Full Changelog**: https://github.com/wzh4869/AppPorts/compare/1.5.0...1.5.1",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.5.1",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.5.1",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.5.1",
+    "published_at": "2026-03-07T21:50:16Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5373,
+        "release_id": 478,
+        "name": "AppPorts1.5.1.dmg",
+        "size": 3294513,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.5.1/AppPorts1.5.1.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 479,
+    "repository_id": 10,
+    "tag_name": "1.5.0",
+    "name": "1.5.0【功能更新】by @sulimu2",
+    "body": "## What's Changed\r\n* 功能增加-应用数据迁移 by @sulimu2 in https://github.com/wzh4869/AppPorts/pull/17\r\n* 【注意 attention⚠️】部分应用数据迁移后再更新可能会有未知的问题，建议更新前将数据先迁移回来\r\n\r\n## New Contributors\r\n* @sulimu2 made their first contribution in https://github.com/wzh4869/AppPorts/pull/17\r\n\r\n**Full Changelog**: https://github.com/wzh4869/AppPorts/compare/1.4.0...1.5.0",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.5.0",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.5.0",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.5.0",
+    "published_at": "2026-03-07T01:49:39Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5374,
+        "release_id": 479,
+        "name": "AppPorts1.5.0.dmg",
+        "size": 3304812,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.5.0/AppPorts1.5.0.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 480,
+    "repository_id": 10,
+    "tag_name": "1.4.0",
+    "name": "新功能和质量更新",
+    "body": "## 新功能\r\n1.支持Adobe/达芬奇的软件识别与迁移：检测本地应用目录下的文件夹，对文件夹进行整体迁移并自动添加链接\r\n     \r\n## 修复    \r\n- 似乎修复了低版本MacOS下的图标显示问题    \r\n- 兼容MacOS14.0版本   \r\n- 软件项目架构重构/补充注释    \r\n        \r\n## What's Changed\r\n* Develop by @wzh4869 in https://github.com/wzh4869/AppPorts/pull/14\r\n* Develop by @wzh4869 in https://github.com/wzh4869/AppPorts/pull/15\r\n\r\n## New Contributors\r\n* @wzh4869 made their first contribution in https://github.com/wzh4869/AppPorts/pull/14\r\n\r\n**Full Changelog**: https://github.com/wzh4869/AppPorts/compare/1.3.0...1.4.0",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.4.0",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.4.0",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.4.0",
+    "published_at": "2026-02-11T01:55:51Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5375,
+        "release_id": 480,
+        "name": "AppPorts1.4.0.dmg",
+        "size": 2989900,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.4.0/AppPorts1.4.0.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 481,
+    "repository_id": 10,
+    "tag_name": "1.3.0",
+    "name": "新功能更新",
+    "body": "【功能更新】\r\n1.迁移的时候有更详细的进度啦\r\n2.来自 App Store 的应用会提供标签，且默认不支持迁移\r\n3.支持强行迁移App Store 应用\r\n【修复】\r\n修复日志的大小和开启关闭日志功能，补充日志信息\r\n【提醒】\r\nThis version has not been localized yet./该版本暂未做国际化翻译",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.3.0",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.3.0",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.3.0",
+    "published_at": "2026-02-06T07:20:11Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5376,
+        "release_id": 481,
+        "name": "AppPorts1.3.0.dmg",
+        "size": 2977454,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.3.0/AppPorts1.3.0.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 482,
+    "repository_id": 10,
+    "tag_name": "1.2.0",
+    "name": "1.2.0【新功能更新】",
+    "body": "【⚠️ Appstore 的来自 iPad 和 iPhone 的应用因文件结构差异无法正常迁移】\r\n【⚠️ 不建议更新来自Appstore 的应用，详见：[Issues](https://github.com/wzh4869/AppPorts/issues/7#issuecomment-3853262304 )】\r\n1.解决来自 App Store 应用迁移权限的问题\r\n2.支持多选应用迁移/迁回/链接回本地-----按住 command 键或框选即可\r\n3.UI 按钮交互修改\r\n4.新增日志功能，mac 菜单栏中可对软件日志位置进行修改【好像是清空不了日志，后期我再解决】\r\n",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.2.0",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.2.0",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.2.0",
+    "published_at": "2026-02-02T04:43:49Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5377,
+        "release_id": 482,
+        "name": "AppPorts1.2.0.dmg",
+        "size": 2900554,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.2.0/AppPorts1.2.0.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 483,
+    "repository_id": 10,
+    "tag_name": "1.1.1-1",
+    "name": "Xcode 打包版本",
+    "body": "好像通过 xcode 打包能不会弹【\"AppPorts\"已损坏，无法打开 】的提醒，故发此版本，与 1.1.1 版本一致",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.1.1-1",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.1.1-1",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.1.1-1",
+    "published_at": "2026-01-26T15:31:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5378,
+        "release_id": 483,
+        "name": "AppPorts1.1.1-1.dmg",
+        "size": 2854422,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.1.1-1/AppPorts1.1.1-1.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 484,
+    "repository_id": 10,
+    "tag_name": "1.1.1",
+    "name": "新功能",
+    "body": "1.完善权限提醒，第二次启动时无权限提醒（似乎修复了）\r\n2.新增搜索框和列表排序模式\r\n3.应用发生变动时，列表会自动刷新",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.1.1",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.1.1",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.1.1",
+    "published_at": "2026-01-26T07:52:45Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5379,
+        "release_id": 484,
+        "name": "AppPorts1.1.1.dmg",
+        "size": 2766215,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.1.1/AppPorts1.1.1.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 485,
+    "repository_id": 10,
+    "tag_name": "1.1.0-1",
+    "name": "更正软件包",
+    "body": "避免转译",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.1.0-1",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.1.0-1",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.1.0-1",
+    "published_at": "2026-01-25T11:14:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5380,
+        "release_id": 485,
+        "name": "AppPorts1.1.0-1.dmg",
+        "size": 2691707,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.1.0-1/AppPorts1.1.0-1.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 486,
+    "repository_id": 10,
+    "tag_name": "1.1.0",
+    "name": "1.1.0",
+    "body": "1.新增多国语言\r\n2.应用显示磁盘内的文件大小\r\n3.解决第一次使用该程序权限报错问题\r\n4.优化 UI 元素",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/1.1.0",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/1.1.0",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/1.1.0",
+    "published_at": "2026-01-01T23:00:04Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5381,
+        "release_id": 486,
+        "name": "AppPorts1.1.0.dmg",
+        "size": 2679122,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/1.1.0/AppPorts1.1.0.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  },
+  {
+    "id": 487,
+    "repository_id": 10,
+    "tag_name": "v1.0.0",
+    "name": "AppPorts v1.0.0 (First Stable Release)",
+    "body": "AppPorts First Stable Release",
+    "html_url": "https://github.com/wzh4869/AppPorts/releases/tag/v1.0.0",
+    "tarball_url": "https://api.github.com/repos/wzh4869/AppPorts/tarball/v1.0.0",
+    "zipball_url": "https://api.github.com/repos/wzh4869/AppPorts/zipball/v1.0.0",
+    "published_at": "2025-11-18T19:24:18Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:07Z",
+    "assets": [
+      {
+        "id": 5382,
+        "release_id": 487,
+        "name": "AppPorts_1.0.0.dmg",
+        "size": 2805867,
+        "download_url": "https://github.com/wzh4869/AppPorts/releases/download/v1.0.0/AppPorts_1.0.0.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:33Z"
+      }
+    ]
+  }
+]

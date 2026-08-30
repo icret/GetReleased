@@ -1,0 +1,242 @@
+[
+  {
+    "id": 399,
+    "repository_id": 2,
+    "tag_name": "v0.4.3",
+    "name": "v0.4.3",
+    "body": "- Preserve original file on video import: Imported videos are now copied into the project package instead of moved, ensuring the original file remains intact\r\n\r\n**Full Changelog**: https://github.com/syi0808/screenize/compare/v0.4.2...v0.4.3",
+    "html_url": "https://github.com/syi0808/screenize/releases/tag/v0.4.3",
+    "tarball_url": "https://api.github.com/repos/syi0808/screenize/tarball/v0.4.3",
+    "zipball_url": "https://api.github.com/repos/syi0808/screenize/zipball/v0.4.3",
+    "published_at": "2026-03-28T05:12:54Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:01Z",
+    "assets": [
+      {
+        "id": 5045,
+        "release_id": 399,
+        "name": "Screenize.dmg",
+        "size": 8784293,
+        "download_url": "https://github.com/syi0808/screenize/releases/download/v0.4.3/Screenize.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:28Z"
+      }
+    ]
+  },
+  {
+    "id": 400,
+    "repository_id": 2,
+    "tag_name": "v0.4.2",
+    "name": "v0.4.2",
+    "body": "Valid signed",
+    "html_url": "https://github.com/syi0808/screenize/releases/tag/v0.4.2",
+    "tarball_url": "https://api.github.com/repos/syi0808/screenize/tarball/v0.4.2",
+    "zipball_url": "https://api.github.com/repos/syi0808/screenize/zipball/v0.4.2",
+    "published_at": "2026-03-25T14:40:19Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:01Z",
+    "assets": [
+      {
+        "id": 5046,
+        "release_id": 400,
+        "name": "Screenize.dmg",
+        "size": 8779547,
+        "download_url": "https://github.com/syi0808/screenize/releases/download/v0.4.2/Screenize.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:28Z"
+      }
+    ]
+  },
+  {
+    "id": 401,
+    "repository_id": 2,
+    "tag_name": "v0.4.1",
+    "name": "v0.4.1",
+    "body": "## What's Changed\r\n* Improve DMG installer appearance by @akinalpfdn in https://github.com/syi0808/screenize/pull/28\r\n* Add Homebrew installation instructions to README by @thedavidweng in https://github.com/syi0808/screenize/pull/29\r\n* Added support for multiple languages: Korean, Chinese, Japanese, French, and German\r\n\r\n## New Contributors\r\n* @akinalpfdn made their first contribution in https://github.com/syi0808/screenize/pull/28\r\n* @thedavidweng made their first contribution in https://github.com/syi0808/screenize/pull/29\r\n\r\n**Full Changelog**: https://github.com/syi0808/screenize/compare/v0.4.0...v0.4.1",
+    "html_url": "https://github.com/syi0808/screenize/releases/tag/v0.4.1",
+    "tarball_url": "https://api.github.com/repos/syi0808/screenize/tarball/v0.4.1",
+    "zipball_url": "https://api.github.com/repos/syi0808/screenize/zipball/v0.4.1",
+    "published_at": "2026-03-22T08:24:12Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:01Z",
+    "assets": [
+      {
+        "id": 5047,
+        "release_id": 401,
+        "name": "Screenize.dmg",
+        "size": 8788150,
+        "download_url": "https://github.com/syi0808/screenize/releases/download/v0.4.1/Screenize.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:28Z"
+      }
+    ]
+  },
+  {
+    "id": 402,
+    "repository_id": 2,
+    "tag_name": "v0.4.0",
+    "name": "v0.4.0",
+    "body": "A lot of features have been improved!",
+    "html_url": "https://github.com/syi0808/screenize/releases/tag/v0.4.0",
+    "tarball_url": "https://api.github.com/repos/syi0808/screenize/tarball/v0.4.0",
+    "zipball_url": "https://api.github.com/repos/syi0808/screenize/zipball/v0.4.0",
+    "published_at": "2026-03-14T04:01:49Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:01Z",
+    "assets": [
+      {
+        "id": 5048,
+        "release_id": 402,
+        "name": "Screenize.dmg",
+        "size": 8959772,
+        "download_url": "https://github.com/syi0808/screenize/releases/download/v0.4.0/Screenize.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:28Z"
+      }
+    ]
+  },
+  {
+    "id": 403,
+    "repository_id": 2,
+    "tag_name": "v0.3.1",
+    "name": "v0.3.1",
+    "body": "Valid signed",
+    "html_url": "https://github.com/syi0808/screenize/releases/tag/v0.3.1",
+    "tarball_url": "https://api.github.com/repos/syi0808/screenize/tarball/v0.3.1",
+    "zipball_url": "https://api.github.com/repos/syi0808/screenize/zipball/v0.3.1",
+    "published_at": "2026-02-17T12:40:10Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:01Z",
+    "assets": [
+      {
+        "id": 5049,
+        "release_id": 403,
+        "name": "Screenize.dmg",
+        "size": 4594793,
+        "download_url": "https://github.com/syi0808/screenize/releases/download/v0.3.1/Screenize.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:28Z"
+      }
+    ]
+  },
+  {
+    "id": 404,
+    "repository_id": 2,
+    "tag_name": "v0.3.0",
+    "name": "v0.3.0",
+    "body": "# ⚠️ Broken app by revoked signing. Do not download\r\n\r\nSupport Intel mac(x86_64)",
+    "html_url": "https://github.com/syi0808/screenize/releases/tag/v0.3.0",
+    "tarball_url": "https://api.github.com/repos/syi0808/screenize/tarball/v0.3.0",
+    "zipball_url": "https://api.github.com/repos/syi0808/screenize/zipball/v0.3.0",
+    "published_at": "2026-02-10T10:50:42Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:01Z",
+    "assets": [
+      {
+        "id": 5050,
+        "release_id": 404,
+        "name": "Screenize.dmg",
+        "size": 4594804,
+        "download_url": "https://github.com/syi0808/screenize/releases/download/v0.3.0/Screenize.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:28Z"
+      }
+    ]
+  },
+  {
+    "id": 405,
+    "repository_id": 2,
+    "tag_name": "v0.2.2",
+    "name": "v0.2.2",
+    "body": " Features\r\n\r\n  - Permission setup wizard — First-launch onboarding wizard that guides users through granting Screen Recording, Microphone, Input Monitoring, and Accessibility permissions (#10)\r\n  - Selective smart keyframe generation — Users can now choose which keyframe types to auto-generate instead of always generating all types (#16)\r\n  - .screenize package format — Migrated project format from legacy .fsproj to .screenize macOS package (directory containing project.json + recording/ media folder)\r\n  - Event stream pipeline (v4) — Added polyrecorder-compatible event stream models and writer with dual-write integration for future recording format support\r\n\r\n  Bug Fixes\r\n\r\n  - Window capture cursor positioning — Fixed mouse cursor position calculation for window-source captures\r\n  - Multi-display cursor diagnostics — Improved window capture cursor tracking and diagnostic logging across multiple displays\r\n  - Legacy project migration — Fixed opening legacy .fsproj projects to correctly use the migrated package URL\r\n  - Finder double-click handling — Prevented duplicate windows when opening .screenize files via Finder double-click by routing through AppDelegate",
+    "html_url": "https://github.com/syi0808/screenize/releases/tag/v0.2.2",
+    "tarball_url": "https://api.github.com/repos/syi0808/screenize/tarball/v0.2.2",
+    "zipball_url": "https://api.github.com/repos/syi0808/screenize/zipball/v0.2.2",
+    "published_at": "2026-02-09T14:01:28Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:01Z",
+    "assets": [
+      {
+        "id": 5051,
+        "release_id": 405,
+        "name": "Screenize.dmg",
+        "size": 2859499,
+        "download_url": "https://github.com/syi0808/screenize/releases/download/v0.2.2/Screenize.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:28Z"
+      }
+    ]
+  },
+  {
+    "id": 406,
+    "repository_id": 2,
+    "tag_name": "v0.2.1",
+    "name": "v0.2.1",
+    "body": "New Features                                                                                                              \r\n                                                                                                                            \r\n  - Render settings preset system — Save, load, and delete render settings presets for quick reuse across projects          \r\n  - Undo/redo system — Snapshot-based UndoStack for timeline editing, with undo/redo buttons added to the editor toolbar    \r\n  - Keyboard shortcut help panel — Press Cmd+? or the per-page ? button to view context-aware keyboard shortcuts for the    \r\n  current screen                                                                                                            \r\n                                                                                                                            \r\n  Improvements                                                                                                              \r\n                                                                                                                            \r\n  - Removed timeline time display and track focus feature — Simplified the timeline UI by removing unused elements\r\n\r\n**Full Changelog**: https://github.com/syi0808/screenize/compare/v0.2.0...v0.2.1",
+    "html_url": "https://github.com/syi0808/screenize/releases/tag/v0.2.1",
+    "tarball_url": "https://api.github.com/repos/syi0808/screenize/tarball/v0.2.1",
+    "zipball_url": "https://api.github.com/repos/syi0808/screenize/zipball/v0.2.1",
+    "published_at": "2026-02-01T14:33:29Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:01Z",
+    "assets": [
+      {
+        "id": 5052,
+        "release_id": 406,
+        "name": "Screenize.dmg",
+        "size": 2757057,
+        "download_url": "https://github.com/syi0808/screenize/releases/download/v0.2.1/Screenize.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:28Z"
+      }
+    ]
+  },
+  {
+    "id": 407,
+    "repository_id": 2,
+    "tag_name": "v0.2.0",
+    "name": "v0.2.0",
+    "body": "New Features                                                                                                                    \r\n                                                                                                                                  \r\n  - Custom background image picker — Added image picker in Settings Inspector to select custom background images for recordings   \r\n  - Floating recording widget — Added a floating control panel that stays on screen during recording                              \r\n  - Editor toolbar improvements — Added Home and New Recording buttons to the editor toolbar for easier navigation between screens\r\n  - Home button on recording screen — Added Home button to the recording screen control bar                                       \r\n  - Keyframe deletion shortcut — Selected keyframes can now be deleted with the Backspace/Delete key                              \r\n                                                                                                                                  \r\nBug Fixes                                                                                                                       \r\n                                                                                                                                  \r\n  - Desktop wallpaper included in fullscreen recording — Fixed fullscreen recordings missing the desktop wallpaper background     \r\n  - Window mode rendering — Window corner radius and shadow now scale proportionally with zoom level                              \r\n  - Play button behavior — Play button now restarts from the beginning after playback ends\r\n\r\n**Full Changelog**: https://github.com/syi0808/screenize/compare/v0.1.1...v0.2.0",
+    "html_url": "https://github.com/syi0808/screenize/releases/tag/v0.2.0",
+    "tarball_url": "https://api.github.com/repos/syi0808/screenize/tarball/v0.2.0",
+    "zipball_url": "https://api.github.com/repos/syi0808/screenize/zipball/v0.2.0",
+    "published_at": "2026-01-31T17:21:32Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:01Z",
+    "assets": [
+      {
+        "id": 5053,
+        "release_id": 407,
+        "name": "Screenize.dmg",
+        "size": 2695052,
+        "download_url": "https://github.com/syi0808/screenize/releases/download/v0.2.0/Screenize.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:28Z"
+      }
+    ]
+  },
+  {
+    "id": 408,
+    "repository_id": 2,
+    "tag_name": "v0.1.1",
+    "name": "v0.1.1",
+    "body": "First release",
+    "html_url": "https://github.com/syi0808/screenize/releases/tag/v0.1.1",
+    "tarball_url": "https://api.github.com/repos/syi0808/screenize/tarball/v0.1.1",
+    "zipball_url": "https://api.github.com/repos/syi0808/screenize/zipball/v0.1.1",
+    "published_at": "2026-01-30T13:52:39Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:01Z",
+    "assets": [
+      {
+        "id": 5054,
+        "release_id": 408,
+        "name": "Screenize.dmg",
+        "size": 2662350,
+        "download_url": "https://github.com/syi0808/screenize/releases/download/v0.1.1/Screenize.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:28Z"
+      }
+    ]
+  }
+]

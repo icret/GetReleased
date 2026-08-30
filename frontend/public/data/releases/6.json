@@ -1,0 +1,2684 @@
+[
+  {
+    "id": 83,
+    "repository_id": 6,
+    "tag_name": "v1.6.7",
+    "name": "Keka v1.6.7",
+    "body": "👉 Do not miss [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news\r\n\r\nThis is a hot-fix release.\r\n\r\n## Fixes\r\n- Reverted BSDTAR from 3.8.8 to 3.8.7 due to issues on macOS 26.5.2 (Thanks to @suishouen) #1762\r\n\r\n# Changes in version 1.6.6\r\n\r\n## Fixes\r\n- Enhanced ISO detection and extraction (Thanks to @frvctal) [#1756](https://github.com/aonez/Keka/issues/1756)\r\n\r\n## Formats\r\n- Updated 7ZZ from 26.01 to 26.02 (Thanks to Igor Pavlov)\r\n- Updated BSDTAR from 3.8.7 to 3.8.8 (Thanks to Tim Kientzle and authors)\r\n- Updated LZIP from 1.25 to 1.26 (Thanks to Antonio Diaz Diaz)\r\n- Updated PLZIP from 1.12 to 1.13 (Thanks to Antonio Diaz Diaz)\r\n- Updated XZ from 5.8.1 to 5.8.3 (Thanks to Lasse Collin)\r\n- Stripped P7ZIP ARM support, only used as fallback on 10.13 or older (Intel)\r\n\r\n## Translations\r\n- Japanese translation updated (Thanks to @SakiPapa) [#1753](https://github.com/aonez/Keka/issues/1753) [#1761](https://github.com/aonez/Keka/issues/1761)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.6.7",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.6.7",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.6.7",
+    "published_at": "2026-06-30T12:42:14Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3856,
+        "release_id": 83,
+        "name": "1.5.1r5600-1.6.7r5729.delta",
+        "size": 8002590,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.7/1.5.1r5600-1.6.7r5729.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3857,
+        "release_id": 83,
+        "name": "1.5.2r5613-1.6.7r5729.delta",
+        "size": 7891115,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.7/1.5.2r5613-1.6.7r5729.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3858,
+        "release_id": 83,
+        "name": "1.6.0r5638-1.6.7r5729.delta",
+        "size": 7793717,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.7/1.6.0r5638-1.6.7r5729.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3859,
+        "release_id": 83,
+        "name": "1.6.1r5665-1.6.7r5729.delta",
+        "size": 3009773,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.7/1.6.1r5665-1.6.7r5729.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3860,
+        "release_id": 83,
+        "name": "1.6.2r5695-1.6.7r5729.delta",
+        "size": 1711504,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.7/1.6.2r5695-1.6.7r5729.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3861,
+        "release_id": 83,
+        "name": "1.6.3r5699-1.6.7r5729.delta",
+        "size": 1706610,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.7/1.6.3r5699-1.6.7r5729.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3862,
+        "release_id": 83,
+        "name": "1.6.4r5707-1.6.7r5729.delta",
+        "size": 1345567,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.7/1.6.4r5707-1.6.7r5729.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3863,
+        "release_id": 83,
+        "name": "1.6.5r5715-1.6.7r5729.delta",
+        "size": 519746,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.7/1.6.5r5715-1.6.7r5729.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3864,
+        "release_id": 83,
+        "name": "Keka-1.6.7.dmg",
+        "size": 35899246,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.7/Keka-1.6.7.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3865,
+        "release_id": 83,
+        "name": "Keka-1.6.7.txt",
+        "size": 3629,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.7/Keka-1.6.7.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3866,
+        "release_id": 83,
+        "name": "Keka-1.6.7.zip",
+        "size": 32861805,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.7/Keka-1.6.7.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "repository_id": 6,
+    "tag_name": "v1.6.6",
+    "name": "Keka v1.6.6",
+    "body": "👉 Do not miss [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news\r\n\r\nThis is a maintenance release.\r\n\r\n## Fixes\r\n- Enhanced ISO detection and extraction (Thanks to @frvctal) [#1756](https://github.com/aonez/Keka/issues/1756)\r\n\r\n## Formats\r\n- Updated 7ZZ from 26.01 to 26.02 (Thanks to Igor Pavlov)\r\n- Updated BSDTAR from 3.8.7 to 3.8.8 (Thanks to Tim Kientzle and authors)\r\n- Updated LZIP from 1.25 to 1.26 (Thanks to Antonio Diaz Diaz)\r\n- Updated PLZIP from 1.12 to 1.13 (Thanks to Antonio Diaz Diaz)\r\n- Updated XZ from 5.8.1 to 5.8.3 (Thanks to Lasse Collin)\r\n- Stripped P7ZIP ARM support, only used as fallback on 10.13 or older (Intel)\r\n\r\n## Translations\r\n- Japanese translation updated (Thanks to @SakiPapa) [#1753](https://github.com/aonez/Keka/issues/1753) [#1761](https://github.com/aonez/Keka/issues/1761)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.6.6",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.6.6",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.6.6",
+    "published_at": "2026-06-30T06:38:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3867,
+        "release_id": 84,
+        "name": "1.5.1r5600-1.6.6r5727.delta",
+        "size": 7938283,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.6/1.5.1r5600-1.6.6r5727.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3868,
+        "release_id": 84,
+        "name": "1.5.2r5613-1.6.6r5727.delta",
+        "size": 7825957,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.6/1.5.2r5613-1.6.6r5727.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3869,
+        "release_id": 84,
+        "name": "1.6.0r5638-1.6.6r5727.delta",
+        "size": 7728462,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.6/1.6.0r5638-1.6.6r5727.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3870,
+        "release_id": 84,
+        "name": "1.6.1r5665-1.6.6r5727.delta",
+        "size": 2944609,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.6/1.6.1r5665-1.6.6r5727.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3871,
+        "release_id": 84,
+        "name": "1.6.2r5695-1.6.6r5727.delta",
+        "size": 1655956,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.6/1.6.2r5695-1.6.6r5727.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3872,
+        "release_id": 84,
+        "name": "1.6.3r5699-1.6.6r5727.delta",
+        "size": 1660122,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.6/1.6.3r5699-1.6.6r5727.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3873,
+        "release_id": 84,
+        "name": "1.6.4r5707-1.6.6r5727.delta",
+        "size": 1755464,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.6/1.6.4r5707-1.6.6r5727.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3874,
+        "release_id": 84,
+        "name": "1.6.5r5715-1.6.6r5727.delta",
+        "size": 935965,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.6/1.6.5r5715-1.6.6r5727.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3875,
+        "release_id": 84,
+        "name": "Keka-1.6.6.dmg",
+        "size": 35901725,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.6/Keka-1.6.6.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3876,
+        "release_id": 84,
+        "name": "Keka-1.6.6.txt",
+        "size": 3629,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.6/Keka-1.6.6.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "repository_id": 6,
+    "tag_name": "v1.6.5",
+    "name": "Keka v1.6.5",
+    "body": "👉 Do not miss [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news\r\n\r\nThis is a maintenance release.\r\n\r\n## Fixes\r\n- Enhanced extraction of 32 bit overflow in ZIP headers (Thanks to @dtoub) [#1747](https://github.com/aonez/Keka/issues/1747)\r\n- Fixed Love buttons not clickable on macOS 26 Tahoe (Thanks to @NicDuquette) [#1751](https://github.com/aonez/Keka/issues/1751)\r\n\r\n## Formats\r\n- Updated 7ZZ from 26.00 to 26.01 (Thanks to Igor Pavlov \u0026 @Mr-xn) [#1752](https://github.com/aonez/Keka/issues/1752)\r\n\r\n## Translations\r\n- Japanese translation updated (Thanks to @SakiPapa) [#1750](https://github.com/aonez/Keka/issues/1750)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.6.5",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.6.5",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.6.5",
+    "published_at": "2026-05-29T20:26:07Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3877,
+        "release_id": 85,
+        "name": "1.5.0r5587-1.6.5r5715.delta",
+        "size": 7882635,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.5/1.5.0r5587-1.6.5r5715.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3878,
+        "release_id": 85,
+        "name": "1.5.1r5600-1.6.5r5715.delta",
+        "size": 7880012,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.5/1.5.1r5600-1.6.5r5715.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3879,
+        "release_id": 85,
+        "name": "1.5.2r5613-1.6.5r5715.delta",
+        "size": 7762401,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.5/1.5.2r5613-1.6.5r5715.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3880,
+        "release_id": 85,
+        "name": "1.6.0r5638-1.6.5r5715.delta",
+        "size": 7656807,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.5/1.6.0r5638-1.6.5r5715.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3881,
+        "release_id": 85,
+        "name": "1.6.1r5665-1.6.5r5715.delta",
+        "size": 2870150,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.5/1.6.1r5665-1.6.5r5715.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3882,
+        "release_id": 85,
+        "name": "1.6.2r5695-1.6.5r5715.delta",
+        "size": 1546315,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.5/1.6.2r5695-1.6.5r5715.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3883,
+        "release_id": 85,
+        "name": "1.6.3r5699-1.6.5r5715.delta",
+        "size": 1542213,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.5/1.6.3r5699-1.6.5r5715.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3884,
+        "release_id": 85,
+        "name": "1.6.4r5707-1.6.5r5715.delta",
+        "size": 1190950,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.5/1.6.4r5707-1.6.5r5715.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3885,
+        "release_id": 85,
+        "name": "Keka-1.6.5.dmg",
+        "size": 37120763,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.5/Keka-1.6.5.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3886,
+        "release_id": 85,
+        "name": "Keka-1.6.5.txt",
+        "size": 3630,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.5/Keka-1.6.5.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3887,
+        "release_id": 85,
+        "name": "Keka-1.6.5.zip",
+        "size": 33948073,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.5/Keka-1.6.5.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "repository_id": 6,
+    "tag_name": "v1.6.4",
+    "name": "Keka v1.6.4",
+    "body": "👉 Do not miss [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news\r\n\r\nThis is a maintenance release.\r\n\r\n## Fixes\r\n- Fixed TAR compression not failing in some sandbox scenarios (Thanks to @mucheasy) [#1743](https://github.com/aonez/Keka/issues/1743)\r\n\r\n## Formats\r\n- Updated BSDTAR from 3.8.6 to 3.8.7 (Thanks to Tim Kientzle and authors)\r\n\r\n## Translations\r\n- Added Thai translation (Thanks to @pokpong007) [#1739](https://github.com/aonez/Keka/issues/1739)\r\n- French translation updated (Thanks to @methbkts) [#1735](https://github.com/aonez/Keka/issues/1735)\r\n- Czech translation updated (Thanks to @ferben) [#1738](https://github.com/aonez/Keka/issues/1738)\r\n- Traditional Chinese translation updated (Thanks to @pan93412) [#1741](https://github.com/aonez/Keka/issues/1741)\r\n",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.6.4",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.6.4",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.6.4",
+    "published_at": "2026-05-07T05:54:35Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3888,
+        "release_id": 86,
+        "name": "1.4.8r5573-1.6.4r5707.delta",
+        "size": 7313665,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.4/1.4.8r5573-1.6.4r5707.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3889,
+        "release_id": 86,
+        "name": "1.5.0r5587-1.6.4r5707.delta",
+        "size": 7135314,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.4/1.5.0r5587-1.6.4r5707.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3890,
+        "release_id": 86,
+        "name": "1.5.1r5600-1.6.4r5707.delta",
+        "size": 7133729,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.4/1.5.1r5600-1.6.4r5707.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3891,
+        "release_id": 86,
+        "name": "1.5.2r5613-1.6.4r5707.delta",
+        "size": 7014320,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.4/1.5.2r5613-1.6.4r5707.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3892,
+        "release_id": 86,
+        "name": "1.6.0r5638-1.6.4r5707.delta",
+        "size": 6902945,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.4/1.6.0r5638-1.6.4r5707.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3893,
+        "release_id": 86,
+        "name": "1.6.1r5665-1.6.4r5707.delta",
+        "size": 2112328,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.4/1.6.1r5665-1.6.4r5707.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3894,
+        "release_id": 86,
+        "name": "1.6.2r5695-1.6.4r5707.delta",
+        "size": 489295,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.4/1.6.2r5695-1.6.4r5707.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3895,
+        "release_id": 86,
+        "name": "1.6.3r5699-1.6.4r5707.delta",
+        "size": 455426,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.4/1.6.3r5699-1.6.4r5707.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3896,
+        "release_id": 86,
+        "name": "Keka-1.6.4.dmg",
+        "size": 37023599,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.4/Keka-1.6.4.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3897,
+        "release_id": 86,
+        "name": "Keka-1.6.4.txt",
+        "size": 3628,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.4/Keka-1.6.4.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3898,
+        "release_id": 86,
+        "name": "Keka-1.6.4.zip",
+        "size": 33884672,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.4/Keka-1.6.4.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "repository_id": 6,
+    "tag_name": "v1.6.3",
+    "name": "Keka v1.6.3",
+    "body": "👉 Do not miss [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news\r\n\r\nThis is a hot-fix release.\r\n\r\n## Fixes\r\n- Fixed possible crash when setting as the default uncompressor for macOS 26.4+ (Thanks to @zeemanz)\r\n\r\n# Changes in version 1.6.2\r\n\r\n## Fixes\r\n- Fixed case-sensitive TAR extraction contents overwrite (Thanks to @checktext00) [#1705](https://github.com/aonez/Keka/issues/1705)\r\n- Fixed Finder Extension actions not showing in some places (Thanks to @Leibcarstein) [#1727](https://github.com/aonez/Keka/issues/1727)\r\n- Fixed setting Keka as the default uncompressor for macOS 26.4+ (Thanks to @zyxingdev) [#1732](https://github.com/aonez/Keka/issues/1732)\r\n\r\n## Formats\r\n- Restore macOS aliases when extracting using 7ZZ\r\n- Updated BROTLI from 1.1.0 to 1.2.0\r\n- Updated BSDTAR from 3.3.3 to 3.8.6 (Thanks to Tim Kientzle and authors)\r\n- Updated 7ZZ from 24.09 to 26.00 (Thanks to Igor Pavlov)\r\n\r\n## Translations\r\n- French translation updated (Thanks to @Marc66) [#1721](https://github.com/aonez/Keka/issues/1721)\r\n- Bulgarian translation updated (Thanks to @m-dragoev) [#1722](https://github.com/aonez/Keka/issues/1722)\r\n- Swedish translation updated (Thanks to @lnswlrd) [#1723](https://github.com/aonez/Keka/issues/1723)\r\n- Russian translation updated (Thanks to @nitrodox) [#1724](https://github.com/aonez/Keka/issues/1724)\r\n- Simplified Chinese translation updated (Thanks to @maxsky from https://maxsky.cc) [#1726](https://github.com/aonez/Keka/issues/1726)\r\n- Korean translation updated (Thanks to @justcontributor) [#1731](https://github.com/aonez/Keka/issues/1731)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.6.3",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.6.3",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.6.3",
+    "published_at": "2026-04-16T10:56:51Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3899,
+        "release_id": 87,
+        "name": "1.4.7r5557-1.6.3r5699.delta",
+        "size": 7759123,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.3/1.4.7r5557-1.6.3r5699.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3900,
+        "release_id": 87,
+        "name": "1.4.8r5573-1.6.3r5699.delta",
+        "size": 7167892,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.3/1.4.8r5573-1.6.3r5699.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3901,
+        "release_id": 87,
+        "name": "1.5.0r5587-1.6.3r5699.delta",
+        "size": 6989447,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.3/1.5.0r5587-1.6.3r5699.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3902,
+        "release_id": 87,
+        "name": "1.5.1r5600-1.6.3r5699.delta",
+        "size": 6989695,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.3/1.5.1r5600-1.6.3r5699.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3903,
+        "release_id": 87,
+        "name": "1.5.2r5613-1.6.3r5699.delta",
+        "size": 6867174,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.3/1.5.2r5613-1.6.3r5699.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3904,
+        "release_id": 87,
+        "name": "1.6.0r5638-1.6.3r5699.delta",
+        "size": 6754767,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.3/1.6.0r5638-1.6.3r5699.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3905,
+        "release_id": 87,
+        "name": "1.6.1r5665-1.6.3r5699.delta",
+        "size": 1963817,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.3/1.6.1r5665-1.6.3r5699.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3906,
+        "release_id": 87,
+        "name": "1.6.2r5695-1.6.3r5699.delta",
+        "size": 117907,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.3/1.6.2r5695-1.6.3r5699.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3907,
+        "release_id": 87,
+        "name": "Keka-1.6.3.dmg",
+        "size": 36977409,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.3/Keka-1.6.3.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3908,
+        "release_id": 87,
+        "name": "Keka-1.6.3.txt",
+        "size": 3629,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.3/Keka-1.6.3.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3909,
+        "release_id": 87,
+        "name": "Keka-1.6.3.zip",
+        "size": 33833262,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.3/Keka-1.6.3.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "repository_id": 6,
+    "tag_name": "v1.6.2",
+    "name": "Keka v1.6.2",
+    "body": "👉 Do not miss [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news\r\n\r\nThis is a maintenance release.\r\n\r\n## Fixes\r\n- Fixed case-sensitive TAR extraction contents overwrite (Thanks to @checktext00) [#1705](https://github.com/aonez/Keka/issues/1705)\r\n- Fixed Finder Extension actions not showing in some places (Thanks to @Leibcarstein) [#1727](https://github.com/aonez/Keka/issues/1727)\r\n- Fixed setting Keka as the default uncompressor for macOS 26.4+ (Thanks to @zyxingdev) [#1732](https://github.com/aonez/Keka/issues/1732)\r\n\r\n## Formats\r\n- Restore macOS aliases when extracting using 7ZZ\r\n- Updated BROTLI from 1.1.0 to 1.2.0\r\n- Updated BSDTAR from 3.3.3 to 3.8.6 (Thanks to Tim Kientzle and authors)\r\n- Updated 7ZZ from 24.09 to 26.00 (Thanks to Igor Pavlov)\r\n\r\n## Translations\r\n- French translation updated (Thanks to @Marc66) [#1721](https://github.com/aonez/Keka/issues/1721)\r\n- Bulgarian translation updated (Thanks to @m-dragoev) [#1722](https://github.com/aonez/Keka/issues/1722)\r\n- Swedish translation updated (Thanks to @lnswlrd) [#1723](https://github.com/aonez/Keka/issues/1723)\r\n- Russian translation updated (Thanks to @nitrodox) [#1724](https://github.com/aonez/Keka/issues/1724)\r\n- Simplified Chinese translation updated (Thanks to @maxsky from https://maxsky.cc) [#1726](https://github.com/aonez/Keka/issues/1726)\r\n- Korean translation updated (Thanks to @justcontributor) [#1731](https://github.com/aonez/Keka/issues/1731)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.6.2",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.6.2",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.6.2",
+    "published_at": "2026-04-16T07:06:08Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3910,
+        "release_id": 88,
+        "name": "1.4.6r5542-1.6.2r5695.delta",
+        "size": 8099579,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.2/1.4.6r5542-1.6.2r5695.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3911,
+        "release_id": 88,
+        "name": "1.4.7r5557-1.6.2r5695.delta",
+        "size": 7761176,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.2/1.4.7r5557-1.6.2r5695.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3912,
+        "release_id": 88,
+        "name": "1.4.8r5573-1.6.2r5695.delta",
+        "size": 7169896,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.2/1.4.8r5573-1.6.2r5695.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3913,
+        "release_id": 88,
+        "name": "1.5.0r5587-1.6.2r5695.delta",
+        "size": 6991241,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.2/1.5.0r5587-1.6.2r5695.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3914,
+        "release_id": 88,
+        "name": "1.5.1r5600-1.6.2r5695.delta",
+        "size": 6983459,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.2/1.5.1r5600-1.6.2r5695.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3915,
+        "release_id": 88,
+        "name": "1.5.2r5613-1.6.2r5695.delta",
+        "size": 6864684,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.2/1.5.2r5613-1.6.2r5695.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3916,
+        "release_id": 88,
+        "name": "1.6.0r5638-1.6.2r5695.delta",
+        "size": 6755111,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.2/1.6.0r5638-1.6.2r5695.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3917,
+        "release_id": 88,
+        "name": "1.6.1r5665-1.6.2r5695.delta",
+        "size": 1961803,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.2/1.6.1r5665-1.6.2r5695.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3918,
+        "release_id": 88,
+        "name": "Keka-1.6.2.dmg",
+        "size": 36976089,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.2/Keka-1.6.2.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3919,
+        "release_id": 88,
+        "name": "Keka-1.6.2.txt",
+        "size": 3630,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.2/Keka-1.6.2.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3920,
+        "release_id": 88,
+        "name": "Keka-1.6.2.zip",
+        "size": 33832968,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.2/Keka-1.6.2.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "repository_id": 6,
+    "tag_name": "v1.6.1",
+    "name": "Keka v1.6.1",
+    "body": "👉 Do not miss [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news\r\n\r\nThis is a feature and maintenance release. Mostly a full macOS 26 Tahoe supported versions with a Liquid icon.\r\n\r\n## Features\r\n- Added option in the Preferences to enable/disable solid archive creation by default [#1700](https://github.com/aonez/Keka/issues/1700)\r\n\r\n## Fixes\r\n- Fixed Finder Extension folder actions using the Columns view (Thanks to @GitGoo70) [#1673](https://github.com/aonez/Keka/issues/1673)\r\n- Fixed support for ZSTD with big window sizes (Thanks to @tirlarim) [#1706](https://github.com/aonez/Keka/issues/1706) \r\n- Fixed ZIP storing local modification time\r\n\r\n## Translations\r\n- Simplified Chinese translation updated (Thanks to @maxsky from https://maxsky.cc) [#1646](https://github.com/aonez/Keka/issues/1646)\r\n- Czech translation updated (Thanks to @ferben) [#1684](https://github.com/aonez/Keka/issues/1684)\r\n- Russian translation updated (Thanks to @nitrodox) [#1707](https://github.com/aonez/Keka/issues/1707)\r\n- Swedish translation updated (Thanks to @lnswlrd) [#1712](https://github.com/aonez/Keka/issues/1712)\r\n- Bulgarian translation updated (Thanks to @m-dragoev) [#1717](https://github.com/aonez/Keka/issues/1717)\r\n- French translation updated (Thanks to @Marc66) [#1718](https://github.com/aonez/Keka/issues/1718)\r\n- Italian translation updated (Thanks to @VinBoiSoft from https://vinboisoft.altervista.org) [#1720](https://github.com/aonez/Keka/issues/1720)\r\n\r\n\r\n\r\n\r\n",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.6.1",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.6.1",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.6.1",
+    "published_at": "2026-03-17T15:20:09Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3921,
+        "release_id": 89,
+        "name": "1.4.5r5509-1.6.1r5665.delta",
+        "size": 13284530,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.1/1.4.5r5509-1.6.1r5665.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3922,
+        "release_id": 89,
+        "name": "1.4.6r5542-1.6.1r5665.delta",
+        "size": 6948932,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.1/1.4.6r5542-1.6.1r5665.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3923,
+        "release_id": 89,
+        "name": "1.4.7r5557-1.6.1r5665.delta",
+        "size": 6311971,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.1/1.4.7r5557-1.6.1r5665.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3924,
+        "release_id": 89,
+        "name": "1.4.8r5573-1.6.1r5665.delta",
+        "size": 5713579,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.1/1.4.8r5573-1.6.1r5665.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3925,
+        "release_id": 89,
+        "name": "1.5.0r5587-1.6.1r5665.delta",
+        "size": 5365678,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.1/1.5.0r5587-1.6.1r5665.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3926,
+        "release_id": 89,
+        "name": "1.5.1r5600-1.6.1r5665.delta",
+        "size": 5361218,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.1/1.5.1r5600-1.6.1r5665.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3927,
+        "release_id": 89,
+        "name": "1.5.2r5613-1.6.1r5665.delta",
+        "size": 5232935,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.1/1.5.2r5613-1.6.1r5665.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3928,
+        "release_id": 89,
+        "name": "1.6.0r5638-1.6.1r5665.delta",
+        "size": 5101188,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.1/1.6.0r5638-1.6.1r5665.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3929,
+        "release_id": 89,
+        "name": "Keka-1.6.1.dmg",
+        "size": 36787119,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.1/Keka-1.6.1.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3930,
+        "release_id": 89,
+        "name": "Keka-1.6.1.txt",
+        "size": 3631,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.1/Keka-1.6.1.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3931,
+        "release_id": 89,
+        "name": "Keka-1.6.1.zip",
+        "size": 33665835,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.1/Keka-1.6.1.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "repository_id": 6,
+    "tag_name": "v1.6.0",
+    "name": "Keka v1.6.0",
+    "body": "👉 Do not miss [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news\r\n\r\nThis is a feature and maintenance release. Mostly a full macOS 26 Tahoe supported versions with a Liquid icon.\r\n\r\n## Features\r\n- Liquid icon on macOS 26 and later (Thanks to @vslavik, @avidrissman \u0026 @siracusa)\r\n- Added 4GB FAT32 split option (Thanks to @jezcaudle) [#1662](https://github.com/aonez/Keka/issues/1662)\r\n\r\n## Fixes\r\n- Minor fixes\r\n\r\n## Formats\r\n- Using liblzma for XZ compression if possible (Thanks to @kytta) [#1654](https://github.com/aonez/Keka/issues/1654)\r\n- Enhanced XAR extraction\r\n\r\n## Translations\r\n- Updated UNRAR from 7.11 to 7.13 (Thanks to rarlab)\r\n- Updated Danish translation (Thanks to @jacobpalm) [#1650](https://github.com/aonez/Keka/issues/1650)\r\n- Italian translation updated (Thanks to @VinBoiSoft from https://vinboisoft.altervista.org) [#1663](https://github.com/aonez/Keka/issues/1663)\r\n- French translation updated (Thanks to @Marc66) [#1664](https://github.com/aonez/Keka/issues/1664)\r\n- Russian translation updated (Thanks to @nitrodox) [#1665](https://github.com/aonez/Keka/issues/1665)\r\n",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.6.0",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.6.0",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.6.0",
+    "published_at": "2025-09-12T07:42:39Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3932,
+        "release_id": 90,
+        "name": "1.4.4r5475-1.6.0r5638.delta",
+        "size": 13161901,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.0/1.4.4r5475-1.6.0r5638.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3933,
+        "release_id": 90,
+        "name": "1.4.5r5509-1.6.0r5638.delta",
+        "size": 13105730,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.0/1.4.5r5509-1.6.0r5638.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3934,
+        "release_id": 90,
+        "name": "1.4.6r5542-1.6.0r5638.delta",
+        "size": 6732578,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.0/1.4.6r5542-1.6.0r5638.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3935,
+        "release_id": 90,
+        "name": "1.4.7r5557-1.6.0r5638.delta",
+        "size": 5979923,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.0/1.4.7r5557-1.6.0r5638.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3936,
+        "release_id": 90,
+        "name": "1.4.8r5573-1.6.0r5638.delta",
+        "size": 5381881,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.0/1.4.8r5573-1.6.0r5638.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3937,
+        "release_id": 90,
+        "name": "1.5.0r5587-1.6.0r5638.delta",
+        "size": 5018087,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.0/1.5.0r5587-1.6.0r5638.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3938,
+        "release_id": 90,
+        "name": "1.5.1r5600-1.6.0r5638.delta",
+        "size": 5015341,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.0/1.5.1r5600-1.6.0r5638.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3939,
+        "release_id": 90,
+        "name": "1.5.2r5613-1.6.0r5638.delta",
+        "size": 4839113,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.0/1.5.2r5613-1.6.0r5638.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3940,
+        "release_id": 90,
+        "name": "Keka-1.6.0.dmg",
+        "size": 37288244,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.0/Keka-1.6.0.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3941,
+        "release_id": 90,
+        "name": "Keka-1.6.0.txt",
+        "size": 3632,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.0/Keka-1.6.0.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3942,
+        "release_id": 90,
+        "name": "Keka-1.6.0.zip",
+        "size": 34125830,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.0/Keka-1.6.0.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "repository_id": 6,
+    "tag_name": "v1.5.2",
+    "name": "Keka v1.5.2",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news\r\n\r\nThis is a minor feature and maintanance release. Check out all the [1.5 release changes](https://github.com/aonez/Keka/releases/tag/v1.5.0).\r\n\r\nTahoe (liquid) icon is already used in the [latests beta](https://www.keka.io/en/#beta), currently being [Keka v1.5.2-dev.r5614](https://github.com/aonez/Keka/releases/tag/v1.5.2-dev.r5614). It is not present in this release.\r\n\r\n## Fixes\r\n- Fixed advanced window not clickable on macOS 26 Tahoe\r\n- Squish face limited to macOS 15 or older\r\n- Fixed interface for right-to-left (RTL) languages (Arabic available in Keka)\r\n- Fixed show in external volumes preferences check status\r\n\r\n## Translations\r\n- Added Danish translation (Thanks to @jacobpalm) [#1636](https://github.com/aonez/Keka/issues/1636) [#1642](https://github.com/aonez/Keka/issues/1642)\r\n- Italian translation updated (Thanks to @VinBoiSoft from https://vinboisoft.altervista.org) [#1633](https://github.com/aonez/Keka/issues/1633)\r\n- French translation updated (Thanks to @Marc66) [#1634](https://github.com/aonez/Keka/issues/1634)\r\n- Russian translation updated (Thanks to @nitrodox) [#1635](https://github.com/aonez/Keka/issues/1635)\r\n- Spanish translation updated (Thanks to @kant) [#1637](https://github.com/aonez/Keka/issues/1637) [#1638](https://github.com/aonez/Keka/issues/1638) [#1639](https://github.com/aonez/Keka/issues/1639) [#1640](https://github.com/aonez/Keka/issues/1640)\r\n- Simplified Chinese translation updated (Thanks to @maxsky) [#1646](https://github.com/aonez/Keka/issues/1646)\r\n",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.5.2",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.5.2",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.5.2",
+    "published_at": "2025-07-01T06:07:06Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3943,
+        "release_id": 91,
+        "name": "1.4.3r5464-1.5.2r5613.delta",
+        "size": 8629573,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2/1.4.3r5464-1.5.2r5613.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3944,
+        "release_id": 91,
+        "name": "1.4.4r5475-1.5.2r5613.delta",
+        "size": 8598741,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2/1.4.4r5475-1.5.2r5613.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3945,
+        "release_id": 91,
+        "name": "1.4.5r5509-1.5.2r5613.delta",
+        "size": 8531741,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2/1.4.5r5509-1.5.2r5613.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3946,
+        "release_id": 91,
+        "name": "1.4.6r5542-1.5.2r5613.delta",
+        "size": 2171686,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2/1.4.6r5542-1.5.2r5613.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3947,
+        "release_id": 91,
+        "name": "1.4.7r5557-1.5.2r5613.delta",
+        "size": 1406743,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2/1.4.7r5557-1.5.2r5613.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3948,
+        "release_id": 91,
+        "name": "1.4.8r5573-1.5.2r5613.delta",
+        "size": 802123,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2/1.4.8r5573-1.5.2r5613.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3949,
+        "release_id": 91,
+        "name": "1.5.0r5587-1.5.2r5613.delta",
+        "size": 402453,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2/1.5.0r5587-1.5.2r5613.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3950,
+        "release_id": 91,
+        "name": "1.5.1r5600-1.5.2r5613.delta",
+        "size": 392934,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2/1.5.1r5600-1.5.2r5613.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3951,
+        "release_id": 91,
+        "name": "Keka-1.5.2.dmg",
+        "size": 32324898,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2/Keka-1.5.2.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3952,
+        "release_id": 91,
+        "name": "Keka-1.5.2.txt",
+        "size": 3627,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2/Keka-1.5.2.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3953,
+        "release_id": 91,
+        "name": "Keka-1.5.2.zip",
+        "size": 29252607,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2/Keka-1.5.2.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "repository_id": 6,
+    "tag_name": "v1.5.2-dev.r5614",
+    "name": "Keka v1.5.2-dev.r5614",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news\r\n\r\nThis is a fix release for **macOS 26 Tahoe**. Check out all the [1.5 release changes](https://github.com/aonez/Keka/releases/tag/v1.5.0).\r\n\r\n## Changes since build 5608\r\n- Using Liquid icon on macOS 11 and later\r\n- Squish face limited to macOS 15 or older\r\n\r\n### All 1.5.2 changes:\r\n- https://github.com/aonez/Keka/releases/tag/v1.5.2-dev.r5608\r\n",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.5.2-dev.r5614",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.5.2-dev.r5614",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.5.2-dev.r5614",
+    "published_at": "2025-06-22T09:20:15Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3954,
+        "release_id": 92,
+        "name": "Keka-1.5.2-dev.r5614.dmg",
+        "size": 37777476,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2-dev.r5614/Keka-1.5.2-dev.r5614.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3955,
+        "release_id": 92,
+        "name": "Keka-1.5.2-dev.r5614.txt",
+        "size": 802,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2-dev.r5614/Keka-1.5.2-dev.r5614.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3956,
+        "release_id": 92,
+        "name": "Keka-1.5.2-dev.r5614.zip",
+        "size": 34578618,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2-dev.r5614/Keka-1.5.2-dev.r5614.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "repository_id": 6,
+    "tag_name": "v1.5.2-dev.r5608",
+    "name": "Keka v1.5.2-dev.r5608",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news\r\n\r\nThis is a fix release for **macOS 26 Tahoe**. Check out all the [1.5 release changes](https://github.com/aonez/Keka/releases/tag/v1.5.0).\r\n\r\n## Still broken\r\n- Liquid icon?\r\n- Dock numbering\r\n- Icon representation in Preferences\r\n\r\n## Fixes\r\n- Fixed advanced window not clickable on macOS 26 Tahoe\r\n- Fixed interface for right-to-left (RTL) languages (Arabic available in Keka)\r\n- Fixed show in external volumes preferences check status\r\n\r\n## Translations\r\n- Added Danish translation (Thanks to @jacobpalm) [#1636](https://github.com/aonez/Keka/issues/1636)\r\n- Italian translation updated (Thanks to @VinBoiSoft from https://vinboisoft.altervista.org) [#1633](https://github.com/aonez/Keka/issues/1633)\r\n- French translation updated (Thanks to @Marc66) [#1634](https://github.com/aonez/Keka/issues/1634)\r\n- Russian translation updated (Thanks to @nitrodox) [#1635](https://github.com/aonez/Keka/issues/1635)\r\n- Spanish translation updated (Thanks to @kant) [#1637](https://github.com/aonez/Keka/issues/1637) [#1638](https://github.com/aonez/Keka/issues/1638) [#1639](https://github.com/aonez/Keka/issues/1639) [#1640](https://github.com/aonez/Keka/issues/1640)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.5.2-dev.r5608",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.5.2-dev.r5608",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.5.2-dev.r5608",
+    "published_at": "2025-06-11T09:28:42Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3957,
+        "release_id": 93,
+        "name": "Keka-1.5.2-dev.r5608.dmg",
+        "size": 32325302,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2-dev.r5608/Keka-1.5.2-dev.r5608.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3958,
+        "release_id": 93,
+        "name": "Keka-1.5.2-dev.r5608.txt",
+        "size": 802,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2-dev.r5608/Keka-1.5.2-dev.r5608.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3959,
+        "release_id": 93,
+        "name": "Keka-1.5.2-dev.r5608.zip",
+        "size": 29252698,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.2-dev.r5608/Keka-1.5.2-dev.r5608.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "repository_id": 6,
+    "tag_name": "v1.5.1",
+    "name": "Keka v1.5.1",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news\r\n\r\nThis is a minor feature and maintanance release. Check out all the [1.5 release changes](https://github.com/aonez/Keka/releases/tag/v1.5.0).\r\n\r\n## Fixes\r\n- Added Settings button in the toolbar if set to don't show in the Dock (Thanks to @GIT-Preserved) [#1629](https://github.com/aonez/Keka/issues/1629)\r\n- Fixed Keka hidden when setting show in Dock to Never in Mac OS X 10.14 or earlier\r\n- Prevented the deletion of unexpected folder destination on compression tasks [#1631](https://github.com/aonez/Keka/issues/1631)\r\n- Fixed advanced window appearing when running a task on Mac OS X 10.10\r\n\r\n## Translations\r\n- Traditional Chinese translation updated (Thanks to @pan93412) [#1630](https://github.com/aonez/Keka/issues/1630)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.5.1",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.5.1",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.5.1",
+    "published_at": "2025-05-29T16:43:17Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3960,
+        "release_id": 94,
+        "name": "1.4.2r5458-1.5.1r5600.delta",
+        "size": 8537813,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.1/1.4.2r5458-1.5.1r5600.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3961,
+        "release_id": 94,
+        "name": "1.4.3r5464-1.5.1r5600.delta",
+        "size": 8528231,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.1/1.4.3r5464-1.5.1r5600.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3962,
+        "release_id": 94,
+        "name": "1.4.4r5475-1.5.1r5600.delta",
+        "size": 8494659,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.1/1.4.4r5475-1.5.1r5600.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3963,
+        "release_id": 94,
+        "name": "1.4.5r5509-1.5.1r5600.delta",
+        "size": 8411900,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.1/1.4.5r5509-1.5.1r5600.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3964,
+        "release_id": 94,
+        "name": "1.4.6r5542-1.5.1r5600.delta",
+        "size": 2030709,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.1/1.4.6r5542-1.5.1r5600.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3965,
+        "release_id": 94,
+        "name": "1.4.7r5557-1.5.1r5600.delta",
+        "size": 1258925,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.1/1.4.7r5557-1.5.1r5600.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3966,
+        "release_id": 94,
+        "name": "1.4.8r5573-1.5.1r5600.delta",
+        "size": 643646,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.1/1.4.8r5573-1.5.1r5600.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3967,
+        "release_id": 94,
+        "name": "1.5.0r5587-1.5.1r5600.delta",
+        "size": 175485,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.1/1.5.0r5587-1.5.1r5600.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3968,
+        "release_id": 94,
+        "name": "Keka-1.5.1.dmg",
+        "size": 32313316,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.1/Keka-1.5.1.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3969,
+        "release_id": 94,
+        "name": "Keka-1.5.1.txt",
+        "size": 3628,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.1/Keka-1.5.1.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3970,
+        "release_id": 94,
+        "name": "Keka-1.5.1.zip",
+        "size": 29217422,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.1/Keka-1.5.1.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "repository_id": 6,
+    "tag_name": "v1.5.0",
+    "name": "Keka v1.5.0",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [X](https://x.com/kekaosx) to get all the Keka news\r\n\r\nThis is a feature and maintanance release.\r\n\r\n## Features\r\n- Added AppleScript support\r\n\r\n## Fixes\r\n- Enhanced RAR compression support on Apple Silicon (Thanks to @matgaj) [#1576](https://github.com/aonez/Keka/issues/1576)\r\n\r\n## Formats\r\n- Updated XZ from 5.6.4 to 5.8.1 (Thanks to Lasse Collin)\r\n- Updated UNRAR from 7.10 to 7.11 (Thanks to rarlab)\r\n\r\n## Translations\r\n- Added Slovenian translation (Thanks to @DrRoglaa) [#1609](https://github.com/aonez/Keka/issues/1609) [#1619](https://github.com/aonez/Keka/issues/1619)\r\n- Brazilian Portuguese translation updated (Thanks to @vitu from https://brlingo.com) [#1601](https://github.com/aonez/Keka/issues/1601) [#1604](https://github.com/aonez/Keka/issues/1604) [#1605](https://github.com/aonez/Keka/issues/1605)\r\n- Japanese translation updated (Thanks to @tedSw) [#1610](https://github.com/aonez/Keka/issues/1610)\r\n- Russian translation updated (Thanks to @nitrodox) [#1617](https://github.com/aonez/Keka/issues/1617)\r\n- Polish translation updated (Thanks to @matgaj) [#1620](https://github.com/aonez/Keka/issues/1620)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.5.0",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.5.0",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.5.0",
+    "published_at": "2025-05-20T07:17:11Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3971,
+        "release_id": 95,
+        "name": "1.4.1r5454-1.5.0r5587.delta",
+        "size": 8533839,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.0/1.4.1r5454-1.5.0r5587.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3972,
+        "release_id": 95,
+        "name": "1.4.2r5458-1.5.0r5587.delta",
+        "size": 8532953,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.0/1.4.2r5458-1.5.0r5587.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3973,
+        "release_id": 95,
+        "name": "1.4.3r5464-1.5.0r5587.delta",
+        "size": 8523304,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.0/1.4.3r5464-1.5.0r5587.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3974,
+        "release_id": 95,
+        "name": "1.4.4r5475-1.5.0r5587.delta",
+        "size": 8489357,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.0/1.4.4r5475-1.5.0r5587.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3975,
+        "release_id": 95,
+        "name": "1.4.5r5509-1.5.0r5587.delta",
+        "size": 8410639,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.0/1.4.5r5509-1.5.0r5587.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3976,
+        "release_id": 95,
+        "name": "1.4.6r5542-1.5.0r5587.delta",
+        "size": 2025212,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.0/1.4.6r5542-1.5.0r5587.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3977,
+        "release_id": 95,
+        "name": "1.4.7r5557-1.5.0r5587.delta",
+        "size": 1241305,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.0/1.4.7r5557-1.5.0r5587.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3978,
+        "release_id": 95,
+        "name": "1.4.8r5573-1.5.0r5587.delta",
+        "size": 610715,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.0/1.4.8r5573-1.5.0r5587.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3979,
+        "release_id": 95,
+        "name": "Keka-1.5.0.dmg",
+        "size": 32310773,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.0/Keka-1.5.0.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3980,
+        "release_id": 95,
+        "name": "Keka-1.5.0.txt",
+        "size": 3629,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.0/Keka-1.5.0.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3981,
+        "release_id": 95,
+        "name": "Keka-1.5.0.zip",
+        "size": 29215855,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.5.0/Keka-1.5.0.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "repository_id": 6,
+    "tag_name": "v1.4.8",
+    "name": "Keka v1.4.8",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [Twitter](https://twitter.com/kekaosx) to get all the Keka news\r\n\r\nThis is a minor feature and maintanance release. Check out all the [1.4 release changes](https://github.com/aonez/Keka/releases/tag/v1.4.0).\r\n\r\n## Fixes\r\n- Remove split volume extension from single part compressions (Thanks to @chrisl64squares) [#1587](https://github.com/aonez/Keka/issues/1587)\r\n- Enhanced split volume naming iteration on some instances\r\n- Added additional IAP (Little Snitch) information for the update process (Thanks to zephyr73)\r\n- Fixed some VoiceOver accessibility labels (Thanks to @math65) [#1588](https://github.com/aonez/Keka/issues/1588)\r\n\r\n## Formats\r\n- Updated ZSTD from 1.5.6 to 1.5.7 (Thanks to Meta and contributors)\r\n- Updated XZ from 5.6.3 to 5.6.4 (Thanks to Lasse Collin)\r\n- Updated LZIP from 1.24 to 1.25 (Thanks to Antonio Diaz Diaz)\r\n- Updated PLZIP from 1.11 to 1.12 (Thanks to Antonio Diaz Diaz)\r\n- Updated UNRAR from 7.01 to 7.10 (Thanks to rarlab)\r\n\r\n## Translations\r\n- Simplified Chinese translation updated (Thanks to @maxsky) [#1580](https://github.com/aonez/Keka/issues/1580)\r\n- Italian translation updated (Thanks to @VinBoiSoft from https://vinboisoft.altervista.org) [#1581](https://github.com/aonez/Keka/issues/1581) [#1589](https://github.com/aonez/Keka/issues/1589)\r\n- French translation updated (Thanks to @Marc66) [#1582](https://github.com/aonez/Keka/issues/1582) [#1590](https://github.com/aonez/Keka/issues/1590)\r\n- Russian translation updated (Thanks to @nitrodox) [#1591](https://github.com/aonez/Keka/issues/1591)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.8",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.8",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.8",
+    "published_at": "2025-03-25T09:37:31Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3982,
+        "release_id": 96,
+        "name": "1.3.8r5320-1.4.8r5573.delta",
+        "size": 10378606,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.8/1.3.8r5320-1.4.8r5573.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3983,
+        "release_id": 96,
+        "name": "1.4.0r5435-1.4.8r5573.delta",
+        "size": 8593939,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.8/1.4.0r5435-1.4.8r5573.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3984,
+        "release_id": 96,
+        "name": "1.4.1r5454-1.4.8r5573.delta",
+        "size": 8484988,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.8/1.4.1r5454-1.4.8r5573.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3985,
+        "release_id": 96,
+        "name": "1.4.2r5458-1.4.8r5573.delta",
+        "size": 8485032,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.8/1.4.2r5458-1.4.8r5573.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3986,
+        "release_id": 96,
+        "name": "1.4.3r5464-1.4.8r5573.delta",
+        "size": 8479352,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.8/1.4.3r5464-1.4.8r5573.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3987,
+        "release_id": 96,
+        "name": "1.4.4r5475-1.4.8r5573.delta",
+        "size": 8447367,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.8/1.4.4r5475-1.4.8r5573.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3988,
+        "release_id": 96,
+        "name": "1.4.5r5509-1.4.8r5573.delta",
+        "size": 8355823,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.8/1.4.5r5509-1.4.8r5573.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3989,
+        "release_id": 96,
+        "name": "1.4.6r5542-1.4.8r5573.delta",
+        "size": 1843293,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.8/1.4.6r5542-1.4.8r5573.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3990,
+        "release_id": 96,
+        "name": "1.4.7r5557-1.4.8r5573.delta",
+        "size": 874365,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.8/1.4.7r5557-1.4.8r5573.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3991,
+        "release_id": 96,
+        "name": "Keka-1.4.8.dmg",
+        "size": 32124533,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.8/Keka-1.4.8.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3992,
+        "release_id": 96,
+        "name": "Keka-1.4.8.txt",
+        "size": 3984,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.8/Keka-1.4.8.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3993,
+        "release_id": 96,
+        "name": "Keka-1.4.8.zip",
+        "size": 29195925,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.8/Keka-1.4.8.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "repository_id": 6,
+    "tag_name": "v1.4.7",
+    "name": "Keka v1.4.7",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [Twitter](https://twitter.com/kekaosx) to get all the Keka news\r\n\r\nThis is a minor feature and maintanance release. Check out all the [1.4 release changes](https://github.com/aonez/Keka/releases/tag/v1.4.0).\r\n\r\n## Fixes\r\n- Fixed menu bar items not clickable on macOS 13 or older (Thanks to @HomeStarRunnerTron) [#1569](https://github.com/aonez/Keka/issues/1569)\r\n- Remember last used option for password visibility in compression task (Thanks to @ultracello) [#1575](https://github.com/aonez/Keka/issues/1575)\r\n- Minor fixes in the Preferences layout\r\n- Minor fixes in Finder Extension Preferences behavior [#1574](https://github.com/aonez/Keka/issues/1574)\r\n\r\n## Formats\r\n- Updated 7ZZ from 24.08 to 24.09 (Thanks to Igor Pavlov)\r\n\r\n## Translations\r\n- Russian translation updated (Thanks to @nitrodox) [#1554](https://github.com/aonez/Keka/issues/1554)\r\n- Traditional Chinese translation updated (Thanks to @pan93412) [#1555](https://github.com/aonez/Keka/issues/1555)\r\n- Polish translation updated (Thanks to @poset-pl) [#1577](https://github.com/aonez/Keka/issues/1577) [#1578](https://github.com/aonez/Keka/issues/1578) [#1579](https://github.com/aonez/Keka/issues/1579)\r\n",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.7",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.7",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.7",
+    "published_at": "2025-01-09T19:47:56Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 3994,
+        "release_id": 97,
+        "name": "1.3.8r5320-1.4.7r5557.delta",
+        "size": 10388336,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.7/1.3.8r5320-1.4.7r5557.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3995,
+        "release_id": 97,
+        "name": "1.4.0r5435-1.4.7r5557.delta",
+        "size": 8540042,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.7/1.4.0r5435-1.4.7r5557.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3996,
+        "release_id": 97,
+        "name": "1.4.1r5454-1.4.7r5557.delta",
+        "size": 8435649,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.7/1.4.1r5454-1.4.7r5557.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3997,
+        "release_id": 97,
+        "name": "1.4.2r5458-1.4.7r5557.delta",
+        "size": 8435313,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.7/1.4.2r5458-1.4.7r5557.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3998,
+        "release_id": 97,
+        "name": "1.4.3r5464-1.4.7r5557.delta",
+        "size": 8427389,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.7/1.4.3r5464-1.4.7r5557.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 3999,
+        "release_id": 97,
+        "name": "1.4.4r5475-1.4.7r5557.delta",
+        "size": 8393420,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.7/1.4.4r5475-1.4.7r5557.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4000,
+        "release_id": 97,
+        "name": "1.4.5r5509-1.4.7r5557.delta",
+        "size": 8289288,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.7/1.4.5r5509-1.4.7r5557.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4001,
+        "release_id": 97,
+        "name": "1.4.6r5542-1.4.7r5557.delta",
+        "size": 1158205,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.7/1.4.6r5542-1.4.7r5557.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4002,
+        "release_id": 97,
+        "name": "Keka-1.4.7.dmg",
+        "size": 32300014,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.7/Keka-1.4.7.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4003,
+        "release_id": 97,
+        "name": "Keka-1.4.7.txt",
+        "size": 3631,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.7/Keka-1.4.7.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4004,
+        "release_id": 97,
+        "name": "Keka-1.4.7.zip",
+        "size": 29194910,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.7/Keka-1.4.7.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "repository_id": 6,
+    "tag_name": "v1.4.6",
+    "name": "Keka v1.4.6",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [Twitter](https://twitter.com/kekaosx) to get all the Keka news\r\n\r\nThis is a minor feature and maintanance release. Check out all the [1.4 release changes](https://github.com/aonez/Keka/releases/tag/v1.4.0).\r\n\r\n## Features\r\n- New option to silently ignore extra trailing data (Thanks to @systemcrash) [#1521](https://github.com/aonez/Keka/issues/1521)\r\n- New option to make Advanced and Preferences windows resizable (Thanks to @Undefined-User) [#1539](https://github.com/aonez/Keka/issues/1539)\r\n- Easily enable/disable the Finder Extension on macOS 15.2 or newer [#1464](https://github.com/aonez/Keka/issues/1464)\r\n- Slightly reduced the size of Keka\r\n\r\n## Fixes\r\n- Enhanced positioning of the Advanced window, specially when using more than one\r\n- Fixed extraction auto-renaming starting with number 3 (Thanks to @OnesuchDev) [#1537](https://github.com/aonez/Keka/issues/1537)\r\n- Fixed exclusion of some Mac resource forks (Thanks to @jajajaneeneenee) [#488](https://github.com/aonez/Keka/issues/488) [#1236](https://github.com/aonez/Keka/issues/1236) [#1548](https://github.com/aonez/Keka/issues/1548)\r\n\r\n## Formats\r\n- LBZIP2 no more included (PBZIP2 was already used by default)\r\n\r\n## Translations\r\n- Japanese translation updated (Thanks to @tedSw) [#1541](https://github.com/aonez/Keka/issues/1541)\r\n- Simplified Chinese translation updated (Thanks to @maxsky) [#1542](https://github.com/aonez/Keka/issues/1542)\r\n- Traditional Chinese translation updated (Thanks to @pan93412) [#1543](https://github.com/aonez/Keka/issues/1543)\r\n- Italian translation updated (Thanks to @VinBoiSoft from https://vinboisoft.altervista.org) [#1546](https://github.com/aonez/Keka/issues/1546)\r\n- French translation updated (Thanks to @Marc66) [#1547](https://github.com/aonez/Keka/issues/1547)\r\n- Czech translation updated (Thanks to @ferben) [#1551](https://github.com/aonez/Keka/issues/1551)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.6",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.6",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.6",
+    "published_at": "2024-11-26T08:05:21Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4005,
+        "release_id": 98,
+        "name": "1.3.7r5302-1.4.6r5542.delta",
+        "size": 10025068,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.6/1.3.7r5302-1.4.6r5542.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4006,
+        "release_id": 98,
+        "name": "1.3.8r5320-1.4.6r5542.delta",
+        "size": 10146671,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.6/1.3.8r5320-1.4.6r5542.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4007,
+        "release_id": 98,
+        "name": "1.4.0r5435-1.4.6r5542.delta",
+        "size": 8149029,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.6/1.4.0r5435-1.4.6r5542.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4008,
+        "release_id": 98,
+        "name": "1.4.1r5454-1.4.6r5542.delta",
+        "size": 7863534,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.6/1.4.1r5454-1.4.6r5542.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4009,
+        "release_id": 98,
+        "name": "1.4.2r5458-1.4.6r5542.delta",
+        "size": 7862772,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.6/1.4.2r5458-1.4.6r5542.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4010,
+        "release_id": 98,
+        "name": "1.4.3r5464-1.4.6r5542.delta",
+        "size": 7854411,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.6/1.4.3r5464-1.4.6r5542.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4011,
+        "release_id": 98,
+        "name": "1.4.4r5475-1.4.6r5542.delta",
+        "size": 7813804,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.6/1.4.4r5475-1.4.6r5542.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4012,
+        "release_id": 98,
+        "name": "1.4.5r5509-1.4.6r5542.delta",
+        "size": 7686531,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.6/1.4.5r5509-1.4.6r5542.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4013,
+        "release_id": 98,
+        "name": "Keka-1.4.6.dmg",
+        "size": 32129104,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.6/Keka-1.4.6.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4014,
+        "release_id": 98,
+        "name": "Keka-1.4.6.txt",
+        "size": 3632,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.6/Keka-1.4.6.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4015,
+        "release_id": 98,
+        "name": "Keka-1.4.6.zip",
+        "size": 29016218,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.6/Keka-1.4.6.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "repository_id": 6,
+    "tag_name": "v1.4.5",
+    "name": "Keka v1.4.5",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [Twitter](https://twitter.com/kekaosx) to get all the Keka news\r\n\r\nThis is a minor feature and maintanance release. Check out all the [1.4 release changes](https://github.com/aonez/Keka/releases/tag/v1.4.0).\r\n\r\n## Features\r\n- Registered as Data handler, shows in \"Open With...\" for more files (including .alfredworkflow)\r\n- Extraction of files with trailing garbage data not removed (Thanks to @systemcrash) [#1521](https://github.com/aonez/Keka/issues/1521)\r\n- Option to activate Keka on new operations (fixes tasks window appearing behind others) (Thanks to @mB-PiBox) [#1518](https://github.com/aonez/Keka/issues/1518)\r\n\r\n## Fixes\r\n- Fixed advanced window appearing when Keka called from contextual menu services (Thanks to @Stooovie, @drakeyboy \u0026 @romache) [#1045](https://github.com/aonez/Keka/issues/1045) [#1485](https://github.com/aonez/Keka/issues/1485) [#1512](https://github.com/aonez/Keka/issues/1512)\r\n- Fixed default extraction location selector (Thanks to @giternal) [#1525](https://github.com/aonez/Keka/issues/1525)\r\n\r\n## Formats\r\n- Updated LZIP from 1.23 to 1.24 (Thanks to Antonio Diaz Diaz)\r\n- Updated XZ from 5.6.2 to 5.6.3 (Thanks to Lasse Collin)\r\n\r\n## Translations\r\n- Added Arabic translation (Thanks to @izada) [#1514](https://github.com/aonez/Keka/issues/1514)\r\n- Simplified Chinese translation updated (Thanks to @FengzihangCode and @maxsky) [#1503](https://github.com/aonez/Keka/issues/1503) [#1508](https://github.com/aonez/Keka/issues/1508)\r\n- French translation updated (Thanks to @Marc66) [#1509](https://github.com/aonez/Keka/issues/1509) [#1533](https://github.com/aonez/Keka/issues/1533)\r\n- Italian translation updated (Thanks to @VinBoiSoft from https://vinboisoft.altervista.org) [#1510](https://github.com/aonez/Keka/issues/1510) [#1532](https://github.com/aonez/Keka/issues/1532)\r\n- Russian translation updated (Thanks to @nitrodox) [#1511](https://github.com/aonez/Keka/issues/1511) [#1534](https://github.com/aonez/Keka/issues/1534)\r\n- Traditional Chinese translation updated (Thanks to @pan93412) [#1522](https://github.com/aonez/Keka/issues/1522)\r\n- Czech translation updated (Thanks to @ferben) [#1530](https://github.com/aonez/Keka/issues/1530) [#1536](https://github.com/aonez/Keka/issues/1536)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.5",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.5",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.5",
+    "published_at": "2024-10-24T07:27:59Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4016,
+        "release_id": 99,
+        "name": "1.3.8r5320-1.4.5r5509.delta",
+        "size": 6944221,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.5/1.3.8r5320-1.4.5r5509.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4017,
+        "release_id": 99,
+        "name": "1.4.0r5435-1.4.5r5509.delta",
+        "size": 2599381,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.5/1.4.0r5435-1.4.5r5509.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4018,
+        "release_id": 99,
+        "name": "1.4.1r5454-1.4.5r5509.delta",
+        "size": 893455,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.5/1.4.1r5454-1.4.5r5509.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4019,
+        "release_id": 99,
+        "name": "1.4.2r5458-1.4.5r5509.delta",
+        "size": 894849,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.5/1.4.2r5458-1.4.5r5509.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4020,
+        "release_id": 99,
+        "name": "1.4.3r5464-1.4.5r5509.delta",
+        "size": 877213,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.5/1.4.3r5464-1.4.5r5509.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4021,
+        "release_id": 99,
+        "name": "1.4.4r5475-1.4.5r5509.delta",
+        "size": 440996,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.5/1.4.4r5475-1.4.5r5509.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4022,
+        "release_id": 99,
+        "name": "Keka-1.4.5.dmg",
+        "size": 32409452,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.5/Keka-1.4.5.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4023,
+        "release_id": 99,
+        "name": "Keka-1.4.5.txt",
+        "size": 5750,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.5/Keka-1.4.5.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4024,
+        "release_id": 99,
+        "name": "Keka-1.4.5.zip",
+        "size": 29452372,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.5/Keka-1.4.5.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "repository_id": 6,
+    "tag_name": "v1.4.4",
+    "name": "Keka v1.4.4",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [Twitter](https://twitter.com/kekaosx) to get all the Keka news\r\n\r\nThis is a minor feature and maintanance release. Check out all the [1.4 release changes](https://github.com/aonez/Keka/releases/tag/v1.4.0).\r\n\r\n## Features\r\n\r\n- Option to enable the Finder Extension on the newest and freshest macOS [#1464](https://github.com/aonez/Keka/issues/1464)\r\n  Needs Keka Helper v1.2.0\r\n\r\n## Fixes\r\n\r\n- Fixed compression task not updated when using encryption from the Finder Extension (Thanks to @mehadihn) [#1493](https://github.com/aonez/Keka/issues/1493)\r\n- Fixed possible issue while saving default password (Thanks to @Wynstan) [#1497](https://github.com/aonez/Keka/issues/1497)\r\n\r\n## Formats\r\n\r\n- Updated 7ZZ from 24.07 to 24.08 (Thanks to Igor Pavlov)\r\n- Updated LZ4 from 1.9.5 to 1.10.0 (Thanks to Yann Collet and contributors) [#1496](https://github.com/aonez/Keka/issues/1496)\r\n\r\n## Translations\r\n\r\n- Italian translation updated (Thanks to @VinBoiSoft from https://vinboisoft.altervista.org) [#1480](https://github.com/aonez/Keka/issues/1480)\r\n- French translation updated (Thanks to @Marc66) [#1481](https://github.com/aonez/Keka/issues/1481)\r\n- Japanese translation updated (Thanks to @tedSw) [#1482](https://github.com/aonez/Keka/issues/1482)\r\n- Russian translation updated (Thanks to @nitrodox) [#1483](https://github.com/aonez/Keka/issues/1483)\r\n- Brazilian Portuguese translation updated (Thanks to @vitu from https://brlingo.com) [#1486](https://github.com/aonez/Keka/issues/1486)\r\n- Czech translation updated (Thanks to @ferben) [#1488](https://github.com/aonez/Keka/issues/1488)\r\n- Traditional Chinese translation updated (Thanks to @pan93412) [#1507](https://github.com/aonez/Keka/issues/1507)\r\n",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.4",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.4",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.4",
+    "published_at": "2024-09-12T06:38:03Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4025,
+        "release_id": 100,
+        "name": "1.3.7r5302-1.4.4r5475.delta",
+        "size": 6890334,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.4/1.3.7r5302-1.4.4r5475.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4026,
+        "release_id": 100,
+        "name": "1.3.8r5320-1.4.4r5475.delta",
+        "size": 6876491,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.4/1.3.8r5320-1.4.4r5475.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4027,
+        "release_id": 100,
+        "name": "1.4.0r5435-1.4.4r5475.delta",
+        "size": 2436939,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.4/1.4.0r5435-1.4.4r5475.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4028,
+        "release_id": 100,
+        "name": "1.4.1r5454-1.4.4r5475.delta",
+        "size": 709837,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.4/1.4.1r5454-1.4.4r5475.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4029,
+        "release_id": 100,
+        "name": "1.4.2r5458-1.4.4r5475.delta",
+        "size": 709059,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.4/1.4.2r5458-1.4.4r5475.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4030,
+        "release_id": 100,
+        "name": "1.4.3r5464-1.4.4r5475.delta",
+        "size": 654458,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.4/1.4.3r5464-1.4.4r5475.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4031,
+        "release_id": 100,
+        "name": "Keka-1.4.4.dmg",
+        "size": 32400993,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.4/Keka-1.4.4.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4032,
+        "release_id": 100,
+        "name": "Keka-1.4.4.txt",
+        "size": 5397,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.4/Keka-1.4.4.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4033,
+        "release_id": 100,
+        "name": "Keka-1.4.4.zip",
+        "size": 29411640,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.4/Keka-1.4.4.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4034,
+        "release_id": 100,
+        "name": "KekaExternalHelper-v1.2.0.zip",
+        "size": 171355,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.4/KekaExternalHelper-v1.2.0.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "repository_id": 6,
+    "tag_name": "v1.4.3",
+    "name": "Keka v1.4.3",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [Twitter](https://twitter.com/kekaosx) to get all the Keka news\r\n\r\nThis is a minor feature and maintanance release. Check out all the [1.4 release changes](https://github.com/aonez/Keka/releases/tag/v1.4.0).\r\n\r\n## Changes\r\n\r\n- The automatic action will only check the file format if it is an unrecognized file (Thanks to Jérôme Seydoux from https://foxtrot-search.com)\r\n- New option in the Preferences to always check for the file format\r\n- Removed the 10 file limit to detect the file format",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.3",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.3",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.3",
+    "published_at": "2024-07-02T09:36:38Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4035,
+        "release_id": 101,
+        "name": "1.3.6r5281-1.4.3r5464.delta",
+        "size": 7954060,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.3/1.3.6r5281-1.4.3r5464.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4036,
+        "release_id": 101,
+        "name": "1.3.7r5302-1.4.3r5464.delta",
+        "size": 6847256,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.3/1.3.7r5302-1.4.3r5464.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4037,
+        "release_id": 101,
+        "name": "1.3.8r5320-1.4.3r5464.delta",
+        "size": 6836933,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.3/1.3.8r5320-1.4.3r5464.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4038,
+        "release_id": 101,
+        "name": "1.4.0r5435-1.4.3r5464.delta",
+        "size": 2226716,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.3/1.4.0r5435-1.4.3r5464.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4039,
+        "release_id": 101,
+        "name": "1.4.1r5454-1.4.3r5464.delta",
+        "size": 187542,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.3/1.4.1r5454-1.4.3r5464.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4040,
+        "release_id": 101,
+        "name": "1.4.2r5458-1.4.3r5464.delta",
+        "size": 185992,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.3/1.4.2r5458-1.4.3r5464.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4041,
+        "release_id": 101,
+        "name": "Keka-1.4.3.dmg",
+        "size": 32388960,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.3/Keka-1.4.3.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4042,
+        "release_id": 101,
+        "name": "Keka-1.4.3.txt",
+        "size": 5044,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.3/Keka-1.4.3.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4043,
+        "release_id": 101,
+        "name": "Keka-1.4.3.zip",
+        "size": 29401919,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.3/Keka-1.4.3.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "repository_id": 6,
+    "tag_name": "v1.4.2",
+    "name": "Keka v1.4.2",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [Twitter](https://twitter.com/kekaosx) to get all the Keka news\r\n\r\nThis is a minor feature and maintanance release. Check out all the [1.4 release changes](https://github.com/aonez/Keka/releases/tag/v1.4.0).\r\n\r\n## In version 1.4.2\r\n\r\n- Fixed issue when compressing in ZIP format (Thanks to @drakeyboy) [#1476](https://github.com/aonez/Keka/issues/1476)\r\n- Japanese translation updated (Thanks to @tedSw) [#1475](https://github.com/aonez/Keka/issues/1475)\r\n\r\n## In version 1.4.1\r\n## Fixes\r\n\r\n- Fixed Finder Extension crashing it encrypt options are enabled (Thanks to @hamsterfactor) [#1473](https://github.com/aonez/Keka/issues/1473)\r\n- Self-extracting archive creation modules are now compressed and only used if needed (Thanks to @paul-cossey) [#1470](https://github.com/aonez/Keka/issues/1470)\r\n\r\n## Formats\r\n\r\n- Ensuring 7Z format compatibility with 19.00 version by default (Thanks to Igor Pavlov)\r\n- No longer use 7ZZ 22.01 for ZIP volumes compression [#1328](https://github.com/aonez/Keka/issues/1328)\r\n- Updated 7ZZ from 23.01 to 24.07 (Thanks to Igor Pavlov)\r\n- Updated UNRAR from 7.00 to 7.01 (Thanks to rarlab)\r\n\r\n## Translations\r\n\r\n- Japanese translation updated (Thanks to @tedSw) [#1471](https://github.com/aonez/Keka/issues/1471)\r\n",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.2",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.2",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.2",
+    "published_at": "2024-06-25T10:28:11Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4044,
+        "release_id": 102,
+        "name": "1.3.6r5281-1.4.2r5458.delta",
+        "size": 7945447,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.2/1.3.6r5281-1.4.2r5458.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4045,
+        "release_id": 102,
+        "name": "1.3.7r5302-1.4.2r5458.delta",
+        "size": 6836594,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.2/1.3.7r5302-1.4.2r5458.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4046,
+        "release_id": 102,
+        "name": "1.3.8r5320-1.4.2r5458.delta",
+        "size": 6828303,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.2/1.3.8r5320-1.4.2r5458.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4047,
+        "release_id": 102,
+        "name": "1.4.0r5435-1.4.2r5458.delta",
+        "size": 2161458,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.2/1.4.0r5435-1.4.2r5458.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4048,
+        "release_id": 102,
+        "name": "1.4.1r5454-1.4.2r5458.delta",
+        "size": 78073,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.2/1.4.1r5454-1.4.2r5458.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4049,
+        "release_id": 102,
+        "name": "Keka-1.4.2.dmg",
+        "size": 32388686,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.2/Keka-1.4.2.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4050,
+        "release_id": 102,
+        "name": "Keka-1.4.2.txt",
+        "size": 4690,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.2/Keka-1.4.2.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4051,
+        "release_id": 102,
+        "name": "Keka-1.4.2.zip",
+        "size": 29399820,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.2/Keka-1.4.2.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "repository_id": 6,
+    "tag_name": "v1.4.1",
+    "name": "Keka v1.4.1",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [Twitter](https://twitter.com/kekaosx) to get all the Keka news\r\n\r\nThis is a minor feature and maintanance release. Check out all the [1.4 release changes](https://github.com/aonez/Keka/releases/tag/v1.4.0).\r\n\r\n## Fixes\r\n\r\n- Fixed Finder Extension crashing it encrypt options are enabled (Thanks to @hamsterfactor) [#1473](https://github.com/aonez/Keka/issues/1473)\r\n- Self-extracting archive creation modules are now compressed and only used if needed (Thanks to @paul-cossey) [#1470](https://github.com/aonez/Keka/issues/1470)\r\n\r\n## Formats\r\n\r\n- Ensuring 7Z format compatibility with 19.00 version by default (Thanks to Igor Pavlov)\r\n- No longer use 7ZZ 22.01 for ZIP volumes compression [#1328](https://github.com/aonez/Keka/issues/1328)\r\n- Updated 7ZZ from 23.01 to 24.07 (Thanks to Igor Pavlov)\r\n- Updated UNRAR from 7.00 to 7.01 (Thanks to rarlab)\r\n\r\n## Translations\r\n\r\n- Japanese translation updated (Thanks to @tedSw) [#1471](https://github.com/aonez/Keka/issues/1471)\r\n",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.1",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.1",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.1",
+    "published_at": "2024-06-25T07:12:10Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4052,
+        "release_id": 103,
+        "name": "1.3.6r5281-1.4.1r5454.delta",
+        "size": 7941073,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.1/1.3.6r5281-1.4.1r5454.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4053,
+        "release_id": 103,
+        "name": "1.3.7r5302-1.4.1r5454.delta",
+        "size": 6838958,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.1/1.3.7r5302-1.4.1r5454.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4054,
+        "release_id": 103,
+        "name": "1.3.8r5320-1.4.1r5454.delta",
+        "size": 6829819,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.1/1.3.8r5320-1.4.1r5454.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4055,
+        "release_id": 103,
+        "name": "1.4.0r5435-1.4.1r5454.delta",
+        "size": 2157985,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.1/1.4.0r5435-1.4.1r5454.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4056,
+        "release_id": 103,
+        "name": "Keka-1.4.1.dmg",
+        "size": 32388794,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.1/Keka-1.4.1.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4057,
+        "release_id": 103,
+        "name": "Keka-1.4.1.txt",
+        "size": 4338,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.1/Keka-1.4.1.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4058,
+        "release_id": 103,
+        "name": "Keka-1.4.1.zip",
+        "size": 29399928,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.1/Keka-1.4.1.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "repository_id": 6,
+    "tag_name": "v1.4.0",
+    "name": "Keka v1.4.0",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [Twitter](https://twitter.com/kekaosx) to get all the Keka news\r\n\r\n# Changes and Features\r\n\r\n- New Finder option to encrypt files asking for a password [#26](https://github.com/aonez/Keka/issues/26) [#1162](https://github.com/aonez/Keka/issues/1162)\r\n- New option in the Prefrences to always ask for a password when compressing [#566](https://github.com/aonez/Keka/issues/566) [#1432](https://github.com/aonez/Keka/issues/1432)\r\n- Show password in plain text in the compression and extraction windows [#656](https://github.com/aonez/Keka/issues/656) [#659](https://github.com/aonez/Keka/issues/659)\r\n- Detecting format on unrecognized extension files to extract by default (Limited to 10 or less files at once)\r\n- Options for showing or hiding the icon in the Dock [#1360](https://github.com/aonez/Keka/issues/1360)\r\n- Slightly decreased binaries size\r\n- Added Spotlight keywords (Thanks to Alexander and Santiago for the feedback)\r\n\r\n## Formats\r\n\r\n- Added LZ4 compression and extraction support [#85](https://github.com/aonez/Keka/issues/85) [#1442](https://github.com/aonez/Keka/issues/1442)\r\n- Added LRZIP encryption/decryption support (Thanks to Krzysztof Mitko for the tip)\r\n- Added self-extracting archive creation for 7Z and RAR (unsandboxed) formats\r\n- Added RAR Recovery Volumes creation option (unsandboxed)\r\n- Enhanced 7Z case-sensitive compression support (Thanks to @mejofi for the tip) [#1407](https://github.com/aonez/Keka/issues/1407)\r\n- Added SNAPPY compression and extraction support (Thanks to @spiderman666 and @gingerbeardman) [#1435](https://github.com/aonez/Keka/issues/1435)\r\n- Added iWork .iwa extraction support (Thanks to @spiderman666 and @gingerbeardman) [#1435](https://github.com/aonez/Keka/issues/1435)\r\n- Added Delta Controller Skin to the supported extraction list (Thanks to @gingerbeardman)\r\n- Added Zipped Web Archive Collection (WACZ) to the supported extraction list (Thanks to @Shrinks99) [#1457](https://github.com/aonez/Keka/issues/1457)\r\n- Limited ZIP compression password to 99 characters for better compatibility (Thanks to @Inkoming) [#1443](https://github.com/aonez/Keka/issues/1443)\r\n- Updated UNRAR from 6.24 to 7.00 (Thanks to rarlab)\r\n- Updated XZ from 5.4.5 to 5.6.2 (Thanks to Lasse Collin, keep it up!)\r\n\r\n## Fixes\r\n\r\n- Finder Extension Finnish translation was not being used\r\n\r\n## Translations\r\n\r\n- Italian translation updated (Thanks to @VinBoiSoft from https://vinboisoft.altervista.org) [#1353](https://github.com/aonez/Keka/issues/1353) [#1410](https://github.com/aonez/Keka/issues/1410) [#1453](https://github.com/aonez/Keka/issues/1453) [#1466](https://github.com/aonez/Keka/issues/1466)\r\n- French translation updated (Thanks to @Marc66) [#1354](https://github.com/aonez/Keka/issues/1354) [#1411](https://github.com/aonez/Keka/issues/1411) [#1428](https://github.com/aonez/Keka/issues/1428) [#1456](https://github.com/aonez/Keka/issues/1456) [#1463](https://github.com/aonez/Keka/issues/1463) [#1468](https://github.com/aonez/Keka/issues/1468)\r\n- Czech translation updated (Thanks to @ferben) [#1356](https://github.com/aonez/Keka/issues/1356) [#1412](https://github.com/aonez/Keka/issues/1412) [#1465](https://github.com/aonez/Keka/issues/1465)\r\n- Turkish translation updated (Thanks to @bariskayadelen) [#1358](https://github.com/aonez/Keka/issues/1358)\r\n- Simplified Chinese translation updated (Thanks to @Jerry23011) [#1357](https://github.com/aonez/Keka/issues/1357)\r\n- Russian translation updated (Thanks to @nitrodox) [#1404](https://github.com/aonez/Keka/issues/1404) [#1420](https://github.com/aonez/Keka/issues/1420) [#1434](https://github.com/aonez/Keka/issues/1434) [#1460](https://github.com/aonez/Keka/issues/1460) [#1467](https://github.com/aonez/Keka/issues/1467)\r\n- Traditional Chinese translation updated (Thanks to @pan93412) [#1424](https://github.com/aonez/Keka/issues/1424) [#1454](https://github.com/aonez/Keka/issues/1454)\r\n- Vietnamese translation updated (Thanks to @binhotvn) [#1418](https://github.com/aonez/Keka/issues/1418)\r\n- Korean translation updated (Thanks to @justcontributor) [#1458](https://github.com/aonez/Keka/issues/1458)\r\n",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.0",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.0",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.0",
+    "published_at": "2024-06-18T07:00:34Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4059,
+        "release_id": 104,
+        "name": "1.3.5r5269-1.4.0r5435.delta",
+        "size": 6358542,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0/1.3.5r5269-1.4.0r5435.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4060,
+        "release_id": 104,
+        "name": "1.3.6r5281-1.4.0r5435.delta",
+        "size": 6337180,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0/1.3.6r5281-1.4.0r5435.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4061,
+        "release_id": 104,
+        "name": "1.3.7r5302-1.4.0r5435.delta",
+        "size": 5233016,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0/1.3.7r5302-1.4.0r5435.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4062,
+        "release_id": 104,
+        "name": "1.3.8r5320-1.4.0r5435.delta",
+        "size": 5217174,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0/1.3.8r5320-1.4.0r5435.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4063,
+        "release_id": 104,
+        "name": "Keka-1.4.0.dmg",
+        "size": 34076420,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0/Keka-1.4.0.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4064,
+        "release_id": 104,
+        "name": "Keka-1.4.0.txt",
+        "size": 3984,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0/Keka-1.4.0.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4065,
+        "release_id": 104,
+        "name": "Keka-1.4.0.zip",
+        "size": 30851576,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0/Keka-1.4.0.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "repository_id": 6,
+    "tag_name": "v1.4.0-dev.r5423",
+    "name": "Keka v1.4.0-dev.r5423",
+    "body": "This is a **testing build** of v1.4.0, currently containing these new features and bug fixes:\r\n\r\n## Changes in this revision (5423):\r\n\r\n- Detecting format on unrecognized extension files to extract by default (Limited to 10 or less files at once)\r\n- Limited ZIP compression password to 99 characters for better compatibility (Thanks to @Inkoming) [#1443](https://github.com/aonez/Keka/issues/1443)\r\n- Added LZ4 compression and extraction support [#85](https://github.com/aonez/Keka/issues/85) [#1442](https://github.com/aonez/Keka/issues/1442)\r\n- Added SNAPPY compression and extraction support (Thanks to @spiderman666 and @gingerbeardman) [#1435](https://github.com/aonez/Keka/issues/1435)\r\n- Added Delta Controller Skin to the supported extraction list (Thanks to @gingerbeardman)\r\n- Added iWork .iwa extraction support (Thanks to @spiderman666 and @gingerbeardman) [#1435](https://github.com/aonez/Keka/issues/1435)\r\n- Added Zipped Web Archive Collection (WACZ) to the supported extraction list (Thanks to @Shrinks99) [#1457](https://github.com/aonez/Keka/issues/1457)\r\n- Slightly decreased binaries size\r\n- Added Spotlight keywords (Thanks to Alexander and Santiago for the feedback)\r\n- All available translation updates\r\n\r\n## All changes in v1.4.0:\r\n\r\n- Show password in plain text in the compression and extraction windows [#656](https://github.com/aonez/Keka/issues/656) [#659](https://github.com/aonez/Keka/issues/659)\r\n- Options for showing or hiding the icon in the Dock [#1360](https://github.com/aonez/Keka/issues/1360)\r\n- Added LRZIP encryption/decryption support (Thanks to Krzysztof Mitko for the tip)\r\n- Added self-extracting archive creation for 7Z and RAR (unsandboxed) formats\r\n- Added RAR Recovery Volumes creation option (unsandboxed)\r\n- Enhanced 7Z case-sensitive compression support (Thanks to @mejofi for the tip) [#1407](https://github.com/aonez/Keka/issues/1407)\r\n- Updated UNRAR from 6.24 to 7.00 (Thanks to rarlab)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.0-dev.r5423",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.0-dev.r5423",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.0-dev.r5423",
+    "published_at": "2024-06-06T10:14:13Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4066,
+        "release_id": 105,
+        "name": "Keka-1.4.0-dev.r5423.dmg",
+        "size": 34087943,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0-dev.r5423/Keka-1.4.0-dev.r5423.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4067,
+        "release_id": 105,
+        "name": "Keka-1.4.0-dev.r5423.txt",
+        "size": 802,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0-dev.r5423/Keka-1.4.0-dev.r5423.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4068,
+        "release_id": 105,
+        "name": "Keka-1.4.0-dev.r5423.zip",
+        "size": 30873948,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0-dev.r5423/Keka-1.4.0-dev.r5423.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "repository_id": 6,
+    "tag_name": "v1.4.0-dev.r5383",
+    "name": "Keka v1.4.0-dev.r5383",
+    "body": "This is a **testing build** of v1.4.0, currently containing these fixes and new features:\r\n\r\n## Changes in this revision (5383):\r\n\r\n- All changes and fixes from v1.3.8\r\n- Fixed overlapping \"Recovery Volume\" option. https://github.com/aonez/Keka/issues/1407#issuecomment-1978865228 #1427\r\n- Some translations updated\r\n\r\n## All changes in v1.4.0:\r\n\r\n- Show password in plain text in the compression and extraction windows [#656](https://github.com/aonez/Keka/issues/656) [#659](https://github.com/aonez/Keka/issues/659)\r\n- Options for showing or hiding the icon in the Dock [#1360](https://github.com/aonez/Keka/issues/1360)\r\n- Added LRZIP encryption/decryption support (Thanks to Krzysztof Mitko for the tip)\r\n- Added self-extracting archive creation for 7Z and RAR (unsandboxed) formats\r\n- Added RAR Recovery Volumes creation option (unsandboxed)\r\n- Enhanced 7Z case-sensitive compression support (Thanks to @mejofi for the tip) [#1407](https://github.com/aonez/Keka/issues/1407)\r\n- Updated UNRAR from 6.24 to 7.00 (Thanks to rarlab)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.0-dev.r5383",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.0-dev.r5383",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.0-dev.r5383",
+    "published_at": "2024-04-09T07:26:48Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4069,
+        "release_id": 106,
+        "name": "Keka-1.4.0-dev.r5383.7z",
+        "size": 17892812,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0-dev.r5383/Keka-1.4.0-dev.r5383.7z",
+        "content_type": "application/x-7z-compressed",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4070,
+        "release_id": 106,
+        "name": "Keka-1.4.0-dev.r5383.dmg",
+        "size": 33424352,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0-dev.r5383/Keka-1.4.0-dev.r5383.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4071,
+        "release_id": 106,
+        "name": "Keka-1.4.0-dev.r5383.zip",
+        "size": 30260744,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0-dev.r5383/Keka-1.4.0-dev.r5383.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "repository_id": 6,
+    "tag_name": "v1.3.8",
+    "name": "Keka v1.3.8",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [Twitter](https://twitter.com/kekaosx) to get all the Keka news\r\n\r\nThis is a minor feature and maintanance release. Check out all the [1.3 release changes](https://github.com/aonez/Keka/releases/tag/v1.3.1).\r\n\r\n## Fixes\r\n\r\n- Added MDZ (Commodore Amiga MOD Archive) to the supported extraction list (Thanks to @gingerbeardman)\r\n- Changed Sparkle's bundle identifier (Thanks to @zorgiepoo) [#1414](https://github.com/aonez/Keka/issues/1414)\r\n- Added `keka://` URL scheme to open Keka from wherever [#1426](https://github.com/aonez/Keka/issues/1426)\r\n\r\n## Formats\r\n\r\n- Updated ZSTD from 1.5.5 to 1.5.6 (Thanks to Meta and contributors)\r\n\r\n## Translations\r\n\r\n- Traditional Chinese translation updated (Thanks to @PeterDaveHello, @pan93412) [#1390](https://github.com/aonez/Keka/issues/1390) [#1424](https://github.com/aonez/Keka/issues/1424)\r\n- Vietnamese translation updated (Thanks to @mwolfinspace, @binhotvn) [#1395](https://github.com/aonez/Keka/issues/1395) [#1418](https://github.com/aonez/Keka/issues/1418)\r\n- Italian translation updated (Thanks to @VinBoiSoft from https://vinboisoft.altervista.org) [#1398](https://github.com/aonez/Keka/issues/1398)\r\n- Russian translation updated (Thanks to @nitrodox) [#1404](https://github.com/aonez/Keka/issues/1404)\r\n- Fixed typo in the Dutch translation (Thanks to @inklaar) [#1406](https://github.com/aonez/Keka/issues/1406)\r\n## Fixes",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.3.8",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.3.8",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.3.8",
+    "published_at": "2024-04-09T06:43:15Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4072,
+        "release_id": 107,
+        "name": "1.3.3r5230-1.3.8r5320.delta",
+        "size": 5022550,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.8/1.3.3r5230-1.3.8r5320.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4073,
+        "release_id": 107,
+        "name": "1.3.4r5251-1.3.8r5320.delta",
+        "size": 5836549,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.8/1.3.4r5251-1.3.8r5320.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4074,
+        "release_id": 107,
+        "name": "1.3.5r5269-1.3.8r5320.delta",
+        "size": 3032474,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.8/1.3.5r5269-1.3.8r5320.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4075,
+        "release_id": 107,
+        "name": "1.3.6r5281-1.3.8r5320.delta",
+        "size": 3000722,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.8/1.3.6r5281-1.3.8r5320.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4076,
+        "release_id": 107,
+        "name": "1.3.7r5302-1.3.8r5320.delta",
+        "size": 1462231,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.8/1.3.7r5302-1.3.8r5320.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4077,
+        "release_id": 107,
+        "name": "Keka-1.3.8.dmg",
+        "size": 32967219,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.8/Keka-1.3.8.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4078,
+        "release_id": 107,
+        "name": "Keka-1.3.8.txt",
+        "size": 3630,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.8/Keka-1.3.8.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4079,
+        "release_id": 107,
+        "name": "Keka-1.3.8.zip",
+        "size": 29852911,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.8/Keka-1.3.8.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "repository_id": 6,
+    "tag_name": "v1.4.0-dev.r5355",
+    "name": "Keka v1.4.0-dev.r5355",
+    "body": "This is a build of v1.4.0, currently containing those new features:\r\n\r\n- Show password in plain text in the compression and extraction windows [#656](https://github.com/aonez/Keka/issues/656) [#659](https://github.com/aonez/Keka/issues/659)\r\n- Options for showing or hiding the icon in the Dock [#1360](https://github.com/aonez/Keka/issues/1360)\r\n- Added LRZIP encryption/decryption support (Thanks to Krzysztof Mitko for the tip)\r\n- Added self-extracting archive creation for 7Z and RAR (unsandboxed) formats\r\n- Added RAR Recovery Volumes creation option (unsandboxed)\r\n- Enhanced 7Z case-sensitive compression support (Thanks to @mejofi for the tip) [#1407](https://github.com/aonez/Keka/issues/1407)\r\n- Updated UNRAR from 6.24 to 7.00 (Thanks to rarlab)\r\n\r\nKnown issues:\r\n\r\n- Overlapping \"Recovery Volume\" option. This is fixed for the next release. https://github.com/aonez/Keka/issues/1407#issuecomment-1978865228",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.0-dev.r5355",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.0-dev.r5355",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.0-dev.r5355",
+    "published_at": "2024-03-05T13:57:36Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4080,
+        "release_id": 108,
+        "name": "Keka-1.4.0-dev.r5355.dmg",
+        "size": 33334654,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0-dev.r5355/Keka-1.4.0-dev.r5355.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4081,
+        "release_id": 108,
+        "name": "Keka-1.4.0-dev.r5355.zip",
+        "size": 30158202,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0-dev.r5355/Keka-1.4.0-dev.r5355.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4082,
+        "release_id": 108,
+        "name": "Keka-v1.4.0-dev.r5355.7z",
+        "size": 17827126,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0-dev.r5355/Keka-v1.4.0-dev.r5355.7z",
+        "content_type": "application/x-7z-compressed",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "repository_id": 6,
+    "tag_name": "v1.3.7",
+    "name": "Keka v1.3.7",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [Twitter](https://twitter.com/kekaosx) to get all the Keka news\r\n\r\nThis is a minor feature and maintanance release. Check out all the [1.3 release changes](https://github.com/aonez/Keka/releases/tag/v1.3.1).\r\n\r\n## Fixes\r\n\r\n- Fixed duplicated file extension on split files without file access (Thanks to @superlativo77) [#1381](https://github.com/aonez/Keka/issues/1381)\r\n- Fixed duplicated file extension on some tarball operations (Thanks to @LloydThinks) [#1388](https://github.com/aonez/Keka/issues/1388)\r\n\r\n## Formats\r\n\r\n- Updated UNRAR from 6.23 to 6.24 (Thanks to rarlab)\r\n- Updated XZ from 5.4.4 to 5.4.5 (Thanks to Lasse Collin Mark and contributors)\r\n- Updated UNAR from 1.10.7 to 1.10.8 (Thanks to MacPaw and contributors)\r\n- Updated BROTLI from 1.0.9 to 1.1.0\r\n- Updated PLZIP from 1.9 to 1.11 (Thanks to Antonio Diaz Diaz)\r\n\r\n## Translations\r\n\r\n- German translation updated (Thanks to @velo-city) [#1369](https://github.com/aonez/Keka/issues/1369)\r\n- Czech translation updated (Thanks to @ferben) [#1375](https://github.com/aonez/Keka/issues/1375)\r\n- Russian translation updated (Thanks to @nitrodox) [#1377](https://github.com/aonez/Keka/issues/1377)\r\n- Traditional Chinese translation updated (Thanks to @pan93412) [#1385](https://github.com/aonez/Keka/issues/1385)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.3.7",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.3.7",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.3.7",
+    "published_at": "2024-01-30T09:11:15Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4083,
+        "release_id": 109,
+        "name": "1.3.0r5194-1.3.7r5302.delta",
+        "size": 5506110,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.7/1.3.0r5194-1.3.7r5302.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4084,
+        "release_id": 109,
+        "name": "1.3.1r5197-1.3.7r5302.delta",
+        "size": 5507449,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.7/1.3.1r5197-1.3.7r5302.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4085,
+        "release_id": 109,
+        "name": "1.3.2r5208-1.3.7r5302.delta",
+        "size": 5473968,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.7/1.3.2r5208-1.3.7r5302.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4086,
+        "release_id": 109,
+        "name": "1.3.3r5230-1.3.7r5302.delta",
+        "size": 4098074,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.7/1.3.3r5230-1.3.7r5302.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4087,
+        "release_id": 109,
+        "name": "1.3.4r5251-1.3.7r5302.delta",
+        "size": 4527214,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.7/1.3.4r5251-1.3.7r5302.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4088,
+        "release_id": 109,
+        "name": "1.3.5r5269-1.3.7r5302.delta",
+        "size": 1717508,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.7/1.3.5r5269-1.3.7r5302.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4089,
+        "release_id": 109,
+        "name": "1.3.6r5281-1.3.7r5302.delta",
+        "size": 1678537,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.7/1.3.6r5281-1.3.7r5302.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4090,
+        "release_id": 109,
+        "name": "Keka-1.3.7.dmg",
+        "size": 32852585,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.7/Keka-1.3.7.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4091,
+        "release_id": 109,
+        "name": "Keka-1.3.7.txt",
+        "size": 3276,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.7/Keka-1.3.7.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4092,
+        "release_id": 109,
+        "name": "Keka-1.3.7.zip",
+        "size": 29749401,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.7/Keka-1.3.7.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "repository_id": 6,
+    "tag_name": "v1.3.6",
+    "name": "Keka v1.3.6",
+    "body": "👉 Do not miss the newly introduced [Keka for iOS](https://ios.keka.io) 🤩🤩🤩\r\n👉 Follow us on [Mastodon](https://techhub.social/@keka) and [Twitter](https://twitter.com/kekaosx) to get all the Keka news\r\n\r\nThis is a minor feature and maintanance release. Check out all the [1.3 release changes](https://github.com/aonez/Keka/releases/tag/v1.3.1).\r\n\r\n## Fixes\r\n\r\n- Fixed progress tracking when splitting a ZIP file (Thanks to @Toinebz) [#1366](https://github.com/aonez/Keka/issues/1366)\r\n- Properly remove auto-update options on MAS Preferences version\r\n\r\n## Translations\r\n\r\n- Simplified Chinese translation updated (Thanks to @maxsky from https://maxsky.cc) [#1345](https://github.com/aonez/Keka/issues/1345)\r\n- Brazilian Portuguese translation updated (Thanks to @vitu from https://brlingo.com) [#1340](https://github.com/aonez/Keka/issues/1340)\r\n- Traditional Chinese translation updated (Thanks to @pan93412) [#1346](https://github.com/aonez/Keka/issues/1346)\r\n- Dutch translation updated (Thanks to @LenaWil) [#1348](https://github.com/aonez/Keka/issues/1348)\r\n- Czech translation updated (Thanks to @ferben) [#1349](https://github.com/aonez/Keka/issues/1349)\r\n- Turkish translation updated (Thanks to @bariskayadelen) [#1358](https://github.com/aonez/Keka/issues/1358)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.3.6",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.3.6",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.3.6",
+    "published_at": "2023-11-28T08:20:08Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4093,
+        "release_id": 110,
+        "name": "1.3.0r5194-1.3.6r5281.delta",
+        "size": 4096406,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.6/1.3.0r5194-1.3.6r5281.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4094,
+        "release_id": 110,
+        "name": "1.3.1r5197-1.3.6r5281.delta",
+        "size": 4096863,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.6/1.3.1r5197-1.3.6r5281.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4095,
+        "release_id": 110,
+        "name": "1.3.2r5208-1.3.6r5281.delta",
+        "size": 4056125,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.6/1.3.2r5208-1.3.6r5281.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4096,
+        "release_id": 110,
+        "name": "1.3.3r5230-1.3.6r5281.delta",
+        "size": 2598530,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.6/1.3.3r5230-1.3.6r5281.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4097,
+        "release_id": 110,
+        "name": "1.3.4r5251-1.3.6r5281.delta",
+        "size": 3022328,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.6/1.3.4r5251-1.3.6r5281.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4098,
+        "release_id": 110,
+        "name": "1.3.5r5269-1.3.6r5281.delta",
+        "size": 163474,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.6/1.3.5r5269-1.3.6r5281.delta",
+        "content_type": "application/octet-stream",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4099,
+        "release_id": 110,
+        "name": "Keka-1.3.6.dmg",
+        "size": 32683518,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.6/Keka-1.3.6.dmg",
+        "content_type": "application/x-diskcopy",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4100,
+        "release_id": 110,
+        "name": "Keka-1.3.6.txt",
+        "size": 2921,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.6/Keka-1.3.6.txt",
+        "content_type": "text/plain",
+        "created_at": "2026-08-30T16:38:04Z"
+      },
+      {
+        "id": 4101,
+        "release_id": 110,
+        "name": "Keka-1.3.6.zip",
+        "size": 29640909,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.3.6/Keka-1.3.6.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "repository_id": 6,
+    "tag_name": "v1.4.0-dev.r5285",
+    "name": "Keka v1.4.0-dev.r5285",
+    "body": "This is an early build of v1.4.0, currently containing those new features and fixes:\r\n\r\n- `rev.5279` Show password in plain text in the compression and extraction windows #656 #659\r\n  - `rev.5285` Fixed only using first password/character typed in plain text password\r\n  - `rev.5285` Fixed validation not always working\r\n  - `rev.5285` password limitation popup \u0026 sound fixed when using plain text password\r\n- `rev.5285` Added LRZIP encryption/decryption support (Thanks to Krzysztof Mitko for the tip)",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.0-dev.r5285",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.0-dev.r5285",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.0-dev.r5285",
+    "published_at": "2023-10-30T11:08:38Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4102,
+        "release_id": 111,
+        "name": "Keka-v1.4.0-dev.r5285.7z",
+        "size": 17387322,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0-dev.r5285/Keka-v1.4.0-dev.r5285.7z",
+        "content_type": "application/x-7z-compressed",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "repository_id": 6,
+    "tag_name": "v1.4.0-dev.r5279",
+    "name": "Keka v1.4.0-dev.r5279",
+    "body": "This is an early build of v1.4.0, currently containing those new features:\r\n\r\n- Show password in plain text in the compression and extraction windows #656 #659",
+    "html_url": "https://github.com/aonez/Keka/releases/tag/v1.4.0-dev.r5279",
+    "tarball_url": "https://api.github.com/repos/aonez/Keka/tarball/v1.4.0-dev.r5279",
+    "zipball_url": "https://api.github.com/repos/aonez/Keka/zipball/v1.4.0-dev.r5279",
+    "published_at": "2023-10-19T13:03:18Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:01:36Z",
+    "assets": [
+      {
+        "id": 4103,
+        "release_id": 112,
+        "name": "Keka-v1.4.0-dev.r5279.7z",
+        "size": 17384252,
+        "download_url": "https://github.com/aonez/Keka/releases/download/v1.4.0-dev.r5279/Keka-v1.4.0-dev.r5279.7z",
+        "content_type": "application/x-7z-compressed",
+        "created_at": "2026-08-30T16:38:04Z"
+      }
+    ]
+  }
+]

@@ -1,0 +1,803 @@
+[
+  {
+    "id": 369,
+    "repository_id": 13,
+    "tag_name": "v4.2.2-beta.3",
+    "name": "v4.2.2-beta.3",
+    "body": "\n### Added\n\n- **Auto-adjust selection** — refine all four sides of a rough selection to nearby visual edges from the size presets panel or a configurable shortcut. (#317)\n- **Configurable Undo/Redo shortcuts** — customize, disable, or reset editor command shortcuts in Settings, with semantic key matching across keyboard layouts.\n\n### Changed\n\n- **Beautify controls** — the effect toggle is clearer, disabled controls reflect the current state, and webcam sizing now uses a continuous 80–480 px slider that stays within the recording area.\n\n### Fixed\n\n- Window captures preserve their native shadows.\n- The color sampler reads from the composited canvas and keeps its cursor stable over annotations.\n- Recording setup failures now stop their active ScreenCaptureKit stream instead of leaking work in `replayd`. (#367)\n- **Close Window** (Command-W) now routes through the standard File menu to the active window. (#364)\n- **Video editor Copy** writes playable MP4 data for Mail, Notes, and other paste targets while retaining safe fallbacks for MOV and large files. (#329, #337)\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.2-beta.3",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.2-beta.3",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.2-beta.3",
+    "published_at": "2026-08-29T00:47:26Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5006,
+        "release_id": 369,
+        "name": "MacShot-Offline.dmg",
+        "size": 6714521,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.2-beta.3/MacShot-Offline.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      },
+      {
+        "id": 5007,
+        "release_id": 369,
+        "name": "MacShot.dmg",
+        "size": 6910783,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.2-beta.3/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "repository_id": 13,
+    "tag_name": "v4.2.2-beta.2",
+    "name": "v4.2.2-beta.2",
+    "body": "\n### Added\n\n- **Video text style panel** — selected text effects now expose font family, size, bold/italic, text/background colors, background style, glyph outline, and alignment controls with live paused-preview updates. Styles carry forward to new text segments and remain compatible with saved projects. (#307)\n- **Visible + Effect control** — video effects can be added from the toolbar at the playhead, with nearest-gap placement when the requested time is occupied. (#307)\n\n### Changed\n\n- **WYSIWYG video zoom editing** — zoom selections keep the video aspect ratio, remain within valid bounds, and match the region rendered by preview and export. (#301, #307)\n\n### Fixed\n\n- Transient text editors now own and discard their undo history, preventing Cmd+Z crashes after an editor closes.\n- Escape now cancels an in-progress scroll capture instead of finalizing it (#333).\n- Screenshot filename de-duplication can no longer overwrite an existing file after exhausting numbered names or during concurrent saves (#344).\n- **Video editor timecode rounding** — the timeline's tenths-of-a-second digit could read one low (e.g. 2.3s shown as \"0:02.2\") because it was truncated from a floating-point subtraction instead of rounded. Deriving minutes/seconds/tenths from a single rounded value fixes the digit and the boundary roll-over (1.999s now shows \"0:02.0\", not \"0:01.9\").\n- Built-in GIF exports now preserve playback speed for non-divisor frame-rate conversions and account for GIF centisecond delay rounding (#340).\n- MP4 exports now show persistent percentage progress and ignore duplicate Save/Copy actions while processing (#323).\n- Microphone capture now keeps a stable 48 kHz mono format when Bluetooth headsets switch audio profiles, preventing slowed and pitch-shifted recordings (#326).\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.2-beta.2",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.2-beta.2",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.2-beta.2",
+    "published_at": "2026-08-12T15:32:35Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5008,
+        "release_id": 370,
+        "name": "MacShot-Offline.dmg",
+        "size": 6661182,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.2-beta.2/MacShot-Offline.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      },
+      {
+        "id": 5009,
+        "release_id": 370,
+        "name": "MacShot.dmg",
+        "size": 6850331,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.2-beta.2/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 371,
+    "repository_id": 13,
+    "tag_name": "v4.2.2-beta.1",
+    "name": "v4.2.2-beta.1",
+    "body": "\n### Added\n\n- **Cmd+D duplicates the selected annotations** in place — one keystroke instead of copy+paste, and your clipboard stays untouched.\n- **GIF frame rate picker** in the video editor (5–30 fps, persisted), replacing the fixed 15 fps cap. (#296)\n\n### Changed\n\n- **GIF export uses gifski when available** (app bundle, `/opt/homebrew/bin`, or `/usr/local/bin`) — encodes on all cores and streams frames to disk, so memory stays flat and long recordings no longer crash at finalize. Smaller, better-looking GIFs; falls back to the built-in encoder when gifski is absent. Thanks @anten-ka! (#295, #296)\n- GIF conversion runs at user-initiated priority instead of background — several times faster on Apple Silicon, where background QoS is confined to efficiency cores. (#296)\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.2-beta.1",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.2-beta.1",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.2-beta.1",
+    "published_at": "2026-07-11T13:06:10Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5010,
+        "release_id": 371,
+        "name": "MacShot-Offline.dmg",
+        "size": 6578408,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.2-beta.1/MacShot-Offline.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      },
+      {
+        "id": 5011,
+        "release_id": 371,
+        "name": "MacShot.dmg",
+        "size": 6775120,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.2-beta.1/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 372,
+    "repository_id": 13,
+    "tag_name": "v4.2.1",
+    "name": "v4.2.1",
+    "body": "\n### Added\n\n- **Stamp size control** — a Size slider in the stamp options row sets the default stamp/emoji size (remembered across captures). Stamps keep their aspect ratio when resized from any handle, and resizing an emoji stamp carries that size forward to the next one. (#289)\n- **Measure: \"Limit to selection\"** — the ruler clamps to the capture area across drag-drawing, auto-measure (hold 1/2), and endpoint handle resizing. On by default; toggle in the measure options row. (#212)\n- **Option = draw-through** — with a drawing tool active, hold Option to draw or place right over existing annotations instead of selecting them.\n\n### Fixed\n\n- **Multi-monitor capture on macOS 26** — external displays no longer capture shifted upward with a black bar at the bottom. (#291, #294)\n- **Shortcuts bound to Space work again** — actions like Copy on the Space key were swallowed by 4.2.0's hold-Space-to-reposition feature. (#292)\n- **Shortcut names on non-QWERTY layouts** — hotkey display resolves keys through the active keyboard layout, so Dvorak/Colemak/AZERTY users see the keys they actually press. (#214)\n- **Video editor Copy includes pending edits** — trim, cuts, speed, zoom/censor/text, and mute are applied before copying to the clipboard. (#193)\n- **Multi-monitor: restored selection gets keyboard focus** — Cmd+C, F, and Enter act on the display that shows the restored selection. (#281)\n- Stamp hover preview no longer leaves trails at larger stamp sizes.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.1",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.1",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.1",
+    "published_at": "2026-07-10T17:51:16Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5012,
+        "release_id": 372,
+        "name": "MacShot-Offline.dmg",
+        "size": 6551447,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.1/MacShot-Offline.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      },
+      {
+        "id": 5013,
+        "release_id": 372,
+        "name": "MacShot.dmg",
+        "size": 6747619,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.1/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 373,
+    "repository_id": 13,
+    "tag_name": "v4.2.1-beta.1",
+    "name": "v4.2.1-beta.1",
+    "body": "\n### Added\n\n- **Stamp size control** — a Size slider in the stamp options row sets the default stamp/emoji size (16–256px, remembered across captures). Stamps keep their aspect ratio when resized from any handle, and resizing an emoji stamp carries that size forward to the next one. (#289)\n- **Measure: \"Limit to selection\"** — the ruler clamps to the capture area across drag-drawing, auto-measure (hold 1/2), and endpoint handle resizing. On by default; uncheck the new toggle in the measure options row to restore whole-screen measuring. (#212)\n- **Option = draw-through** — with a drawing tool active, hold Option to draw or place right over existing annotations instead of selecting them.\n\n### Fixed\n\n- **Shortcut names on non-QWERTY layouts** — hotkey display now resolves character keys through the active keyboard layout, so Dvorak/Colemak/AZERTY users see the keys they actually press. (#214)\n- **Video editor Copy includes pending edits** — trim, cuts, speed, zoom/censor/text, and mute are exported before copying to the clipboard instead of copying the untouched source file. (#193)\n- **Multi-monitor: restored selection gets keyboard focus** — Cmd+C, F, and Enter act on the display that actually shows the restored selection. (#281)\n- Stamp hover preview no longer leaves trails at larger stamp sizes.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.1-beta.1",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.1-beta.1",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.1-beta.1",
+    "published_at": "2026-07-09T21:47:46Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5014,
+        "release_id": 373,
+        "name": "MacShot-Offline.dmg",
+        "size": 6551135,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.1-beta.1/MacShot-Offline.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      },
+      {
+        "id": 5015,
+        "release_id": 373,
+        "name": "MacShot.dmg",
+        "size": 6746400,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.1-beta.1/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "repository_id": 13,
+    "tag_name": "v4.2.0",
+    "name": "v4.2.0",
+    "body": "\n### Added\n\n- **Highlight (spotlight) tool** — drag a rectangle to keep that region bright while dimming the rest of the capture. Adjustable dim strength and a solid/dashed border.\n- **Boundary snap** — the selection's edges snap to strong color edges in the image (UI lines, window borders) while dragging, resizing, or moving it. On by default; hold Option to bypass.\n- **Settings import/export** — back up your preferences to a file and move them to another Mac or a clean install (Settings → General → Settings Backup). Upload credentials, your save folder, and screenshot history are never included. (#265, #280)\n- **macshot Offline** — a separate app variant with upload and cloud storage integrations removed, with its own DMG, update feed, and Homebrew cask.\n- **Redesigned selection size control** — split width/height fields, aspect-ratio and resolution presets, a custom ratio lock, and a pre-draw preset button for quick and scroll capture. Exact-resolution capture drags as a fixed-size frame.\n- **Loupe: rooted two-circle magnifier** — a source circle stays where you click and the magnified lens follows your drag, connected by a line. Both move and resize independently, with an outline color option. (#197)\n- **OCR detects QR codes** — with open, copy, and scan actions alongside recognized text.\n- **New URL scheme commands** — `macshot://ocr-translate?target=\u003clang\u003e` captures a region, OCRs it, and overlays the translation in place over the original text (#283); `macshot://edit?id=\u003cid\u003e` reopens a history entry in the editor with its annotations still editable (#272).\n- **History upgrades** — right-click menu on history screenshots (copy, save, edit, pin, upload, OCR/QR, rotate, flip, open with, share, delete) and optional ordering by last edit.\n- **Paste into Editor** — Cmd+V opens a clipboard image directly in the Editor window.\n- **Native AVIF export.**\n- **Custom menu bar icon** — the default, a built-in preset, or any SF Symbol.\n- **Quick Look snapping** — window snapping can select Finder Quick Look windows.\n- **Smaller additions** — hold Space while dragging to move the selection, numpad Enter confirms, Forward Delete removes annotations, silent \"Clear History\" hotkey, point handles for number annotations, configurable save action, hide-shadow-outside-selection and tooltip-shortcut settings.\n\n### Changed\n\n- Removed scroll/pinch-to-zoom from the capture overlay (the editor window still zooms).\n- macshot no longer prevents idle sleep while sitting in the menu bar.\n- Selected text shows a plain selection rectangle instead of an outline tracing the letters.\n- OCR/QR results UI aligned with Translate; actions moved into the header. Text fields use the standard edit menu.\n\n### Fixed\n\n- **Phantom Text Recognition window** — no longer spawns on wake, unlock, or connecting a monitor after using OCR once. (#276)\n- **Text stroke** — the glyph stroke now draws as an outline outside the letter fill instead of a centered stroke that thinned the text. Live editing, the committed image, resizing, and re-editing all render identically; older captures are converted on load. (#257)\n- **Menu bar icon freeze** — clicking the icon could hang the app and kill the global hotkey.\n- **Crash on launch** on macOS versions older than 12.3.\n- **Capture reliability on macOS 26**, including the enlarged \"shake to find\" cursor no longer being captured when \"Capture mouse cursor\" is off.\n- **Clipboard copies** keep retained backing files, so Finder paste and clipboard managers no longer point at deleted temporary files.\n- **Video editor Save** no longer deletes the user's source file.\n- **Recording reliability** — fixed a data race in the recording engine; broken or empty recordings are no longer reported as successful.\n- **Editor edit tracking** — no more false \"Save changes?\" when closing without edits; moving, resizing, or rotating an annotation is undoable and counts as an edit.\n- **Beautify** — removed the thin hairline around rounded screenshot edges when a drop shadow is enabled.\n- **Text boxes** — clicking outside closes the box without dropping a new empty one; text no longer clips at the minimum box height.\n- **Window close buttons** — closing the OCR, audio-merge, or onboarding windows with the red-X no longer leaks them; closing the audio-merge window still delivers the finished recording.\n- The scroll-capture HUD no longer steals focus from the window being captured.\n- Toolbar popovers close when their button is clicked again; the right toolbar stays clear of the notch.\n- Window snapping ignores hidden windows behind the frontmost one.\n- Save panels open focused; editable annotations and post-processing state are preserved when reopening captures; toolbar buttons no longer fire stale actions.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.0",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.0",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.0",
+    "published_at": "2026-07-09T13:17:55Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5016,
+        "release_id": 374,
+        "name": "MacShot-Offline.dmg",
+        "size": 6533065,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0/MacShot-Offline.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      },
+      {
+        "id": 5017,
+        "release_id": 374,
+        "name": "MacShot.dmg",
+        "size": 6734735,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 375,
+    "repository_id": 13,
+    "tag_name": "v4.2.0-beta.11",
+    "name": "v4.2.0-beta.11",
+    "body": "\n### Added\n\n- Import/export settings: back up your preferences to a file and move them to another Mac or a clean install (Preferences → General → Settings Backup). Upload credentials, your save folder, and screenshot history are never included. Answers where settings are stored (issues #265, #280).\n- URL scheme `macshot://ocr-translate?target=\u003clang\u003e`: capture a region, OCR it, translate, and overlay the translation in place over the original text (WeChat-style). `target` is a language code (e.g. `zh-CN`); omit it to use your default translation language. Triggerable from Raycast, Alfred, Shortcuts, or the command line (issue #283).\n\n### Fixed\n\n- Text Recognition window no longer spawns unexpectedly on wake, unlock, or connecting a monitor after using OCR once. An OCR/record/quick-capture/scroll request made while a capture was already in flight or during recording could strand its pending mode and apply it to the next capture (issue #276).\n- Closing the OCR, audio-merge, or permission-onboarding windows with the title-bar close button no longer leaks the controller. The audio-merge window's close button now still delivers the finished recording instead of silently dropping it.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.0-beta.11",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.0-beta.11",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.0-beta.11",
+    "published_at": "2026-07-08T01:11:39Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5018,
+        "release_id": 375,
+        "name": "MacShot-Offline.dmg",
+        "size": 6515631,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.11/MacShot-Offline.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      },
+      {
+        "id": 5019,
+        "release_id": 375,
+        "name": "MacShot.dmg",
+        "size": 6715718,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.11/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 376,
+    "repository_id": 13,
+    "tag_name": "v4.2.0-beta.10",
+    "name": "v4.2.0-beta.10",
+    "body": "\n### Added\n\n- Offline build: the no-upload variant is now `macshot Offline` with its own bundle id, Sparkle feed, DMG, and Homebrew cask naming.\n\n### Fixed\n\n- Clipboard copies now keep retained backing files so Finder paste and clipboard history apps do not point at deleted temporary files.\n- Clipboard copies include both image data and a file reference for better compatibility across paste targets.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.0-beta.10",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.0-beta.10",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.0-beta.10",
+    "published_at": "2026-07-03T16:10:10Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5020,
+        "release_id": 376,
+        "name": "MacShot-Offline.dmg",
+        "size": 6428785,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.10/MacShot-Offline.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      },
+      {
+        "id": 5021,
+        "release_id": 376,
+        "name": "MacShot.dmg",
+        "size": 6627361,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.10/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "repository_id": 13,
+    "tag_name": "v4.2.0-beta.9",
+    "name": "v4.2.0-beta.9",
+    "body": "\n### Added\n\n- Corporate build: a separate `macshot Corporate` app variant with upload and cloud storage integrations removed.\n\n### Fixed\n\n- Highlight rectangles no longer appear temporarily thinner while drawing a new highlight rectangle.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.0-beta.9",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.0-beta.9",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.0-beta.9",
+    "published_at": "2026-06-28T17:28:35Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5022,
+        "release_id": 377,
+        "name": "MacShot-Corporate.dmg",
+        "size": 6419672,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.9/MacShot-Corporate.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      },
+      {
+        "id": 5023,
+        "release_id": 377,
+        "name": "MacShot.dmg",
+        "size": 6617907,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.9/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "repository_id": 13,
+    "tag_name": "v4.2.0-beta.8",
+    "name": "v4.2.0-beta.8",
+    "body": "\n### Fixed\n\n- Fix crash on launch on macOS versions older than 12.3 where ScreenCaptureKit is unavailable (weak-link the framework).\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.0-beta.8",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.0-beta.8",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.0-beta.8",
+    "published_at": "2026-06-24T00:50:43Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5024,
+        "release_id": 378,
+        "name": "MacShot.dmg",
+        "size": 6602929,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.8/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "repository_id": 13,
+    "tag_name": "v4.2.0-beta.7",
+    "name": "v4.2.0-beta.7",
+    "body": "\n### Added\n\n- Custom aspect-ratio lock: in the aspect-ratio presets, a \"Custom\" option locks the current selection's exact ratio, so you can type a width and height and then resize while keeping that proportion.\n- History can be ordered by last edit (Settings, on by default): editing a screenshot moves it to the top of the history panel. Turn it off to keep capture order.\n- Hold Space while dragging to move the whole selection, and boundary snap now applies when moving a selection (not just resizing).\n\n### Fixed\n\n- The editor no longer asks \"Save changes?\" when you close it without having made any edits.\n- Moving, resizing, or rotating an existing annotation is now undoable and correctly counts as an edit.\n- The editor's \"Done\" button only appears once you've actually made an edit.\n- Capture reliability on macOS 26.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.0-beta.7",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.0-beta.7",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.0-beta.7",
+    "published_at": "2026-06-23T01:25:18Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5025,
+        "release_id": 379,
+        "name": "MacShot.dmg",
+        "size": 6602939,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.7/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "repository_id": 13,
+    "tag_name": "v4.2.0-beta.6",
+    "name": "v4.2.0-beta.6",
+    "body": "\n### Added\n\n- Loupe: click + drag to create a rooted two-circle magnifier — a source circle stays where you click and the magnified lens follows your drag, connected by a line. Both circles move and resize independently, the source always frames exactly what the lens shows, and there's an outline color option for the rings and line. (#197)\n\n### Fixed\n\n- The enlarged \"shake to find\" / accessibility mouse cursor is no longer captured when \"Capture mouse cursor\" is off.\n- Clicking a toolbar button that opened a popover (beautify gradient, adjust/effects, color pickers, etc.) now closes it instead of reopening.\n- The right-side toolbar no longer gets placed under the notch on MacBooks that have one.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.0-beta.6",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.0-beta.6",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.0-beta.6",
+    "published_at": "2026-06-21T16:50:22Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5026,
+        "release_id": 380,
+        "name": "MacShot.dmg",
+        "size": 6548185,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.6/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "repository_id": 13,
+    "tag_name": "v4.2.0-beta.5",
+    "name": "v4.2.0-beta.5",
+    "body": "\n### Added\n\n- Paste a clipboard image directly into the Editor window with Cmd+V.\n\n### Changed\n\n- Boundary snap is now enabled by default.\n- Removed the Liquid Glass theme. Toolbars, popovers, and HUDs use the standard solid appearance everywhere.\n\n### Fixed\n\n- Clicking the scroll-capture HUD no longer steals focus from the window being captured.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.0-beta.5",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.0-beta.5",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.0-beta.5",
+    "published_at": "2026-06-21T00:14:47Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5027,
+        "release_id": 381,
+        "name": "MacShot.dmg",
+        "size": 6518116,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.5/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "repository_id": 13,
+    "tag_name": "v4.2.0-beta.4",
+    "name": "v4.2.0-beta.4",
+    "body": "\n### Added\n\n- Boundary snap — when enabled, the capture selection's edges snap to strong color edges in the image (UI lines, window borders) while you drag or resize it. Off by default (Settings → Capture); hold Option to bypass.\n\n### Fixed\n\n- Menu bar icon could freeze the app and stop the global hotkey from working.\n- Number tool no longer draws a handle dot over the digit while selected.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.0-beta.4",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.0-beta.4",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.0-beta.4",
+    "published_at": "2026-06-19T14:32:26Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5028,
+        "release_id": 382,
+        "name": "MacShot.dmg",
+        "size": 6517091,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.4/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "repository_id": 13,
+    "tag_name": "v4.2.0-beta.3",
+    "name": "v4.2.0-beta.3",
+    "body": "\n### Added\n\n- Highlight (spotlight) tool — drag a rectangle to keep that region bright while dimming the rest of the capture. Adjustable dim strength and a solid/dashed border.\n\n### Changed\n\n- Removed scroll/pinch-to-zoom from the capture overlay (the editor window still zooms).\n- Selected text now shows a plain selection rectangle instead of an outline tracing the letters.\n\n### Fixed\n\n- Clicking outside a text box closes it without dropping a new empty text box where you clicked.\n- Text no longer clips at the bottom when a text box is resized to its minimum height.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.0-beta.3",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.0-beta.3",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.0-beta.3",
+    "published_at": "2026-06-18T16:01:59Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5029,
+        "release_id": 383,
+        "name": "MacShot.dmg",
+        "size": 6504494,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.3/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "repository_id": 13,
+    "tag_name": "v4.2.0-beta.2",
+    "name": "v4.2.0-beta.2",
+    "body": "\n### Fixed\n\n- Resolution W×H fields are editable again in Liquid Glass mode (typing no longer beeps).\n- Removed a stray duplicate resolution box that appeared in the bottom-left corner.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.0-beta.2",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.0-beta.2",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.0-beta.2",
+    "published_at": "2026-06-18T02:31:37Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5030,
+        "release_id": 384,
+        "name": "MacShot.dmg",
+        "size": 6497769,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.2/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "repository_id": 13,
+    "tag_name": "v4.2.0-beta.1",
+    "name": "v4.2.0-beta.1",
+    "body": "\n### Added\n\n- Native AVIF export.\n- Custom menu bar icon — the default, a built-in preset, or any SF Symbol.\n- OCR now detects QR codes too, with open/copy/scan actions.\n- Right-click menu for history screenshots: copy, save, edit, pin, upload, OCR/QR, rotate, flip, open with, share, delete.\n- Pre-draw aspect-ratio/resolution preset button for quick and scroll capture.\n- Window snapping can select Finder Quick Look windows.\n- Silent \"Clear History\" hotkey.\n- Forward Delete for annotations.\n- Point handles for number annotations; improved loupe controls.\n- Settings: configurable save action, hide shadow outside selection, show shortcuts in tooltips.\n\n### Changed\n\n- Redesigned selection size control: split width/height fields, presets, recording-friendly.\n- Resolution preset popovers behave like real controls (focus, Escape, dismissal, glass state); preset choice is shared between pre-draw and selected-area popovers.\n- Exact-resolution pre-draw capture drags as a fixed-size frame.\n- OCR/QR results UI aligns with Translate, actions moved into the header.\n- Toolbars stay attached to the selection without overlapping; Liquid Glass covers the size/resolution toolbar.\n- Idle sleep allowed again. Text fields use the standard edit menu.\n\n### Fixed\n\n- Fixed-resolution preset no longer leaks into the next capture when \"keep ratio\" is off.\n- Liquid Glass popovers interact on first click; Remember Last Tool respected.\n- Double-click text editing no longer copies accidentally.\n- Resolution fields keep edits and focus; readout no longer overlaps the right toolbar.\n- Save panel opens focused; history overlay dismisses before external image actions.\n- Editable annotations and post-processing state preserved when reopening captures; Save/Done state updates correctly.\n- Toolbar buttons no longer fire stale actions or leave random hover/pressed states; tooltips no longer flash.\n- Space-to-move works after resizing; toolbar layout recalculates after preset changes.\n- Window snapping ignores hidden windows behind the frontmost one.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.2.0-beta.1",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.2.0-beta.1",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.2.0-beta.1",
+    "published_at": "2026-06-18T02:14:19Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5031,
+        "release_id": 385,
+        "name": "MacShot.dmg",
+        "size": 6497492,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.2.0-beta.1/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "repository_id": 13,
+    "tag_name": "v4.1.3-beta.1",
+    "name": "v4.1.3-beta.1",
+    "body": "\n### Added\n\n- **Liquid Glass theme** (macOS 26 Tahoe) — a new Settings → Appearance toggle that renders the capture toolbars, the tool options row, popovers, and recording/scroll HUDs as Apple's translucent Liquid Glass material. Independent of the toolbar color customization; only appears on macOS 26+. Off by default.\n\n### Fixed\n\n- **Thin edge line on Beautify screenshots** — with a drop shadow enabled, a faint hairline appeared around the rounded screenshot edges (white on dark captures, dark on light). The shadow is now cast from the screenshot's own rounded shape, so there's no rim.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.1.3-beta.1",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.1.3-beta.1",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.1.3-beta.1",
+    "published_at": "2026-06-11T16:09:57Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5032,
+        "release_id": 386,
+        "name": "MacShot.dmg",
+        "size": 6214478,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.1.3-beta.1/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "repository_id": 13,
+    "tag_name": "v4.1.2",
+    "name": "v4.1.2",
+    "body": "\n### Added\n\n- **Pin from Clipboard** — pin whatever is on the clipboard (image or text) as a floating window, from the menu bar or a configurable hotkey. Thanks @chablino (#210).\n- **Hide capture instructions** — a Settings → General toggle to hide the on-screen capture hint text (#226).\n\n### Fixed\n\n- **macshot no longer quits itself when left idle in the background** — the menu bar process was eligible for memory-pressure (Jetsam) termination. Thanks @PINKIIILQWQ (#132, #222).\n- **Stuck invisible overlay swallowing all clicks** — after waking from sleep, a leftover transparent overlay could intercept every click on a display until macshot was quit. Idle overlays are now click-through (#231).\n- **First selection drag no longer swallowed** — starting a selection over the previous position of hidden toolbar chrome could silently fail. Thanks @chablino (#219).\n- **Overlay zoom-in animation with Reduce Motion** — the capture overlay briefly scaled in (visible at the screen edges) when the system \"Reduce Motion\" setting was on. It now appears instantly (#205).\n- **Number tool now resets after deleting** — deleting numbered annotations and adding a new one restarts the sequence instead of continuing to climb (#211).\n- **Silent save failures** — saving a screenshot when no save folder was authorized could fail silently in the sandbox. macshot now prompts for a folder once, then saves there. Thanks @jeffreylyg (#177).\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.1.2",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.1.2",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.1.2",
+    "published_at": "2026-06-08T14:16:56Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5033,
+        "release_id": 387,
+        "name": "MacShot.dmg",
+        "size": 6150800,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.1.2/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "repository_id": 13,
+    "tag_name": "v4.1.1",
+    "name": "v4.1.1",
+    "body": "\n### Added\n\n- **Sketchy arrow style** — hand-drawn-looking arrow option in the arrow style picker.\n- **Double-click selection to copy** — double-click inside the selection to copy the screenshot. On by default; togglable in Settings → General.\n- **Extra Large webcam size** — XL added next to Small/Medium/Large (#199).\n- **Capture menu ordering** — reorder the actions in the menu bar menu from Settings.\n\n### Changed\n\n- **Faster cold-start captures** — the overlay shows up promptly and accepts the first drag without lag, even after a long idle.\n\n### Fixed\n\n- **Scroll capture** — the HUD has been hidden behind the overlay since v3.4.5 and the overlay was eating scroll events. Both fixed.\n- **Save As no longer hijacks the default screenshots folder** — a one-off Save As destination used to replace the configured default. It's now a one-time choice (#168).\n- **Webcam preview during recording setup** — the live webcam panel now appears in the right corner of the selection before you press record, not only after.\n- **Phantom \"Screen Recording\" notifications** — beta.1's background prewarm triggered the macOS Sequoia indicator every 20 seconds. The prewarm is gone; macshot only reads the screen when you trigger a capture.\n- **Transient UI capture** — hotkey captures preserve disappearing UI such as Raycast, Alfred, app menus, and the Apple menu.\n- **Focus returns to the previous app** after confirming or cancelling a capture.\n- **Floating thumbnails no longer leak into the next capture.**\n- **Preview Save panel** — Save now brings its dialog to the front on the first click.\n- **Copy and Pin no longer replay the capture sound.**\n- **OCR fallback** — if accurate recognition fails, macshot retries with fast recognition.\n- **Video editor text** — double-click editing keeps alignment and background styling stable.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.1.1",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.1.1",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.1.1",
+    "published_at": "2026-05-21T17:41:38Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5034,
+        "release_id": 388,
+        "name": "MacShot.dmg",
+        "size": 6095938,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.1.1/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "repository_id": 13,
+    "tag_name": "v4.1.1-beta.4",
+    "name": "v4.1.1-beta.4",
+    "body": "\n### Added\n\n- **Sketchy arrow style** — a new hand-drawn-looking arrow option in the arrow style picker, rendered from a real hand-drawn SVG so it actually looks handmade.\n\n### Fixed\n\n- **Scroll capture** — the HUD has been hidden behind the overlay since v3.4.5 and the overlay was capturing scroll events instead of passing them through, making scroll capture unusable. Both fixed.\n- **Save As no longer hijacks the default screenshots folder** — picking a one-off location with Save As used to permanently replace the configured default. It is now treated as a one-time choice; the default is only changed from Settings. (Reported in #168.)\n- **Cold-start hotkey lag** — fixed in two layers: macshot now disables App Nap so it stays responsive after long idle, and the overlay window is now a persistent per-screen NSPanel so WindowServer's composition cache stays warm across captures.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.1.1-beta.4",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.1.1-beta.4",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.1.1-beta.4",
+    "published_at": "2026-05-20T12:53:52Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5035,
+        "release_id": 389,
+        "name": "MacShot.dmg",
+        "size": 6083214,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.1.1-beta.4/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "repository_id": 13,
+    "tag_name": "v4.1.1-beta.3",
+    "name": "v4.1.1-beta.3",
+    "body": "\n### Fixed\n\n- **Phantom \"Macshot: Screen Recording\" notifications** — the periodic capture-path prewarm introduced in 4.1.1-beta.1 was triggering the macOS Sequoia Screen Recording usage indicator every 20 seconds even when no capture was active. The prewarm has been removed; macshot now only reads the screen when you actually trigger a capture.\n\n### Changed\n\n- **Capture pipeline simplification** — window creation and screenshot capture now run in parallel from the hotkey, replacing the layered cold-start workarounds added in earlier 4.1.1 betas. Cold-start latency is improved without any background work between captures.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.1.1-beta.3",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.1.1-beta.3",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.1.1-beta.3",
+    "published_at": "2026-05-17T18:46:27Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5036,
+        "release_id": 390,
+        "name": "MacShot.dmg",
+        "size": 6060356,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.1.1-beta.3/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "repository_id": 13,
+    "tag_name": "v4.1.1-beta.2",
+    "name": "v4.1.1-beta.2",
+    "body": "\n### Changed\n\n- **Hotkey capture overlay startup** — global-hotkey captures now show an interactive overlay immediately, even after a cold launch or several idle minutes.\n- **Immediate capture rendering** — the overlay can accept selection input before the full preview surface finishes installing, while still using the full-resolution screenshot for copy, save, editor, and upload output.\n\n### Fixed\n\n- **First drag delay after hotkey capture** — added an early mouse-input path for the capture overlay so macOS/AppKit input lag after Carbon hotkeys no longer blocks starting the selection.\n- **Spinner/old cursor during capture startup** — the capture cursor is now asserted while the overlay is coming up.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.1.1-beta.2",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.1.1-beta.2",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.1.1-beta.2",
+    "published_at": "2026-05-14T11:06:30Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5037,
+        "release_id": 391,
+        "name": "MacShot.dmg",
+        "size": 6096116,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.1.1-beta.2/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 392,
+    "repository_id": 13,
+    "tag_name": "v4.1.1-beta.1",
+    "name": "v4.1.1-beta.1",
+    "body": "\n### Added\n\n- **Capture menu ordering** — reorder the capture actions shown in the menu bar menu from Settings.\n- **Missing webcam size localization keys** — added the camera overlay size string to all bundled languages.\n\n### Changed\n\n- **Faster cold screenshot overlay** — pre-capture the screen before activation, keep the WindowServer capture path warm while idle, and avoid blocking the overlay on full redraw work.\n- **Preview actions scale with preview size** — Copy and Save controls now resize with the screenshot preview size setting.\n\n### Fixed\n\n- **Transient UI capture** — hotkey captures now preserve disappearing UI such as Raycast, Alfred, app menus, and the Apple menu.\n- **Previous app focus restore** — completing or cancelling a capture returns focus to the app that was active before macshot opened the overlay.\n- **Floating thumbnails no longer leak into the next capture** while preserving fast capture startup.\n- **Preview Save panel activation** — Save now brings its dialog to the front on the first click.\n- **Preview Copy and Pin sounds** — these actions no longer replay the capture sound.\n- **Video text editing style** — double-click editing keeps alignment and background styling stable instead of switching to an ugly editing style.\n- **OCR fallback** — if accurate recognition fails, macshot retries quickly with fast recognition.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.1.1-beta.1",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.1.1-beta.1",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.1.1-beta.1",
+    "published_at": "2026-05-13T16:33:07Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5038,
+        "release_id": 392,
+        "name": "MacShot.dmg",
+        "size": 6066467,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.1.1-beta.1/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "repository_id": 13,
+    "tag_name": "v4.1.0",
+    "name": "v4.1.0",
+    "body": "\nThe big release in 4.1.0 is a full **video editor effects suite**: zoom, censor, cut, speed, freeze, and text segments rendered through a custom Core Image compositor. Recording quality, color reproduction across external monitors, and capture-flow ergonomics also got significant attention.\n\n### Added\n\n- **Video editor effects suite** — six segment types you can stack on the timeline:\n    - **Zoom** segments with direct-manipulation rect on the preview, fade in/out, 1.2×–5× range.\n    - **Censor** segments — solid / pixelate / blur a rectangular region for a time range. Two censors can overlap.\n    - **Cut** segments — physically remove a range of frames from the export.\n    - **Speed** segments — retime a range at 0.25×–10×, audio stays in sync.\n    - **Freeze** segments — hold a single source frame for a chosen duration.\n    - **Text** segments — overlay styled text (size, bold/italic, color, background pill, alignment, fade) anywhere on the video, with double-click to edit in place.\n- **Multi-row effects band** — overlapping segments stack into separate rows; up to 4 rows visible, scrolls vertically beyond that.\n- **Custom video compositor** — single Core Image render path shared by live preview, MP4 export, and GIF export. Smooth motion, filter-based effects (blur/pixelate) alongside transform-based zoom.\n- **Video export quality presets** (Low / Medium / High) and **export dimensions dropdown** (Original, 75%, 50%, 33%, 25%) with estimated output size.\n- **Right-click to anchor capture rect** — right-click an empty overlay to start a selection, then move the cursor without holding any button.\n- **Capture Last Area** — re-capture the previous selection on demand from the menu bar, hotkey, or `macshot://capture-last`.\n- **URL scheme for external tools** — `macshot://capture`, `macshot://ocr`, `macshot://record`, etc. Trigger from Raycast, Alfred, BetterTouchTool, Shortcuts.\n- **Customizable toolbar background color** with adaptive light/dark appearance.\n- **`{random}` filename token** — 8-character base36 string per file in screenshot/recording filename templates.\n- **Per-glyph Stroke control** for the text tool, alongside Fill and Outline.\n- **11 new configurable overlay shortcuts** — Pin (defaults to F), Upload (U), Copy, Save, OCR, Scroll Capture, Beautify, Invert Colors, Remove Background, Translate, Undo, Redo. Configurable in Settings → Shortcuts.\n- **Keyboard navigation in the history overlay** — arrows, Enter/Cmd+C to copy, Cmd+E to open in editor, Space for Quick Look, Delete to remove.\n- **Dock right-click shows each window individually** — editor, video editor, and preferences windows each appear as their own menu item.\n- **\"Open Video…\" menu entry** — open a user-owned video in the editor for trimming, effects, and export without touching the source.\n- **Copy Screen Info** in Settings → About — copies display and capture diagnostics for bug reports.\n- **DMG drag-to-install layout** with arrow background, plus a \"Move to Applications\" prompt when launched from a translocated path.\n\n### Changed\n\n- **Recording bitrate increased** so screen content stays crisp. New tiers target ~12 / ~22 / ~40 Mbit/s at 1440p30 for low/medium/high. B-frames disabled (standard tuning for screen content). Closes #140.\n- **Recording color space** is now forced to sRGB at capture time (macOS 14+), fixing washed-out playback on Display P3 screens.\n- **Faster first capture** — Core Animation/Metal pipeline pre-warmed at app launch; ScreenCaptureKit content cache no longer bypassed on every capture; instant transparent overlay while screenshots load in the background.\n- **Background windows no longer jump forward when triggering a capture** — editor/preferences/Sparkle windows stay behind the user's frontmost app.\n- **Clicking a history entry shows the floating thumbnail** for visual confirmation, instead of silently copying with no feedback. Closes #133.\n- **Sparkle update check interval reduced from 30 minutes to 24 hours** so update prompts don't reappear constantly during release windows.\n\n### Fixed\n\n- **Wrong colors on external monitors** (editor + saved files) — captured screenshots are now normalized to sRGB at capture time. Some external monitors (e.g. ViewSonic VX4380) have ICC profiles that don't round-trip correctly through AppKit's rendering pipeline.\n- **Editor fits large images to the window on open.** Multi-megapixel images (e.g. 24MP photos via Photos.app \"Edit in macshot\") previously showed only the top-left corner. Closes #161.\n- **Clicking outside the selection no longer wipes annotation progress.** A recurring source of lost work — outside clicks are now a no-op when a selection already exists; ESC still cancels deliberately. Closes #154.\n- **Stroke width, line style, arrow style, shape fill, corner radius, and arrow Flip now persist globally** even when an annotation is selected. Refs #58.\n- **Tmp-file accumulation** — clipboard intermediates, share-sheet temps, cancelled recordings, and sandbox quarantine stubs all accumulated indefinitely. A new launch-time sweep keeps tmp at a few hundred KB steady state (was up to 1.2 GB). Closes #128.\n- **Settings window clipping** in Polish, German, Dutch, and other long-string locales. Closes #130.\n- **GIF export crash on longer recordings**, **GIF export freezes the UI**, and **GIF export shows no progress** — switched to a real background thread, fixed a use-after-free in finalize, added a percentage indicator.\n- **S3 and Google Drive image uploads ignored the filename template** — both now read the same `filenameTemplate` UserDefault that local saves use. Closes #147.\n- **Last used tool not persisted across app restarts** — selected annotation tool now survives via UserDefaults.\n- **Focus not returning to previous app** after capture, and **window snap highlight race condition** on the pre-screenshot transparent overlay.\n- **Color dithering in pinned images and editor window** — disabled `AutomaticAppKit` layer content format in favor of explicit `RGBA8` for pixel-perfect color reproduction.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.1.0",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.1.0",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.1.0",
+    "published_at": "2026-05-08T21:55:34Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5039,
+        "release_id": 393,
+        "name": "MacShot.dmg",
+        "size": 5982790,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.1.0/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "repository_id": 13,
+    "tag_name": "v4.1.0-beta.8",
+    "name": "v4.1.0-beta.8",
+    "body": "\n### Fixed\n- **Quick Capture's \"Also open in Editor\" was resetting last-used tool and stroke width.** `DetachedEditorWindowController.open(...)` had `tool: .arrow` / `strokeWidth: 3` as parameter defaults and unconditionally wrote them to the new EditorView on every open, which triggered the `currentTool` didSet that persists globally — so opening the editor (Quick Capture, History → Open in Editor, Pin → Edit) silently overwrote `lastUsedTool` and `currentStrokeWidth` for the entire app. Parameters are now optional with `nil` default; the editor only overrides when a caller explicitly passes a value, otherwise the EditorView's own UserDefaults-backed initializers are honored. Refs #58.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.1.0-beta.8",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.1.0-beta.8",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.1.0-beta.8",
+    "published_at": "2026-05-03T10:37:46Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5040,
+        "release_id": 394,
+        "name": "MacShot.dmg",
+        "size": 5869435,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.1.0-beta.8/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "repository_id": 13,
+    "tag_name": "v4.1.0-beta.7",
+    "name": "v4.1.0-beta.7",
+    "body": "\n### Added\n- **Per-glyph Stroke control for the text tool** — alongside the existing Fill and Outline toggles, a third \"Stroke\" swatch+toggle draws a stroke around each character via `NSAttributedString` `.strokeColor` / `.strokeWidth`. Persists across captures, propagates to selected text annotations, and is preserved through clone/codable for undo and history reload.\n\n### Changed\n- **Recording bitrate increased so screen content stays crisp.** The bppf-based model assumed screen recordings are low-entropy, but H.264 softens sharp text edges below ~0.30 bppf the moment any motion enters the frame. Defaults (.high, 1440p30) were producing ~21 Mbit/s vs. the ~40 Mbit/s industry-standard. New tiers target ~12 / ~22 / ~40 Mbit/s at 1440p30 for low/medium/high. B-frames disabled (standard tuning for screen content). File sizes for `.high` roughly double — the right tradeoff for a tier explicitly named \"High\". Closes #140.\n- **Sparkle update check interval reduced from 30 minutes to 24 hours** so update prompts don't reappear constantly during release windows.\n\n### Fixed\n- **Editor fits large images to the window on open.** Opening a multi-megapixel image (e.g. a 24MP photo via Photos.app \"Edit in macshot\") presented only the top-left corner because the EditorView document was sized to full image dimensions while the scroll view stayed at 1× magnification. The fit-to-viewport magnification is now computed on open and applied when \u003c 1.0; small images keep 1× so they aren't upscaled. Closes #161.\n- **Clicking outside the selection no longer wipes annotation progress.** Once a selection rect is committed, clicking in the dimmed area outside the rect previously dropped all annotations and started a new selection from that point — a recurring source of lost work. Treat outside clicks as a no-op when a selection already exists; ESC still cancels deliberately. Closes #154.\n- **Video editor effects no longer silently no-op** when the AVAsset's tracks haven't finished parsing. The synchronous `asset.tracks(withMediaType:)` accessor on a freshly-finalized recording could return an empty array before the moov atom was parsed; the effects composition then cached a stale trackID and `sourceFrame(byTrackID:)` returned nil. Switched to async `load(.tracks)` and built dimensions, duration, player item, and compositor state from the resolved track.\n- **S3 and Google Drive image uploads ignored the filename template.** Both uploaders hardcoded `\"Screenshot {YYYY-MM-DD_HH-mm-ss}.png\"`, so user templates (`{unix}`, `{random}`, `{window}`, etc.) didn't apply. Image uploads now read the same `filenameTemplate` UserDefault that local saves use, matching the convention video uploads already follow. imgbb intentionally unchanged — its API doesn't accept a filename. Closes #147.\n- **Changing the censor mode on a selected censor rect now updates it.** The mode segment in the censor tool's options bar wrote to UserDefaults but ignored the selected annotation; reading was symmetric (always showed the global default, never the annotation's actual mode). Selected censor rects now re-bake on mode change and the segment shows the annotation's current mode while it's selected.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.1.0-beta.7",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.1.0-beta.7",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.1.0-beta.7",
+    "published_at": "2026-05-03T01:26:04Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5041,
+        "release_id": 395,
+        "name": "MacShot.dmg",
+        "size": 5873231,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.1.0-beta.7/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "repository_id": 13,
+    "tag_name": "v4.1.0-beta.6",
+    "name": "v4.1.0-beta.6",
+    "body": "\n### Added\n- **`{random}` filename token** — screenshot and recording filename templates now support a `{random}` placeholder that renders a fresh 8-character lowercase base36 string per file. Closes #136.\n\n### Changed\n- **Clicking a history entry in the menu bar now shows the floating thumbnail** for visual confirmation, instead of silently copying to clipboard with no feedback. The thumbnail's Edit action opens the original history entry. Closes #133.\n\n### Fixed\n- **Stroke width, line style, arrow style, shape fill, corner radius, and arrow Flip now persist globally even when an annotation is selected.** Changing these while editing an existing annotation only mutated that annotation — the UserDefaults write was in an `else` branch that never ran in edit mode — so the next capture reverted to whatever was last persisted (stroke defaulted to 3). Refs #58.\n- **\"Enable macshot:// URL scheme\" checkbox was not localized** (raw string literal, not wrapped in `L()`). Also added the missing `\"Save Recording\"` key that was referenced in `AppDelegate` but absent from every `.strings` file. Closes #134.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.1.0-beta.6",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.1.0-beta.6",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.1.0-beta.6",
+    "published_at": "2026-04-20T23:32:03Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5042,
+        "release_id": 396,
+        "name": "MacShot.dmg",
+        "size": 5846786,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.1.0-beta.6/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "repository_id": 13,
+    "tag_name": "v4.1.0-beta.5",
+    "name": "v4.1.0-beta.5",
+    "body": "\n### Fixed\n- **Video editor export with freeze frames** — saving or uploading a video that contained a freeze failed with \"Export failed\" because `AVAssetExportSession` choked on the 600× `scaleTimeRange` a freeze bakes into the composition track. Freezes now route through the custom video compositor, which uses its time map to serve the same source frame for every composition time during the hold — matching how preview already renders them.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.1.0-beta.5",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.1.0-beta.5",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.1.0-beta.5",
+    "published_at": "2026-04-19T01:56:32Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5043,
+        "release_id": 397,
+        "name": "MacShot.dmg",
+        "size": 5849481,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.1.0-beta.5/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "repository_id": 13,
+    "tag_name": "v4.1.0-beta.4",
+    "name": "v4.1.0-beta.4",
+    "body": "\n### Added\n- **Freeze-frame effect in the video editor** — hold a single source frame for a chosen duration (0.25s, 0.5s, 1s, 2s, 3s, 5s presets, 0.1–30s range). Shown on the effects band as a violet snowflake pill anchored at the source moment. Works alongside cuts and speeds: a freeze inside a speed segment splits it, a freeze inside a cut is silently dropped. Audio goes silent during the hold, matching what viewers expect.\n\n### Changed\n- **Zoom effect now zooms into the area you actually drew** — previously the rect was vertically mirrored at render time because the overlay coordinates (y-down) and CIImage transforms (y-up) hadn't been reconciled.\n- **\"Open in Finder\" on recording stop reveals the file in your configured recording directory** (or screenshot save dir, or via a Save panel) — not the sandbox tmp folder. Files become something you can actually find and keep.\n- **Clipboard copy uses a nicely named file** (`Screenshot 2026-04-18 at 18-33.png` inside `tmp/macshot-clipboard/`) overwritten on each copy. Finder paste no longer nags \"A newer item named 'macshot-clipboard.png' already exists.\"\n- **Video editor time labels now sit above the trim bar** with 4pt breathing room, so the \"Copied to clipboard!\" status banner doesn't crowd the effects band below.\n- **Video editor playback is ~17% lighter on the main thread** — timeline thumbnails are pre-composited into a single cached strip, and the 30Hz playhead observer now invalidates only the trim-bar stripe so the bottom button row stays off the per-frame draw path.\n- **Settings window widened 560 → 620pt, label column 140 → 180pt, checkbox titles wrap gracefully** so Polish, German, Dutch, and other long translations fit without clipping.\n\n### Fixed\n- **Settings window clipping in Polish and other long-string locales** — \"Szybkie przechwycenie:\" was losing its trailing colon, \"Automatycznie zamazuj dane wrażliwe\" was being truncated. Closes #130.\n- **Tmp-file accumulation** — clipboard intermediates, share-sheet temps, cancelled recordings, and sandbox write-quarantine stubs all accumulated in the sandbox tmp folder indefinitely. A new `LaunchCleanup` framework now sweeps these: fixed-path overwrites for the clipboard and recording-clipboard files, a dedicated `tmp/macshot-share/` subfolder with a 5-minute TTL, and a pattern-based sweep with a 24-hour TTL for everything else. One tester reported 1.2 GB of leftovers before this fix; now it stays at a few hundred KB steady state. Closes #128.\n- **History panel orphan files** — past builds sometimes wrote `_preview.png` alongside a history entry without cleaning it up on delete. `ScreenshotHistory` now prunes these on launch by diffing the history dir against `index.json`.\n\n",
+    "html_url": "https://github.com/sw33tLie/macshot/releases/tag/v4.1.0-beta.4",
+    "tarball_url": "https://api.github.com/repos/sw33tLie/macshot/tarball/v4.1.0-beta.4",
+    "zipball_url": "https://api.github.com/repos/sw33tLie/macshot/zipball/v4.1.0-beta.4",
+    "published_at": "2026-04-18T20:59:43Z",
+    "is_prerelease": true,
+    "created_at": "2026-08-29T20:02:00Z",
+    "assets": [
+      {
+        "id": 5044,
+        "release_id": 398,
+        "name": "MacShot.dmg",
+        "size": 5838297,
+        "download_url": "https://github.com/sw33tLie/macshot/releases/download/v4.1.0-beta.4/MacShot.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:27Z"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1046 @@
+[
+  {
+    "id": 57,
+    "repository_id": 19,
+    "tag_name": "plugin-oracle-v1.2.24",
+    "name": "Oracle Driver v1.2.24",
+    "body": "## Oracle Driver v1.2.24\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `357560ea0d2410227b34565a8a42bad3b7263ea0067fa4914814995c4f6de479`\n- x86_64: `52213a77fcc144173ba1c23be89873156220520bf6438433adff7dfe1b2446c5`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-oracle-v1.2.24",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-oracle-v1.2.24",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-oracle-v1.2.24",
+    "published_at": "2026-08-27T16:27:21Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3800,
+        "release_id": 57,
+        "name": "OracleDriver-arm64.zip",
+        "size": 5053814,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.24/OracleDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3801,
+        "release_id": 57,
+        "name": "OracleDriver-x86_64.zip",
+        "size": 5644061,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.24/OracleDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "repository_id": 19,
+    "tag_name": "plugin-dameng-v1.0.4",
+    "name": "Dameng Driver v1.0.4",
+    "body": "## Dameng Driver v1.0.4\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `b9a681ee77b0c60285c25feeeec2e7b6dc286460a8da70085ba87f6b886eb61f`\n- x86_64: `05f4ff9eef22cbb313cc0c77f563ece88b206f63f90654cd96b3a9df6e603832`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-dameng-v1.0.4",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-dameng-v1.0.4",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-dameng-v1.0.4",
+    "published_at": "2026-08-27T16:19:29Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3812,
+        "release_id": 63,
+        "name": "DamengDriver-arm64.zip",
+        "size": 1238127,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.4/DamengDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3813,
+        "release_id": 63,
+        "name": "DamengDriver-x86_64.zip",
+        "size": 1292700,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.4/DamengDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "repository_id": 19,
+    "tag_name": "plugin-teradata-v1.0.5",
+    "name": "Teradata Driver v1.0.5",
+    "body": "## Teradata Driver v1.0.5\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `c7b47a66b6e421d4bf879d655e19f04219d8087ade72b238250498d3c874de7d`\n- x86_64: `21da8807717569ba5335643e7bd65739a9233b42ee031cbb602983857a72b750`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-teradata-v1.0.5",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-teradata-v1.0.5",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-teradata-v1.0.5",
+    "published_at": "2026-08-27T16:17:25Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3796,
+        "release_id": 55,
+        "name": "TeradataDriver-arm64.zip",
+        "size": 147462,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.5/TeradataDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3797,
+        "release_id": 55,
+        "name": "TeradataDriver-x86_64.zip",
+        "size": 158079,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.5/TeradataDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "repository_id": 19,
+    "tag_name": "plugin-snowflake-v1.0.6",
+    "name": "Snowflake Driver v1.0.6",
+    "body": "## Snowflake Driver v1.0.6\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `5df4b29afc67ec7b2af3e33d0c6e12d588b567a8cb23808c42ba47cdac8ed72e`\n- x86_64: `41d199d07d8722fa5c5a3c027b12cee805fff635bd2655e25b6111b62e712f82`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-snowflake-v1.0.6",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-snowflake-v1.0.6",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-snowflake-v1.0.6",
+    "published_at": "2026-08-27T16:16:48Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3798,
+        "release_id": 56,
+        "name": "SnowflakeDriverPlugin-arm64.zip",
+        "size": 235639,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.6/SnowflakeDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3799,
+        "release_id": 56,
+        "name": "SnowflakeDriverPlugin-x86_64.zip",
+        "size": 259116,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.6/SnowflakeDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "repository_id": 19,
+    "tag_name": "plugin-mssql-v1.0.40",
+    "name": "MSSQL Driver v1.0.40",
+    "body": "## MSSQL Driver v1.0.40\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `28f94ab3121e36c2de507c9d80efbbc2a9fb9eac606c96c16de1fc24875eec25`\n- x86_64: `6e794f89037f3f6d041aa16100dec843d172b28b8b949a59021943bfbc1eb340`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-mssql-v1.0.40",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-mssql-v1.0.40",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-mssql-v1.0.40",
+    "published_at": "2026-08-27T16:15:26Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3802,
+        "release_id": 58,
+        "name": "MSSQLDriver-arm64.zip",
+        "size": 386144,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.40/MSSQLDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3803,
+        "release_id": 58,
+        "name": "MSSQLDriver-x86_64.zip",
+        "size": 407186,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.40/MSSQLDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "repository_id": 19,
+    "tag_name": "plugin-kafka-v1.0.0",
+    "name": "Kafka Driver v1.0.0",
+    "body": "## Kafka Driver v1.0.0\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `701e19587aee5b929ed575ac5ab6bdd023f67d749a98bf412659f961af545e52`\n- x86_64: `e22ffa10ead322ec7900d4ae487f1d735c1eca9dd510fc54fea227c3b6275267`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-kafka-v1.0.0",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-kafka-v1.0.0",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-kafka-v1.0.0",
+    "published_at": "2026-08-27T16:14:47Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3808,
+        "release_id": 61,
+        "name": "KafkaDriverPlugin-arm64.zip",
+        "size": 2443484,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.0/KafkaDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3809,
+        "release_id": 61,
+        "name": "KafkaDriverPlugin-x86_64.zip",
+        "size": 2764447,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-kafka-v1.0.0/KafkaDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "repository_id": 19,
+    "tag_name": "plugin-cloudflare-d1-v1.0.36",
+    "name": "Cloudflare D1 Driver v1.0.36",
+    "body": "## Cloudflare D1 Driver v1.0.36\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `02a32071ea24ed0ed1a1ccf67be71d0597ed18f7c44c681289271fe79e331f4b`\n- x86_64: `7fbdcd75793ae74d65608635c26d4ac8631f6b8e9640ba2e15027d5edca75b69`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-cloudflare-d1-v1.0.36",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-cloudflare-d1-v1.0.36",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-cloudflare-d1-v1.0.36",
+    "published_at": "2026-08-27T16:13:47Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3814,
+        "release_id": 64,
+        "name": "CloudflareD1DriverPlugin-arm64.zip",
+        "size": 110921,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.36/CloudflareD1DriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3815,
+        "release_id": 64,
+        "name": "CloudflareD1DriverPlugin-x86_64.zip",
+        "size": 118762,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.36/CloudflareD1DriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "repository_id": 19,
+    "tag_name": "plugin-duckdb-v1.0.36",
+    "name": "DuckDB Driver v1.0.36",
+    "body": "## DuckDB Driver v1.0.36\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `112207387b8ce7345475eaeddcf71d474303a76eba1efd13a6fb047ec6549e2a`\n- x86_64: `c6daa54baa62bf263856967b2a95f22a422da25e8d42771f89803178003b5c4d`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-duckdb-v1.0.36",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-duckdb-v1.0.36",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-duckdb-v1.0.36",
+    "published_at": "2026-08-27T16:13:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3810,
+        "release_id": 62,
+        "name": "DuckDBDriver-arm64.zip",
+        "size": 8979459,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.36/DuckDBDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3811,
+        "release_id": 62,
+        "name": "DuckDBDriver-x86_64.zip",
+        "size": 10687031,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.36/DuckDBDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "repository_id": 19,
+    "tag_name": "plugin-bigquery-v1.0.27",
+    "name": "BigQuery Driver v1.0.27",
+    "body": "## BigQuery Driver v1.0.27\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `28558045c1ccfd1e9780f7f281cf5e3e8387488ee4ec7f4ebcdc68c9b226b728`\n- x86_64: `98ac2ba1aeeb2c589cec22d49c782691652060771448db0f7f8e4ac1b29c82f5`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-bigquery-v1.0.27",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-bigquery-v1.0.27",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-bigquery-v1.0.27",
+    "published_at": "2026-08-27T16:09:59Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3816,
+        "release_id": 65,
+        "name": "BigQueryDriverPlugin-arm64.zip",
+        "size": 248071,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.27/BigQueryDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3817,
+        "release_id": 65,
+        "name": "BigQueryDriverPlugin-x86_64.zip",
+        "size": 271208,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.27/BigQueryDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "repository_id": 19,
+    "tag_name": "plugin-libsql-v1.0.24",
+    "name": "libSQL / Turso Driver v1.0.24",
+    "body": "## libSQL / Turso Driver v1.0.24\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `0491b78cdec19e0087397dc5973a84c38229557f52d66a3690db75beff9ded98`\n- x86_64: `c8ad5c9a724bca437daab3340cbd9366146232fdbb286b234c0252ffcca628cd`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-libsql-v1.0.24",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-libsql-v1.0.24",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-libsql-v1.0.24",
+    "published_at": "2026-08-27T16:09:57Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3806,
+        "release_id": 60,
+        "name": "LibSQLDriverPlugin-arm64.zip",
+        "size": 116155,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.24/LibSQLDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3807,
+        "release_id": 60,
+        "name": "LibSQLDriverPlugin-x86_64.zip",
+        "size": 123821,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.24/LibSQLDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "repository_id": 19,
+    "tag_name": "plugin-mongodb-v1.0.40",
+    "name": "MongoDB Driver v1.0.40",
+    "body": "## MongoDB Driver v1.0.40\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `84e1cf9643e36136c48d37f821026fe56f7593afb649f45eb2f3f240cc74fe2e`\n- x86_64: `6382ce17db9e77468a285b9f940fabcebfab41be44a9dff3cda1bd84dcc39a2d`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-mongodb-v1.0.40",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-mongodb-v1.0.40",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-mongodb-v1.0.40",
+    "published_at": "2026-08-27T16:09:29Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3804,
+        "release_id": 59,
+        "name": "MongoDBDriver-arm64.zip",
+        "size": 641465,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.40/MongoDBDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3805,
+        "release_id": 59,
+        "name": "MongoDBDriver-x86_64.zip",
+        "size": 714099,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mongodb-v1.0.40/MongoDBDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "repository_id": 19,
+    "tag_name": "plugin-trino-v1.0.7",
+    "name": "Trino Driver v1.0.7",
+    "body": "## Trino Driver v1.0.7\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `d68f1dfac655e19ac1a11190f03aae9d03b916b9ab7f3faf99b6b9b6f6cfcac7`\n- x86_64: `7b3c6715072a5823bb87e5508562d8e368550d9bb55882a450bab78695c8c864`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-trino-v1.0.7",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-trino-v1.0.7",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-trino-v1.0.7",
+    "published_at": "2026-08-27T16:08:52Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3794,
+        "release_id": 54,
+        "name": "TrinoDriverPlugin-arm64.zip",
+        "size": 161102,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.7/TrinoDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3795,
+        "release_id": 54,
+        "name": "TrinoDriverPlugin-x86_64.zip",
+        "size": 173810,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.7/TrinoDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "repository_id": 19,
+    "tag_name": "v0.69.0",
+    "name": "v0.69.0",
+    "body": "\n### Added\n\n- Restore Previous Values in the Edit menu, taking back a save that already committed. Starter license. (#2107)\n- Data Rewind settings in Settings \u003e Data \u0026 Results, with an off switch and Clear Saved Changes.\n- Restore Previous Values in the toolbar's Table Actions group.\n- Rebindable Find shortcut in Settings \u003e Keyboard, for giving `Cmd+F` to the filter bar instead.\n- Constraints tab in the structure editor, listing check constraints with their expression. (#2478)\n- Generated and Expression fields on the column row, with a stored or virtual choice. (#2478)\n- `check_constraints` and `generation_expression` in the MCP `describe_table` response.\n- Remote File pane for SQLite, opening a read-only copy of a database that lives on an SSH server. (#2474)\n- Rename on a table's right-click menu, editing the row's label in place. (#2482)\n- Rename Database and Rename Schema on the sidebar's container rows, where the engine has them. (#2482)\n- Turso in the New Connection picker as an engine of its own, offered before the libSQL plugin installs.\n\n### Changed\n\n- Editor tabs drawn as a segmented tab picker rather than in Liquid Glass, on every macOS version. (#2439)\n- A connection opens full screen on iPhone and iPad, with its four sections in a sidebar on iPad. (#2544)\n\n### Fixed\n\n- Column charset and collation lost when reordering a MySQL column by dragging its row.\n- Free-text cells for foreign key actions and index types in Create Table, where Structure shows a menu.\n- A generated column comparing equal to a plain one in Compare \u0026 Sync.\n- Empty Indexes, Foreign Keys or DDL tab, with no error, when the structure read fails.\n- Connections strip absent from a window whose selected connection has nothing to show, when Show Connections is off.\n- Switch Connection disabled, in the Database menu and the toolbar, while the selected connection is disconnected.\n- One floating switcher panel per connection in a window, each centred on the same point.\n- Leaked socket on every SSH Test Connection against a server reached without jump hosts.\n- Leaked listening port, socket and session each time an SSH tunnel died from sleep or a dropped network.\n- Selection highlight missing from part of a long selection after scrolling back up to it.\n- Editor not scrolling to follow a selection extended past the edge of the viewport.\n- Find highlight and the run band covering only the first line of a match that spans several lines.\n- Nothing selected when double-clicking `=`, `\u003c`, `\u003e` or any other SQL operator.\n- Shift+Arrow extending the wrong end of a selection made by dragging.\n- Selection starting a few characters away from the press point on a quick drag.\n- A pause before the pointer responds when pressing inside selected text.\n- Shift+double-click and Shift+triple-click doing nothing.\n- Drag-select scrolling faster on a mouse than on a trackpad, and stalling mid-drag.\n- Statement selection with `Option+Shift+Down` leaving the highlight behind.\n- No arrow-key movement or Shift+Arrow selection in the JSON, DDL and SQL preview editors.\n- Explain with AI acting on the previous selection after a right-click somewhere else.\n- Selection painted in the accent colour in a window that is not the active one.\n- Selection bounds reported to VoiceOver covering only the first line, and no announcement when the selection moved.\n- An abandoned editor tab drag reordering the strip anyway, and keeping that order across relaunch.\n- An editor tab reorder stopping partway when the pointer strayed a couple of points off the track.\n- Text dropped on the editor tab strip reported as accepted and then discarded.\n- An editor tab left faded and the strip's separators hidden after a cancelled drag.\n- Size All Columns to Fit slowing down with the square of the column count.\n- Column-resize cursor over the leading edge of the data grid header, where there is no divider to drag.\n- A data grid shortcut bound to `Cmd+G` silently taking the key from Find Next, with no conflict warning.\n- Stale cells after fitting, hiding or reordering a data grid column on a result narrower than the window. (#2446)\n- A shortcut recorded with only Option or Shift beeping with no reason given, against docs that said it would work.\n- A rebound shortcut silently killing Quit, Minimize, Hide, Settings, Show Toolbar or Enter Full Screen.\n- `Ctrl+Cmd+J` accepted in Settings \u003e Keyboard while the SQL editor kept it for Jump to Definition.\n- Autocomplete keeping an earlier prefix's ordering after the typed word becomes an exact match. (#2444)\n- Whole MySQL and MariaDB result set fetched before a capped query returned its first rows. (#2427)\n- KILL sent to a different server when a MySQL or MariaDB connection's host is spelled `localhost`.\n- Stop on a MySQL or MariaDB connection freezing the app for up to five seconds when the server stopped answering.\n- A MySQL or MariaDB read re-run after a dropped connection, advancing a sequence or taking a lock twice.\n- Save reporting the number of statements it ran as the number of rows it changed.\n- An edit or a delete on a table with no primary key changing every identical row. (#2107)\n- The same statements committed twice when Cmd+S is pressed again during a slow save.\n- Switching tabs during a save clearing the edits of the tab switched to, and re-running its query.\n- Placeholder SQL with no values in the Safe Mode confirmation and the authorization prompt.\n- Deleting one row of a pasted batch dropping the other rows, or saving them with another row's values.\n- Undoing the deletion of a new row putting its values in the wrong columns.\n- Undoing a cell edit reverting the wrong row while a column filter is active.\n- A save that deletes a row and reuses its unique value failing on the constraint.\n- \"Ignore foreign key checks\" doing nothing on SQLite, libSQL and Cloudflare D1.\n- A save reported as failed on an engine without transactions after some statements had been written.\n- Keep Open for a preview tab, by double-clicking it in the tab strip or from its contextual menu. (#2436)\n- Kafka driver plugin: topics in the grid, consumer group lag, and KafkaQL for seeking and producing. (#2419)\n- Active editor tab indistinguishable from the inactive ones in light appearance. (#2439)\n- Active editor tab drawn darker than its track on macOS 27, and inverting when the window lost focus.\n- Editor tab selection changing with the desktop picture behind the window.\n- Editor tab strip tests reporting four appearances while running plain Aqua and Dark Aqua twice.\n- Icon cut off the entry at the top of a scrolled connections strip. (#2452)\n- Connections strip not scrolling to the entry you switch to.\n- Background connections stuck on the session preparation screen after connecting. (#2545)\n- Blank sidebar, grid and inspector on a connection opened into a window that was already on screen.\n- Connections strip hidden, and its switch commands disabled, whenever the connection on screen was disconnected.\n- Rows, tabs and an enabled toolbar over a connection the connections strip already showed as failed.\n- Reconnect doing nothing on a connection whose automatic reconnect had already given up.\n- Health monitor waking every 30 seconds for the life of the app after it stopped trying to reconnect.\n- Choosing a connection from the connection list re-fronting its window without switching to it.\n- Grid cells left at their old column positions until the next click, after any column geometry change. (#2449, #2446)\n- The row-number column draggable out of first place, which walked it to the far right on the next refresh.\n- A time entered into a date cell discarded when the stored value carried no time.\n- A timestamp with an offset showing one day in the grid and another in its date picker.\n- Opening a date picker and confirming without changing anything rewriting the cell.\n- Cell overlay appearance test failing at random when its window was released before the appearance changed.\n- A reordered column snapping back on the next refresh in the Structure tab and in query results.\n- Double-clicking a cell editing the wrong row, after deleting one of several rows added in the same session.\n- VoiceOver reading a cell's value under a different row's number after such a delete.\n- Snowflake `DATE`, `TIME` and `TIMESTAMP_*` cells showing the raw epoch number the server sends. (#2454)\n- Snowflake `BINARY` cells showing the hex of their hex, which the hex editor then wrote back.\n- A date cell the app cannot read opening a picker set to today, which overwrote the value on OK. (#2454)\n- Snowflake reporting no rows changed for an `UPDATE` or `MERGE`, and misreading a `number of rows` column.\n- A database switch moving both windows, when two saved Snowflake connections to one account shared a session.\n- Stop on a Snowflake query cancelling every other query on the same connection, including a sidebar refresh or a save.\n- `tablepro://` deep links ignored on iPhone and iPad, from the widget, a Live Activity or a shortcut.\n- iOS PostgreSQL and Redshift reading another schema's table of the same name for columns, indexes and foreign keys.\n- iOS SQL Server using the login's default schema rather than the one the toolbar showed, Truncate and Drop included.\n- Computed SQL Server columns offered as editable and written into the `INSERT`, on both Mac and iOS.\n- A CSV export writing a real NULL and the text `NULL` identically.\n- A JSON export emitting a leading-zero string such as `01234` as an unquoted number, which no JSON parser accepts.\n- A SQL `INSERT` export quoting identifiers for ANSI on every engine, which MySQL and MariaDB reject outright.\n- Insert Row on iPhone and iPad writing every column, blocking a `NOT NULL` column with a default. (#2543)\n- NULL offered on a `NOT NULL` column in Insert Row and the row editor on iPhone and iPad.\n- Insert Row on iPhone and iPad writing a generated column, which every engine refuses.\n- Both halves of a composite integer primary key left out of the insert on iPhone and iPad.\n- Typed values discarded when Insert Row opened before the column list had loaded on iPhone and iPad.\n- Insert Row offered on Redis connections on iPhone and iPad, where it can only fail.\n- Missing search field in a connection's Tables tab on iPhone and iPad. (#2544)\n- A search from one connection or table still filtering another's list on iPhone and iPad.\n- A staged drop or truncate running against the database in front at Save time rather than the one it was staged in.\n- Unqualified `DROP TABLE` for every object on Oracle, Dameng, Trino, Snowflake and BigQuery, whatever its kind.\n- Dropping a table closing the tab on a same-named table in another schema or database.\n\n### Security\n\n- SQL injection through a Snowflake schema or routine name containing a backslash.\n- Safe Mode on iPhone and iPad letting a write run when it followed a comment or a CTE.\n",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/v0.69.0",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/v0.69.0",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/v0.69.0",
+    "published_at": "2026-08-27T16:03:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3790,
+        "release_id": 53,
+        "name": "TablePro-0.69.0-arm64.dmg",
+        "size": 25691811,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.69.0/TablePro-0.69.0-arm64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3791,
+        "release_id": 53,
+        "name": "TablePro-0.69.0-arm64.zip",
+        "size": 25835052,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.69.0/TablePro-0.69.0-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3792,
+        "release_id": 53,
+        "name": "TablePro-0.69.0-x86_64.dmg",
+        "size": 27327884,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.69.0/TablePro-0.69.0-x86_64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3793,
+        "release_id": 53,
+        "name": "TablePro-0.69.0-x86_64.zip",
+        "size": 27528180,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.69.0/TablePro-0.69.0-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "repository_id": 19,
+    "tag_name": "plugin-oracle-v1.2.23",
+    "name": "Oracle Driver v1.2.23",
+    "body": "## Oracle Driver v1.2.23\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `44ba17573f1a6094a99d20d497e23f9b4d66a33d5543b0e63677addccfe7f757`\n- x86_64: `09e782514e6cf0dbdf68f1ebca10833a173457c7e21f80026171f02066a61eaf`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-oracle-v1.2.23",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-oracle-v1.2.23",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-oracle-v1.2.23",
+    "published_at": "2026-08-26T02:28:34Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3826,
+        "release_id": 69,
+        "name": "OracleDriver-arm64.zip",
+        "size": 5052172,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.23/OracleDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3827,
+        "release_id": 69,
+        "name": "OracleDriver-x86_64.zip",
+        "size": 5641987,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.23/OracleDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "repository_id": 19,
+    "tag_name": "plugin-snowflake-v1.0.5",
+    "name": "Snowflake Driver v1.0.5",
+    "body": "## Snowflake Driver v1.0.5\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `8c87b1c1f3ef9f9fd958c5125bf18abbfd1ce1274bfedabb16e2ae7387c14c83`\n- x86_64: `7be0a80bc6b9edaa5b67cbc98db787695cc73be03a065b12a5dcfca2dd653dae`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-snowflake-v1.0.5",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-snowflake-v1.0.5",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-snowflake-v1.0.5",
+    "published_at": "2026-08-26T02:25:30Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3824,
+        "release_id": 68,
+        "name": "SnowflakeDriverPlugin-arm64.zip",
+        "size": 224968,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.5/SnowflakeDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3825,
+        "release_id": 68,
+        "name": "SnowflakeDriverPlugin-x86_64.zip",
+        "size": 247699,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.5/SnowflakeDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "repository_id": 19,
+    "tag_name": "plugin-trino-v1.0.6",
+    "name": "Trino Driver v1.0.6",
+    "body": "## Trino Driver v1.0.6\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `b860b676a74c95b5c78454dfdd5a3e8c3298319f51b2ad068fcdea2545766aba`\n- x86_64: `7d096f3316712d6b3b9d732b77c4c2555e32c22c24029783c40b5ef7a10b131a`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-trino-v1.0.6",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-trino-v1.0.6",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-trino-v1.0.6",
+    "published_at": "2026-08-26T02:25:29Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3822,
+        "release_id": 67,
+        "name": "TrinoDriverPlugin-arm64.zip",
+        "size": 159220,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.6/TrinoDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3823,
+        "release_id": 67,
+        "name": "TrinoDriverPlugin-x86_64.zip",
+        "size": 171887,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.6/TrinoDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "repository_id": 19,
+    "tag_name": "plugin-cassandra-v1.0.34",
+    "name": "Cassandra Driver v1.0.34",
+    "body": "## Cassandra Driver v1.0.34\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `36e17dbce16f597633d9c47d0d088fefebe093069df9317b798fc490ce3eabf9`\n- x86_64: `0ef5001beb9485e5717701738623a17830feada5ac582ab201219325c353fe7c`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-cassandra-v1.0.34",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-cassandra-v1.0.34",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-cassandra-v1.0.34",
+    "published_at": "2026-08-26T02:22:13Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3832,
+        "release_id": 72,
+        "name": "CassandraDriver-arm64.zip",
+        "size": 831512,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.34/CassandraDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3833,
+        "release_id": 72,
+        "name": "CassandraDriver-x86_64.zip",
+        "size": 933423,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-cassandra-v1.0.34/CassandraDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "repository_id": 19,
+    "tag_name": "plugin-bigquery-v1.0.26",
+    "name": "BigQuery Driver v1.0.26",
+    "body": "## BigQuery Driver v1.0.26\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `4e640b944091b7576e766d938baf32735c638f55a485a3068986940acc022113`\n- x86_64: `590b27fbdb82465d5a63ff91405e65248fe5b16546876b407661e1fb04d60451`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-bigquery-v1.0.26",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-bigquery-v1.0.26",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-bigquery-v1.0.26",
+    "published_at": "2026-08-26T02:22:01Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3834,
+        "release_id": 73,
+        "name": "BigQueryDriverPlugin-arm64.zip",
+        "size": 246178,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.26/BigQueryDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3835,
+        "release_id": 73,
+        "name": "BigQueryDriverPlugin-x86_64.zip",
+        "size": 269221,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.26/BigQueryDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "repository_id": 19,
+    "tag_name": "plugin-mssql-v1.0.39",
+    "name": "MSSQL Driver v1.0.39",
+    "body": "## MSSQL Driver v1.0.39\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `8c2ca862dfb8414bdd5f13c199c2f7ddea4bcbaa76aec99508a96138ec6d083c`\n- x86_64: `40e72a6a68cd96b2d87a8197e70998d33d9a8d42a30c697f0feea090a42bf8c4`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-mssql-v1.0.39",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-mssql-v1.0.39",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-mssql-v1.0.39",
+    "published_at": "2026-08-26T02:21:38Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3828,
+        "release_id": 70,
+        "name": "MSSQLDriver-arm64.zip",
+        "size": 377620,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.39/MSSQLDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3829,
+        "release_id": 70,
+        "name": "MSSQLDriver-x86_64.zip",
+        "size": 398567,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.39/MSSQLDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "repository_id": 19,
+    "tag_name": "plugin-dynamodb-v1.0.26",
+    "name": "DynamoDB Driver v1.0.26",
+    "body": "## DynamoDB Driver v1.0.26\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `0104808c41e571f24974a22c6660da7ef533b30ed868ce1b8c1d31dbc67b620f`\n- x86_64: `d267571814a4de7219e57d014386c0a083ddca180e0b3099fe4abd0ff3f08fd8`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-dynamodb-v1.0.26",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-dynamodb-v1.0.26",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-dynamodb-v1.0.26",
+    "published_at": "2026-08-26T02:21:34Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3830,
+        "release_id": 71,
+        "name": "DynamoDBDriverPlugin-arm64.zip",
+        "size": 191994,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.26/DynamoDBDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3831,
+        "release_id": 71,
+        "name": "DynamoDBDriverPlugin-x86_64.zip",
+        "size": 210012,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-dynamodb-v1.0.26/DynamoDBDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "repository_id": 19,
+    "tag_name": "v0.68.1",
+    "name": "v0.68.1",
+    "body": "\n### Changed\n\n- Query results stop fetching at the row limit on MySQL, PostgreSQL, SQLite, MSSQL, Oracle, Cassandra, Redis, DynamoDB, BigQuery, Snowflake, Trino and ClickHouse. (#2427)\n- ClickHouse reads a capped result in one request instead of a separate `LIMIT 0` round trip for the columns.\n- Structure editor undo granularity set by the operation instead of run loop timing.\n\n### Fixed\n\n- Row limit ignored for a parenthesised `SELECT`, a `TABLE` statement or a `VALUES` list. (#2427)\n- Cancelling an export or a schema compare left the database still sending rows on MySQL, PostgreSQL, MSSQL, Oracle, Cassandra and Trino.\n- An aborted PostgreSQL read charged its leftover rows to the next query on that connection.\n- Syntax error when sorting a query result whose SQL ends in `LIMIT`.\n- The user's own `LIMIT` dropped when sorting replaced an existing `ORDER BY`.\n- Fetch All sending the previous run's parameters after a query that had none.\n- A SQLite `UPDATE` or `DELETE` alone in a query tab reporting success instead of the rows affected.\n- Stall on switching between two loaded table tabs, growing with the rows they hold. (#2424)\n- Scroll position lost when switching away from a table tab and back. (#2424)\n- A table statistics command on every switch between two table tabs. (#2424)\n- Another table's size and row count in Table Info when its statistics arrive late. (#2424)\n- Active editor tab barely distinguishable from the inactive ones, worst in light appearance. (#2428)\n- No selected editor tab at all in a background window on macOS 14 and 15. (#2428)\n- Editor tab strip ignoring Increase Contrast and Reduce Transparency. (#2428)\n- Crash when a file changes in a linked SQL folder. (#2432)\n- Crash when a file changes in a linked connection folder, and on quit with one configured.\n- iOS: crash the first time the system reports memory pressure.\n",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/v0.68.1",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/v0.68.1",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/v0.68.1",
+    "published_at": "2026-08-26T02:15:14Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3818,
+        "release_id": 66,
+        "name": "TablePro-0.68.1-arm64.dmg",
+        "size": 25353198,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.1/TablePro-0.68.1-arm64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3819,
+        "release_id": 66,
+        "name": "TablePro-0.68.1-arm64.zip",
+        "size": 25501109,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.1/TablePro-0.68.1-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3820,
+        "release_id": 66,
+        "name": "TablePro-0.68.1-x86_64.dmg",
+        "size": 26967102,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.1/TablePro-0.68.1-x86_64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3821,
+        "release_id": 66,
+        "name": "TablePro-0.68.1-x86_64.zip",
+        "size": 27160361,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.1/TablePro-0.68.1-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "repository_id": 19,
+    "tag_name": "plugin-libsql-v1.0.23",
+    "name": "libSQL / Turso Driver v1.0.23",
+    "body": "## libSQL / Turso Driver v1.0.23\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `664f091f5ee0cf4e9d9f20eeff4f61926630abe81f1743f704a88971026a1613`\n- x86_64: `0355c1b6f4b2438e0770c0fbd38c9caaf00861f07772b2a2cf26a65a725c79b9`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-libsql-v1.0.23",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-libsql-v1.0.23",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-libsql-v1.0.23",
+    "published_at": "2026-08-25T11:32:33Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3850,
+        "release_id": 80,
+        "name": "LibSQLDriverPlugin-arm64.zip",
+        "size": 113818,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.23/LibSQLDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3851,
+        "release_id": 80,
+        "name": "LibSQLDriverPlugin-x86_64.zip",
+        "size": 121776,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-libsql-v1.0.23/LibSQLDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "repository_id": 19,
+    "tag_name": "plugin-teradata-v1.0.4",
+    "name": "Teradata Driver v1.0.4",
+    "body": "## Teradata Driver v1.0.4\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `8c7f0915d408fff3d5fa2275fee7c02030c4bfc7f7092f676596a9f619d9bd06`\n- x86_64: `aeea85892075339e023734ed57edf52136df5e8025d5187539a410c402a2b54b`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-teradata-v1.0.4",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-teradata-v1.0.4",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-teradata-v1.0.4",
+    "published_at": "2026-08-25T11:32:32Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3842,
+        "release_id": 76,
+        "name": "TeradataDriver-arm64.zip",
+        "size": 145873,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.4/TeradataDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3843,
+        "release_id": 76,
+        "name": "TeradataDriver-x86_64.zip",
+        "size": 156186,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-teradata-v1.0.4/TeradataDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "repository_id": 19,
+    "tag_name": "plugin-oracle-v1.2.22",
+    "name": "Oracle Driver v1.2.22",
+    "body": "## Oracle Driver v1.2.22\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `2558e29b02704eb08f6c27e6929f27b07c50289fb2cf3710d2fcf083f97067b7`\n- x86_64: `94cd1e0600ed72fac9beca4b95e71f5792c094b2522abc9ebb57ad6f95b51945`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-oracle-v1.2.22",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-oracle-v1.2.22",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-oracle-v1.2.22",
+    "published_at": "2026-08-25T11:32:31Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3846,
+        "release_id": 78,
+        "name": "OracleDriver-arm64.zip",
+        "size": 5051158,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.22/OracleDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3847,
+        "release_id": 78,
+        "name": "OracleDriver-x86_64.zip",
+        "size": 5641172,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-oracle-v1.2.22/OracleDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "repository_id": 19,
+    "tag_name": "plugin-trino-v1.0.5",
+    "name": "Trino Driver v1.0.5",
+    "body": "## Trino Driver v1.0.5\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `5168ddfd5286eafc7ec66f7b5c2322a1f198b1be7ce6fad26703878bc7646fd7`\n- x86_64: `3ad26521ea0f34978498caeeede27369eb9b2d252ab9e5205e90f6399c46fb17`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-trino-v1.0.5",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-trino-v1.0.5",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-trino-v1.0.5",
+    "published_at": "2026-08-25T11:31:47Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3840,
+        "release_id": 75,
+        "name": "TrinoDriverPlugin-arm64.zip",
+        "size": 158430,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.5/TrinoDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3841,
+        "release_id": 75,
+        "name": "TrinoDriverPlugin-x86_64.zip",
+        "size": 171304,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-trino-v1.0.5/TrinoDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "repository_id": 19,
+    "tag_name": "plugin-duckdb-v1.0.35",
+    "name": "DuckDB Driver v1.0.35",
+    "body": "## DuckDB Driver v1.0.35\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `eb74e12dc2a6227ff5873196903aa7095d49ba3c4418115287c038d59fb9849b`\n- x86_64: `ddfb02f3e1f5943823af4af27fc57686bfff306451b5ffcc884cf8943b59b52f`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-duckdb-v1.0.35",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-duckdb-v1.0.35",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-duckdb-v1.0.35",
+    "published_at": "2026-08-25T11:28:07Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3852,
+        "release_id": 81,
+        "name": "DuckDBDriver-arm64.zip",
+        "size": 8976038,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.35/DuckDBDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3853,
+        "release_id": 81,
+        "name": "DuckDBDriver-x86_64.zip",
+        "size": 10686319,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.35/DuckDBDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "repository_id": 19,
+    "tag_name": "plugin-mssql-v1.0.38",
+    "name": "MSSQL Driver v1.0.38",
+    "body": "## MSSQL Driver v1.0.38\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `738ccb487c4ff4802cd2a374a47a92d337cda491fb48f91e19416940d8e314cc`\n- x86_64: `6c40e5a38441ff4e4045b71264c4d5ecd7ceee1296bc048cc89d3c7d3a1c7f2b`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-mssql-v1.0.38",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-mssql-v1.0.38",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-mssql-v1.0.38",
+    "published_at": "2026-08-25T11:28:02Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3848,
+        "release_id": 79,
+        "name": "MSSQLDriver-arm64.zip",
+        "size": 377058,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.38/MSSQLDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3849,
+        "release_id": 79,
+        "name": "MSSQLDriver-x86_64.zip",
+        "size": 397716,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-mssql-v1.0.38/MSSQLDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "repository_id": 19,
+    "tag_name": "plugin-dameng-v1.0.3",
+    "name": "Dameng Driver v1.0.3",
+    "body": "## Dameng Driver v1.0.3\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `b0bca32d8d89601d96957594f6fdd2a1078550c003674425839b5cd436e68b88`\n- x86_64: `f1105a42c41b8c45a8ff2eb38a0449c102714a0f1424012b05a363c60fc8f15b`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-dameng-v1.0.3",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-dameng-v1.0.3",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-dameng-v1.0.3",
+    "published_at": "2026-08-25T11:27:51Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3854,
+        "release_id": 82,
+        "name": "DamengDriver-arm64.zip",
+        "size": 1236533,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.3/DamengDriver-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3855,
+        "release_id": 82,
+        "name": "DamengDriver-x86_64.zip",
+        "size": 1290819,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-dameng-v1.0.3/DamengDriver-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "repository_id": 19,
+    "tag_name": "plugin-snowflake-v1.0.4",
+    "name": "Snowflake Driver v1.0.4",
+    "body": "## Snowflake Driver v1.0.4\n\nPlugin release for TablePro (PluginKit 19).\n\n### Installation\nTablePro will prompt you to install this plugin automatically when you select the database type. You can also install manually via Settings \u003e Plugins \u003e Browse.\n\n### SHA-256\n- ARM64: `d9155f40619eac7d759707c3f59556018abb95d3f5d5710f3d965605a0b0ce36`\n- x86_64: `03a9152525713e73dc2eecdd2f75f9d1c86e2f7799998c82644bc0e4302224ae`",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/plugin-snowflake-v1.0.4",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/plugin-snowflake-v1.0.4",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/plugin-snowflake-v1.0.4",
+    "published_at": "2026-08-25T11:23:27Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3844,
+        "release_id": 77,
+        "name": "SnowflakeDriverPlugin-arm64.zip",
+        "size": 224742,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.4/SnowflakeDriverPlugin-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3845,
+        "release_id": 77,
+        "name": "SnowflakeDriverPlugin-x86_64.zip",
+        "size": 247207,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/plugin-snowflake-v1.0.4/SnowflakeDriverPlugin-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "repository_id": 19,
+    "tag_name": "v0.68.0",
+    "name": "v0.68.0",
+    "body": "\n### Added\n\n- Compare \u0026 Sync between two databases, over schema objects or row data. Starter license. (#721)\n- Seat release, team roster, per-Mac last use and macOS version, and your role in Settings \u003e License.\n- Copy Key in Settings \u003e License, kept out of clipboard history.\n- Support TablePro in the Help menu, the welcome window and the sidebar.\n- Triggers as a sidebar section, alongside Procedures and Functions. (#2383)\n- Procedures, functions and triggers on MSSQL, Oracle, SQLite, ClickHouse, DuckDB, Snowflake, BigQuery, Cassandra, LibSQL, Cloudflare D1, Teradata and Dameng. (#2383)\n- Read-only source viewer for procedures, functions and triggers, with Copy, Export and Open in Editor. (#2383)\n- Procedures, functions and triggers in the quick switcher, with argument signatures on ambiguous names.\n- Compare, a fourth EXPLAIN plan mode, and pinning a saved plan. (#2380)\n- Beancount tables for `directives`, pads, named queries and custom directives. (#2399, #2413, #2415)\n- Account booking, note tags and links, and balance assertion details on Beancount tables. (#2415)\n- Local table load history, kept 7 days and never uploaded. (#2395)\n- `list_triggers` for MCP clients, and `return_type` and `language` on `list_routines`.\n\n### Changed\n\n- Settings \u003e License in place of Settings \u003e Account, with iCloud Sync in its own pane and Linked Folders under General.\n- The license pane states an expired, suspended or unverified license inline, with one action and a purchase link.\n- Sync Paused, a separate state for a license the app could not check.\n- One Refresh in Settings \u003e License, replacing Refresh and Check Status.\n- The license key masked and not selectable.\n- The PRO badge names the gated feature and links to the pricing page.\n- The data grid draws its own cells and column separators, opening a result with hundreds of columns at once. (#2381)\n- The inline cell editor scrolls a long line instead of wrapping it. (#2381)\n- Row inspector fields, cell popovers and the Compare row diff follow the data grid font. (#2393)\n- The connection color as a badge behind the connection name, a dot on the rail icon, and deeper tag badge fills. (#2398)\n- A database stays in the connections strip until you close its entry; Close ends the connection on the last one.\n- Autocomplete and the database picker follow the query tab's own database and schema.\n- Beancount postings keep their own flag, price, and resolved lot date and label.\n- Beancount connections report the active `rledger` or Python Beancount version.\n- Beancount ledger plugins are skipped unless the connection turns on Run Ledger Plugins.\n- Turkish, Vietnamese, Simplified Chinese and Traditional Chinese cover every remaining English string.\n\n### Fixed\n\n- A table with 500 columns pinning a core for 20 seconds and taking a gigabyte to open. (#2381)\n- Flickering columns, blank columns and an unpainted gap while scrolling a wide result sideways. (#2381)\n- A second of delay opening the inline editor on a result with hundreds of columns. (#2381)\n- Find, arrow keys, the inline editor and Size All Columns to Fit unable to reach a column scrolled off the side.\n- Return opening no editor on a row selected with the arrow keys, and Tab or Shift+Tab out of a row's end doing nothing.\n- An empty grid the first time a table is opened in a window with no tabs. (#2342)\n- One table click running its query twice, and a closed tab leaving its query counted as running. (#2342)\n- Crash exporting two same-named tables from different schemas to SQL. (#1968)\n- SQL export writing rows into another schema's same-named table, and dropping columns and keys after the first. (#1968)\n- One of two PostgreSQL function overloads missing from the sidebar, with Show DDL opening an arbitrary one. (#2383)\n- MySQL Show DDL reading the session database instead of the one being browsed. (#2383)\n- Routine tooltips, VoiceOver labels and Copy with Signature showing a return type in place of the arguments. (#2383)\n- Duplicate routine rows in the flat sidebar taking the selection back to the first of them. (#2383)\n- MySQL triggers losing their definer, `WHEN` clause and ordering, and Oracle triggers showing a header with no body.\n- The welcome window offering Activate License to a Mac that already holds one and has just been offline.\n- iCloud Sync calling an unverified license missing, and reporting a live sync after the license was removed.\n- The app freezing after turning on iCloud Sync with many saved column layouts.\n- Every settings write failing once the sync record cache filled the preferences file past the 4 MB limit.\n- The sync status returning to Synced when sync was turned off mid-sync.\n- The license server never contacted again after removing and re-adding a license in one session.\n- The device list error surviving a later successful refresh, and a renewal warning counting zero days above Expired.\n- A previous team's shared connections and saved queries surviving deactivation.\n- The connections strip disappearing when you click the entry you came from.\n- Cancelling a close leaving the window on the connection the strip revealed.\n- A strip entry in another window raising that window without showing the connection.\n- A disconnected connection's entries dropping to the bottom of the strip, and all but one leaving it.\n- A connection opened from a file or a URL losing its strip entries when its session ends.\n- The connections strip's saved arrangement growing without bound.\n- Bulk tab close saving the tab on screen, and asking about another database's unsaved work.\n- A connection's color and name not reaching the toolbar and workspace rail until the next reconnect. (#2398)\n- An invisible connection dot in the history drawer and compare strip, and a warning icon in the engine color. (#2398)\n- The JSON viewer keeping its old font after a font, theme or text-size change, and hex dumps wrapping mid-line. (#2393)\n- AI inline suggestions written without the schema, and columns missing for a table named with a capital letter.\n- Case-insensitive filters and completion on Redshift falling back to PostgreSQL's ASCII-only ILIKE.\n- PGlite connection form offering SSH, SSL, Cloudflare Tunnel and SOCKS panes, and a password field.\n- Redshift and CockroachDB system databases listed in the sidebar as ordinary user databases.\n",
+    "html_url": "https://github.com/TableProApp/TablePro/releases/tag/v0.68.0",
+    "tarball_url": "https://api.github.com/repos/TableProApp/TablePro/tarball/v0.68.0",
+    "zipball_url": "https://api.github.com/repos/TableProApp/TablePro/zipball/v0.68.0",
+    "published_at": "2026-08-25T11:00:15Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:35Z",
+    "assets": [
+      {
+        "id": 3836,
+        "release_id": 74,
+        "name": "TablePro-0.68.0-arm64.dmg",
+        "size": 25309972,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.0/TablePro-0.68.0-arm64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3837,
+        "release_id": 74,
+        "name": "TablePro-0.68.0-arm64.zip",
+        "size": 25469554,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.0/TablePro-0.68.0-arm64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3838,
+        "release_id": 74,
+        "name": "TablePro-0.68.0-x86_64.dmg",
+        "size": 26914054,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.0/TablePro-0.68.0-x86_64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:02Z"
+      },
+      {
+        "id": 3839,
+        "release_id": 74,
+        "name": "TablePro-0.68.0-x86_64.zip",
+        "size": 27118704,
+        "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.68.0/TablePro-0.68.0-x86_64.zip",
+        "content_type": "application/zip",
+        "created_at": "2026-08-30T16:38:02Z"
+      }
+    ]
+  }
+]

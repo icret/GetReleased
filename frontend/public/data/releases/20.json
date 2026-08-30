@@ -1,0 +1,803 @@
+[
+  {
+    "id": 113,
+    "repository_id": 20,
+    "tag_name": "v0.1.23",
+    "name": "Cardinal 0.1.23",
+    "body": "## 0.1.23 — 2026-03-25\r\n- Reduce power consumption by expanding the default ignored paths to cover more macOS cache, log, metadata, and runtime directories.\r\n- Further reduce background work by making the filesystem event watcher honor ignored paths.\r\n- Improve Unicode path matching by searching both NFC and NFD-equivalent query forms.\r\n\r\nYou can also install Cardinal using Homebrew:\r\n```bash\r\nbrew install --cask cardinal-search\r\n```",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.23",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.23",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.23",
+    "published_at": "2026-03-24T17:43:05Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4104,
+        "release_id": 113,
+        "name": "Cardinal_0.1.23_aarch64.dmg",
+        "size": 6165726,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.23/Cardinal_0.1.23_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4105,
+        "release_id": 113,
+        "name": "Cardinal_0.1.23_universal.dmg",
+        "size": 11529604,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.23/Cardinal_0.1.23_universal.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4106,
+        "release_id": 113,
+        "name": "Cardinal_0.1.23_x64.dmg",
+        "size": 6629001,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.23/Cardinal_0.1.23_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "repository_id": 20,
+    "tag_name": "v0.1.22",
+    "name": "Cardinal 0.1.22",
+    "body": "## 0.1.22 — 2026-03-08\r\n- Add `~/Library/CloudStorage` to default ignored paths to avoid initial indexing delays\r\n- Make index building cancellable\r\n- Fix unexpected indexing of files in ignored directories\r\n- Fix stale selection affecting context menu targets\r\n- Fix lost sort state and incorrect tooltip when search results are empty\r\n- Speed up scanning/search by removing redundant index-map and ignore-path checks\r\n\r\n\r\nYou can also install Cardinal using Homebrew:\r\n```bash\r\nbrew install --cask cardinal-search\r\n```",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.22",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.22",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.22",
+    "published_at": "2026-03-08T12:57:20Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4107,
+        "release_id": 114,
+        "name": "Cardinal_0.1.22_aarch64.dmg",
+        "size": 6116757,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.22/Cardinal_0.1.22_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4108,
+        "release_id": 114,
+        "name": "Cardinal_0.1.22_universal.dmg",
+        "size": 11382980,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.22/Cardinal_0.1.22_universal.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4109,
+        "release_id": 114,
+        "name": "Cardinal_0.1.22_x64.dmg",
+        "size": 6527881,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.22/Cardinal_0.1.22_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "repository_id": 20,
+    "tag_name": "v0.1.21",
+    "name": "Cardinal 0.1.21",
+    "body": "## 0.1.21 — 2026-01-23\r\n- Add shortcut `cmd+shift+c` for copy-paths\r\n- Allow partial-quoted queries: `\"Application Support\"/**`\r\n- Add drag-and-drop support for search input\r\n- Faster wildcard search.\r\n- Exclude more cloud storage paths from icon generation for better performance.\r\n- Better experience for non-root monitor path\r\n- Better experience for panel switching\r\n- Fix duplicate results of globstar `**` search",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.21",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.21",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.21",
+    "published_at": "2026-01-22T21:42:51Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4110,
+        "release_id": 115,
+        "name": "Cardinal_0.1.21_aarch64.dmg",
+        "size": 6022309,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.21/Cardinal_0.1.21_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4111,
+        "release_id": 115,
+        "name": "Cardinal_0.1.21_universal.dmg",
+        "size": 11258250,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.21/Cardinal_0.1.21_universal.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4112,
+        "release_id": 115,
+        "name": "Cardinal_0.1.21_x64.dmg",
+        "size": 6467603,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.21/Cardinal_0.1.21_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "repository_id": 20,
+    "tag_name": "v0.1.20",
+    "name": "Cardinal 0.1.20",
+    "body": "## 0.1.20 — 2026-01-11\r\n- Improve context menu for multiple selections.\r\n- Add copy file(s) to clipboard support.\r\n- Add shorthand aliases for `tag` and `infolder` filters.\r\n- Hide the dock icon when the tray icon is enabled.",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.20",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.20",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.20",
+    "published_at": "2026-01-11T12:01:42Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4113,
+        "release_id": 116,
+        "name": "Cardinal_0.1.20_aarch64.dmg",
+        "size": 6018620,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.20/Cardinal_0.1.20_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4114,
+        "release_id": 116,
+        "name": "Cardinal_0.1.20_x64.dmg",
+        "size": 6458526,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.20/Cardinal_0.1.20_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "repository_id": 20,
+    "tag_name": "v0.1.19",
+    "name": "Cardinal 0.1.19",
+    "body": "## 0.1.19 — 2026-01-10\r\n- Allow changing scan root and ignore paths in settings.\r\n- Avoid unnecessary rescan on FSEvent::Rescan.\r\n- Handle Enter key in search input.",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.19",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.19",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.19",
+    "published_at": "2026-01-10T01:41:00Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4115,
+        "release_id": 117,
+        "name": "Cardinal_0.1.19_aarch64.dmg",
+        "size": 6002892,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.19/Cardinal_0.1.19_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4116,
+        "release_id": 117,
+        "name": "Cardinal_0.1.19_x64.dmg",
+        "size": 6443193,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.19/Cardinal_0.1.19_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "repository_id": 20,
+    "tag_name": "v0.1.18",
+    "name": "Cardinal 0.1.18",
+    "body": "## 0.1.18 — 2025-12-15\r\n- Add option for tray icon and defaults to disable\r\n- Persistent cache when idle or enter background.\r\n- Improve i18n locale detection and add `zh-TW` translation.\r\n- Make tags filtering accepts multiple value.\r\n- Supports `shift+arrow` to select multiple rows.\r\n- Various UI/UX improvements and bug fixes.",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.18",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.18",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.18",
+    "published_at": "2025-12-15T01:29:54Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4117,
+        "release_id": 118,
+        "name": "Cardinal_0.1.18_aarch64.dmg",
+        "size": 5990288,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.18/Cardinal_0.1.18_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4118,
+        "release_id": 118,
+        "name": "Cardinal_0.1.18_x64.dmg",
+        "size": 6435029,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.18/Cardinal_0.1.18_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "repository_id": 20,
+    "tag_name": "v0.1.17",
+    "name": "Cardinal 0.1.17",
+    "body": "## 0.1.17 — 2025-12-10\r\n- Add `tag:` filter support so Finder tags can scope searches.\r\n- Better i18n support.\r\n- Improve the column resizing experience\r\n- Improve the sorting experience",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.17",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.17",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.17",
+    "published_at": "2025-12-09T23:07:57Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4119,
+        "release_id": 119,
+        "name": "Cardinal_0.1.17_aarch64.dmg",
+        "size": 6114148,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.17/Cardinal_0.1.17_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4120,
+        "release_id": 119,
+        "name": "Cardinal_0.1.17_x64.dmg",
+        "size": 6538302,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.17/Cardinal_0.1.17_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "repository_id": 20,
+    "tag_name": "v0.1.16",
+    "name": "Cardinal 0.1.16",
+    "body": "## 0.1.16 — 2025-12-08\r\n- Improve sort order so directories are prioritized and folder size ranking stays stable.\r\n- Refine selection handling for smoother keyboard and pointer interactions.\r\n- Add an event column to the events panel for better debugging context.\r\n- Fix the cursor state resetting incorrectly after Quick Look opens.\r\n",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.16",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.16",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.16",
+    "published_at": "2025-12-07T20:53:04Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4121,
+        "release_id": 120,
+        "name": "Cardinal_0.1.16_aarch64.dmg",
+        "size": 6053792,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.16/Cardinal_0.1.16_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4122,
+        "release_id": 120,
+        "name": "Cardinal_0.1.16_x64.dmg",
+        "size": 6476342,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.16/Cardinal_0.1.16_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "repository_id": 20,
+    "tag_name": "v0.1.15",
+    "name": "Cardinal 0.1.15",
+    "body": "## 0.1.15 — 2025-12-06\r\n- Implement double asterisk `**` in glob search.\r\n- Implement history navigation with `ArrowUp`/`ArrowDown` for search bar.\r\n- Add `Cmd+O` shortcut for file opening.\r\n- Refined QuickLook animation positioning logic to better handle multiple monitor setups.\r\n- Refined file row selection handling.",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.15",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.15",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.15",
+    "published_at": "2025-12-06T12:45:06Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4123,
+        "release_id": 121,
+        "name": "Cardinal_0.1.15_aarch64.dmg",
+        "size": 6059376,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.15/Cardinal_0.1.15_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4124,
+        "release_id": 121,
+        "name": "Cardinal_0.1.15_x64.dmg",
+        "size": 6476614,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.15/Cardinal_0.1.15_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "repository_id": 20,
+    "tag_name": "v0.1.14",
+    "name": "Cardinal 0.1.14",
+    "body": "## 0.1.14 — 2025-12-03\r\n- Make the results sortable(by name, path, size, create_time, modify_time)\r\n",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.14",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.14",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.14",
+    "published_at": "2025-12-02T17:39:38Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4125,
+        "release_id": 122,
+        "name": "Cardinal_0.1.14_aarch64.dmg",
+        "size": 5962172,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.14/Cardinal_0.1.14_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4126,
+        "release_id": 122,
+        "name": "Cardinal_0.1.14_x64.dmg",
+        "size": 6399733,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.14/Cardinal_0.1.14_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "repository_id": 20,
+    "tag_name": "v0.1.13",
+    "name": "Cardinal 0.1.13",
+    "body": "## 0.1.13 — 2025-12-01\r\n- 30% lower memory usage\r\n- Quick Look is now fully native, with multi-file previews, smoother animations, and better alignment with macOS expectations. Thanks for [@Denis Stoyanov](https://github.com/xgrommx) for the help!\r\n- Support `~` expansion in query path and filter\r\n- Fix the database path so cache files land in the correct app config directory.",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.13",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.13",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.13",
+    "published_at": "2025-11-30T20:48:11Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4127,
+        "release_id": 123,
+        "name": "Cardinal_0.1.13_aarch64.dmg",
+        "size": 5976524,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.13/Cardinal_0.1.13_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4128,
+        "release_id": 123,
+        "name": "Cardinal_0.1.13_x64.dmg",
+        "size": 6374030,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.13/Cardinal_0.1.13_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "repository_id": 20,
+    "tag_name": "v0.1.12",
+    "name": "Cardinal 0.1.12",
+    "body": "## 0.1.12 — 2025-11-27\r\n- Allow double-clicking a result row to open the file immediately.\r\n- Support wildcards in multi-path-segment queries for more flexible searches.",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.12",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.12",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.12",
+    "published_at": "2025-11-26T22:52:51Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4129,
+        "release_id": 124,
+        "name": "Cardinal_0.1.12_aarch64.dmg",
+        "size": 5940976,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.12/Cardinal_0.1.12_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4130,
+        "release_id": 124,
+        "name": "Cardinal_0.1.12_x64.dmg",
+        "size": 6356972,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.12/Cardinal_0.1.12_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "repository_id": 20,
+    "tag_name": "v0.1.11",
+    "name": "Cardinal 0.1.11",
+    "body": "## 0.1.11 — 2025-11-25\r\n- Implement `content:`, `nosubfolders:` filter\r\n- Improve file selection and drag-drop support\r\n- Cleaner app menu and context menu\r\n- make `ESC` hide main window",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.11",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.11",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.11",
+    "published_at": "2025-11-24T21:33:07Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4131,
+        "release_id": 125,
+        "name": "Cardinal_0.1.11_aarch64.dmg",
+        "size": 5939922,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.11/Cardinal_0.1.11_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4132,
+        "release_id": 125,
+        "name": "Cardinal_0.1.11_x64.dmg",
+        "size": 6354665,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.11/Cardinal_0.1.11_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "repository_id": 20,
+    "tag_name": "v0.1.10",
+    "name": "Cardinal 0.1.10",
+    "body": "## 0.1.10 — 2025-11-19\r\n- Added new metadata filters (`dm:`, `dc:`, `type:`, `audio:`, `video:`, `doc:`, `exe:`, `size:`) for more precise searches.\r\n- Reworked the parser/optimizer pipeline to flatten redundant AND/OR groups, collapse empty expressions, and reorder metadata filters for faster searching.\r\n- Use the native context menu on right-click for a more consistent feel on macOS.",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.10",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.10",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.10",
+    "published_at": "2025-11-18T20:41:49Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4133,
+        "release_id": 126,
+        "name": "Cardinal_0.1.10_aarch64.dmg",
+        "size": 5876238,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.10/Cardinal_0.1.10_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4134,
+        "release_id": 126,
+        "name": "Cardinal_0.1.10_x64.dmg",
+        "size": 6317023,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.10/Cardinal_0.1.10_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "repository_id": 20,
+    "tag_name": "v0.1.9",
+    "name": "Cardinal 0.1.9",
+    "body": "## 0.1.9 — 2025-11-17\r\n- Speedup `parent:` and `infolder:` filters.",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.9",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.9",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.9",
+    "published_at": "2025-11-16T21:10:02Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4135,
+        "release_id": 127,
+        "name": "Cardinal_0.1.9_aarch64.dmg",
+        "size": 5758183,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.9/Cardinal_0.1.9_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4136,
+        "release_id": 127,
+        "name": "Cardinal_0.1.9_x64.dmg",
+        "size": 6168888,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.9/Cardinal_0.1.9_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "repository_id": 20,
+    "tag_name": "v0.1.8",
+    "name": "Cardinal 0.1.8",
+    "body": "## 0.1.8 — 2025-11-16\r\n- Cardinal now fully supports the \"Everything syntax\"(AND/OR/NOT, parentheses, quoted phrases, wildcards).\r\n- Removed the legacy regex toggle and unified the search bar, hooks, and IPC payloads around the new parser pipeline.\r\n- Highlight of search results was improved.\r\n- Enhance show/hide shortcut.",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.8",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.8",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.8",
+    "published_at": "2025-11-16T15:50:49Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4137,
+        "release_id": 128,
+        "name": "Cardinal_0.1.8_aarch64.dmg",
+        "size": 5758987,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.8/Cardinal_0.1.8_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4138,
+        "release_id": 128,
+        "name": "Cardinal_0.1.8_x64.dmg",
+        "size": 6171505,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.8/Cardinal_0.1.8_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "repository_id": 20,
+    "tag_name": "v0.1.7",
+    "name": "Cardinal 0.1.7",
+    "body": "- Added a cancellable search pipeline for a more responsive search experience.\r\n- Refined selected row styling with dedicated text color tokens for better contrast in both themes.",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.7",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.7",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.7",
+    "published_at": "2025-11-11T22:13:59Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4139,
+        "release_id": 129,
+        "name": "Cardinal_0.1.7_aarch64.dmg",
+        "size": 5736313,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.7/Cardinal_0.1.7_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4140,
+        "release_id": 129,
+        "name": "Cardinal_0.1.7_x64.dmg",
+        "size": 6134782,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.7/Cardinal_0.1.7_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "repository_id": 20,
+    "tag_name": "v0.1.6",
+    "name": "Cardinal 0.1.6",
+    "body": "- Further optimized search execution and reorganized the search cache for faster lookups.",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.6",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.6",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.6",
+    "published_at": "2025-11-10T20:31:34Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4141,
+        "release_id": 130,
+        "name": "Cardinal_0.1.6_aarch64.dmg",
+        "size": 5732223,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.6/Cardinal_0.1.6_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4142,
+        "release_id": 130,
+        "name": "Cardinal_0.1.6_x64.dmg",
+        "size": 6139787,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.6/Cardinal_0.1.6_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "repository_id": 20,
+    "tag_name": "v0.1.5",
+    "name": "Cardinal 0.1.5",
+    "body": "- search-cache: widen `NameAndParent` filename length tracking from `u8` to `u32` to handle very long paths without truncation or panic.",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.5",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.5",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.5",
+    "published_at": "2025-11-09T16:10:50Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4143,
+        "release_id": 131,
+        "name": "Cardinal_0.1.5_aarch64.dmg",
+        "size": 5726881,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.5/Cardinal_0.1.5_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4144,
+        "release_id": 131,
+        "name": "Cardinal_0.1.5_x64.dmg",
+        "size": 6131364,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.5/Cardinal_0.1.5_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "repository_id": 20,
+    "tag_name": "v0.1.4",
+    "name": "Cardinal 0.1.4",
+    "body": "- Fix i18n support for tray menu.\r\n- Rescans now clickable while updating cache.",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.4",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.4",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.4",
+    "published_at": "2025-11-08T21:18:47Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4145,
+        "release_id": 132,
+        "name": "Cardinal_0.1.4_aarch64.dmg",
+        "size": 5726370,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.4/Cardinal_0.1.4_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4146,
+        "release_id": 132,
+        "name": "Cardinal_0.1.4_x64.dmg",
+        "size": 6131293,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.4/Cardinal_0.1.4_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "repository_id": 20,
+    "tag_name": "v0.1.3",
+    "name": "Cardinal 0.1.3",
+    "body": "- Added keyboard shortcuts for Quick Look (Space), Finder reveal (Cmd+R), copy path (Cmd+C), and refocusing search (Cmd+F).\r\n- The search field auto-focuses after launch and whenever the quick-launch shortcut summons Cardinal.\r\n- i18n: add Ukrainian language support and translations",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.3",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.3",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.3",
+    "published_at": "2025-11-07T23:59:55Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4147,
+        "release_id": 133,
+        "name": "Cardinal_0.1.3_aarch64.dmg",
+        "size": 5716621,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.3/Cardinal_0.1.3_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4148,
+        "release_id": 133,
+        "name": "Cardinal_0.1.3_x64.dmg",
+        "size": 6118905,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.3/Cardinal_0.1.3_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "repository_id": 20,
+    "tag_name": "v0.1.2",
+    "name": "Cardinal 0.1.2",
+    "body": "## What's Changed\r\n\r\n  - feat(shortcut\u0026tray): support global shortcut to toggle cardinal by @Binlogo\r\n  - feat(theme): implement theme switching functionality with user preferences\r\n  - feat(context-menu): add “copy filename” option and update translations\r\n  - feat(i18n): add Russian language support and translations\r\n\r\n  Full Changelog: compare v0.1.1…v0.1.2",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.2",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.2",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.2",
+    "published_at": "2025-11-07T16:51:29Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4149,
+        "release_id": 134,
+        "name": "Cardinal_0.1.2_aarch64.dmg",
+        "size": 5727288,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.2/Cardinal_0.1.2_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      },
+      {
+        "id": 4150,
+        "release_id": 134,
+        "name": "Cardinal_0.1.2_x64.dmg",
+        "size": 6130125,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.2/Cardinal_0.1.2_x64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "repository_id": 20,
+    "tag_name": "v0.1.1",
+    "name": "Cardinal 0.1.1",
+    "body": "Fixes iCloud download triggered by thumbnail generation.\r\n\r\n**Full Changelog**: https://github.com/ldm0/cardinal/compare/v0.1.0...v0.1.1",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.1",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.1",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.1",
+    "published_at": "2025-11-07T04:47:21Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4151,
+        "release_id": 135,
+        "name": "Cardinal_0.1.1_aarch64.dmg",
+        "size": 5509492,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.1/Cardinal_0.1.1_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "repository_id": 20,
+    "tag_name": "v0.1.0",
+    "name": "Cardinal 0.1.0",
+    "body": "A initial release",
+    "html_url": "https://github.com/cardisoft/cardinal/releases/tag/v0.1.0",
+    "tarball_url": "https://api.github.com/repos/cardisoft/cardinal/tarball/v0.1.0",
+    "zipball_url": "https://api.github.com/repos/cardisoft/cardinal/zipball/v0.1.0",
+    "published_at": "2025-11-06T16:42:16Z",
+    "is_prerelease": false,
+    "created_at": "2026-08-29T20:01:38Z",
+    "assets": [
+      {
+        "id": 4152,
+        "release_id": 136,
+        "name": "Cardinal_0.1.0_aarch64.dmg",
+        "size": 5509366,
+        "download_url": "https://github.com/cardisoft/cardinal/releases/download/v0.1.0/Cardinal_0.1.0_aarch64.dmg",
+        "content_type": "application/x-apple-diskimage",
+        "created_at": "2026-08-30T16:38:06Z"
+      }
+    ]
+  }
+]

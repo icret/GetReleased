@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import ReactMarkdown from 'react-markdown'
+import ReactMarkdown, { type Components } from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { ChevronDown, Download, ExternalLink, FileArchive, Package } from 'lucide-react'
 
@@ -13,6 +13,14 @@ import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
 
 const REMARK_PLUGINS = [remarkGfm]
+const MARKDOWN_COMPONENTS: Components = {
+  a({ node: _node, ...props }) {
+    return <a {...props} target="_blank" rel="noopener noreferrer" />
+  },
+  img({ node: _node, ...props }) {
+    return <img {...props} loading="lazy" />
+  },
+}
 const DOWNLOAD_LINK_CLASS = 'inline-flex items-center gap-1.5 rounded-lg border border-border/60 px-3 py-1.5 text-xs font-medium text-muted-foreground transition hover:border-primary/30 hover:text-primary'
 
 interface ReleaseCardProps {
@@ -65,7 +73,9 @@ export function ReleaseCard({ release, repositoryName, expanded: controlledExpan
         <div className="flex flex-col gap-4 border-t border-border/40 px-4 py-4 sm:px-5">
           {release.body ? (
             <div className="release-markdown">
-              <ReactMarkdown remarkPlugins={REMARK_PLUGINS}>{release.body}</ReactMarkdown>
+              <ReactMarkdown remarkPlugins={REMARK_PLUGINS} components={MARKDOWN_COMPONENTS}>
+                {release.body}
+              </ReactMarkdown>
             </div>
           ) : (
             <p className="text-sm text-muted-foreground">暂无 Release Notes</p>
