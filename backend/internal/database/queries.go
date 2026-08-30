@@ -171,6 +171,9 @@ func (d *DB) SaveReleasesBatch(ctx context.Context, releases []release.Release) 
 				`SELECT tag_name, name, body, html_url, published_at, is_prerelease
 				 FROM releases WHERE repository_id = ? AND tag_name = ?`,
 				releases[i].RepositoryID, releases[i].TagName)
+			if err != nil && !errors.Is(err, sql.ErrNoRows) {
+				return fmt.Errorf("query release %s: %w", releases[i].TagName, err)
+			}
 			if err == nil && releaseEqual(existing, releases[i]) {
 				continue
 			}
