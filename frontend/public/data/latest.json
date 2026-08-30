@@ -13,13 +13,13 @@
     "created_at": "2026-08-30T10:47:52Z",
     "assets": [
       {
-        "id": 2972,
+        "id": 4766,
         "release_id": 1650,
         "name": "Stats.dmg",
         "size": 7547726,
         "download_url": "https://github.com/exelban/stats/releases/download/v3.0.14/Stats.dmg",
         "content_type": "application/x-diskcopy",
-        "created_at": "2026-08-30T14:38:12Z"
+        "created_at": "2026-08-30T16:38:10Z"
       }
     ]
   }

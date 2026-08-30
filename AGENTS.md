@@ -20,7 +20,7 @@
 
 | 表 | 用途 | 关键字段 |
 |---|---|---|
-| `repositories` | 仓库主表 | `owner`+`name`（唯一 `full_name`）、`stars`、`language`、`latest_version`/`latest_release_date`（缓存） |
+| `repositories` | 仓库主表 | `owner`+`name`（唯一 `full_name`）、`stars`、`language`、`pushed_at`、`latest_version`/`latest_release_date`（缓存）、`etag`/`last_modified`（条件请求缓存，`json:"-"` 不导出） |
 | `tags` | 标签 | `name`（唯一）、`type` |
 | `repository_tags` | 仓库-标签多对多 | 联合主键 `(repository_id, tag_id)`，级联删除 |
 | `releases` | release 记录 | `repository_id`+`tag_name`（唯一），`body`、`html_url`、`tarball_url`/`zipball_url`、`published_at`、`is_prerelease` |
@@ -105,6 +105,7 @@ Go 结构体映射见 `backend/internal/release/model.go`（`Repository` / `Tag`
 * **golang-jwt/jwt/v5** — JWT 签发/校验（admin 鉴权）
 * **golang.org/x/crypto** — bcrypt（管理员密码哈希）
 * **github.com/google/uuid** — task_id 与 requestID 生成
+* **golang.org/x/sync** — errgroup 并发追踪（`errgroup.SetLimit` 限并发 8）
 
 ### 前端
 
@@ -155,7 +156,8 @@ Go 结构体映射见 `backend/internal/release/model.go`（`Repository` / `Tag`
 
 | 变量 | 作用 | 必填 | 默认/说明 |
 |---|---|---|---|
-| `GITHUB_TOKEN` | GitHub API Token | 推荐 | 空则受未认证速率限制（60 req/h） |
+| `GITHUB_TOKEN` | GitHub API Token（单个，向后兼容） | 推荐 | 空则受未认证速率限制（60 req/h）；`GITHUB_TOKENS` 非空时优先使用 `GITHUB_TOKENS` |
+| `GITHUB_TOKENS` | GitHub API Tokens（多个，逗号分隔） | 否 | 多 token 配额感知轮询（跳过低配额 token）+ 403/429 冷却切下一个；3 token × 5000 req/h = 15000 req/h |
 | `TRACK_INTERVAL` | 追踪间隔（分钟） | 否 | `30` |
 | `REPOS_FILE` | 仓库列表 JSON（仅首次 seed） | 否 | `./backend/config/repositories.json` |
 | `DB_PATH` | SQLite 路径 | 否 | `./backend/data/tracker.db` |
@@ -275,7 +277,7 @@ Go Server（Admin API）作为独立 systemd 服务常驻运行，Nginx 通过 `
 
 ## 常见陷阱
 
-* **GitHub API 速率限制**：无 token 60 req/h，有 token 5000 req/h；批量追踪需设置 `GITHUB_TOKEN`。
+* **GitHub API 速率限制**：无 token 60 req/h，有 token 5000 req/h；批量追踪需设置 `GITHUB_TOKEN` 或 `GITHUB_TOKENS`（多 token 配额感知轮询，3 token 可达 15000 req/h）。tracker 每轮开始前检查配额，<500 跳过本轮。
 * **SQLite 并发**：tracker 写入时 server 可读不可写；WAL 模式下读写可并发，但双写需避免。
 * **JWT_SECRET**：空值拒绝启动；长度不足 32 字节虽可运行但不符最佳实践。
 * **SITE_URL**：未设置时回退占位符 `https://getreleased.example.com`，线上 sitemap/robots/OG 域名错误，部署前必须设置。
