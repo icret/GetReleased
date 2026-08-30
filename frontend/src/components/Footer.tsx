@@ -1,4 +1,4 @@
-import { GitFork, Rocket } from 'lucide-react'
+import { Rocket } from 'lucide-react'
 
 const REPO_URL = 'https://github.com/icret/GetReleased'
 
@@ -17,13 +17,17 @@ export function Footer() {
           <span>追踪开源软件 Release</span>
         </div>
         <div className="flex items-center gap-4 text-xs">
-          <span>&copy; {currentYear} GetReleased</span>
+          <span>
+            &copy; {currentYear}{' '}
+            <a href={REPO_URL} target="_blank" rel="noopener noreferrer" className="font-medium text-foreground transition hover:text-primary">
+              GetReleased
+            </a>
+          </span>
           <span className="text-muted-foreground/60">·</span>
           <span>数据来自 GitHub API</span>
           <span className="text-muted-foreground/60">·</span>
-          <a href={REPO_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 transition hover:text-primary" aria-label="GetReleased on GitHub">
-            <GitFork className="size-3.5" />
-            <span>GitHub</span>
+          <a href="/privacy" className="transition hover:text-primary">
+            隐私政策
           </a>
         </div>
       </div>
